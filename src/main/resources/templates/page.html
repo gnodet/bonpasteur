@@ -1,0 +1,28 @@
+{#include layout/base.html}
+    {#title}{page.title}{/title}
+    
+    <!-- Header de page -->
+    <header class="page-header">
+        <div class="container">
+            <h1>{page.title}</h1>
+            {#if page.subtitle}
+            <p>{page.subtitle}</p>
+            {/if}
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <div class="page-content">
+        <div class="container">
+            <div class="content-wrapper">
+                {page.content}
+            </div>
+            
+            {#if page.showBackLink != false}
+            <a href="/" class="back-link">
+                <i class="fas fa-arrow-left"></i> Retour à l'accueil
+            </a>
+            {/if}
+        </div>
+    </div>
+{/include}

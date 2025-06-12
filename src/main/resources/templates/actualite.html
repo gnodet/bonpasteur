@@ -1,0 +1,161 @@
+{#include layout/base.html}
+    {#title}{page.title}{/title}
+    
+    <!-- Header de page -->
+    <header class="page-header">
+        <div class="container">
+            <h1>{page.title}</h1>
+            {#if page.date}
+            <p><i class="fas fa-calendar"></i> {page.date}</p>
+            {/if}
+            {#if page.author}
+            <p><i class="fas fa-user"></i> {page.author}</p>
+            {/if}
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <div class="page-content">
+        <div class="container">
+            <article class="article-content">
+                {page.content}
+            </article>
+            
+            <!-- Navigation -->
+            <div class="article-navigation">
+                <a href="/actualites" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Retour aux actualités
+                </a>
+                
+                <div class="share-buttons">
+                    <h4>Partager cet article</h4>
+                    <a href="#" class="share-btn facebook" onclick="shareOnFacebook()">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="#" class="share-btn twitter" onclick="shareOnTwitter()">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                    <a href="#" class="share-btn email" onclick="shareByEmail()">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .article-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+        
+        .article-content h1,
+        .article-content h2,
+        .article-content h3 {
+            color: #2c3e50;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .article-content h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        
+        .article-content p {
+            margin-bottom: 1rem;
+        }
+        
+        .article-content ul,
+        .article-content ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .article-content blockquote {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        
+        .article-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .share-buttons h4 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+        
+        .share-btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin-right: 0.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        
+        .share-btn.facebook {
+            background: #3b5998;
+        }
+        
+        .share-btn.twitter {
+            background: #1da1f2;
+        }
+        
+        .share-btn.email {
+            background: #666;
+        }
+        
+        .share-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .article-navigation {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+
+    <script>
+        function shareOnFacebook() {
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent(document.title);
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+        }
+        
+        function shareOnTwitter() {
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent(document.title);
+            window.open(`https://twitter.com/intent/tweet?url=${url}&text=${title}`, '_blank');
+        }
+        
+        function shareByEmail() {
+            const url = window.location.href;
+            const title = document.title;
+            const body = `Je partage avec vous cet article : ${title}\n\n${url}`;
+            window.location.href = `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+        }
+    </script>
+{/include}
