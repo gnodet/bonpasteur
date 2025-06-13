@@ -2,34 +2,36 @@
 
 echo "🏗️  Construction du site de la paroisse Bon Pasteur avec Quarkus Roq"
 
+# Configuration du PATH pour Maven
+export PATH=/opt/maven/bin:$PATH
+
 # Vérification de Maven
 if ! command -v mvn &> /dev/null; then
-    echo "❌ Maven n'est pas installé. Veuillez installer Maven pour continuer."
+    echo "❌ Maven n'est pas installé ou pas dans le PATH."
     exit 1
 fi
 
-# Nettoyage des anciens builds
-echo "🧹 Nettoyage des anciens builds..."
-mvn clean
+echo "📋 Versions utilisées :"
+mvn -version | head -3
 
-# Compilation et génération du site
-echo "🔨 Compilation et génération du site statique..."
-mvn compile quarkus:build
+# Nettoyage et construction
+echo "🧹 Nettoyage et construction..."
+mvn clean package -DskipTests
 
-# Vérification que le site a été généré
-if [ -d "target/roq-site" ]; then
-    echo "✅ Site généré avec succès dans target/roq-site/"
+if [ $? -eq 0 ]; then
+    echo "✅ Site construit avec succès !"
     echo ""
-    echo "📁 Structure générée :"
-    find target/roq-site -type f -name "*.html" | head -10
+    echo "📁 Fichiers générés :"
+    echo "   - Application Quarkus : target/quarkus-app/"
+    echo "   - JAR exécutable : target/bonpasteur-site-1.0.0-SNAPSHOT.jar"
     echo ""
-    echo "🌐 Pour voir le site :"
-    echo "   - Ouvrez target/roq-site/index.html dans votre navigateur"
-    echo "   - Ou servez le dossier avec un serveur web local"
+    echo "🚀 Pour tester le site :"
+    echo "   ./run.sh"
     echo ""
-    echo "🚀 Pour déployer :"
-    echo "   - Copiez le contenu de target/roq-site/ vers votre serveur web"
+    echo "📊 Statistiques :"
+    echo "   - Pages de contenu : $(find content -name "*.md" | wc -l)"
+    echo "   - Classes Java : $(find src/main/java -name "*.java" | wc -l)"
 else
-    echo "❌ Erreur lors de la génération du site"
+    echo "❌ Erreur lors de la construction"
     exit 1
 fi

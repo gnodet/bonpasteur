@@ -1,9 +1,9 @@
 ---
 title: Solidarité
-subtitle: Actions de solidarité et d'entraide
-description: Découvrez nos actions de solidarité et comment participer à l'aide aux plus fragiles
-template: page
+description: Actions de solidarité et d'entraide de la paroisse Bon Pasteur
 ---
+
+# Solidarité
 
 ## Notre engagement solidaire
 
@@ -71,12 +71,6 @@ Nous travaillons en collaboration avec :
 - Mardi : 14h - 17h
 - Jeudi : 14h - 16h (distribution)
 - Samedi : 10h - 12h
-
-## Témoignages
-
-> "Grâce à l'équipe solidarité, j'ai retrouvé confiance et j'ai pu surmonter une période difficile." - Marie
-
-> "Participer aux actions de solidarité m'a permis de donner du sens à ma retraite et de rencontrer des personnes formidables." - Jean
 
 ## Rejoignez-nous !
 
