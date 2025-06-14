@@ -1,0 +1,319 @@
+/* Custom styles for the parish website */
+
+/* Top menu styling - Style inspiré de paroisses-saintmalo.fr */
+.top-menu {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.top-menu .container-fluid {
+    justify-content: center;
+    position: relative;
+}
+
+.top-menu .navbar-brand {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1rem;
+}
+
+.top-menu .navbar-brand .logo {
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.top-menu .navbar-brand:hover .logo {
+    transform: scale(1.05);
+}
+
+.top-menu .navbar-nav {
+    align-items: stretch;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.top-menu .nav-item {
+    position: relative;
+}
+
+.top-menu .nav-link {
+    color: #333333 !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 1.2rem 1.5rem !important;
+    transition: all 0.3s ease;
+    border: none;
+    background: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.top-menu .nav-link:hover,
+.top-menu .nav-item:hover > .nav-link {
+    color: #0066cc !important;
+    background-color: #f8f9fa;
+}
+
+.top-menu .nav-link.active {
+    color: #0066cc !important;
+    background-color: #f0f7ff;
+}
+
+/* Dropdown menu styling - Style inspiré de paroisses-saintmalo.fr */
+.dropdown-menu {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+    min-width: 250px;
+    background-color: #ffffff;
+    display: none !important;
+}
+
+/* Force hover behavior on desktop */
+@media (min-width: 992px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block !important;
+        animation: fadeInDown 0.2s ease-out;
+    }
+
+    /* Prevent Bootstrap click behavior on desktop */
+    .nav-item.dropdown .dropdown-toggle::after {
+        display: none;
+    }
+}
+
+/* Show dropdown arrow only on mobile */
+@media (max-width: 991.98px) {
+    .nav-item.dropdown .dropdown-toggle::after {
+        display: inline-block;
+    }
+}
+
+/* Animation for dropdown */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Menu spécial pour "Les églises" avec deux colonnes */
+.dropdown-menu.churches-menu {
+    min-width: 600px;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.dropdown-menu.churches-menu .dropdown-item {
+    width: 48%;
+    margin: 0.1rem 1%;
+    font-size: 0.9rem;
+}
+
+.dropdown-item {
+    color: #333333;
+    padding: 0.7rem 1.2rem;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.dropdown-item:hover {
+    background-color: #0066cc;
+    color: white;
+}
+
+.dropdown-item:focus {
+    background-color: #0066cc;
+    color: white;
+}
+
+/* Main content spacing */
+.main-content {
+    min-height: calc(100vh - 200px);
+    padding-top: 2rem;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #2c3e50 !important;
+}
+
+.footer a {
+    color: #ecf0f1 !important;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #3498db !important;
+}
+
+/* Search form styling - Style inspiré de paroisses-saintmalo.fr */
+.navbar-nav form.d-flex {
+    margin-left: 1rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav form.d-flex .form-control {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    width: 200px;
+}
+
+.navbar-nav form.d-flex .btn {
+    border-radius: 4px;
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0066cc;
+    border-color: #0066cc;
+    font-size: 0.9rem;
+}
+
+.navbar-nav form.d-flex .btn:hover {
+    background-color: #0052a3;
+    border-color: #0052a3;
+}
+
+/* Amélioration pour les écrans plus petits */
+@media (max-width: 991.98px) {
+    .navbar-nav form.d-flex {
+        margin-left: 0;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .navbar-nav form.d-flex .form-control {
+        width: 250px;
+    }
+}
+
+/* Responsive adjustments - Style mobile inspiré de paroisses-saintmalo.fr */
+@media (max-width: 991.98px) {
+    .top-menu .container-fluid {
+        justify-content: space-between;
+    }
+
+    .top-menu .navbar-brand {
+        position: static;
+        left: auto;
+    }
+
+    .top-menu .navbar-nav {
+        margin: 0;
+    }
+
+    .top-menu .navbar-collapse {
+        background-color: white;
+        padding: 1rem;
+        margin-top: 0.5rem;
+        border-top: 1px solid #e0e0e0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .top-menu .nav-link {
+        padding: 1rem 0 !important;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .dropdown-menu {
+        position: static !important;
+        transform: none !important;
+        box-shadow: none;
+        border: none;
+        background-color: #f8f9fa;
+        margin-left: 1rem;
+        display: none !important;
+    }
+
+    .dropdown-menu.churches-menu {
+        min-width: auto;
+        flex-direction: column;
+    }
+
+    .dropdown-menu.churches-menu .dropdown-item {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Page content styling */
+.container-fluid {
+    max-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+
+/* Welcome page styling */
+.welcome-content {
+    padding: 2rem 0;
+}
+
+.welcome-content .lead {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+
+/* Card styling for content sections */
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Link styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+{#include partials/roq-default/layout.html}
+  {#insert content}
+    <div class="error-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h1 class="display-1 mb-4">404</h1>
+            <h2 class="mb-4">Page non trouvée</h2>
+            <p class="lead mb-4">Désolé, la page que vous recherchez n'existe pas.</p>
+            <a href="{site.url}" class="btn btn-primary">Retour à l'accueil</a>
+            {#insert body /}
+          </div>
+        </div>
+      </div>
+    </div>
+  {/insert}
+{/include}

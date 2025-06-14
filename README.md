@@ -1,137 +1,60 @@
-# Site Web de la Paroisse Bon Pasteur
+# roq-with-blog
 
-Site web statique généré avec **Quarkus Roq** pour la paroisse Bon Pasteur.
+This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
-## 🚀 Démarrage rapide
+If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
-### Prérequis
-- Java 21
-- Maven 3.9.9 (installé dans `/opt/maven/`)
+## Running the application in dev mode
 
-### Construction et test
-```bash
-# Construire le site
-./build.sh
+You can run your application in dev mode that enables live coding using:
 
-# Tester le site localement
-./run.sh
+```shell script
+./mvnw quarkus:dev
 ```
 
-Le site sera accessible sur http://localhost:8080
+> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
 
-## 🏗️ Architecture
+## Packaging and running the application
 
-Ce projet utilise **Quarkus Roq**, un générateur de sites statiques moderne qui combine :
-- **Contenu Markdown** : Pages écrites en Markdown avec métadonnées YAML
-- **Thème par défaut** : Interface utilisateur responsive
-- **Beans CDI** : Menu et auteurs configurés en Java
-- **Génération statique** : Site optimisé pour la production
+The application can be packaged using:
 
-## 📁 Structure du projet
-
-```
-├── pom.xml                           # Configuration Maven avec Quarkus 3.23.3
-├── build.sh                         # Script de construction
-├── run.sh                           # Script de test local
-├── content/                         # Contenu Markdown
-│   ├── index.md                     # Page d'accueil
-│   ├── presentation.md              # Présentation de la paroisse
-│   ├── contact.md                   # Page de contact
-│   ├── posts/                       # Articles/actualités
-│   │   └── bienvenue.md
-│   ├── clochers/                    # Pages des clochers
-│   │   └── sainte-trinite.md
-│   ├── demandes/                    # Pages de demandes
-│   │   └── bapteme.md
-│   └── propositions/                # Pages des propositions
-│       └── solidarite.md
-├── src/main/java/fr/paroisse/bonpasteur/
-│   ├── Menu.java                    # Configuration du menu
-│   └── Authors.java                 # Configuration des auteurs
-└── target/                          # Fichiers générés
-    └── quarkus-app/                 # Application Quarkus
+```shell script
+./mvnw package
 ```
 
-## 📄 Pages créées
+It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
+Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
 
-### ✅ Pages principales
-- **Accueil** (`content/index.md`) : Page d'accueil avec présentation
-- **Présentation** (`content/presentation.md`) : Histoire et mission de la paroisse
-- **Contact** (`content/contact.md`) : Coordonnées et informations de contact
+The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
 
-### ✅ Clochers
-- **Sainte Trinité** (`content/clochers/sainte-trinite.md`) : Exemple de clocher avec horaires et activités
+If you want to build an _über-jar_, execute the following command:
 
-### ✅ Demandes
-- **Baptême** (`content/demandes/bapteme.md`) : Informations et démarches pour le baptême
-
-### ✅ Propositions
-- **Solidarité** (`content/propositions/solidarite.md`) : Actions de solidarité et bénévolat
-
-### ✅ Actualités
-- **Bienvenue** (`content/posts/bienvenue.md`) : Article d'exemple
-
-## 🎨 Fonctionnalités
-
-- **Design responsive** : Compatible mobile et desktop
-- **Navigation structurée** : Menu avec sous-menus pour les 23 clochers
-- **Thème moderne** : Interface utilisateur propre et accessible
-- **Contenu en Markdown** : Facile à éditer et maintenir
-- **SEO optimisé** : Métadonnées automatiques
-
-## 🛠️ Commandes utiles
-
-```bash
-# Construction complète
-./build.sh
-
-# Test local (30 secondes)
-./run.sh
-
-# Construction Maven directe
-export PATH=/opt/maven/bin:$PATH
-mvn clean package -DskipTests
-
-# Exécution Maven directe
-mvn quarkus:run
+```shell script
+./mvnw package -Dquarkus.package.jar.type=uber-jar
 ```
 
-## 📚 Technologies utilisées
+The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
 
-- **Quarkus 3.23.3** : Framework Java moderne
-- **Roq 1.6.1** : Générateur de sites statiques
-- **Thème par défaut Roq** : Interface utilisateur responsive
-- **Java 21** : Langage de programmation
-- **Maven 3.9.9** : Gestionnaire de dépendances
+## Creating a native executable
 
-## 🔧 Personnalisation
+You can create a native executable using:
 
-### Ajouter une nouvelle page
-1. Créez un fichier `.md` dans le répertoire `content/`
-2. Ajoutez les métadonnées YAML en en-tête
-3. Reconstruisez avec `./build.sh`
+```shell script
+./mvnw package -Dnative
+```
 
-### Modifier le menu
-Éditez `src/main/java/fr/paroisse/bonpasteur/Menu.java`
+Or, if you don't have GraalVM installed, you can run the native executable build in a container using:
 
-### Ajouter un clocher
-1. Créez `content/clochers/nom-clocher.md`
-2. Ajoutez le lien dans `Menu.java`
+```shell script
+./mvnw package -Dnative -Dquarkus.native.container-build=true
+```
 
-## 🎯 Avantages de Quarkus Roq
+You can then execute your native executable with: `./target/roq-with-blog-1.0.0-SNAPSHOT-runner`
 
-- **Performance** : Site statique ultra-rapide
-- **Sécurité** : Pas de base de données, pas de failles
-- **Maintenance** : Contenu en Markdown, facile à éditer
-- **Évolutivité** : Peut être étendu avec Java si nécessaire
-- **Déploiement** : Compatible avec tous les hébergeurs
+If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
 
-## 📞 Support
+## Related Guides
 
-- **Documentation Roq** : https://iamroq.com/docs/
-- **Documentation Quarkus** : https://quarkus.io/guides/
+- Roq ([guide](https://iamroq.com/docs/)): Hello, world! I’m Roq — a fun little SSG (Static Site Generator) with a Java soul and Quarkus energy.
 
----
-
-*Site développé avec ❤️ pour la Paroisse Bon Pasteur - 2025*  
-*Propulsé par Quarkus Roq 1.6.1*
+## Provided Code

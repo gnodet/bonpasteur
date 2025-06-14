@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="crossGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004499;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fond subtil -->
+  <rect width="200" height="80" fill="#f8f9fa" rx="8"/>
+  
+  <!-- Croix stylisée -->
+  <g transform="translate(20, 15)">
+    <!-- Barre verticale -->
+    <rect x="18" y="5" width="4" height="35" fill="url(#crossGradient)" rx="2"/>
+    <!-- Barre horizontale -->
+    <rect x="8" y="17" width="24" height="4" fill="url(#crossGradient)" rx="2"/>
+    <!-- Cercle au centre -->
+    <circle cx="20" cy="19" r="3" fill="#ffffff" stroke="url(#crossGradient)" stroke-width="1"/>
+  </g>
+  
+  <!-- Texte principal -->
+  <text x="60" y="28" font-family="serif" font-size="16" font-weight="bold" fill="#2c3e50">
+    Paroisse
+  </text>
+  <text x="60" y="45" font-family="serif" font-size="18" font-weight="bold" fill="#0066cc">
+    Bon Pasteur
+  </text>
+  
+  <!-- Sous-titre -->
+  <text x="60" y="60" font-family="sans-serif" font-size="10" fill="#666">
+    Communauté catholique
+  </text>
+  
+  <!-- Élément décoratif - berger -->
+  <g transform="translate(160, 20)">
+    <!-- Bâton de berger stylisé -->
+    <path d="M5 5 Q15 5 15 15 Q15 25 5 25" stroke="#0066cc" stroke-width="2" fill="none"/>
+    <line x1="5" y1="25" x2="5" y2="40" stroke="#0066cc" stroke-width="2"/>
+    <!-- Base -->
+    <circle cx="5" cy="42" r="2" fill="#0066cc"/>
+  </g>
+</svg>
