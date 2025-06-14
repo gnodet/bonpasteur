@@ -1,5 +1,5 @@
 ---
-title: Accueil - Paroisse Bon Pasteur
+title: Paroisse Bon Pasteur de Caen
 description: Découvrez notre communauté paroissiale, nos églises et nos activités.
 name: Paroisse Bon Pasteur
 simple-name: Bon Pasteur
