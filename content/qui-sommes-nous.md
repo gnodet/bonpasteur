@@ -1,10 +1,17 @@
 # Paroisse Bon Pasteur de Caen 
-Créée le 1er septembre 2024 dans le cadre de la recomposition diocésaine du Calvados — qui a regroupé les 51 paroisses en 15 — la paroisse Bon Pasteur de Caen s’inscrit dans un ambitieux renouveau pastoral
+La paroisse Bon Pasteur de Caen, créée le 1er septembre 2024 dans le cadre de la recomposition diocésaine du Calvados — qui a ramené le nombre de paroisses de 51 à 15 — s’inscrit dans une dynamique de renouveau pastoral ambitieuse.
 
 ## Territoire & communautés locales
 La paroisse couvre l'ouest de Caen et les communes de Blainville‑sur‑Orne, Hérouville‑Saint‑Clair (hors le hameau de Sainte‑Honorine), Épron et Saint‑Germain‑la‑Blanche‑Herbe.
-Elle regroupe de nombreux clochers (églises) dont : Notre-Dame-de-l’Assomption (La Gloriette), Saint‑André, Saint‑Bernard, Saint‑Étienne, Saint‑Gilles, Saint‑Jean‑Baptiste, Saint‑Joseph, Saint‑Julien, Saint‑Ouen, Saint‑Paul, Saint‑Pierre, Saint‑Sauveur et Sainte‑Claire. Ces regroupements se structurent en 5 communautés locales : Saint‑Julien, Saint‑Étienne, Sainte‑Trinité, Saint‑François, ainsi que la communauté Saint‑Joseph 
+Elle regroupe de nombreux clochers (églises) dont : Notre-Dame-de-l’Assomption (La Gloriette), Saint‑André, Saint‑Bernard, Saint‑Étienne, Saint‑Gilles, Saint‑Jean‑Baptiste, Saint‑Joseph, Saint‑Julien, Saint‑Ouen, Saint‑Paul, Saint‑Pierre, Saint‑Sauveur et Sainte‑Claire. Ces regroupements se structurent en 5 communautés locales : 
+Saint‑Julien, 
+Saint‑Étienne, 
+Sainte‑Trinité, 
+Saint‑François, 
+Saint‑Joseph 
+
 En outre, la paroisse englobe :
+
 une Fraternité de Proximité (Centre Saint-Pierre), animée par des sœurs du Carmel et des laïcs
 une aumônerie étudiante place Reine‑Mathilde,
 une chorale des jeunes (Chaïreté),
