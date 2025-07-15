@@ -58,7 +58,5 @@ Vous souhaitez préparer les obsèques d’un proche. Toutes les informations ut
 Pour toute question, vous pouvez aussi contacter notre assistante paroissiale 
 mail :paroisse.bonpasteur@bayeuxlisieux.catholique.fr 
 
-Nous avons hâte de vous rencontrer !
+#### Nous avons hâte de vous rencontrer !
 
-
-[Participer](/demandes/rejoindre-groupe){.btn .btn-primary}
