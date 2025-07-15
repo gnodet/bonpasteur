@@ -12,7 +12,7 @@ une pastorale des jeunes et des vocations, incluant notamment Praize Up (pop�
 des groupes de services (entraide vestimentaire, alimentaire, hébergement pour migrants),
 des monastères et lieux spirituels : Visitation, Carmel, sanctuaire de Petit‑Lourdes 
 
-## Prêtres :
+## Prêtres 
 Père Emmanuel Geffray (curé)
 Père Paul Clerval (vicaire)
 Père Antoine Hardy (vicaire)
@@ -22,7 +22,7 @@ Père Jérôme Roger (vicaire)
 Père Fabrice Verrier (vicaire)
 Père Olivier Atangana (étudiant)
 Pére Pascal Diom (étudiant)
-## diacres : 
+## diacres 
 Pierre LAURENT
 
 ## Le Conseil paroissial
