@@ -3,34 +3,50 @@ La paroisse Bon Pasteur de Caen, créée le 1er septembre 2024 dans le cadre de 
 
 ## Territoire & communautés locales
 La paroisse couvre l'ouest de Caen et les communes de Blainville‑sur‑Orne, Hérouville‑Saint‑Clair (hors le hameau de Sainte‑Honorine), Épron et Saint‑Germain‑la‑Blanche‑Herbe.
-Elle regroupe de nombreux clochers (églises) dont : Notre-Dame-de-l’Assomption (La Gloriette), Saint‑André, Saint‑Bernard, Saint‑Étienne, Saint‑Gilles, Saint‑Jean‑Baptiste, Saint‑Joseph, Saint‑Julien, Saint‑Ouen, Saint‑Paul, Saint‑Pierre, Saint‑Sauveur et Sainte‑Claire. Ces regroupements se structurent en 5 communautés locales : 
-Saint‑Julien, 
-Saint‑Étienne, 
-Sainte‑Trinité, 
-Saint‑François, 
-Saint‑Joseph 
+Elle regroupe de nombreux clochers (églises) dont : 
+* Notre-Dame-de-l’Assomption (La Gloriette), 
+* Saint‑André,
+* Saint‑Bernard,
+* Saint‑Étienne,
+* Saint‑Gilles,
+* Saint‑Jean‑Baptiste,
+* Saint‑Joseph,
+* Saint‑Julien,
+* Saint‑Ouen,
+* Saint‑Paul,
+* Saint‑Pierre,
+* Saint‑Sauveur et
+* Sainte‑Claire.
+
+Ces regroupements se structurent en 5 communautés locales : 
+* Saint‑Julien, 
+* Saint‑Étienne, 
+* Sainte‑Trinité, 
+* Saint‑François, 
+* Saint‑Joseph 
 
 En outre, la paroisse englobe :
 
-une Fraternité de Proximité (Centre Saint-Pierre), animée par des sœurs du Carmel et des laïcs
-une aumônerie étudiante place Reine‑Mathilde,
-une chorale des jeunes (Chaïreté),
-une pastorale des jeunes et des vocations, incluant notamment Praize Up (pop‑louange),
-des groupes de services (entraide vestimentaire, alimentaire, hébergement pour migrants),
-des monastères et lieux spirituels : Visitation, Carmel, sanctuaire de Petit‑Lourdes 
+* une Fraternité de Proximité (Centre Saint-Pierre), animée par des sœurs du Carmel et des laïcs
+* une aumônerie étudiante place Reine‑Mathilde,
+* une chorale des jeunes (Chaïreté),
+* une pastorale des jeunes et des vocations, incluant notamment Praize Up (pop‑louange),
+* des groupes de services (entraide vestimentaire, alimentaire, hébergement pour migrants),
+* des monastères et lieux spirituels : Visitation, Carmel, sanctuaire de Petit‑Lourdes 
 
 ## Prêtres 
-Père Emmanuel Geffray (curé)
-Père Paul Clerval (vicaire)
-Père Antoine Hardy (vicaire)
-Père Michel Lemasson (vicaire)
-Père Jaime Salcedo(vicaire)
-Père Jérôme Roger (vicaire)
-Père Fabrice Verrier (vicaire)
-Père Olivier Atangana (étudiant)
-Pére Pascal Diom (étudiant)
+* Père Emmanuel Geffray (curé)
+* Père Paul Clerval (vicaire)
+* Père Antoine Hardy (vicaire)
+* Père Michel Lemasson (vicaire)
+* Père Jaime Salcedo(vicaire)
+* Père Jérôme Roger (vicaire)
+* Père Fabrice Verrier (vicaire)
+* Père Olivier Atangana (étudiant)
+* Pére Pascal Diom (étudiant)
+  
 ## diacres 
-Pierre LAURENT
+* Pierre LAURENT
 
 ## Le Conseil paroissial
 Composé de prêtres, diacres et laïcs engagés, il élabore la vision missionnaire de la paroisse et coordonne les grandes orientations pastorales. Il veille à la communion entre les communautés locales.
@@ -50,6 +66,7 @@ Contact et informations pratiques
 
 ### Paroisse Bon Pasteur de Caen
 Presbytère Saint-Jean, 11 rue des Équipes d’Urgence, 14000 Caen
-
+02 31 86 13 11
+paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
 ### Coordination : Charlotte Princely Pious est coordinatrice paroissiale
