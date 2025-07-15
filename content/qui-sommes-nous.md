@@ -69,4 +69,5 @@ Presbytère Saint-Jean, 11 rue des Équipes d’Urgence, 14000 Caen
 02 31 86 13 11
 paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
-### Coordination : Charlotte Princely Pious est coordinatrice paroissiale
+### Coordination : 
+la coordinatrice paroissiale est Charlotte Princely Pious 
