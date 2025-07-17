@@ -25,6 +25,6 @@ Pour toute question contactez-nous : paroisse.bonpasteur@bayeuxlisieux.catholiqu
 
 ## DEMANDER LE BAPTÊME POUR UN ADULTE
 
-Vous vous posez la question du baptême pour vous-même ou un proche. Sachez qu’une équipe existe sur Saint-Malo et propose une démarche adaptée à chacun : que vous cherchiez quelques réponses à vos questions ou que vous souhaitiez d’ores-et-déjà vous engager vers le sacrement du baptême, de la confirmation ou de la première des communions. Prenez contact et embarquez-vous dans cette belle aventure de la Foi au Christ. Soyez les bienvenus. Nous vous attendons…
+Vous vous posez la question du baptême pour vous-même ou un proche. Sachez qu’une équipe existe sur la paroisse du Bon Pasteur et propose une démarche adaptée à chacun : que vous cherchiez quelques réponses à vos questions ou que vous souhaitiez d’ores-et-déjà vous engager vers le sacrement du baptême, de la confirmation ou de la première des communions. Prenez contact et embarquez-vous dans cette belle aventure de la Foi au Christ. Soyez les bienvenus. Nous vous attendons…
 
-Pour toute information, contacter : paroissesaintmalo@gmail.com
+Pour toute information, contacter : Anne de Beaupuy annepalludebeaupuy@gmail.com
