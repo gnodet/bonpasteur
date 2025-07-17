@@ -13,10 +13,13 @@ L'église Saint-Julien fait partie de la paroisse Bon Pasteur de Caen, créée l
 ## Informations pratiques
 
 ### Adresse
-*Adresse à compléter*
+**1, rue Malfilâtre**
+**14000 Caen**
 
 ### Horaires des messes
-*Horaires à compléter*
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés :
+[bayeuxlisieux.catholique.fr](https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/)
 
 ### Contact
 Pour plus d'informations sur les activités de cette église, contactez :
@@ -43,7 +46,16 @@ Pour plus d'informations sur les activités de cette église, contactez :
 
 ## Histoire et patrimoine
 
-*Histoire de l'église Saint-Julien à compléter*
+L'église Saint-Julien de Caen fait partie du patrimoine religieux de la ville et a connu une reconstruction après la Seconde Guerre mondiale.
+
+### Église de la Reconstruction
+L'église Saint-Julien appartient aux **églises de la Reconstruction** de Caen, ayant été reconstruite après les destructions de 1944. Elle témoigne de l'effort de reconstruction du patrimoine religieux caennais dans l'après-guerre.
+
+### Architecture contemporaine
+L'édifice actuel présente les caractéristiques architecturales de la reconstruction des années 1950-1960, alliant fonctionnalité et spiritualité dans un style architectural moderne adapté aux besoins liturgiques contemporains.
+
+### Vie paroissiale
+L'église Saint-Julien constitue un point de rassemblement important pour les fidèles du quartier et participe activement à la vie de la paroisse Bon Pasteur de Caen, contribuant à l'animation spirituelle de ce secteur de la ville.
 
 ## Contact et informations
 

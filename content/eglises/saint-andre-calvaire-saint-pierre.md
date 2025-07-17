@@ -13,10 +13,14 @@ L'église Saint-André du Calvaire Saint-Pierre fait partie de la paroisse Bon P
 ## Informations pratiques
 
 ### Adresse
-*Adresse à compléter*
+**10 Avenue Horatio Smith**
+**14000 Caen**
+*(Quartier Calvaire Saint-Pierre)*
 
 ### Horaires des messes
-*Horaires à compléter*
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés :
+[bayeuxlisieux.catholique.fr](https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/)
 
 ### Contact
 Pour plus d'informations sur les activités de cette église, contactez :
@@ -43,7 +47,16 @@ Pour plus d'informations sur les activités de cette église, contactez :
 
 ## Histoire et patrimoine
 
-*Histoire de l'église Saint-André du Calvaire Saint-Pierre à compléter*
+L'église Saint-André du Calvaire Saint-Pierre est située dans le quartier du Calvaire Saint-Pierre à Caen, un secteur qui porte le nom de cette ancienne paroisse.
+
+### Quartier du Calvaire Saint-Pierre
+L'église est implantée avenue Horatio Smith, dans un quartier qui a conservé le nom historique de "Calvaire Saint-Pierre", témoignant de l'ancienne organisation paroissiale de Caen.
+
+### Vie communautaire
+L'église Saint-André constitue un point de rassemblement important pour les fidèles du quartier et participe activement à la vie de la communauté locale au sein de la nouvelle paroisse Bon Pasteur de Caen.
+
+### Événements particuliers
+L'église accueille régulièrement des événements communautaires et des célébrations spéciales, contribuant au dynamisme spirituel du quartier.
 
 ## Contact et informations
 

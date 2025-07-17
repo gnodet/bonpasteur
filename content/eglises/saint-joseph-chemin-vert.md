@@ -13,10 +13,14 @@ L'église Saint-Joseph du chemin vert fait partie de la paroisse Bon Pasteur de 
 ## Informations pratiques
 
 ### Adresse
-*Adresse à compléter*
+**Rue du Chemin Vert**
+**14000 Caen**
+*(Quartier du Chemin Vert)*
 
 ### Horaires des messes
-*Horaires à compléter*
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés :
+[bayeuxlisieux.catholique.fr](https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/)
 
 ### Contact
 Pour plus d'informations sur les activités de cette église, contactez :
@@ -43,7 +47,16 @@ Pour plus d'informations sur les activités de cette église, contactez :
 
 ## Histoire et patrimoine
 
-*Histoire de l'église Saint-Joseph du chemin vert à compléter*
+L'église Saint-Joseph du Chemin Vert est une église moderne de Caen, située dans le quartier du Chemin Vert.
+
+### Architecture contemporaine
+L'église Saint-Joseph du Chemin Vert a été conçue par l'**architecte Jacques Tournier**, représentant l'architecture religieuse de la seconde moitié du XXe siècle. Elle témoigne du renouveau architectural des églises dans l'après-guerre.
+
+### Monument historique récent
+L'église est **classée monument historique depuis le 27 juin 2007**, reconnaissance de la valeur architecturale de l'art religieux contemporain.
+
+### Quartier du Chemin Vert
+Implantée dans le quartier du Chemin Vert, l'église Saint-Joseph constitue un point de repère spirituel important pour les habitants de ce secteur de Caen et participe à la vie communautaire locale au sein de la paroisse Bon Pasteur de Caen.
 
 ## Contact et informations
 

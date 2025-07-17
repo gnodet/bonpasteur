@@ -13,10 +13,14 @@ L'église Saint-Jean-Baptiste fait partie de la paroisse Bon Pasteur de Caen, cr
 ## Informations pratiques
 
 ### Adresse
-*Adresse à compléter*
+**Église Saint-Jean-Baptiste**
+**14000 Caen**
+*(Adresse précise à confirmer)*
 
 ### Horaires des messes
-*Horaires à compléter*
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés :
+[bayeuxlisieux.catholique.fr](https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/)
 
 ### Contact
 Pour plus d'informations sur les activités de cette église, contactez :
@@ -43,7 +47,13 @@ Pour plus d'informations sur les activités de cette église, contactez :
 
 ## Histoire et patrimoine
 
-*Histoire de l'église Saint-Jean-Baptiste à compléter*
+L'église Saint-Jean-Baptiste fait partie du patrimoine religieux de Caen et constitue un lieu de culte de la paroisse Bon Pasteur de Caen depuis sa création le 1er septembre 2024.
+
+### Monument historique
+L'église Saint-Jean de Caen est **classée monument historique depuis 1840**, témoignant de son importance architecturale et historique dans le paysage religieux caennais.
+
+### Intégration paroissiale
+Avec la création de la nouvelle paroisse Bon Pasteur de Caen, l'église Saint-Jean-Baptiste s'inscrit dans un ensemble paroissial élargi qui regroupe de nombreux lieux de culte du centre de Caen et de son agglomération, contribuant à la richesse de la vie spirituelle locale.
 
 ## Contact et informations
 

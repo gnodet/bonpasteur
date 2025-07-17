@@ -13,10 +13,16 @@ L'église Saint-Paul fait partie de la paroisse Bon Pasteur de Caen, créée le 
 ## Informations pratiques
 
 ### Adresse
-*Adresse à compléter*
+**1 bis place Saint-Paul**
+**14000 Caen**
 
 ### Horaires des messes
-*Horaires à compléter*
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés.
+
+### Événements spéciaux
+**Soirées Louange et Miséricorde :** Jeudis à 20h30 (dates variables)
+L'église Saint-Paul accueille régulièrement des soirées de louange et d'adoration.
 
 ### Contact
 Pour plus d'informations sur les activités de cette église, contactez :
@@ -43,7 +49,13 @@ Pour plus d'informations sur les activités de cette église, contactez :
 
 ## Histoire et patrimoine
 
-*Histoire de l'église Saint-Paul à compléter*
+L'église Saint-Paul de Caen fait partie du patrimoine religieux de la ville et constitue un lieu de culte important de la paroisse Bon Pasteur de Caen.
+
+### Vie spirituelle contemporaine
+L'église Saint-Paul est particulièrement connue pour accueillir des **soirées de louange et d'adoration**, contribuant au renouveau spirituel de la paroisse. Ces événements réguliers attirent les fidèles en quête d'une spiritualité vivante et participative.
+
+### Rôle dans la communauté
+Située place Saint-Paul, l'église occupe une position centrale dans son quartier et participe activement à la vie de la communauté paroissiale, notamment à travers l'accueil de groupes de prière et d'événements spirituels.
 
 ## Contact et informations
 

@@ -13,10 +13,14 @@ L'église Sainte Trinité / Saint-Gilles fait partie de la paroisse Bon Pasteur 
 ## Informations pratiques
 
 ### Adresse
-*Adresse à compléter*
+**35 place Reine Mathilde**
+**14000 Caen**
+*(Abbaye aux Dames)*
 
 ### Horaires des messes
-*Horaires à compléter*
+**Dimanche :** 10h45 (messes régulières)
+**Mercredi :** 18h30 (messe suivie de la soirée aumônerie étudiante)
+Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés
 
 ### Contact
 Pour plus d'informations sur les activités de cette église, contactez :
@@ -43,7 +47,30 @@ Pour plus d'informations sur les activités de cette église, contactez :
 
 ## Histoire et patrimoine
 
-*Histoire de l'église à compléter*
+L'église Sainte-Trinité, également connue sous le nom d'église Saint-Gilles, est l'ancienne **église abbatiale de l'Abbaye aux Dames** de Caen.
+
+### L'Abbaye aux Dames
+Fondée au XIe siècle par **Mathilde de Flandre**, épouse de Guillaume le Conquérant, l'Abbaye aux Dames (ou abbaye de la Trinité) fut créée en pendant de l'Abbaye aux Hommes. L'église abbatiale Sainte-Trinité abrite le **tombeau de la reine Mathilde**.
+
+### Architecture romane normande
+L'église présente un remarquable exemple de l'**architecture romane normande** du XIe siècle, avec ses caractéristiques architecturales typiques de cette période : nef à trois niveaux, transept saillant et chœur à déambulatoire.
+
+### Patrimoine exceptionnel
+L'église conserve de nombreux éléments patrimoniaux remarquables :
+- **Tombeau de la reine Mathilde** (dalle funéraire)
+- Chaire à prêcher historique
+- Éléments sculptés romans
+- Architecture intérieure préservée
+
+### Vie contemporaine
+Aujourd'hui, l'église Saint-Gilles accueille :
+- L'**aumônerie des étudiants** (messes du mercredi soir)
+- La **chorale Chaïrete** (étudiants et jeunes professionnels)
+- Les **Jeunes Pros** de Caen (rencontres mensuelles)
+- Diverses célébrations et événements communautaires
+
+### Monument historique
+L'ensemble de l'abbaye aux Dames, incluant l'église Sainte-Trinité, est **classé monument historique** et constitue l'un des joyaux du patrimoine architectural normand.
 
 ## Contact et informations
 

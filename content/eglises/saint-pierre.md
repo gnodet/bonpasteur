@@ -13,10 +13,16 @@ L'église Saint-Pierre fait partie de la paroisse Bon Pasteur de Caen, créée l
 ## Informations pratiques
 
 ### Adresse
-*Adresse à compléter*
+**Place Saint-Pierre**
+**14000 Caen**
 
 ### Horaires des messes
-*Horaires à compléter*
+**En semaine :** 18h30 (du mardi au vendredi) - horaires d'été
+**Confessions :**
+- Samedi 10h-11h et 11h-12h
+- Samedi après-midi 14h-15h30 (1er et 3e samedi du mois)
+
+Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés
 
 ### Contact
 Pour plus d'informations sur les activités de cette église, contactez :
@@ -43,7 +49,19 @@ Pour plus d'informations sur les activités de cette église, contactez :
 
 ## Histoire et patrimoine
 
-*Histoire de l'église Saint-Pierre à compléter*
+L'église Saint-Pierre de Caen est un **monument historique classé depuis 1840**, témoignage remarquable de l'art gothique flamboyant en Normandie.
+
+### Architecture gothique flamboyante
+Construite principalement aux **XIVe et XVe siècles**, l'église Saint-Pierre se distingue par son remarquable clocher et sa riche ornementation sculptée. Elle constitue l'un des plus beaux exemples de l'art gothique normand.
+
+### Patrimoine architectural
+L'édifice présente des caractéristiques architecturales remarquables qui en font un joyau du patrimoine caennais :
+- Clocher élancé de style gothique flamboyant
+- Riche décoration sculptée
+- Éléments architecturaux typiques du gothique normand
+
+### Rôle dans la paroisse
+L'église Saint-Pierre joue un rôle central dans la vie de la paroisse Bon Pasteur de Caen, accueillant notamment les messes en semaine et les confessions. Elle constitue un point de référence spirituel important pour les fidèles du centre-ville de Caen.
 
 ## Contact et informations
 
