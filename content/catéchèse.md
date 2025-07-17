@@ -11,11 +11,41 @@ https://framaforms.org/formulaire-individuel-dinscription-au-catechisme-20252026
 Une fois l’inscription réalisée, vous recevrez toutes les informations utiles.
 Pour toute information, contactez-nous kt.caencentre@gmail.com 
 
-## Catéchèse (CP au CM2)
+## Catéchèse (CP a la 6eme )
 Classe de CE1 à la 6e:
 Tous les samedis matins en période scolaire de 10h30 à 11h30.
 Vous pouvez soit inscrire directement votre enfant en ligne 
 https://framaforms.org/formulaire-individuel-dinscription-au-catechisme-20252026-1750270705
 soit télécharger le dossier d’inscription et nous le remettre.
 Pour toute information, contactez-nous kt.caencentre@gmail.com 
+
+## Préparation à la profession de foi ( 6eme)
+Deux cas de figure :
+
+Si votre enfant est inscrit au catéchisme de notre paroisse, la préparation à la Profession de Foi est intégrée au parcours catéchétique.
+Si ce n’est pas le cas, la préparation peut se faire par l’intermédiaire des collèges privés.
+La Profession de Foi n’est pas un sacrement, mais elle constitue une étape importante dans la vie chrétienne de votre enfant.
+
+Plusieurs groupes d’aumônerie existent au sein de la paroisse pour accompagner cette préparation.
+
+Pour toute inscription, merci de contacter directement les responsables :  kt.caencentre@gmail.com 
+
+## Classe de 5e:
+
+ Le vendredi soir de 17h15 à 18h15 (confirmation).
+
+ ## Aumônerie des 4e et des 3e:
+
+Un vendredi sur deux de 17h à 19h15.
+Contact: Marc Lejeune marc.lejeune@gmail.com
+
+## Lycéens: Frat’Jeunes et Théolycée
+ 
+Contact Frat’Jeunes: Eloïse Duport fratjeunescaen@gmail.com
+Contact Théolycée: Simon Icard icard.simon@orange.fr 
+
+ (information sur la participation financière à consulter ici). https://www.saintetienne-saintouen.fr/wp-content/uploads/2025/06/Information-participation-financiere-KT-2025-2026.pdf
+
+
+
 
