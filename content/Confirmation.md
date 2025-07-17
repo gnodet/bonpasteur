@@ -1,3 +1,5 @@
+# Confirmation
+
 La Confirmation est un sacrement de l’Église catholique qui peut être reçu à tout âge.
 Que vous soyez jeune adulte ou plus âgé, vous pouvez demander à être confirmé.
 
