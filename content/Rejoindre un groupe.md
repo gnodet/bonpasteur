@@ -15,7 +15,17 @@ diners4x4.caen@gmail.com
 Rejoignez un petit groupe pour prier, lire l’Évangile et partager autour de la Parole de Dieu. 
 Huit rencontres, un chapitre par séance, pour cheminer dans la foi à sa manière : avec humilité, espérance, confiance et amour.
 
-## Rejoindre un groupe de prière
+## Rejoindre un groupe de prière avec la Parole
+Un temps simple et fraternel pour :
+– prier en petits groupes à partir de l’Évangile du dimanche
+– partager ce qui nous touche, nous interroge
+– retenir une parole, un message pour nous, pour le monde
+
+Chaque 2e et 4e samedi du mois
+De 10 h 30 à 11 h 15
+Dans la chapelle de l’Église Saint Joseph
+stjoseph@bayeuxlisieux.catholique.fr
+02 31 75 11 45
 
 ## Rejoindre un Chapelet des enfants
 venez chaque mardi participer au
