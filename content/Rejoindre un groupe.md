@@ -37,42 +37,23 @@ plus d’info ici :
 https://parfreetion.fr/web/chorales/view/chorale-chairete
 
 
-## parcours Alpha
+## Rejoindre un parcours Alpha
 
 Proposé dans le monde entier depuis de nombreuses années, les parcours Alpha proposent à ceux qui le souhaitent d’échanger sur Dieu et le sens de la vie. C’est une opportunité pour découvrir ou redécouvrir les bases de la foi chrétienne dans une ambiance conviviale. Il se déroule en une série de 10 rencontres, chaque soirée ayant lieu de 20h à 22h15.
 Responsable: Rémi Chartier  Contact: alpha.caencentre@gmail.com
 
 
-## rejoindre un groupe de prière des mères
-groupe des pères
+## Rejoindre un groupe de prière des mères
+Les groupes de prière des mères sont des petits groupes de femmes, en général des mères ou grands-mères, qui se réunissent régulièrement pour prier ensemble pour leurs enfants, leurs familles et les jeunes du monde entier.
 
+www.prieredesmeres.com
 
+## Rejoindre un groupe de solidarité
+Vous souhaitez apporter votre aide et vos compétences au service des personnes les plus fragiles. De nombreuses possibilités vous sont offertes.
+Nous vous invitons à visiter la page « Solidarité » où vous trouverez toutes les informations utiles.
 
-Pôle Jeunes (11-17 ans)
+## Rejoindre un groupe pour les familles
+N’hésitez pas à prendre contact avec la paroisse qui vous accueillera avec joie et vous présentera les différentes propositions existantes sur nos communautés. Infos
 
-Pour continuer de grandir dans la foi, en rendre compte avec intelligence et en vivre dans le monde, des propositions paroissiales et diocésaines: Théolycée, la Frat’ Jeunes, la Pasto’ Jeunes, et l’aumônerie des étudiants…
-
-Théolycée
-Théolycée est un groupe d’initiation à la théologie destiné aux élèves de seconde, première et terminale. Son objectif est d’aider les jeunes croyants à approfondir leur foi, afin qu’ils soient « toujours prêts à rendre raison de l’espérance qui est en [eux] » (1 P 3, 15) et à adorer Dieu avec leur intelligence. Le groupe est également destiné aux lycéens qui s’interrogent sur la foi chrétienne. Le cycle de trois ans propose un parcours complet, mais chaque séance est autonome et peut être suivie pour elle-même. Les questions actuelles sont privilégiées et éclairées par des textes de la tradition. Les rencontres ont lieu un samedi par mois, de 10h à 12h, à la maison paroissiale.
-Sous l’autorité du père Geffray, curé de la paroisse Bon Pasteur, Théolycée est animé par Simon Icard, chercheur en histoire de la théologie.
-Contact: icard.simon@orange.fr
-Aux samedis ci-dessous de 10h-12h à la Maison paroissiale, 46 bis rue de Bretagne ou 71 rue de Bayeux, Caen
-
-La Frat' Jeunes
-La Frat’Jeunes a pour objectif de regrouper les lycéens de la Seconde à la Terminale ayant le souhait de se retrouver pour approfondir leur foi et vivre les dimensions de la fraternité et de la mission. 
-Contact: Eloïse Duport fratjeunescaen@gmail.com 
-Toutes les dates sont à retrouver dans le tract à télécharger
-
-pasto jeunes 
-
-Est une proposition diocésaine, elle les accompagnent les jeunes à partir de 12 ans (après la profession de foi) grâce à de nombreuses propositions :  pèlerinage des confirmés à Rome et  Assise
-Pèlerinage des jeunes à Lourdes en Août
-Week-end Louange
-Séjour Montagne
-Jours de joie
-Concert de Noël
-Soirée des confirmands
-
-https://bayeuxlisieux.catholique.fr/services/accueil-jeunes-et-vocations/
 
 
