@@ -55,5 +55,6 @@ Nous vous invitons à visiter la page « Solidarité » où vous trouverez toute
 ## Rejoindre un groupe pour les familles
 N’hésitez pas à prendre contact avec la paroisse qui vous accueillera avec joie et vous présentera les différentes propositions existantes sur nos communautés. Infos
 
+Si vous souhaitez nous rencontrer afin de vous aider à discerner votre choix pour rejoindre un groupe, nous vous invitons à remplir le formulaire ci-dessous.
 
 
