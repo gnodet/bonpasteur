@@ -17,13 +17,17 @@ Huit rencontres, un chapitre par séance, pour cheminer dans la foi à sa maniè
 
 ## Rejoindre un groupe de prière
 
+## Rejoindre un Chapelet des enfants
+venez chaque mardi participer au
+chapelet animé par les enfants de
+17h15 à 17h45 à l'eglise Saint Paul , à Caen.
+
 ## Rejoindre un groupe de jeunes ou jeunes professionnels
 Pour les collégiens et lycéens, une animation spécifique est proposée (voir page « jeunes »). Pour les jeunes professionnels, des groupes existent sur notre paroisse
 
 Pour les collégiens et lycéens, une animation spécifique est proposée   Frat’jeunes,    (voir page « jeunes »). Pour les jeunes professionnels, un groupe existe  groupe jeunes pros. (voir page jeunes pros)  contact : jeunesproscaen@gmail.com
 
-
-Choral etudiante et jeune pro 
+ Choral etudiante et jeune pro 
 
 La chorale a été crée en 2020 dans le but de réunir les étudiants et jeunes professionnels de l'agglomération Caennaise autour du chant. Chaque personne est la bienvenue, quel que soit son niveau en musique. Chaque répétition se termine par un petit temps de prière.
 
@@ -33,15 +37,14 @@ plus d’info ici :
 https://parfreetion.fr/web/chorales/view/chorale-chairete
 
 
-parcours Alpha
+## parcours Alpha
 
 Proposé dans le monde entier depuis de nombreuses années, les parcours Alpha proposent à ceux qui le souhaitent d’échanger sur Dieu et le sens de la vie. C’est une opportunité pour découvrir ou redécouvrir les bases de la foi chrétienne dans une ambiance conviviale. Il se déroule en une série de 10 rencontres, chaque soirée ayant lieu de 20h à 22h15.
 Responsable: Rémi Chartier  Contact: alpha.caencentre@gmail.com
 
 
-prière des mères
+## rejoindre un groupe de prière des mères
 groupe des pères
-dîners 4×4
 
 
 
