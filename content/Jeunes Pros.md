@@ -1,7 +1,6 @@
 # Jeunes Pros
-
-Tu as entre 23 et 35 ans et tu es dans la vie active à Caen ?
-Viens rejoindre le Groupe des Jeunes Professionnels de Caen pour partager des moments conviviaux et approfondir ta foi.
+Tu viens d’arriver à Caen, tu y habites depuis toujours ou tu es simplement de passage ?
+Si tu souhaites rencontrer des jeunes dans la vie active, prier, échanger autour de la foi, et le tout dans une ambiance conviviale : bienvenue !
 
 **Quand ?**
 Tous les 2ᵉ jeudis du mois à 19h15
