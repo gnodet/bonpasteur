@@ -9,6 +9,7 @@ Les équipes du Secours Catholique de l’Orne Calvados sont mobilisées au quot
 57 avenue de la Libération 14000 Caen
 Tél.: 02 31 46 92 70 / Facebook
 
+
 ## Centre d'accueil et d'entraide
 
 Le centre Accueil et Entraide Saint-Etienne de Caen est un lieu d’écoute et de partage pour tous ceux qui vivent dans notre paroisse des difficultés passagères ou durables.
@@ -29,6 +30,7 @@ Une aide alimentaire et vestimentaire est proposée un mardi sur deux de 14 h à
 44 rue Neuve Bourg l’Abbé
 14000 CAEN
 
+
 ## « Le Temps d’un Toit » 
 
 Association qui s’est donnée pour but d’accueillir ou favoriser l’accueil à titre transitoire de personnes migrantes qui ont besoin d’être immédiatement hébergées ou logées et ne peuvent bénéficier des structures existantes. 
@@ -41,6 +43,7 @@ Actuellement 90 personnes sont hébergées, dont 47 enfants et jeunes.
 Maison Diocésaine, 1, rue Nicolas Oresme, 14000 Caen
 letempsduntoit@laposte.net 
 Facebook
+
 
 ## Société Saint-Vincent de Paul
 
