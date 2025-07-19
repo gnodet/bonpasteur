@@ -5,8 +5,9 @@ La chorale χαίρετε ("Réjouissez-vous") rassemble étudiants et jeunes pr
 
 **Les deux missions principales de la chorale :**
 
-Service missionnaire : animer des messes dans de petites paroisses autour de Caen, environ une fois par mois.
-Concerts d’évangélisation : partager nos chants dans la simplicité et la joie, environ deux fois par an.
+* Service missionnaire : animer des messes dans de petites paroisses autour de Caen, environ une fois par mois.
+* Concerts d’évangélisation : partager nos chants dans la simplicité et la joie, environ deux fois par an.
+
 Chaque répétition se termine par un temps de prière, renforçant les liens fraternels et l’esprit de communauté.
 
 La chorale porte des valeurs fortes : joie, convivialité, partage, fraternité, simplicité et accueil.
