@@ -42,3 +42,17 @@ Maison Diocésaine, 1, rue Nicolas Oresme, 14000 Caen
 letempsduntoit@laposte.net 
 Facebook
 
+## Société Saint-Vincent de Paul
+
+La Société Saint-Vincent de Paul à Caen agit principalement dans le domaine de l’aide alimentaire, la gestion des vestiaires et le don de meubles. Mais au-delà de ces actions concrètes, une part tout aussi importante est consacrée à l’accompagnement personnalisé et humain des personnes en difficulté.
+
+Envie de rejoindre une communauté de bénévoles engagés pour construire une société plus fraternelle ?
+
+**Découvrez comment agir avec nous sur** : benevole.ssvp.fr
+
+**Adresse :** 
+34 rue Branville, 14000 Caen
+25 rue Montgolfier, 14000 Caen
+
+Téléphone : 02 31 34 89 88
+
