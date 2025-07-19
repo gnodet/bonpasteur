@@ -1,4 +1,6 @@
-notre paroisse (11-17 ans) propose aux collégiens et aux lycéens
+# Jeunes (12-17 ans)
+
+notre paroisse (12-17 ans) propose aux collégiens et aux lycéens
 un lieu d’épanouissement humain et spirituel.
 
 A travers les rencontres, les partages, les célébrations et l’approfondissement de la foi chrétienne,
@@ -41,9 +43,8 @@ Contact Théolycée: Simon Icard icard.simon@orange.fr
 
  (information sur la participation financière à consulter ici). https://www.saintetienne-saintouen.fr/wp-content/uploads/2025/06/Information-participation-financiere-KT-2025-2026.pdf
 
-
-
-
-
-
 Pour toute information : 
+
+# Mouvements d’Église sur notre paroisse
+
+
