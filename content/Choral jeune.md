@@ -1,10 +1,16 @@
-# Choral etudiante et jeune pro
+# Chorale etudiante et jeune pro
 
-Créée en 2020, la chorale réunit étudiants et jeunes professionnels de l’agglomération caennaise autour de la passion du chant. Peu importe ton niveau en musique, tu es toujours le bienvenu·e !
+## chorale Chaïrete
+La chorale χαίρετε ("Réjouissez-vous") rassemble étudiants et jeunes professionnels de l’agglomération caennaise autour du chant, dans un esprit de joie et de convivialité. Ouverte à toutes et à tous, quel que soit ton niveau musical, elle est un lieu de partage et d’amitié.
 
-Chaque répétition se conclut par un moment de prière, favorisant un esprit de partage et de sérénité.
+**Les deux missions principales de la chorale :**
 
-La chorale s’appuie sur des valeurs fortes : joie, convivialité, fraternité, simplicité et accueil. C’est un véritable espace de rencontre et d’échange où chacun peut s’épanouir.
+Service missionnaire : animer des messes dans de petites paroisses autour de Caen, environ une fois par mois.
+Concerts d’évangélisation : partager nos chants dans la simplicité et la joie, environ deux fois par an.
+Chaque répétition se termine par un temps de prière, renforçant les liens fraternels et l’esprit de communauté.
 
-Pour en savoir plus :
+La chorale porte des valeurs fortes : joie, convivialité, partage, fraternité, simplicité et accueil.
+
+**Pour en savoir plus :**
 https://parfreetion.fr/web/chorales/view/chorale-chairete
+
