@@ -45,16 +45,6 @@ Maison Diocésaine, 1, rue Nicolas Oresme, 14000 Caen
 letempsduntoit@laposte.net 
 Facebook
 
-
-## Société Saint-Vincent de Paul
-
-La Société de Saint-Vincent-de-Paul agit au plus près des personnes en difficulté à Caen et ses environs :
-
-* Visites aux personnes malades, seules ou isolées
-* Aide alimentaire
-* Aide aux devoirs
-* Accompagnement humain et fraternel
-
 **Présences locales :**
 
 **Conférence Saint-Joseph du Chemin Vert**
