@@ -23,3 +23,13 @@ La Société de Saint-Vincent-de-Paul agit au plus près des personnes en diffic
 * Aide alimentaire
 * Aide aux devoirs
 * Accompagnement humain et fraternel
+
+**Présences locales :**
+
+**Conférence Saint-Joseph du Chemin Vert**
+Raymonde Cozic – 06 43 77 13 51
+
+**Conférence Éphêta Saint-Bernard (Pierre-Heuzé)**
+
+**Conférence Saint-Gilles – Saint-Pierre d’Hérouville**
+Jean-Claude Thomasse –  06 88 80 50 26
