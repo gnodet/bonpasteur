@@ -9,6 +9,12 @@ Elle travaille en lien avec les équipes hospitalières et d’autres partenaire
 
 Elle accueille avec joie toute personne souhaitant rejoindre cette mission de compassion et de service au cœur de notre communauté.
 
+## Aumônerie hospitalière
+L’aumônerie hospitalière est une présence d’Église au cœur des établissements de soins. À l’écoute de chacun, croyant ou non, elle propose un accompagnement spirituel, humain et fraternel aux patients, à leurs familles ainsi qu’aux personnels hospitaliers. Elle offre également la possibilité de recevoir les sacrements ou simplement de partager un moment de prière.
+
+**Aumôneries Hospitalières**
+Yvanne Marie – 02 31 29 35 00
+
 ## Société Saint-Vincent de Paul
 
 La Société de Saint-Vincent-de-Paul agit au plus près des personnes en difficulté à Caen et ses environs :
