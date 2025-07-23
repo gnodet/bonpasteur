@@ -65,3 +65,14 @@ Responsable : Raymonde Cozic –  06 43 77 13 51
 **Conférence Saint-Gilles – Saint-Pierre d’Hérouville**
 Responsable : Jean-Claude Thomasse –  06 88 80 50 26
 
+## La Malle aux Trésors – Secours Catholique
+
+« La Malle aux Trésors » est une boutique solidaire portée par le Secours Catholique. Ouverte à toutes et à tous, elle propose des vêtements, objets, livres et accessoires à petits prix, dans un esprit de partage, de solidarité.
+
+19 Résidence des Pinsons, 
+14000 Caen
+
+02 31 46 92 70
+
+https://www.facebook.com/malleauxtresors14
+
