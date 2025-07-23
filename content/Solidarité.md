@@ -27,6 +27,7 @@ Une aide alimentaire et vestimentaire est proposée un mardi sur deux de 14 h à
 4e trimestre 7 et 21 octobre ; 4 et 18 novembre ; 2, 16 et 30 décembre
 
 **Accueil et Entraide Saint-Etienne de Caen**
+
 44 rue Neuve Bourg l’Abbé
 14000 CAEN
 
@@ -47,15 +48,20 @@ Facebook
 
 ## Société Saint-Vincent de Paul
 
-La Société Saint-Vincent de Paul à Caen agit principalement dans le domaine de l’aide alimentaire, la gestion des vestiaires et le don de meubles. Mais au-delà de ces actions concrètes, une part tout aussi importante est consacrée à l’accompagnement personnalisé et humain des personnes en difficulté.
+La Société de Saint-Vincent-de-Paul agit au plus près des personnes en difficulté à Caen et ses environs :
 
-Envie de rejoindre une communauté de bénévoles engagés pour construire une société plus fraternelle ?
+* Visites aux personnes malades, seules ou isolées
+* Aide alimentaire
+* Aide aux devoirs
+* Accompagnement humain et fraternel
 
-**Découvrez comment agir avec nous sur** : benevole.ssvp.fr
+**Présences locales :**
 
-**Adresse :** 
-34 rue Branville, 14000 Caen
-25 rue Montgolfier, 14000 Caen
+**Conférence Saint-Joseph du Chemin Vert**
+Responsable : Raymonde Cozic –  06 43 77 13 51
 
-Téléphone : 02 31 34 89 88
+**Conférence Éphêta Saint-Bernard (Pierre-Heuzé)**
+
+**Conférence Saint-Gilles – Saint-Pierre d’Hérouville**
+Responsable : Jean-Claude Thomasse –  06 88 80 50 26
 
