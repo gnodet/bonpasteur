@@ -8,3 +8,12 @@ Elle accompagne les malades, les personnes âgées isolées, ainsi que leurs fam
 Elle travaille en lien avec les équipes hospitalières et d’autres partenaires locaux, afin d’assurer un soutien spirituel et humain adapté à chaque situation.
 
 Elle accueille avec joie toute personne souhaitant rejoindre cette mission de compassion et de service au cœur de notre communauté.
+
+## Société Saint-Vincent de Paul
+
+La Société de Saint-Vincent-de-Paul agit au plus près des personnes en difficulté à Caen et ses environs :
+
+* Visites aux personnes malades, seules ou isolées
+* Aide alimentaire
+* Aide aux devoirs
+* Accompagnement humain et fraternel
