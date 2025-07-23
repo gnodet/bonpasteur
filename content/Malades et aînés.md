@@ -34,6 +34,8 @@ Raymonde Cozic – 06 43 77 13 51
 **Conférence Saint-Gilles – Saint-Pierre d’Hérouville**
 Jean-Claude Thomasse –  06 88 80 50 26
 
+pour plus de détail : https://www.ssvp.fr/departement-du-calvados-14
+
 ## Pastorale de la Santé
 La Pastorale de la Santé propose chaque année des temps de formation pour les bénévoles, organisés localement à Caen ou en lien avec l’équipe diocésaine. Si vous êtes bénévole ou souhaitez le devenir, n’hésitez pas à nous faire part de vos besoins.
 
@@ -41,7 +43,8 @@ Nos bénévoles partagent souvent la joie des rencontres avec les personnes âg�
 
 Maison Diocésaine
 1, rue Nicolas Oresme
-BP 6298
 14067 Caen cedex
 02 31 29 35 19
 sante@bayeuxlisieux.catholique.fr
+
+pour plus de details : https://bayeuxlisieux.catholique.fr/services/sante/#1457968333760-c72a6b55-b1d3
