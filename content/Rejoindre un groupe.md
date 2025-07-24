@@ -74,6 +74,13 @@ Les groupes de prière du Chemin Neuf sont des lieux de fraternité, de louange 
 
 https://chemin-neuf.fr/wp-content/uploads/2020/11/Liste-Groupes-de-Prière-du-Chemin-Neuf-Contacts.pdf
 
+
+## La Communauté de l’Emmanuel
+La Communauté de l’Emmanuel est une communauté catholique née du Renouveau charismatique. Elle rassemble des fidèles de tous états de vie (laïcs, prêtres, consacrés) appelés à vivre ensemble la louange, la compassion et l’évangélisation. À travers la prière, la formation, la vie fraternelle et la mission, elle propose un chemin pour grandir dans la foi et témoigner de l’amour du Christ dans le monde.`
+
+https://emmanuel.info
+
+
 ## Rejoindre la Fraternité Notre-Dame Mère de la Lumière (NDML)
 Fondée le 8 septembre 2011, jour de la Nativité de Marie, la Fraternité NDML est une communauté catholique ouverte à tous, réunissant plusieurs centaines de membres. Née du désir de jeunes chrétiens d’unir prière et mission, elle vit une spiritualité mariale et rayonne par ses veillées, maraudes, animations musicales et missions humanitaires au Liban et au Congo. À travers la prière, le service et l’évangélisation, elle cherche à porter la lumière du Christ au cœur du monde.
 
