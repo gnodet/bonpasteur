@@ -58,9 +58,19 @@ Les groupes de prière des mères sont des petits groupes de femmes, en généra
 
 www.prieredesmeres.com
 
+
+## Rejoindre une équipe Notre-Dame
+Les Équipes Notre-Dame sont un mouvement international de spiritualité conjugale. Elles rassemblent des couples mariés qui désirent approfondir leur foi et vivre pleinement leur sacrement de mariage, à la lumière de l'Évangile. Accompagnés par un prêtre, ils se retrouvent une fois par mois pour prier, partager et grandir ensemble dans l’amour du Christ et du prochain.
+
+https://www.equipes-notre-dame.fr/la-vie-dequipe/rejoindre-une-equipe/
+
+https://www.equipiers.equipes-notre-dame.fr/secteur/calvados
+
+
 ## Rejoindre un groupe de solidarité
 Vous souhaitez apporter votre aide et vos compétences au service des personnes les plus fragiles. De nombreuses possibilités vous sont offertes.
 Nous vous invitons à visiter la page « Solidarité » où vous trouverez toutes les informations utiles.
+
 
 ## Rejoindre un groupe pour les familles
 N’hésitez pas à prendre contact avec la paroisse qui vous accueillera avec joie et vous présentera les différentes propositions existantes sur nos communautés. Infos
