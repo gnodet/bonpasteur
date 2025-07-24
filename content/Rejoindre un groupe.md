@@ -66,6 +66,17 @@ https://www.equipes-notre-dame.fr/la-vie-dequipe/rejoindre-une-equipe/
 
 https://www.equipiers.equipes-notre-dame.fr/secteur/calvados
 
+## Rejoindre un groupes de prière du Chemin Neuf
+
+Les groupes de prière du Chemin Neuf sont des lieux de fraternité, de louange et d’écoute de la Parole de Dieu, ouverts à tous. Inspirés par le Renouveau charismatique et portés par la spiritualité ignatienne, ces groupes proposent un temps de prière communautaire, de partage et d’intercession dans la simplicité et la joie. Ils permettent de grandir dans la foi, de vivre l’unité des chrétiens et de s’ouvrir à l’action de l’Esprit Saint dans nos vies.
+
+https://chemin-neuf.fr/wp-content/uploads/2020/11/Liste-Groupes-de-Prière-du-Chemin-Neuf-Contacts.pdf
+
+## Rejoindre la Fraternité Notre-Dame Mère de la Lumière (NDML)
+Fondée le 8 septembre 2011, jour de la Nativité de Marie, la Fraternité NDML est une communauté catholique ouverte à tous, réunissant plusieurs centaines de membres. Née du désir de jeunes chrétiens d’unir prière et mission, elle vit une spiritualité mariale et rayonne par ses veillées, maraudes, animations musicales et missions humanitaires au Liban et au Congo. À travers la prière, le service et l’évangélisation, elle cherche à porter la lumière du Christ au cœur du monde.
+
+https://www.ndml.fr
+
 
 ## Rejoindre un groupe de solidarité
 Vous souhaitez apporter votre aide et vos compétences au service des personnes les plus fragiles. De nombreuses possibilités vous sont offertes.
