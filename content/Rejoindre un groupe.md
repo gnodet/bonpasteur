@@ -32,6 +32,7 @@ venez chaque mardi participer au
 chapelet animé par les enfants de
 17h15 à 17h45 à l'eglise Saint Paul , à Caen.
 
+
 ## Rejoindre un groupe de jeunes ou jeunes professionnels
 Pour les collégiens et lycéens, une animation spécifique est proposée (voir page « jeunes »). Pour les jeunes professionnels, des groupes existent sur notre paroisse
 
@@ -57,6 +58,7 @@ Responsable: Rémi Chartier  Contact: alpha.caencentre@gmail.com
 Les groupes de prière des mères sont des petits groupes de femmes, en général des mères ou grands-mères, qui se réunissent régulièrement pour prier ensemble pour leurs enfants, leurs familles et les jeunes du monde entier.
 
 www.prieredesmeres.com
+rejoindre un groupe : https://www.prieredesmeres.com/trouver-un-groupe/
 
 
 ## Rejoindre une équipe Notre-Dame
