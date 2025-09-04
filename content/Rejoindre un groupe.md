@@ -70,6 +70,11 @@ https://www.equipes-notre-dame.fr/la-vie-dequipe/rejoindre-une-equipe/
 
 https://www.equipiers.equipes-notre-dame.fr/secteur/calvados
 
+## Cana couple
+CANA accueille ceux et celles qui veulent approfondir leur relation de couple, qui se questionnent sur un engagement futur, qui désirent être accompagnés dans leur mission de parents, qui traversent une période difficile telle qu'une séparation, ou qui sont engagés dans une nouvelle union après un divorce.
+Contact : 
+
+
 ## Rejoindre un groupes de prière du Chemin Neuf
 
 Les groupes de prière du Chemin Neuf sont des lieux de fraternité, de louange et d’écoute de la Parole de Dieu, ouverts à tous. Inspirés par le Renouveau charismatique et portés par la spiritualité ignatienne, ces groupes proposent un temps de prière communautaire, de partage et d’intercession dans la simplicité et la joie. Ils permettent de grandir dans la foi, de vivre l’unité des chrétiens et de s’ouvrir à l’action de l’Esprit Saint dans nos vies.
