@@ -30,7 +30,8 @@ stjoseph@bayeuxlisieux.catholique.fr
 ## Rejoindre un Chapelet des enfants
 venez chaque mardi participer au
 chapelet animé par les enfants de
-17h15 à 17h45 à l'eglise Saint Paul , à Caen.
+17h15 à 17h45 à l'eglise Saint Paul, à Caen
+Contact eglisesaintpaul.caen@gmail.com
 
 
 ## Rejoindre un groupe de jeunes ou jeunes professionnels
@@ -51,7 +52,8 @@ https://parfreetion.fr/web/chorales/view/chorale-chairete
 ## Rejoindre un parcours Alpha
 
 Proposé dans le monde entier depuis de nombreuses années, les parcours Alpha proposent à ceux qui le souhaitent d’échanger sur Dieu et le sens de la vie. C’est une opportunité pour découvrir ou redécouvrir les bases de la foi chrétienne dans une ambiance conviviale. Il se déroule en une série de 10 rencontres, chaque soirée ayant lieu de 20h à 22h15.
-Responsable: Rémi Chartier  Contact: alpha.caencentre@gmail.com
+Responsable: Rémi Chartier  
+Contact: alpha.caencentre@gmail.com
 
 
 ## Rejoindre un groupe de prière des mères
@@ -90,7 +92,7 @@ https://www.ndml.fr
 ## Rejoindre un groupe de solidarité
 Vous souhaitez apporter votre aide et vos compétences au service des personnes les plus fragiles. De nombreuses possibilités vous sont offertes.
 Nous vous invitons à visiter la page « Solidarité » où vous trouverez toutes les informations utiles.
-
+lien vers la rubrique Solidarité
 
 ## Rejoindre un groupe pour les familles
 N’hésitez pas à prendre contact avec la paroisse qui vous accueillera avec joie et vous présentera les différentes propositions existantes sur nos communautés. Infos
