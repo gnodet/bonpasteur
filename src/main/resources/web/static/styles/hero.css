@@ -255,8 +255,62 @@
   }
 }
 
-/* Mobile (max 599px) - Boutons plus petits, disposition flexible */
-@media (max-width: 599px) {
+/* Très petites largeurs (max 480px) - Boutons empilés pleine largeur */
+@media (max-width: 480px) {
+  .hero-section {
+    margin: 0;
+    padding: 0 0 calc(6 * 80px + 5 * 15px + 2rem) 0; /* 6 boutons * hauteur + gaps + marge */
+    width: 100%;
+  }
+
+  .hero-image-container {
+    height: 350px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 15px;
+    bottom: -40px;
+    transform: translate(-50%, 0);
+    justify-content: flex-start;
+    align-items: stretch;
+    width: calc(100% - 2rem);
+    max-width: none;
+  }
+
+  .hero-btn {
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .hero-btn i {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+
+  .hero-btn span {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+}
+
+/* Mobile (481px-599px) - Boutons plus petits, disposition flexible */
+@media (min-width: 481px) and (max-width: 599px) {
   .hero-section {
     margin: -1rem -1rem 3rem -1rem;
     width: calc(100% + 2rem);
@@ -295,45 +349,7 @@
   }
 }
 
-@media (max-width: 480px) {
-  .hero-title {
-    font-size: 2.5rem;
-  }
 
-  .hero-subtitle {
-    font-size: 1.3rem;
-  }
-  
-  .hero-image-container {
-    height: 350px;
-  }
-  
-  .hero-buttons {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 15px;
-    bottom: -50px;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-  }
-  
-  .hero-btn {
-    width: 100px;
-    height: 100px;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 15px;
-  }
-  
-  .hero-btn i {
-    font-size: 1.2rem;
-    margin-bottom: 0;
-  }
-  
-  .hero-btn span {
-    font-size: 0.9rem;
-  }
-}
 
 /* Amélioration de l'accessibilité */
 @media (prefers-reduced-motion: reduce) {
