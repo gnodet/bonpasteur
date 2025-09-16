@@ -5,9 +5,48 @@ layout: paroisse/index
 updated: '2025-09-16'
 name: Paroisse Bon Pasteur
 simple-name: Bon Pasteur
+hero_image: https://bonpasteurcaen.files.wordpress.com/2024/12/img_20241201_113654.jpg
+hero_title: Paroisse du Bon Pasteur de Caen
+hero_subtitle: Communauté catholique de Caen et ses alentours
+custom_css: /styles/hero.css
 ---
 
-# Bienvenue 
+<div class="hero-section">
+  <div class="hero-image-container">
+    <img src="https://bonpasteurcaen.files.wordpress.com/2024/12/img_20241201_113654.jpg" alt="Église Bon Pasteur de Caen" class="hero-image" />
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1 class="hero-title">Paroisse du Bon Pasteur de Caen</h1>
+        <p class="hero-subtitle">Communauté catholique de Caen et ses alentours</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-buttons">
+    <a href="/infos/messes-horaires" class="hero-btn">
+      <i class="icon-clock"></i>
+      <span>Horaires Messes</span>
+    </a>
+    <a href="/bapteme" class="hero-btn">
+      <i class="icon-water"></i>
+      <span>Baptêmes</span>
+    </a>
+    <a href="/mariage" class="hero-btn">
+      <i class="icon-heart"></i>
+      <span>Mariages</span>
+    </a>
+    <a href="/infos/intentions-priere" class="hero-btn">
+      <i class="icon-pray"></i>
+      <span>Intentions de prière</span>
+    </a>
+    <a href="/rencontrer-un-pretre" class="hero-btn">
+      <i class="icon-user"></i>
+      <span>Contact</span>
+    </a>
+  </div>
+</div>
+
+## Bienvenue dans notre communauté
 
 Bonjour et bienvenue sur le site internet de notre paroisse catholique de Caen et ses alentours ! Nous sommes heureux de vous accueillir tel que vous êtes et espérons que vous vous sentirez « comme chez vous » dans l’une de nos communautés.
 
@@ -16,8 +55,8 @@ Les célébrations : chaque week-end, les chrétiens se rassemblent pour céléb
 
 [En savoir plus](/eglises){.btn .btn-primary}
 
-### Accueils 
-Les accueils : des permanences d’accueil sont proposées chaque jour en plusieurs lieux. N’hésitez pas à passer nous voir. Infos en cliquant sur votre église. 
+### Accueils
+Les accueils : des permanences d’accueil sont proposées chaque jour en plusieurs lieux. N’hésitez pas à passer nous voir. Infos en cliquant sur votre église.
 
 ### Nous Rejoindre
 
@@ -39,25 +78,24 @@ Vous souhaitez célébrer le baptême de votre enfant. Toutes les informations s
 ### Célébrer un mariage :
 Vous souhaitez célébrer votre mariage. Toutes les informations sont sur cette page : demander le mariage.
 
-### Connaître les lieux et horaires des messes : 
+### Connaître les lieux et horaires des messes :
 Vous cherchez une messe pour le week-end prochain ou pour aujourd’hui. Toutes les informations sont sur cette page : messes (horaires et lieux).
 [Voir les horaires](/infos/messes-horaires)
 
 ### Rencontrer un prêtre :
 Vous souhaitez rencontrer un prêtre, merci de remplir le formulaire de contact.
 
-### Déposer une intention de prière : 
+### Déposer une intention de prière :
 Vous souhaitez nous confier une intention de prière, merci de remplir le formulaire.
 
-### Visite à domicile : 
+### Visite à domicile :
 Vous souhaitez la visite d’une personne pour échanger ou recevoir la communion, toutes les informations utiles sont sur cette page.
 
 ### Préparer des obsèques :
 Vous souhaitez préparer les obsèques d’un proche. Toutes les informations utiles sont sur cette page.
 
 
-Pour toute question, vous pouvez aussi contacter notre assistante paroissiale 
-mail :paroisse.bonpasteur@bayeuxlisieux.catholique.fr 
+Pour toute question, vous pouvez aussi contacter notre assistante paroissiale
+mail :paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
 #### Nous avons hâte de vous rencontrer !
-
