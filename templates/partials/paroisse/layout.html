@@ -9,8 +9,8 @@
     <!-- Métadonnées Open Graph -->
     <meta property="og:title" content="{page.data.hero_title ?: page.title}">
     <meta property="og:description" content="{page.description}">
-    {#if page.data.hero_image}
-    <meta property="og:image" content="{page.data.hero_image}">
+    {#if page.data.hero_image??}
+    <meta property="og:image" content="{site.url}{page.data.hero_image}">
     {/if}
     <meta property="og:type" content="website">
     <meta property="og:url" content="{site.url}{page.url}">
@@ -19,8 +19,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page.data.hero_title ?: page.title}">
     <meta name="twitter:description" content="{page.description}">
-    {#if page.data.hero_image}
-    <meta name="twitter:image" content="{page.data.hero_image}">
+    {#if page.data.hero_image??}
+    <meta name="twitter:image" content="{site.url}{page.data.hero_image}">
     {/if}
     
     <!-- Bootstrap CSS -->
@@ -37,8 +37,8 @@
     <link href="{site.url}static/styles/main.css" rel="stylesheet">
 
     <!-- Preload de l'image hero pour la performance -->
-    {#if page.data.hero_image}
-    <link rel="preload" as="image" href="{page.data.hero_image}">
+    {#if page.data.hero_image??}
+    <link rel="preload" as="image" href="{site.url}{page.data.hero_image}">
     {/if}
 </head>
 <body>

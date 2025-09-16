@@ -160,6 +160,7 @@
   font-size: 1.8rem;
   margin-bottom: 0.25rem;
   display: block;
+  color: #832732;
 }
 
 .hero-btn span {
@@ -169,187 +170,72 @@
   font-weight: 500;
 }
 
-/* Icônes avec emojis pour compatibilité universelle */
-.icon-clock::before { 
-  content: "🕐"; 
-  font-style: normal;
+/* Icônes Font Awesome */
+
+/* Responsive Design - Système adaptatif unique */
+
+.hero-buttons {
+  /* Positionnement intelligent - premier bouton centré sur le bas de l'image */
+  position: absolute;
+  top: calc(100% - 145px); /* Remonte de la moitié de la hauteur d'un bouton (130px/2) */
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Force l'alignement par le haut du conteneur */
+  align-items: flex-start;
+
+  /* Layout flexible */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+
+  /* Largeur adaptative - permet le débordement contrôlé */
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+  padding: 1rem 1rem 0 1rem;
 }
 
-.icon-water::before { 
-  content: "💧"; 
-  font-style: normal;
+/* Espacement automatique pour le contenu suivant */
+.hero-section {
+  /* Marge en bas pour que le contenu soit sous la dernière ligne de boutons */
+  margin-bottom: 0px;
 }
 
-.icon-heart::before { 
-  content: "💒"; 
-  font-style: normal;
-}
+/* Responsive pour les tailles de titre */
+@media (max-width: 1010px) {
+  .hero-title {
+    font-size: 4rem;
+  }
 
-.icon-pray::before { 
-  content: "🙏"; 
-  font-style: normal;
-}
-
-.icon-user::before {
-  content: "👤";
-  font-style: normal;
-}
-
-.icon-donate::before {
-  content: "🎁";
-  font-style: normal;
-}
-
-/* Responsive Design */
-
-/* Très grandes largeurs (1200px+) - Force une seule ligne */
-@media (min-width: 1200px) {
-  .hero-buttons {
-    flex-wrap: nowrap;
-    gap: 40px;
-    max-width: none;
-    bottom: -65px;
-    transform: translate(-50%, -50%);
+  .hero-section {
+    margin-bottom: 320px; /* Plus d'espace pour 2 lignes de boutons */
   }
 }
 
-/* Largeurs moyennes (900px-1199px) - 2 lignes de 3 boutons */
-@media (min-width: 900px) and (max-width: 1199px) {
-  .hero-buttons {
-    flex-wrap: wrap;
-    gap: 30px;
-    max-width: 450px;
-    justify-content: center;
-    bottom: -60px;
-    transform: translate(-50%, -50%);
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 3.5rem;
   }
 
-  .hero-btn:nth-child(3n+1) {
-    margin-left: 0;
+  .hero-section {
+    margin-bottom: 350px; /* Encore plus d'espace pour les boutons empilés */
   }
 }
 
-/* Tablettes (600px-899px) - 2 lignes de 3 boutons plus compacts */
-@media (min-width: 600px) and (max-width: 899px) {
-  .hero-buttons {
-    flex-wrap: wrap;
-    gap: 25px;
-    max-width: 400px;
-    justify-content: center;
-    bottom: -55px;
-    transform: translate(-50%, -50%);
-  }
-
-  .hero-btn {
-    width: 110px;
-    height: 110px;
-    padding: 18px;
-  }
-
-  .hero-btn span {
-    font-size: 1rem;
-  }
-
-  .hero-btn i {
-    font-size: 1.6rem;
-  }
-}
-
-/* Très petites largeurs (max 480px) - Boutons empilés pleine largeur */
 @media (max-width: 480px) {
-  .hero-section {
-    margin: 0;
-    padding: 0 0 calc(6 * 80px + 5 * 15px + 2rem) 0; /* 6 boutons * hauteur + gaps + marge */
-    width: 100%;
-  }
-
-  .hero-image-container {
-    height: 350px;
-  }
-
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Titre plus grand sur mobile */
   }
 
   .hero-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.4rem; /* Sous-titre proportionnel */
   }
 
-  .hero-buttons {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 15px;
-    bottom: -40px;
-    transform: translate(-50%, 0);
-    justify-content: flex-start;
-    align-items: stretch;
-    width: calc(100% - 2rem);
-    max-width: none;
-  }
-
-  .hero-btn {
-    width: 100%;
-    height: 80px;
-    flex-direction: row;
-    gap: 1rem;
-    padding: 1rem;
-    justify-content: flex-start;
-    text-align: left;
-  }
-
-  .hero-btn i {
-    font-size: 1.8rem;
-    margin-bottom: 0;
-    flex-shrink: 0;
-  }
-
-  .hero-btn span {
-    font-size: 1.1rem;
-    text-align: left;
-  }
-}
-
-/* Mobile (481px-599px) - Boutons plus petits, disposition flexible */
-@media (min-width: 481px) and (max-width: 599px) {
   .hero-section {
-    margin: -1rem -1rem 3rem -1rem;
-    width: calc(100% + 2rem);
-  }
-  
-  .hero-image-container {
-    height: 400px;
-  }
-  
-  .hero-title {
-    font-size: 3.2rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.5rem;
-  }
-  
-  .hero-buttons {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-    bottom: -60px;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero-btn {
-    width: 120px;
-    height: 120px;
-    padding: 18px;
-  }
-  
-  .hero-btn span {
-    font-size: 0.8rem;
+    margin-bottom: 400px; /* Espace pour 6 boutons empilés verticalement */
   }
 }
-
-
 
 /* Amélioration de l'accessibilité */
 @media (prefers-reduced-motion: reduce) {

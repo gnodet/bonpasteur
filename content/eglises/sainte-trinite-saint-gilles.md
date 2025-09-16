@@ -5,6 +5,9 @@ description: Présentation L’église Sainte Trinité / Saint-Gilles fait parti
 layout: paroisse/page
 updated: '2025-09-16'
 url: /sainte-trinite-saint-gilles/
+hero_image: static/images/sainte-trinite-hero.jpg
+hero_title: Sainte Trinité / Saint-Gilles
+hero_subtitle: Abbaye aux Dames
 ---
 
 ## Présentation
