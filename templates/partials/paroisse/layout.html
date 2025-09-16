@@ -156,7 +156,6 @@
             // Animation de texte dynamique pour le titre hero
             const heroTitle = document.getElementById('hero-title');
             if (heroTitle) {
-                const originalHTML = heroTitle.innerHTML;
                 const originalText = heroTitle.textContent;
                 heroTitle.innerHTML = '';
                 heroTitle.style.opacity = '1';
@@ -165,10 +164,8 @@
                 let i = 0;
                 const typeInterval = setInterval(() => {
                     const currentText = originalText.substring(0, i + 1);
-                    // Remplacer "Pasteur" par "Pasteur<br>" si on a atteint ce point
-                    if (currentText.includes('Pasteur') && !currentText.includes('de')) {
-                        heroTitle.innerHTML = currentText.replace('Pasteur', 'Pasteur<br>');
-                    } else if (currentText.includes('Pasteur') && currentText.includes('de')) {
+                    // Ajouter le saut de ligne après "Pasteur"
+                    if (currentText.includes('Pasteur')) {
                         heroTitle.innerHTML = currentText.replace('Pasteur', 'Pasteur<br>');
                     } else {
                         heroTitle.textContent = currentText;
@@ -176,7 +173,8 @@
                     i++;
                     if (i >= originalText.length) {
                         clearInterval(typeInterval);
-                        heroTitle.innerHTML = originalHTML; // Restaurer le HTML final
+                        // S'assurer que le HTML final a le saut de ligne
+                        heroTitle.innerHTML = originalText.replace('Pasteur', 'Pasteur<br>');
                     }
                 }, 80); // 80ms entre chaque caractère
             }

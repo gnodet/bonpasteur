@@ -18,8 +18,9 @@
 
 .hero-section {
   position: relative;
-  margin: -2rem -2rem 3rem -2rem;
-  width: calc(100% + 4rem);
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .hero-image-container {
@@ -27,6 +28,9 @@
   height: 501px;
   overflow: hidden;
   width: 100%;
+  background: none !important;
+  background-image: none !important;
+  border: none !important;
 }
 
 .hero-image {
@@ -35,9 +39,11 @@
   object-fit: cover;
   object-position: center;
   display: block;
-  filter: none;
-  border: none;
-  outline: none;
+  filter: none !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+  background-image: none !important;
 }
 
 .hero-overlay {
@@ -69,6 +75,14 @@
   color: white;
   opacity: 0;
   animation: typewriter 3s ease-in-out 0.5s forwards;
+}
+
+.hero-title::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+}
 }
 
 .hero-subtitle {
