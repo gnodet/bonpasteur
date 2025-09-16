@@ -35,6 +35,9 @@
   object-fit: cover;
   object-position: center;
   display: block;
+  filter: none;
+  border: none;
+  outline: none;
 }
 
 .hero-overlay {
@@ -157,8 +160,13 @@
   font-style: normal;
 }
 
-.icon-user::before { 
-  content: "👤"; 
+.icon-user::before {
+  content: "👤";
+  font-style: normal;
+}
+
+.icon-donate::before {
+  content: "🎁";
   font-style: normal;
 }
 

@@ -156,17 +156,27 @@
             // Animation de texte dynamique pour le titre hero
             const heroTitle = document.getElementById('hero-title');
             if (heroTitle) {
+                const originalHTML = heroTitle.innerHTML;
                 const originalText = heroTitle.textContent;
-                heroTitle.textContent = '';
+                heroTitle.innerHTML = '';
                 heroTitle.style.opacity = '1';
                 heroTitle.style.animation = 'none';
 
                 let i = 0;
                 const typeInterval = setInterval(() => {
-                    heroTitle.textContent = originalText.substring(0, i + 1);
+                    const currentText = originalText.substring(0, i + 1);
+                    // Remplacer "Pasteur" par "Pasteur<br>" si on a atteint ce point
+                    if (currentText.includes('Pasteur') && !currentText.includes('de')) {
+                        heroTitle.innerHTML = currentText.replace('Pasteur', 'Pasteur<br>');
+                    } else if (currentText.includes('Pasteur') && currentText.includes('de')) {
+                        heroTitle.innerHTML = currentText.replace('Pasteur', 'Pasteur<br>');
+                    } else {
+                        heroTitle.textContent = currentText;
+                    }
                     i++;
                     if (i >= originalText.length) {
                         clearInterval(typeInterval);
+                        heroTitle.innerHTML = originalHTML; // Restaurer le HTML final
                     }
                 }, 80); // 80ms entre chaque caractère
             }
