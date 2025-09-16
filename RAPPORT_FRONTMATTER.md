@@ -57,7 +57,7 @@ url: /bapteme/
 ---
 title: Saint-Étienne
 description: 'Présentation L'église Saint-Étienne fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille...'
-layout: paroisse/eglise
+layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-etienne/
 ---

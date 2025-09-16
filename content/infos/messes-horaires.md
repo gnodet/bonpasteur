@@ -2,7 +2,7 @@
 title: Lieux et horaires des messes
 description: '_Retrouvez tous les horaires de célébrations dans nos églises_ ## Messes
   dominicales 9h30 – Église Saint Joseph, Caen 9h30 –...'
-layout: paroisse/info
+layout: paroisse/page
 updated: '2025-09-16'
 url: /messes-horaires/
 ---

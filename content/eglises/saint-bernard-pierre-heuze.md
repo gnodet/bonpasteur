@@ -2,7 +2,7 @@
 title: Saint-Bernard de la Pierre-Heuzé
 description: Présentation L’église Saint-Bernard de la Pierre-Heuzé fait partie de
   la paroisse Bon Pasteur de Caen, créée le 1er septembre...
-layout: paroisse/eglise
+layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-bernard-pierre-heuze/
 ---

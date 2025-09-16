@@ -2,7 +2,7 @@
 title: Saint-Germain de Saint-Germain-la-Blanche-Herbe
 description: Présentation L’église Saint-Germain de Saint-Germain-la-Blanche-Herbe
   fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024....
-layout: paroisse/eglise
+layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-germain-blanche-herbe/
 ---

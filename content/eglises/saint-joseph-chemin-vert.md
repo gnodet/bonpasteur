@@ -2,7 +2,7 @@
 title: Saint-Joseph du chemin vert
 description: Présentation L’église Saint-Joseph du chemin vert fait partie de la paroisse
   Bon Pasteur de Caen, créée le 1er septembre...
-layout: paroisse/eglise
+layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-joseph-chemin-vert/
 ---

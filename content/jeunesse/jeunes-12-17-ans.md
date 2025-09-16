@@ -2,7 +2,7 @@
 title: Jeunes (12 17 Ans)
 description: notre paroisse (12-17 ans) propose aux collégiens et aux lycéens un lieu
   d’épanouissement humain et spirituel. A travers les rencontres,...
-layout: paroisse/jeunesse
+layout: paroisse/page
 updated: '2025-09-16'
 url: /jeunes-12-17-ans/
 ---

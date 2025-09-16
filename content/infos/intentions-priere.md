@@ -2,7 +2,7 @@
 title: Intentions de prière
 description: Nous vous invitons à formuler votre intention de prière ci-dessous. Elle
   sera transmise dans l’une de nos communautés et portée...
-layout: paroisse/info
+layout: paroisse/page
 updated: '2025-09-16'
 url: /intentions-priere/
 ---

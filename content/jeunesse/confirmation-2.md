@@ -2,7 +2,7 @@
 title: Confirmation
 description: La Confirmation est un sacrement de l’Église catholique qui peut être
   reçu à tout âge. Que vous soyez jeune adulte...
-layout: paroisse/jeunesse
+layout: paroisse/page
 updated: '2025-09-16'
 url: /confirmation-2/
 ---

@@ -11,7 +11,7 @@ Tu as entre 18 et 25 ans et tu étudies à Caen ? Tu souhaites rencontrer d’au
 
 ## L’aumônerie étudiante de Caen
 
-[](https://github.com/gnodet/bonpasteur/tree/main/content#laum%C3%B4nerie-%C3%A9tudiante-de-caen)
+
 
 Tu étudies à Caen et tu es curieux, en quête de sens ou intéressé par la foi ? Rejoins l’aumônerie des étudiants ! Un espace ouvert à tous où tu peux prier, échanger et rencontrer d’autres jeunes chrétiens.
 
@@ -31,11 +31,11 @@ Suivez-nous sur Facebook ! <https://aumoneriedecaen.fr/> <https://www.facebook.c
 
 # Chorale etudiante et jeune pro
 
-[](https://github.com/gnodet/bonpasteur#chorale-etudiante-et-jeune-pro)
+
 
 ## chorale Chaïrete
 
-[](https://github.com/gnodet/bonpasteur#chorale-cha%C3%AFrete)
+
 
 La chorale χαίρετε (« Réjouissez-vous ») rassemble étudiants et jeunes professionnels de l’agglomération caennaise autour du chant, dans un esprit de joie et de convivialité. Ouverte à toutes et à tous, quel que soit ton niveau musical, elle est un lieu de partage et d’amitié.
 

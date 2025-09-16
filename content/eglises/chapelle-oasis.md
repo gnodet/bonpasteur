@@ -2,7 +2,7 @@
 title: Chapelle de l’Oasis
 description: Présentation La Chapelle de l’Oasis fait partie de la paroisse Bon Pasteur
   de Caen, créée le 1er septembre 2024....
-layout: paroisse/eglise
+layout: paroisse/page
 updated: '2025-09-16'
 url: /chapelle-oasis/
 ---

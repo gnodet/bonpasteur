@@ -2,7 +2,7 @@
 title: Saint-André du Calvaire Saint-Pierre
 description: Présentation L’église Saint-André du Calvaire Saint-Pierre fait partie
   de la paroisse Bon Pasteur de Caen, créée le 1er septembre...
-layout: paroisse/eglise
+layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-andre-calvaire-saint-pierre/
 ---

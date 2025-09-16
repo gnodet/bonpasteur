@@ -2,7 +2,7 @@
 title: Offrir une messe
 description: Pourquoi offrir une messe ? Dès les premiers siècles de l’Église, les
   chrétiens ont accompagné leurs intentions de prière...
-layout: paroisse/info
+layout: paroisse/page
 updated: '2025-09-16'
 url: /offrir-une-messe/
 ---
