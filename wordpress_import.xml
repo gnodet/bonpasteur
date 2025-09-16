@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/"><channel><title>Paroisse du Bon Pasteur - Import</title><link>http://localhost:8080</link><description>Import des pages depuis les fichiers markdown</description><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><language>fr-FR</language><wp:wxr_version>1.2</wp:wxr_version><wp:base_site_url>http://localhost:8080</wp:base_site_url><wp:base_blog_url>http://localhost:8080</wp:base_blog_url><wp:author><wp:author_id>1</wp:author_id><wp:author_login>gnodet</wp:author_login><wp:author_email>gnodet@gmail.com</wp:author_email><wp:author_display_name>Guillaume Nodet</wp:author_display_name><wp:author_first_name>Guillaume</wp:author_first_name><wp:author_last_name>Nodet</wp:author_last_name></wp:author><item><!-- Source: content/Intentions de prière.md --><title>Intentions de prière</title><link>http://localhost:8080/intentions-priere/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=1</guid><description /><content:encoded>&lt;p&gt;Nous vous invitons à formuler votre intention de prière ci-dessous. Elle sera transmise dans l’une de nos communautés et portée devant le Seigneur à l’occasion d’un temps de prière (chapelet, adoration, louange).
+Merci de compléter le formulaire ci-dessous&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>1</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>intentions-priere</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/bienvenue.md --><title>Bienvenue</title><link>http://localhost:8080/bienvenue/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=2</guid><description /><content:encoded>&lt;blockquote&gt;« Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses brebis. » (Jean 10, 11)&lt;/blockquote&gt;
+&lt;h2&gt;Vous êtes les bienvenus !&lt;/h2&gt;
+Que vous soyez de passage, nouveau dans la région, ou que vous souhaitiez découvrir ou redécouvrir la foi chrétienne, nous vous accueillons avec joie dans notre communauté paroissiale.
+&lt;h3&gt;Qui que vous soyez...&lt;/h3&gt;
+Notre paroisse est ouverte à tous, sans distinction :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Familles&lt;/strong&gt; : avec enfants, couples, parents seuls&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jeunes&lt;/strong&gt; : étudiants, jeunes professionnels&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personnes seules&lt;/strong&gt; : célibataires, veufs, divorcés&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personnes âgées&lt;/strong&gt; : retraités, résidents en EHPAD&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personnes en difficulté&lt;/strong&gt; : malades, personnes en précarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Comment nous rejoindre ?&lt;/h3&gt;
+&lt;h4&gt;🕊️ Première visite&lt;/h4&gt;
+Venez simplement assister à une messe dominicale. Vous serez accueillis chaleureusement et pourrez rencontrer les membres de notre communauté.
+&lt;h4&gt;📞 Prise de contact&lt;/h4&gt;
+N'hésitez pas à nous contacter par téléphone ou email. Un membre de l'équipe pastorale sera ravi de vous renseigner et de vous orienter.
+&lt;h4&gt;🤝 Rencontre personnelle&lt;/h4&gt;
+Si vous le souhaitez, nous pouvons organiser une rencontre avec un prêtre ou un laïc en mission ecclésiale pour échanger sur vos attentes et vos questions.
+&lt;h3&gt;Nos services&lt;/h3&gt;
+&lt;h4&gt;Spiritualité&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Participation aux messes&lt;/li&gt;
+&lt;li&gt;Prière et méditation&lt;/li&gt;
+&lt;li&gt;Confession et réconciliation&lt;/li&gt;
+&lt;li&gt;Direction spirituelle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Sacrements&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptême (enfants et adultes)&lt;/li&gt;
+&lt;li&gt;Première communion&lt;/li&gt;
+&lt;li&gt;Confirmation&lt;/li&gt;
+&lt;li&gt;Mariage&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Formation&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Catéchèse pour enfants&lt;/li&gt;
+&lt;li&gt;Aumônerie pour adolescents&lt;/li&gt;
+&lt;li&gt;Formation d'adultes&lt;/li&gt;
+&lt;li&gt;Groupes de partage biblique&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Solidarité&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Aide aux personnes en difficulté&lt;/li&gt;
+&lt;li&gt;Visites aux malades&lt;/li&gt;
+&lt;li&gt;Actions caritatives&lt;/li&gt;
+&lt;li&gt;Soutien aux familles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Nos prochains rendez-vous&lt;/h3&gt;
+Voici quelques occasions privilégiées pour découvrir notre communauté :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Messes dominicales&lt;/strong&gt; : Tous les dimanches dans nos différentes églises&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Soirées de prière&lt;/strong&gt; : Chaque vendredi soir avec les chants de Taizé&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Café-rencontre&lt;/strong&gt; : Premier samedi du mois après la messe&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conférences&lt;/strong&gt; : Régulièrement sur des thèmes spirituels et sociétaux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Premier contact&lt;/h2&gt;
+&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 29 35 00  
+&lt;strong&gt;Email :&lt;/strong&gt; &lt;a href="mailto:accueil@paroisse-bonpasteur-caen.fr"&gt;accueil@paroisse-bonpasteur-caen.fr&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;
+&lt;h3&gt;Prochaines messes du dimanche&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;9h00 - Saint-Pierre&lt;/li&gt;
+&lt;li&gt;10h30 - Saint-Étienne&lt;/li&gt;
+&lt;li&gt;18h00 - Saint-Paul&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href="/infos/messes-horaires" class="btn btn-outline-primary"&gt;Tous les horaires&lt;/a&gt;</content:encoded><excerpt:encoded>Bienvenue dans notre communauté paroissiale</excerpt:encoded><wp:post_id>2</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>bienvenue</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/catéchèse.md --><title>Enfance (0-11 ans)</title><link>http://localhost:8080/catechese/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=3</guid><description /><content:encoded>&lt;p&gt;Vous souhaitez proposer à votre enfant de rencontrer Jésus, de découvrir que Dieu l’aime, et de vivre une expérience de rencontres et de partage ?
+Le pôle Enfance de la paroisse Notre Dame d’Alet est là pour vous accompagner et répondre aux questions que vous vous posez sur l’éveil à la Foi, la catéchèse, la préparation au baptême et à la 1ère des communions.
+&lt;h2&gt;Éveil à la Foi (3 à 6 ans inclus)&lt;/h2&gt;
+L’éveil à la foi (Grande Section et CP):
+Un samedi par mois de 10h30 à 11h30.
+Nous vous invitons à vous inscrire en ligne ici. 
+https://framaforms.org/formulaire-individuel-dinscription-au-catechisme-20252026-1750270705
+Une fois l’inscription réalisée, vous recevrez toutes les informations utiles.
+Pour toute information, contactez-nous kt.caencentre@gmail.com 
+&lt;h2&gt;Catéchèse (CP a la 6eme )&lt;/h2&gt;
+Classe de CE1 à la 6e:
+Tous les samedis matins en période scolaire de 10h30 à 11h30.
+Vous pouvez soit inscrire directement votre enfant en ligne 
+https://framaforms.org/formulaire-individuel-dinscription-au-catechisme-20252026-1750270705
+soit télécharger le dossier d’inscription et nous le remettre.
+Pour toute information, contactez-nous kt.caencentre@gmail.com 
+&lt;h2&gt;Préparation à la profession de foi ( 6eme)&lt;/h2&gt;
+Deux cas de figure :
+Si votre enfant est inscrit au catéchisme de notre paroisse, la préparation à la Profession de Foi est intégrée au parcours catéchétique.
+Si ce n’est pas le cas, la préparation peut se faire par l’intermédiaire des collèges privés.
+La Profession de Foi n’est pas un sacrement, mais elle constitue une étape importante dans la vie chrétienne de votre enfant.
+Plusieurs groupes d’aumônerie existent au sein de la paroisse pour accompagner cette préparation.
+Pour toute inscription, merci de contacter directement les responsables :  kt.caencentre@gmail.com 
+&lt;h2&gt;Classe de 5e:&lt;/h2&gt;
+Les collégiens sont invités à se joindre à une rencontre chaque vendredi soir de 17h15 à 18h15 durant cet année ils se prepareront a recevoir le sacrement de confirmation.
+ ## Aumônerie des 4e et des 3e:
+Ce parcours propose aux jeunes de continuer à nourrir leur relation avec Jésus-Christ à travers la fraternité et la réflexion sur des thèmes auxquels ils sont confrontés quotidiennement. Ils sont invités à se joindre à une rencontre tous les quinze jours de 17h à 19h15.
+Contact: Marc Lejeune marc.lejeune@gmail.com
+&lt;h2&gt;Lycéens: Frat’Jeunes et Théolycée&lt;/h2&gt;
+&lt;h3&gt;Frat’Jeunes&lt;/h3&gt;
+La Frat’Jeunes a pour objectif de regrouper les lycéens de la Seconde à la Terminale ayant le souhait de se retrouver pour approfondir leur foi et vivre les dimensions de la fraternité et de la mission. 
+Contact Frat’Jeunes: Eloïse Duport fratjeunescaen@gmail.com
+&lt;h3&gt;Théolycée&lt;/h3&gt;
+Théolycée est un groupe d’initiation à la théologie destiné aux élèves de seconde, première et terminale. Son objectif est d’aider les jeunes croyants à approfondir leur foi, afin qu’ils soient « toujours prêts à rendre raison de l’espérance qui est en [eux] » (1 P 3, 15) et à adorer Dieu avec leur intelligence. Le groupe est également destiné aux lycéens qui s’interrogent sur la foi chrétienne. Le cycle de trois ans propose un parcours complet, mais chaque séance est autonome et peut être suivie pour elle-même. Les questions actuelles sont privilégiées et éclairées par des textes de la tradition. Les rencontres ont lieu un samedi par mois, de 10h à 12h, à la maison paroissiale.
+Sous l’autorité du père Geffray, curé de la paroisse Bon Pasteur, Théolycée est animé par Simon Icard, chercheur en histoire de la théologie.
+Aux samedis ci-dessous de 10h-12h à la Maison paroissiale, 46 bis rue de Bretagne ou 71 rue de Bayeux, Caen 
+Contact Théolycée: Simon Icard icard.simon@orange.fr 
+ (information sur la participation financière à consulter ici). https://www.saintetienne-saintouen.fr/wp-content/uploads/2025/06/Information-participation-financiere-KT-2025-2026.pdf&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>3</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>catechese</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/presentation.md --><title>Présentation de la paroisse Bon Pasteur de Caen</title><link>http://localhost:8080/presentation/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=4</guid><description /><content:encoded>&lt;em&gt;Une communauté chrétienne au cœur de l'agglomération caennaise&lt;/em&gt;
+&lt;h2&gt;Notre histoire&lt;/h2&gt;
+La paroisse Bon Pasteur de Caen a été établie le 1er septembre 2024, fruit d'une réorganisation pastorale visant à mieux servir les fidèles de l'agglomération caennaise. Cette nouvelle paroisse s'étend sur 5 communes et rassemble une riche diversité de communautés locales.
+&lt;h3&gt;Un territoire étendu&lt;/h3&gt;
+Notre paroisse s'étend sur les communes de :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blainville-sur-Orne&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Caen&lt;/strong&gt; avec ses nombreux clochers :&lt;/li&gt;
+&lt;li&gt;Notre-Dame-de-l'Assomption (la Gloriette)&lt;/li&gt;
+&lt;li&gt;Saint-André du Calvaire Saint-Pierre&lt;/li&gt;
+&lt;li&gt;Saint-Bernard de la Pierre-Heuzé&lt;/li&gt;
+&lt;li&gt;Saint-Étienne&lt;/li&gt;
+&lt;li&gt;Saint-Gilles&lt;/li&gt;
+&lt;li&gt;Saint-Jean-Baptiste&lt;/li&gt;
+&lt;li&gt;Saint-Joseph du Chemin-Vert&lt;/li&gt;
+&lt;li&gt;Saint-Julien&lt;/li&gt;
+&lt;li&gt;Saint-Ouen&lt;/li&gt;
+&lt;li&gt;Saint-Paul&lt;/li&gt;
+&lt;li&gt;Saint-Pierre&lt;/li&gt;
+&lt;li&gt;Saint-Sauveur&lt;/li&gt;
+&lt;li&gt;Sainte-Claire de la Folie-Couvrechef&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hérouville-Saint-Clair&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Épron&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saint-Germain-la-Blanche-Herbe&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Notre mission&lt;/h3&gt;
+Inspirés par la figure du Bon Pasteur, nous nous efforçons de :
+&lt;ul&gt;
+&lt;li&gt;Accueillir chacun avec bienveillance et respect&lt;/li&gt;
+&lt;li&gt;Accompagner les fidèles dans leur cheminement spirituel&lt;/li&gt;
+&lt;li&gt;Célébrer ensemble les sacrements et la liturgie&lt;/li&gt;
+&lt;li&gt;Servir les plus fragiles de notre société&lt;/li&gt;
+&lt;li&gt;Témoigner de l'Évangile dans notre époque&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Une communauté vivante&lt;/h3&gt;
+Notre paroisse rassemble des fidèles de tous âges et de tous horizons. Nous proposons de nombreuses activités et services pour répondre aux besoins spirituels et humains de chacun :
+&lt;ul&gt;
+&lt;li&gt;Catéchèse pour les enfants et les jeunes&lt;/li&gt;
+&lt;li&gt;Préparation aux sacrements&lt;/li&gt;
+&lt;li&gt;Groupes de prière et de partage&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;li&gt;Activités culturelles et spirituelles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Contacts utiles&lt;/h2&gt;
+&lt;strong&gt;Maison diocésaine&lt;/strong&gt;  
+1 rue Nicolas Oresme  
+14000 Caen  
+Tél : 02 31 29 35 00
+&lt;strong&gt;Email :&lt;/strong&gt; &lt;a href="mailto:contact@paroisse-bonpasteur-caen.fr"&gt;contact@paroisse-bonpasteur-caen.fr&lt;/a&gt;
+&lt;h3&gt;Horaires d'accueil&lt;/h3&gt;
+&lt;strong&gt;Secrétariat :&lt;/strong&gt;  
+Lundi à vendredi : 9h-12h et 14h-17h  
+Samedi : 9h-12h
+&lt;h3&gt;Liens utiles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/infos/messes-horaires"&gt;Horaires des messes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/infos/agenda"&gt;Agenda paroissial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/demandes/rejoindre-groupe"&gt;Rejoindre un groupe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/infos/contact"&gt;Nous contacter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><excerpt:encoded>Découvrez l'histoire et la mission de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>4</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>presentation</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/baptême.md --><title>Demander le baptême</title><link>http://localhost:8080/bapteme/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=5</guid><description /><content:encoded>&lt;h2&gt;DEMANDER LE BAPTÊME POUR UN ENFANT&lt;/h2&gt;
+Vous souhaitez faire baptiser votre enfant dans l’une des églises de notre paroisse.
+Nous accueillons avec joie votre demande et sommes heureux de vous accompagner dans la préparation de cet événement.
+&lt;h3&gt;Dans un premier temps, nous vous invitons à :&lt;/h3&gt;
+1- Choisissir la date de réunion qui vous convient le mieux puis envoyez votre choix à l’adresse suivante : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+2- Remplir et renvoyer le formulaire de participation qui vous aura été transmis.
+3- Participer (le père et la mère de l’enfant) à la réunion de préparation au baptême où il vous sera demandé de compléter et signer une fiche de renseignements. Vous pourrez alors exprimer votre souhait d’une date et d’une des églises ci-dessous pour la célébration du baptême de votre enfant. Voici les créneaux possibles :
+&lt;h3&gt;Dans un second temps :&lt;/h3&gt;
+4- Le prêtre ou le diacre qui assurera le baptême vous contactera pour confirmer la date et le lieu et convenir d’un moment pour préparer la célébration. Il vous sera demandé de fournir une copie intégrale de l’acte de naissance de votre enfant lors de ce rdv.
+Le jour du baptême, vous êtes invités à remettre une offrande pour contribuer à la vie de votre paroisse. À titre indicatif, le montant de l’offrande se situe entre 50€ et 100€. Merci de mettre cette offrande dans une enveloppe avec votre nom, prénom, et en mentionnant la date et le lieu du baptême. En cas de difficultés financières, merci d’en parler bien simplement avec le prêtre ou le diacre qui célèbrera le baptême.
+Attention : un délai de 3 mois est requis entre la date d’inscription et la célébration du baptême pour les enfants de 0-3 ans !
+Pour les enfants de plus de 3 ans, une préparation adaptée à l’âge de l’enfant est nécessaire avant de fixer la date du baptême.
+Pour toute question contactez-nous : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;h2&gt;DEMANDER LE BAPTÊME POUR UN ADULTE&lt;/h2&gt;
+Vous vous posez la question du baptême pour vous-même ou un proche. Sachez qu’une équipe existe sur la paroisse du Bon Pasteur et propose une démarche adaptée à chacun : que vous cherchiez quelques réponses à vos questions ou que vous souhaitiez d’ores-et-déjà vous engager vers le sacrement du baptême, de la confirmation ou de la première des communions. Prenez contact et embarquez-vous dans cette belle aventure de la Foi au Christ. Soyez les bienvenus. Nous vous attendons…
+Pour toute information, contacter : Anne de Beaupuy annepalludebeaupuy@gmail.com</content:encoded><excerpt:encoded /><wp:post_id>5</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>bapteme</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Confirmation.md --><title>Confirmation</title><link>http://localhost:8080/confirmation/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=6</guid><description /><content:encoded>&lt;p&gt;La Confirmation est un sacrement de l’Église catholique qui peut être reçu à tout âge.
+Que vous soyez jeune adulte ou plus âgé, vous pouvez demander à être confirmé.
+&lt;strong&gt;Recevoir la Confirmation à l’âge adulte est souvent le résultat d’une démarche personnelle et réfléchie.&lt;/strong&gt;
+C’est une occasion de renouveler son engagement envers la foi chrétienne,
+faire grandir sa confiance en Dieu, en soi et dans la vie, ainsi que de s’intégrer pleinement à la communauté paroissiale.
+&lt;strong&gt;C’est une étape importante dans la vie spirituelle d’un chrétien,&lt;/strong&gt;
+car elle permet de renforcer la foi et de recevoir les dons du Saint-Esprit pour mieux vivre sa vie chrétienne.
+Pour toute information, vous pouvez contacter la paroisse par mail : annepalludebeaupuy@gmail.com
+Pour les jeunes (11-17 ans), nous vous invitons à aller sur la page « jeunes » de notre site.&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>6</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>confirmation</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Offrir une messe.md --><title>Offrir une messe</title><link>http://localhost:8080/offrir-une-messe/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=7</guid><description /><content:encoded>&lt;h2&gt;Pourquoi offrir une messe ?&lt;/h2&gt;
+Dès les premiers siècles de l’Église, les chrétiens ont accompagné leurs intentions de prière d’une offrande apportée à la messe. C’était, au début, des offrandes de nourriture ou de boisson, et à partir du VIIIe siècle, l’habitude s’est installée de donner une participation, une offrande d’argent.
+Toute messe est célébrée pour l’Église et le monde entier. Mais le prêtre peut, à la demande des fidèles, ajouter une intention particulière : prier pour un défunt, un malade, une difficulté, des noces d’or, des jeunes mariés, un nouveau baptisé ou un nouveau prêtre, etc.
+La tradition est donc d’accompagner cette intention d’une offrande. Il s’agit d’un acte de partage de la part des fidèles. Les intentions sont généralement annoncées lors de la messe.
+&lt;h2&gt;Comment offrir une messe ?&lt;/h2&gt;
+Nous vous invitons à venir dans l’un des accueils de la paroisse Bon
+Pasteur de Caen. Vous pouvez également préparer une enveloppe
+à envoyer à l’un des accueils (voir adresses sur notre site internet) ou
+à déposer dans un panier de quête lors des célébrations.
+&lt;strong&gt;Informations à préciser :&lt;/strong&gt; 
+Nom, adresse, téléphone du demandeur
+Intention(s) de prière
+Nombre d’offrandes de messes demandées
+Date(s) souhaitée(s)
+Église ou chapelle de la paroisse Bon Pasteur où vous souhaitez
+que la messe soit célébrée
+&lt;strong&gt;Merci de joindre un chèque à l’ordre de :&lt;/strong&gt;
+Paroisse Bon Pasteur – Caen
+&lt;strong&gt;Adresse :&lt;/strong&gt; 
+Paroisse Bon Pasteur de Caen 
+33 place de la Reine Mathilde, 14000 Caen
+&lt;strong&gt;Montant indicatif de l’offrande :&lt;/strong&gt;
+L’offrande conseillée pour une messe est de 18 euros, selon les
+recommandations du diocèse de Bayeux-Lisieux.
+Chacun reste libre de donner davantage ou un peu moins, selon ses
+possibilités.</content:encoded><excerpt:encoded /><wp:post_id>7</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>offrir-une-messe</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Les-églises.md --><title>Les Églises</title><link>http://localhost:8080/les-eglises/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=8</guid><description /><content:encoded /><excerpt:encoded /><wp:post_id>8</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>les-eglises</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Jeunes (12-17 ans).md --><title>Jeunes (12 17 Ans)</title><link>http://localhost:8080/jeunes-12-17-ans/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=9</guid><description /><content:encoded /><excerpt:encoded /><wp:post_id>9</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>jeunes-12-17-ans</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Obsèques.md --><title>Obsèques</title><link>http://localhost:8080/obseques/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=10</guid><description /><content:encoded>&lt;p&gt;Lors de la disparition d’une personne proche, l’Église est là pour vous aider, vous entourer de sa prière et témoigner de son Espérance.
+&lt;h2&gt;Vous vous posez des questions par rapport à vos obsèques ou celles d’un proche&lt;/h2&gt;
+Appelez le 06 86 77 34 08. Nous tenterons d’apporter toutes les réponses à vos questions.
+&lt;h2&gt;Vous venez de perdre un être cher&lt;/h2&gt;
+Vous venez de perdre un être cher et vous souhaitez être aidé pour préparer des obsèques religieuses. En lien avec les prêtres, une équipe est à votre service pour vous accompagner et vous aider à vivre au mieux ce temps de deuil.
+&lt;h3&gt;Dans un premier temps, &lt;/h3&gt;
+vous êtes invités à appeler les Pompes funèbres de votre choix qui prendront contact avec nous pour retenir l’église, la date et l’heure de la célébration
+&lt;h3&gt;A ce moment-là, &lt;/h3&gt;
+contact est pris avec l’équipe d’accompagnement concernée :
+&lt;ul&gt;
+&lt;li&gt;Celle-ci conviendra avec vous d’un rendez-vous pour préparer la célébration religieuse&lt;/li&gt;
+&lt;li&gt;Au cours de cette rencontre, vous pourrez choisir les textes et chants et organiser ensemble le déroulement de la célébration. Cette rencontre avec la paroisse constitue un temps fort car lorsqu’on fait l’expérience du deuil, on éprouve un besoin d’écoute, de solidarité et d’amitié.&lt;/li&gt;
+&lt;li&gt;Pendant la célébration, l’équipe sera à vos côtés pour vous soutenir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Après les obsèques :&lt;/h3&gt;
+L’équipe d’accompagnement restera disponible et à votre écoute.
+Mi-octobre, vous recevrez une invitation à participer à la messe des défunts célébrée dans nos églises, le 2 novembre. Nous serons là pour vous accueillir et vous remettre une bougie d’extérieur à déposer au cimetière.
+« Réconfortez-vous les uns les autres » St Paul
+&lt;strong&gt;L'équipe funérailles : « Accueillir et accompagner les familles en deuil »&lt;/strong&gt; 
+Si vous avez des questions, nous vous invitons à remplir le formulaire ci-dessous.&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>10</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>obseques</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Se confesser.md --><title>Se confesser</title><link>http://localhost:8080/se-confesser/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=11</guid><description /><content:encoded>&lt;p&gt;Vous souhaitez recevoir le sacrement du Pardon et de la Réconciliation.
+Voici les propositions régulières qui vous sont offertes
+&lt;strong&gt;Horaires des confessions&lt;/strong&gt;
+Les horaires peuvent être modifiés pour des raisons pastorales ou de solennités.
+Pendant l’année (hors été)
+Mardi
+17h45 - 18h15 : Saint Étienne
+Mercredi
+9h30 - 11h : Saint Pierre
+17h45 - 18h15 : Saint Étienne
+Jeudi
+9h30 - 10h30 : Saint Pierre
+17h - 18h : Saint Joseph (sauf le 1er jeudi du mois)
+17h45 - 18h15 : Saint Étienne (sauf le 1er jeudi du mois)
+Vendredi
+9h30 - 11h : Saint Pierre
+17h - 18h15 : Saint François
+17h45 - 18h15 : Saint Étienne
+Samedi
+10h - 12h : Saint Pierre
+14h - 15h30 : Saint Pierre (seulement les 1er et 3e samedis du mois)
+En complément à Saint-Pierre :
+Samedi matin
+10h - 11h : P. Pascal Diom
+11h - 12h : P. Olivier Atangana
+Samedi après-midi
+14h - 15h30 :
+1er samedi du mois : P. Gérard Pitel
+3e samedi du mois : P. Jean-Marie Fromage
+Durant l’été (du 1er week-end de juillet au dernier week-end d’août inclus) 
+Confessions en semaine :
+Du mardi au vendredi : 17h45 - 18h15 à l’église Saint-Pierre (avant la messe de 18h30)
+Pas de confessions indiquées aux églises de la Visitation ou du Carmel pendant l’été.
+&lt;strong&gt;Soirées de louange &amp; miséricorde (2025–2026)&lt;/strong&gt;
+Confessions en continu durant toute la soirée.
+Dates :
+Jeudi 9 octobre 2025
+Jeudi 13 novembre 2025
+Jeudi 11 décembre 2025
+Jeudi 15 janvier 2026
+Jeudi 5 mars 2026
+Jeudi 30 avril 2026
+Jeudi 21 mai 2026
+Jeudi 25 juin 2026
+Des permanences supplémentaires sont proposées généralement au moment des grandes
+fêtes chrétiennes (Noël, Pâques et 15 août).
+Si pour des raisons de santé ou des raisons personnelles, vous souhaitez recevoir le
+sacrement du Pardon chez vous, 
+&lt;strong&gt;merci de remplir le formulaire ci-dessous.&lt;/strong&gt;
+Nous prendrons contact avec vous pour discerner votre demande et convenir d’un rendez-vous.
+formulaire de contact 
+VOTRE NOM
+VOTRE EMAIL
+VOTRE DEMANDE&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>11</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>se-confesser</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Rencontrer un prêtre.md --><title>Rencontrer un prêtre</title><link>http://localhost:8080/rencontrer-un-pretre/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=12</guid><description /><content:encoded>&lt;p&gt;Vous souhaitez rencontrer un prêtre pour demander un conseil, poser une question particulière, être éclairé sur une situation, nous vous invitons à formuler votre demande via le formulaire ci-dessous. Nous prendrons contact avec vous et vous mettrons en lien avec l’un des prêtres de notre paroisse.
+Si vous souhaitez recevoir le sacrement du Pardon et de la Réconciliation, toutes les informations sont ici.&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>12</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>rencontrer-un-pretre</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Rejoindre un groupe.md --><title>Rejoindre un groupe</title><link>http://localhost:8080/rejoindre-un-groupe/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=13</guid><description /><content:encoded>&lt;h2&gt;Rejoindre une communauté&lt;/h2&gt;
+Chaque week-end nos communautés se rassemblent pour célébrer leur joie de croire et d’annoncer la bonne nouvelle d’un Dieu qui vient offrir au monde sa vie éternelle. N’hésitez pas à rejoindre l’une de nos 5 communautés présentes sur Caen et les alentours (en cliquant sur l’une des églises de notre paroisse).
+&lt;h2&gt;Rejoindre les dîners 4x4 :&lt;/h2&gt;
+Les repas 4x4 sont des moments de convivialité vécus à l’occasion d’un repas simple et fraternel partagé par 8 personnes (4 binômes ou couples) et ce 4 fois dans l’année.
+L’objectif est d’oser la rencontre et de créer du lien dans notre communauté chrétienne ! 
+Pour vous, nouveaux arrivants dans notre paroisse, ces repas sont une belle occasion pour vous intégrer facilement !
+Cette invitation s’adresse aux chrétiens, pratiquants ou non, réguliers ou occasionnels.
+diners4x4.caen@gmail.com
+&lt;h2&gt;Rejoindre un groupe biblique&lt;/h2&gt;
+Rejoignez un petit groupe pour prier, lire l’Évangile et partager autour de la Parole de Dieu. 
+Huit rencontres, un chapitre par séance, pour cheminer dans la foi à sa manière : avec humilité, espérance, confiance et amour.
+&lt;h2&gt;Rejoindre un groupe de prière avec la Parole&lt;/h2&gt;
+Un temps simple et fraternel pour :
+– prier en petits groupes à partir de l’Évangile du dimanche
+– partager ce qui nous touche, nous interroge
+– retenir une parole, un message pour nous, pour le monde
+Chaque 2e et 4e samedi du mois
+De 10 h 30 à 11 h 15
+Dans la chapelle de l’Église Saint Joseph
+stjoseph@bayeuxlisieux.catholique.fr
+02 31 75 11 45
+&lt;h2&gt;Rejoindre un Chapelet des enfants&lt;/h2&gt;
+venez chaque mardi participer au
+chapelet animé par les enfants de
+17h15 à 17h45 à l'eglise Saint Paul , à Caen.
+&lt;h2&gt;Rejoindre un groupe de jeunes ou jeunes professionnels&lt;/h2&gt;
+Pour les collégiens et lycéens, une animation spécifique est proposée (voir page « jeunes »). Pour les jeunes professionnels, des groupes existent sur notre paroisse
+Pour les collégiens et lycéens, une animation spécifique est proposée   Frat’jeunes,    (voir page « jeunes »). Pour les jeunes professionnels, un groupe existe  groupe jeunes pros. (voir page jeunes pros)  contact : jeunesproscaen@gmail.com
+ Choral etudiante et jeune pro 
+La chorale a été crée en 2020 dans le but de réunir les étudiants et jeunes professionnels de l'agglomération Caennaise autour du chant. Chaque personne est la bienvenue, quel que soit son niveau en musique. Chaque répétition se termine par un petit temps de prière.
+La joie, la convivialité, le partage, la fraternité, la simplicité et l'accueil sont des valeurs importantes de l'esprit de la chorale.
+plus d’info ici :
+https://parfreetion.fr/web/chorales/view/chorale-chairete
+&lt;h2&gt;Rejoindre un parcours Alpha&lt;/h2&gt;
+Proposé dans le monde entier depuis de nombreuses années, les parcours Alpha proposent à ceux qui le souhaitent d’échanger sur Dieu et le sens de la vie. C’est une opportunité pour découvrir ou redécouvrir les bases de la foi chrétienne dans une ambiance conviviale. Il se déroule en une série de 10 rencontres, chaque soirée ayant lieu de 20h à 22h15.
+Responsable: Rémi Chartier  Contact: alpha.caencentre@gmail.com
+&lt;h2&gt;Rejoindre un groupe de prière des mères&lt;/h2&gt;
+Les groupes de prière des mères sont des petits groupes de femmes, en général des mères ou grands-mères, qui se réunissent régulièrement pour prier ensemble pour leurs enfants, leurs familles et les jeunes du monde entier.
+www.prieredesmeres.com
+&lt;h2&gt;Rejoindre un groupe de solidarité&lt;/h2&gt;
+Vous souhaitez apporter votre aide et vos compétences au service des personnes les plus fragiles. De nombreuses possibilités vous sont offertes.
+Nous vous invitons à visiter la page « Solidarité » où vous trouverez toutes les informations utiles.
+&lt;h2&gt;Rejoindre un groupe pour les familles&lt;/h2&gt;
+N’hésitez pas à prendre contact avec la paroisse qui vous accueillera avec joie et vous présentera les différentes propositions existantes sur nos communautés. Infos
+Si vous souhaitez nous rencontrer afin de vous aider à discerner votre choix pour rejoindre un groupe, nous vous invitons à remplir le formulaire ci-dessous.</content:encoded><excerpt:encoded /><wp:post_id>13</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>rejoindre-un-groupe</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Pôle Jeunes (12-17 ans).md --><title>Pôle Jeunes (12 17 Ans)</title><link>http://localhost:8080/pole-jeunes-12-17-ans/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=14</guid><description /><content:encoded>&lt;p&gt;notre paroisse (11-17 ans) propose aux collégiens et aux lycéens
+un lieu d’épanouissement humain et spirituel.
+A travers les rencontres, les partages, les célébrations et l’approfondissement de la foi chrétienne,
+nous chercherons à vivre et à annoncer
+“ la joie de l’Évangile qui remplit le cœur et toute la vie de ceux qui rencontrent Jésus ”
+(Pape François).
+Pour toute information :&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>14</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>pole-jeunes-12-17-ans</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/Mariage.md --><title>Demander le mariage</title><link>http://localhost:8080/mariage/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=15</guid><description /><content:encoded>&lt;p&gt;Vous souhaitez vous marier à Caen, Herouville Saint Clair, St Contest, St Germain la Blanche Herbe ou Blainville dans les mois à venir. Soyez les bienvenus !
+Avec vous, nous nous réjouissons pour cette étape majeure de votre vie et nous nous mettons à votre disposition pour vous accompagner au mieux dans cette magnifique aventure humaine et spirituelle. 
+Dans un premier temps, nous vous invitons à remplir le formulaire ci-dessous.
+Vous serez ensuite contactés par la paroisse pour valider votre inscription. 
+Puis, quelque temps plus tard, si vous vous préparez dans notre paroisse, vous recevrez les informations nécessaires vous indiquant les dates de rencontres avec l’équipe d’accompagnement au mariage.
+Pour toute question, contactez-nous par courriel à paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>15</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>mariage</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/test.md --><title>Test</title><link>http://localhost:8080/test/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=16</guid><description /><content:encoded>&lt;p&gt;Ceci est un test pour voir si le contenu Markdown s'affiche.
+&lt;h2&gt;Section de test&lt;/h2&gt;
+Le contenu devrait apparaître ici.&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>16</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>test</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/about.md --><title>About</title><link>http://localhost:8080/about/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=17</guid><description /><content:encoded>&lt;p&gt;Roq is a powerful static site generator that combines the best features of tools like Jekyll and Hugo, but within the Java ecosystem. It offers a modern approach with Quarkus at its core, requiring zero configuration to get started —ideal for developers who want to jump right in, while still being flexible enough for advanced users to hook into Java for deeper customization.
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;div class="authors"&gt;
+  &lt;!-- authors.yml is in the data/ --&gt;
+  {#for id in cdi:authors.fields}
+    {#let author=cdi:authors.get(id)}
+    &lt;!-- the author-card tag is defined in the default Roq theme --&gt;
+    {#author-card name=author.name avatar=author.avatar nickname=author.nickname profile=author.profile /}
+  {/for}
+&lt;/div&gt;&lt;/p&gt;</content:encoded><excerpt:encoded>Roq is a powerful static site generator that combines the best features of tools like Jekyll and Hugo, but within the Java ecosystem. It offers a modern approach with Quarkus at its core, requiring zero configuration to get started —ideal for developers who want to jump right in, while still being flexible enough for advanced users to hook into Java for deeper customization.
+</excerpt:encoded><wp:post_id>17</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>about</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/qui-sommes-nous.md --><title>Paroisse Bon Pasteur de Caen </title><link>http://localhost:8080/qui-sommes-nous/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=18</guid><description /><content:encoded>&lt;p&gt;La paroisse Bon Pasteur de Caen, créée le 1er septembre 2024 dans le cadre de la recomposition diocésaine du Calvados — qui a ramené le nombre de paroisses de 51 à 15 — s'inscrit dans une dynamique de renouveau pastoral ambitieuse.
+&lt;h2&gt;Territoire&lt;/h2&gt;
+La paroisse couvre l'ouest de Caen et les communes de Blainville‑sur‑Orne, Hérouville‑Saint‑Clair (hors le hameau de Sainte‑Honorine), Épron et Saint‑Germain‑la‑Blanche‑Herbe.
+&lt;h2&gt;Nos églises et lieux de culte&lt;/h2&gt;
+La paroisse regroupe de nombreux clochers (églises) et lieux spirituels :
+&lt;h3&gt;Églises paroissiales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/eglises/notre-dame-assomption-gloriette"&gt;Notre-Dame-de-l'Assomption (la Gloriette)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-andre-calvaire-saint-pierre"&gt;Saint-André du Calvaire Saint-Pierre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-bernard-pierre-heuze"&gt;Saint-Bernard de la Pierre-Heuzé&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-clair-herouville"&gt;Saint-Clair d'Hérouville-Saint-Clair&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-etienne"&gt;Saint-Étienne&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-francois-herouville"&gt;Saint-François d'Hérouville-Saint-Clair&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-gerbold-blainville"&gt;Saint-Gerbold de Blainville-sur-Orne&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-germain-blanche-herbe"&gt;Saint-Germain de Saint-Germain-la-Blanche-Herbe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-jean-baptiste"&gt;Saint-Jean-Baptiste&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-joseph-chemin-vert"&gt;Saint-Joseph du chemin vert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-julien"&gt;Saint-Julien&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-ouen"&gt;Saint-Ouen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-paul"&gt;Saint-Paul&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-pierre"&gt;Saint-Pierre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/saint-sauveur"&gt;Saint-Sauveur&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/sainte-claire-folie-couvrechef"&gt;Sainte-Claire de la Folie-Couvrechef&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/sainte-trinite-saint-gilles"&gt;Sainte Trinité / Saint-Gilles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Chapelles et lieux spirituels&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/eglises/carmel-de-caen"&gt;Carmel de Caen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/chapelle-oasis"&gt;Chapelle de l'Oasis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/chapelle-benedictines"&gt;Chapelle des Bénédictines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/chapelle-misericorde"&gt;Chapelle de la Miséricorde&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/chapelle-chr"&gt;Chapelle du CHR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/eglises/monastere-visitation"&gt;Monastère de la Visitation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Communautés locales&lt;/h2&gt;
+Ces regroupements se structurent en 5 communautés locales : 
+&lt;ul&gt;
+&lt;li&gt;Saint‑Julien,&lt;/li&gt;
+&lt;li&gt;Saint‑Étienne,&lt;/li&gt;
+&lt;li&gt;Sainte‑Trinité,&lt;/li&gt;
+&lt;li&gt;Saint‑François,&lt;/li&gt;
+&lt;li&gt;Saint‑Joseph&lt;/li&gt;
+&lt;/ul&gt;
+En outre, la paroisse englobe :
+&lt;ul&gt;
+&lt;li&gt;une Fraternité de Proximité (Centre Saint-Pierre), animée par des sœurs du Carmel et des laïcs&lt;/li&gt;
+&lt;li&gt;une aumônerie étudiante place Reine‑Mathilde,&lt;/li&gt;
+&lt;li&gt;une chorale des jeunes (Chaïreté),&lt;/li&gt;
+&lt;li&gt;une pastorale des jeunes et des vocations, incluant notamment Praize Up (pop‑louange),&lt;/li&gt;
+&lt;li&gt;des groupes de services (entraide vestimentaire, alimentaire, hébergement pour migrants),&lt;/li&gt;
+&lt;li&gt;des monastères et lieux spirituels : Visitation, Carmel, sanctuaire de Petit‑Lourdes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Prêtres &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Père Emmanuel Geffray (curé)&lt;/li&gt;
+&lt;li&gt;Père Paul Clerval (vicaire)&lt;/li&gt;
+&lt;li&gt;Père Antoine Hardy (vicaire)&lt;/li&gt;
+&lt;li&gt;Père Michel Lemasson (vicaire)&lt;/li&gt;
+&lt;li&gt;Père Jaime Salcedo(vicaire)&lt;/li&gt;
+&lt;li&gt;Père Jérôme Roger (vicaire)&lt;/li&gt;
+&lt;li&gt;Père Fabrice Verrier (vicaire)&lt;/li&gt;
+&lt;li&gt;Père Olivier Atangana (étudiant)&lt;/li&gt;
+&lt;li&gt;Pére Pascal Diom (étudiant)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;diacres &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pierre LAURENT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Le Conseil paroissial&lt;/h2&gt;
+Composé de prêtres, diacres et laïcs engagés, il élabore la vision missionnaire de la paroisse et coordonne les grandes orientations pastorales. Il veille à la communion entre les communautés locales.
+&lt;h2&gt;Le Bureau paroissial&lt;/h2&gt;
+Équipe restreinte issue du Conseil paroissial, il assure le suivi régulier des projets pastoraux et veille à leur mise en œuvre concrète.
+&lt;h2&gt;Les Équipes d'Animation des Communautés Locales (EACL)&lt;/h2&gt;
+Chaque quartier ou commune dispose d'une équipe ou d'un binôme chargé de faire vivre localement la foi chrétienne : prière, accueil, solidarité, vie fraternelle. Les EACL agissent en lien étroit avec le Conseil paroissial.
+&lt;h2&gt;Le Conseil économique&lt;/h2&gt;
+Il accompagne la gestion des ressources matérielles de la paroisse avec rigueur et transparence. Il veille aussi à soutenir financièrement les initiatives des communautés locales.
+&lt;h2&gt;Les bénévoles&lt;/h2&gt;
+De très nombreux bénévoles se mobilisent chaque semaine pour permettre à nos communautés de servir dans les meilleures conditions possibles.
+Contact et informations pratiques
+&lt;h3&gt;Paroisse Bon Pasteur de Caen&lt;/h3&gt;
+Presbytère Saint-Jean, 11 rue des Équipes d'Urgence, 14000 Caen
+02 31 86 13 11
+paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;h3&gt;Coordination : &lt;/h3&gt;
+la coordinatrice paroissiale est Charlotte Princely Pious&lt;/p&gt;</content:encoded><excerpt:encoded /><wp:post_id>18</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>qui-sommes-nous</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-etienne.md --><title>Saint-Étienne</title><link>http://localhost:8080/saint-etienne/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=19</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Étienne fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;15 rue Guillaume le Conquérant&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+Téléphone : 02 31 86 37 21
+Email : abbatiale@orange.fr
+Site web : &lt;a href="https://www.saintetienne-saintouen.fr"&gt;www.saintetienne-saintouen.fr&lt;/a&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;strong&gt;Dimanche :&lt;/strong&gt; 11h (horaires d'été)
+&lt;strong&gt;En semaine :&lt;/strong&gt; Certains jours selon le planning (consulter le site web)
+&lt;strong&gt;Horaires variables selon les saisons&lt;/strong&gt; - Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site paroissial pour les horaires actualisés
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'Abbatiale Saint-Étienne, également connue sous le nom d'église de l'Abbaye aux Hommes, est l'un des monuments les plus prestigieux de Caen.
+&lt;h3&gt;Fondation et construction&lt;/h3&gt;
+Construite à partir du XIe siècle par &lt;strong&gt;Guillaume le Conquérant&lt;/strong&gt; comme église abbatiale de l'abbaye Saint-Étienne, elle fut fondée vers 1066 en expiation du mariage de Guillaume avec Mathilde de Flandre, considéré comme consanguin par l'Église.
+&lt;h3&gt;Architecture exceptionnelle&lt;/h3&gt;
+Cette magnifique église représente un &lt;strong&gt;chef-d'œuvre de l'architecture romane normande&lt;/strong&gt;, avec ses ajouts gothiques ultérieurs. Elle illustre parfaitement la technique normande du "mur épais" et présente des voûtes sexpartites remarquables.
+&lt;h3&gt;Le tombeau de Guillaume le Conquérant&lt;/h3&gt;
+L'église abrite le &lt;strong&gt;tombeau de Guillaume le Conquérant&lt;/strong&gt;, ce qui en fait un lieu de pèlerinage historique majeur. Le tombeau actuel date du XIXe siècle, les précédents ayant été détruits au cours de l'histoire.
+&lt;h3&gt;Patrimoine artistique&lt;/h3&gt;
+L'abbatiale conserve de nombreux éléments remarquables :
+&lt;ul&gt;
+&lt;li&gt;Stalles du chœur (XVIIe siècle)&lt;/li&gt;
+&lt;li&gt;Chaire à prêcher (XVIIe siècle)&lt;/li&gt;
+&lt;li&gt;Grand orgue de tribune (XVIIIe-XIXe siècle)&lt;/li&gt;
+&lt;li&gt;Maître-autel du chœur (XVIIIe siècle)&lt;/li&gt;
+&lt;li&gt;Nombreux tableaux et objets liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Monument historique&lt;/h3&gt;
+L'église est &lt;strong&gt;classée monument historique depuis 1840&lt;/strong&gt; et constitue un témoignage exceptionnel de l'art roman normand qui a influencé l'architecture religieuse en Normandie et en Angleterre.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Étienne de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>19</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-etienne</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-jean-baptiste.md --><title>Saint-Jean-Baptiste</title><link>http://localhost:8080/saint-jean-baptiste/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=20</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Jean-Baptiste fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;Église Saint-Jean-Baptiste&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;em&gt;(Adresse précise à confirmer)&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés :
+&lt;a href="https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/"&gt;bayeuxlisieux.catholique.fr&lt;/a&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-Jean-Baptiste fait partie du patrimoine religieux de Caen et constitue un lieu de culte de la paroisse Bon Pasteur de Caen depuis sa création le 1er septembre 2024.
+&lt;h3&gt;Monument historique&lt;/h3&gt;
+L'église Saint-Jean de Caen est &lt;strong&gt;classée monument historique depuis 1840&lt;/strong&gt;, témoignant de son importance architecturale et historique dans le paysage religieux caennais.
+&lt;h3&gt;Intégration paroissiale&lt;/h3&gt;
+Avec la création de la nouvelle paroisse Bon Pasteur de Caen, l'église Saint-Jean-Baptiste s'inscrit dans un ensemble paroissial élargi qui regroupe de nombreux lieux de culte du centre de Caen et de son agglomération, contribuant à la richesse de la vie spirituelle locale.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Jean-Baptiste de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>20</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-jean-baptiste</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/sainte-trinite-saint-gilles.md --><title>Sainte Trinité / Saint-Gilles</title><link>http://localhost:8080/sainte-trinite-saint-gilles/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=21</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Sainte Trinité / Saint-Gilles fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;35 place Reine Mathilde&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;em&gt;(Abbaye aux Dames)&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;strong&gt;Dimanche :&lt;/strong&gt; 10h45 (messes régulières)
+&lt;strong&gt;Mercredi :&lt;/strong&gt; 18h30 (messe suivie de la soirée aumônerie étudiante)
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Sainte-Trinité, également connue sous le nom d'église Saint-Gilles, est l'ancienne &lt;strong&gt;église abbatiale de l'Abbaye aux Dames&lt;/strong&gt; de Caen.
+&lt;h3&gt;L'Abbaye aux Dames&lt;/h3&gt;
+Fondée au XIe siècle par &lt;strong&gt;Mathilde de Flandre&lt;/strong&gt;, épouse de Guillaume le Conquérant, l'Abbaye aux Dames (ou abbaye de la Trinité) fut créée en pendant de l'Abbaye aux Hommes. L'église abbatiale Sainte-Trinité abrite le &lt;strong&gt;tombeau de la reine Mathilde&lt;/strong&gt;.
+&lt;h3&gt;Architecture romane normande&lt;/h3&gt;
+L'église présente un remarquable exemple de l'&lt;strong&gt;architecture romane normande&lt;/strong&gt; du XIe siècle, avec ses caractéristiques architecturales typiques de cette période : nef à trois niveaux, transept saillant et chœur à déambulatoire.
+&lt;h3&gt;Patrimoine exceptionnel&lt;/h3&gt;
+L'église conserve de nombreux éléments patrimoniaux remarquables :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tombeau de la reine Mathilde&lt;/strong&gt; (dalle funéraire)&lt;/li&gt;
+&lt;li&gt;Chaire à prêcher historique&lt;/li&gt;
+&lt;li&gt;Éléments sculptés romans&lt;/li&gt;
+&lt;li&gt;Architecture intérieure préservée&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie contemporaine&lt;/h3&gt;
+Aujourd'hui, l'église Saint-Gilles accueille :
+&lt;ul&gt;
+&lt;li&gt;L'&lt;strong&gt;aumônerie des étudiants&lt;/strong&gt; (messes du mercredi soir)&lt;/li&gt;
+&lt;li&gt;La &lt;strong&gt;chorale Chaïrete&lt;/strong&gt; (étudiants et jeunes professionnels)&lt;/li&gt;
+&lt;li&gt;Les &lt;strong&gt;Jeunes Pros&lt;/strong&gt; de Caen (rencontres mensuelles)&lt;/li&gt;
+&lt;li&gt;Diverses célébrations et événements communautaires&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Monument historique&lt;/h3&gt;
+L'ensemble de l'abbaye aux Dames, incluant l'église Sainte-Trinité, est &lt;strong&gt;classé monument historique&lt;/strong&gt; et constitue l'un des joyaux du patrimoine architectural normand.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Sainte Trinité / Saint-Gilles de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>21</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>sainte-trinite-saint-gilles</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/chapelle-chr.md --><title>Chapelle du CHR</title><link>http://localhost:8080/chapelle-chr/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=22</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+La Chapelle du CHR (Centre Hospitalier Régional) fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les patients, leurs familles et le personnel hospitalier pour les célébrations liturgiques et l'accompagnement spirituel.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette chapelle, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Accompagnement hospitalier&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Visite aux malades&lt;/li&gt;
+&lt;li&gt;Accompagnement des familles&lt;/li&gt;
+&lt;li&gt;Soutien spirituel au personnel soignant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;li&gt;Onction des malades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de la chapelle du CHR à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette chapelle ou pour bénéficier d'un accompagnement spirituel, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Chapelle du CHR de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>22</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>chapelle-chr</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-andre-calvaire-saint-pierre.md --><title>Saint-André du Calvaire Saint-Pierre</title><link>http://localhost:8080/saint-andre-calvaire-saint-pierre/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=23</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-André du Calvaire Saint-Pierre fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;10 Avenue Horatio Smith&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;em&gt;(Quartier Calvaire Saint-Pierre)&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés :
+&lt;a href="https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/"&gt;bayeuxlisieux.catholique.fr&lt;/a&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-André du Calvaire Saint-Pierre est située dans le quartier du Calvaire Saint-Pierre à Caen, un secteur qui porte le nom de cette ancienne paroisse.
+&lt;h3&gt;Quartier du Calvaire Saint-Pierre&lt;/h3&gt;
+L'église est implantée avenue Horatio Smith, dans un quartier qui a conservé le nom historique de "Calvaire Saint-Pierre", témoignant de l'ancienne organisation paroissiale de Caen.
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+L'église Saint-André constitue un point de rassemblement important pour les fidèles du quartier et participe activement à la vie de la communauté locale au sein de la nouvelle paroisse Bon Pasteur de Caen.
+&lt;h3&gt;Événements particuliers&lt;/h3&gt;
+L'église accueille régulièrement des événements communautaires et des célébrations spéciales, contribuant au dynamisme spirituel du quartier.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-André du Calvaire Saint-Pierre de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>23</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-andre-calvaire-saint-pierre</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/monastere-visitation.md --><title>Monastère de la Visitation</title><link>http://localhost:8080/monastere-visitation/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=24</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+Le Monastère de la Visitation fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Ce lieu spirituel accueille les fidèles pour la prière contemplative et la vie monastique.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités du monastère, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;li&gt;Offices monastiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie spirituelle&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prière contemplative&lt;/li&gt;
+&lt;li&gt;Retraites spirituelles&lt;/li&gt;
+&lt;li&gt;Direction spirituelle&lt;/li&gt;
+&lt;li&gt;Adoration eucharistique&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire du Monastère de la Visitation à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant le monastère ou pour participer à la vie spirituelle, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Monastère de la Visitation de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>24</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>monastere-visitation</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-ouen.md --><title>Saint-Ouen</title><link>http://localhost:8080/saint-ouen/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=25</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Ouen fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;15 bis rue Saint-Ouen&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés :
+&lt;a href="https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/"&gt;bayeuxlisieux.catholique.fr&lt;/a&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-Ouen fait partie du patrimoine religieux historique de Caen et constitue un lieu de culte important de la paroisse Bon Pasteur de Caen depuis sa création le 1er septembre 2024.
+&lt;h3&gt;Intégration dans la nouvelle paroisse&lt;/h3&gt;
+Avec la création de la paroisse Bon Pasteur de Caen, l'église Saint-Ouen s'inscrit dans un ensemble paroissial qui s'étend sur 5 communes et regroupe de nombreux lieux de culte du centre de Caen et de son agglomération.
+&lt;h3&gt;Patrimoine local&lt;/h3&gt;
+L'église Saint-Ouen contribue à la richesse du patrimoine religieux caennais et participe à la vie spirituelle de la communauté locale dans le quartier Saint-Ouen.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Ouen de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>25</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-ouen</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-julien.md --><title>Saint-Julien</title><link>http://localhost:8080/saint-julien/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=26</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Julien fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;1, rue Malfilâtre&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés :
+&lt;a href="https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/"&gt;bayeuxlisieux.catholique.fr&lt;/a&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-Julien de Caen fait partie du patrimoine religieux de la ville et a connu une reconstruction après la Seconde Guerre mondiale.
+&lt;h3&gt;Église de la Reconstruction&lt;/h3&gt;
+L'église Saint-Julien appartient aux &lt;strong&gt;églises de la Reconstruction&lt;/strong&gt; de Caen, ayant été reconstruite après les destructions de 1944. Elle témoigne de l'effort de reconstruction du patrimoine religieux caennais dans l'après-guerre.
+&lt;h3&gt;Architecture contemporaine&lt;/h3&gt;
+L'édifice actuel présente les caractéristiques architecturales de la reconstruction des années 1950-1960, alliant fonctionnalité et spiritualité dans un style architectural moderne adapté aux besoins liturgiques contemporains.
+&lt;h3&gt;Vie paroissiale&lt;/h3&gt;
+L'église Saint-Julien constitue un point de rassemblement important pour les fidèles du quartier et participe activement à la vie de la paroisse Bon Pasteur de Caen, contribuant à l'animation spirituelle de ce secteur de la ville.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Julien de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>26</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-julien</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/chapelle-benedictines.md --><title>Chapelle des Bénédictines</title><link>http://localhost:8080/chapelle-benedictines/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=27</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+La Chapelle des Bénédictines fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle monastique.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette chapelle, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;li&gt;Offices monastiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie spirituelle&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prière monastique&lt;/li&gt;
+&lt;li&gt;Retraites spirituelles&lt;/li&gt;
+&lt;li&gt;Accompagnement spirituel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de la chapelle des Bénédictines à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette chapelle ou pour participer à la vie spirituelle, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Chapelle des Bénédictines de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>27</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>chapelle-benedictines</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-bernard-pierre-heuze.md --><title>Saint-Bernard de la Pierre-Heuzé</title><link>http://localhost:8080/saint-bernard-pierre-heuze/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=28</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Bernard de la Pierre-Heuzé fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de l'église Saint-Bernard de la Pierre-Heuzé à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Bernard de la Pierre-Heuzé de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>28</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-bernard-pierre-heuze</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/chapelle-oasis.md --><title>Chapelle de l'Oasis</title><link>http://localhost:8080/chapelle-oasis/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=29</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+La Chapelle de l'Oasis fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette chapelle, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de la chapelle à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette chapelle ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Chapelle de l'Oasis de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>29</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>chapelle-oasis</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/notre-dame-assomption-gloriette.md --><title>Notre-Dame-de-l'Assomption (la Gloriette)</title><link>http://localhost:8080/notre-dame-assomption-gloriette/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=30</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Notre-Dame-de-l'Assomption (la Gloriette) fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de l'église Notre-Dame-de-l'Assomption (la Gloriette) à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Notre-Dame-de-l'Assomption (la Gloriette) de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>30</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>notre-dame-assomption-gloriette</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-gerbold-blainville.md --><title>Saint-Gerbold de Blainville-sur-Orne</title><link>http://localhost:8080/saint-gerbold-blainville/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=31</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Gerbold de Blainville-sur-Orne fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de l'église Saint-Gerbold de Blainville-sur-Orne à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Gerbold de Blainville-sur-Orne de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>31</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-gerbold-blainville</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-francois-herouville.md --><title>Saint-François d'Hérouville-Saint-Clair</title><link>http://localhost:8080/saint-francois-herouville/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=32</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-François d'Hérouville-Saint-Clair fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de l'église Saint-François d'Hérouville-Saint-Clair à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-François d'Hérouville-Saint-Clair de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>32</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-francois-herouville</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/carmel-de-caen.md --><title>Carmel de Caen</title><link>http://localhost:8080/carmel-de-caen/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=33</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+Le Carmel de Caen fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Ce lieu spirituel accueille les fidèles pour la prière et la contemplation.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;8, rue du Clos Beaumois&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Consulter directement le Carmel pour les horaires de prière et de messe.
+&lt;h3&gt;Contact&lt;/h3&gt;
+&lt;strong&gt;Contact direct du Carmel :&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 93 66 63&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; carmel.caen@wanadoo.fr&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Site web :&lt;/strong&gt; &lt;a href="https://www.carmelitesfrancenord.fr/carmel-de-caen/"&gt;carmelitesfrancenord.fr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;Contact paroissial :&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie spirituelle&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prière contemplative&lt;/li&gt;
+&lt;li&gt;Retraites spirituelles&lt;/li&gt;
+&lt;li&gt;Direction spirituelle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+Le Carmel de Caen possède une riche histoire spirituelle qui s'enracine dans la tradition carmélitaine.
+&lt;h3&gt;Fondation historique&lt;/h3&gt;
+Le &lt;strong&gt;Carmel de Caen a été fondé par le carmel de Rouen le 14 juillet 1616&lt;/strong&gt;, s'inscrivant dans l'expansion de l'ordre du Carmel en Normandie au XVIIe siècle.
+&lt;h3&gt;Reconstruction après-guerre&lt;/h3&gt;
+Le monastère fut &lt;strong&gt;détruit aux deux tiers en juillet 1944&lt;/strong&gt; lors des bombardements de la Libération de Caen. Il fut ensuite &lt;strong&gt;reconstruit en une dizaine d'années&lt;/strong&gt;, témoignant de la détermination de la communauté à maintenir la présence carmélitaine dans la ville.
+&lt;h3&gt;Renouveau communautaire&lt;/h3&gt;
+En &lt;strong&gt;1997&lt;/strong&gt;, la communauté peu nombreuse et âgée offre le monastère pour créer une &lt;strong&gt;nouvelle communauté&lt;/strong&gt; en accueillant des sœurs venant de divers carmels, permettant ainsi un renouveau de la vie contemplative.
+&lt;h3&gt;Spiritualité carmélitaine&lt;/h3&gt;
+Le Carmel de Caen perpétue la tradition de &lt;strong&gt;prière contemplative&lt;/strong&gt; et d'&lt;strong&gt;intercession&lt;/strong&gt; propre à l'ordre du Carmel, offrant un lieu de silence et de recueillement au cœur de la ville.
+&lt;h3&gt;Rayonnement spirituel&lt;/h3&gt;
+Le Carmel contribue à la vie spirituelle de la paroisse et de la ville par :
+&lt;ul&gt;
+&lt;li&gt;L'accueil pour la prière et le recueillement&lt;/li&gt;
+&lt;li&gt;L'accompagnement spirituel&lt;/li&gt;
+&lt;li&gt;L'intercession pour les intentions confiées&lt;/li&gt;
+&lt;li&gt;Le témoignage de la vie contemplative&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant le Carmel ou pour participer à la vie spirituelle, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Carmel de Caen de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>33</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>carmel-de-caen</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-pierre.md --><title>Saint-Pierre</title><link>http://localhost:8080/saint-pierre/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=34</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Pierre fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;Place Saint-Pierre&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;strong&gt;En semaine :&lt;/strong&gt; 18h30 (du mardi au vendredi) - horaires d'été
+&lt;strong&gt;Confessions :&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Samedi 10h-11h et 11h-12h&lt;/li&gt;
+&lt;li&gt;Samedi après-midi 14h-15h30 (1er et 3e samedi du mois)&lt;/li&gt;
+&lt;/ul&gt;
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-Pierre de Caen est un &lt;strong&gt;monument historique classé depuis 1840&lt;/strong&gt;, témoignage remarquable de l'art gothique flamboyant en Normandie.
+&lt;h3&gt;Architecture gothique flamboyante&lt;/h3&gt;
+Construite principalement aux &lt;strong&gt;XIVe et XVe siècles&lt;/strong&gt;, l'église Saint-Pierre se distingue par son remarquable clocher et sa riche ornementation sculptée. Elle constitue l'un des plus beaux exemples de l'art gothique normand.
+&lt;h3&gt;Patrimoine architectural&lt;/h3&gt;
+L'édifice présente des caractéristiques architecturales remarquables qui en font un joyau du patrimoine caennais :
+&lt;ul&gt;
+&lt;li&gt;Clocher élancé de style gothique flamboyant&lt;/li&gt;
+&lt;li&gt;Riche décoration sculptée&lt;/li&gt;
+&lt;li&gt;Éléments architecturaux typiques du gothique normand&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Rôle dans la paroisse&lt;/h3&gt;
+L'église Saint-Pierre joue un rôle central dans la vie de la paroisse Bon Pasteur de Caen, accueillant notamment les messes en semaine et les confessions. Elle constitue un point de référence spirituel important pour les fidèles du centre-ville de Caen.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Pierre de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>34</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-pierre</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-paul.md --><title>Saint-Paul</title><link>http://localhost:8080/saint-paul/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=35</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Paul fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;1 bis place Saint-Paul&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés.
+&lt;h3&gt;Événements spéciaux&lt;/h3&gt;
+&lt;strong&gt;Soirées Louange et Miséricorde :&lt;/strong&gt; Jeudis à 20h30 (dates variables)
+L'église Saint-Paul accueille régulièrement des soirées de louange et d'adoration.
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-Paul de Caen fait partie du patrimoine religieux de la ville et constitue un lieu de culte important de la paroisse Bon Pasteur de Caen.
+&lt;h3&gt;Vie spirituelle contemporaine&lt;/h3&gt;
+L'église Saint-Paul est particulièrement connue pour accueillir des &lt;strong&gt;soirées de louange et d'adoration&lt;/strong&gt;, contribuant au renouveau spirituel de la paroisse. Ces événements réguliers attirent les fidèles en quête d'une spiritualité vivante et participative.
+&lt;h3&gt;Rôle dans la communauté&lt;/h3&gt;
+Située place Saint-Paul, l'église occupe une position centrale dans son quartier et participe activement à la vie de la communauté paroissiale, notamment à travers l'accueil de groupes de prière et d'événements spirituels.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Paul de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>35</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-paul</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-clair-herouville.md --><title>Saint-Clair d'Hérouville-Saint-Clair</title><link>http://localhost:8080/saint-clair-herouville/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=36</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Clair d'Hérouville-Saint-Clair fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de l'église Saint-Clair d'Hérouville-Saint-Clair à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Clair d'Hérouville-Saint-Clair de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>36</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-clair-herouville</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/sainte-claire-folie-couvrechef.md --><title>Sainte-Claire de la Folie-Couvrechef</title><link>http://localhost:8080/sainte-claire-folie-couvrechef/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=37</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Sainte-Claire de la Folie-Couvrechef fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de l'église Sainte-Claire de la Folie-Couvrechef à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Sainte-Claire de la Folie-Couvrechef de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>37</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>sainte-claire-folie-couvrechef</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-sauveur.md --><title>Saint-Sauveur</title><link>http://localhost:8080/saint-sauveur/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=38</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Sauveur fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;Église du Vieux Saint-Sauveur&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;em&gt;(Adresse précise à confirmer)&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés :
+&lt;a href="https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/"&gt;bayeuxlisieux.catholique.fr&lt;/a&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-Sauveur, également connue sous le nom d'&lt;strong&gt;église du Vieux Saint-Sauveur&lt;/strong&gt;, fait partie du patrimoine religieux historique de Caen.
+&lt;h3&gt;Patrimoine historique&lt;/h3&gt;
+L'église Saint-Sauveur témoigne de l'ancienne organisation paroissiale de Caen et conserve le nom de "Vieux Saint-Sauveur", évoquant l'ancienneté de ce lieu de culte dans l'histoire religieuse de la ville.
+&lt;h3&gt;Activités culturelles&lt;/h3&gt;
+L'église accueille occasionnellement des &lt;strong&gt;événements culturels et artistiques&lt;/strong&gt;, contribuant au rayonnement culturel de Caen et à la mise en valeur du patrimoine religieux.
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+L'église Saint-Sauveur participe à la vie de la paroisse Bon Pasteur de Caen et constitue un lieu de rassemblement pour les fidèles de ce secteur historique de la ville.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Sauveur de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>38</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-sauveur</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-joseph-chemin-vert.md --><title>Saint-Joseph du chemin vert</title><link>http://localhost:8080/saint-joseph-chemin-vert/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=39</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Joseph du chemin vert fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;strong&gt;Rue du Chemin Vert&lt;/strong&gt;
+&lt;strong&gt;14000 Caen&lt;/strong&gt;
+&lt;em&gt;(Quartier du Chemin Vert)&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+Selon le planning général de la paroisse Bon Pasteur de Caen.
+Consulter &lt;a href="https://messes.info"&gt;messes.info&lt;/a&gt; ou le site diocésain pour les horaires actualisés :
+&lt;a href="https://bayeuxlisieux.catholique.fr/paroisses/bon-pasteur-de-caen/horaires-des-messes/"&gt;bayeuxlisieux.catholique.fr&lt;/a&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+L'église Saint-Joseph du Chemin Vert est une église moderne de Caen, située dans le quartier du Chemin Vert.
+&lt;h3&gt;Architecture contemporaine&lt;/h3&gt;
+L'église Saint-Joseph du Chemin Vert a été conçue par l'&lt;strong&gt;architecte Jacques Tournier&lt;/strong&gt;, représentant l'architecture religieuse de la seconde moitié du XXe siècle. Elle témoigne du renouveau architectural des églises dans l'après-guerre.
+&lt;h3&gt;Monument historique récent&lt;/h3&gt;
+L'église est &lt;strong&gt;classée monument historique depuis le 27 juin 2007&lt;/strong&gt;, reconnaissance de la valeur architecturale de l'art religieux contemporain.
+&lt;h3&gt;Quartier du Chemin Vert&lt;/h3&gt;
+Implantée dans le quartier du Chemin Vert, l'église Saint-Joseph constitue un point de repère spirituel important pour les habitants de ce secteur de Caen et participe à la vie communautaire locale au sein de la paroisse Bon Pasteur de Caen.
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Joseph du chemin vert de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>39</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-joseph-chemin-vert</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/saint-germain-blanche-herbe.md --><title>Saint-Germain de Saint-Germain-la-Blanche-Herbe</title><link>http://localhost:8080/saint-germain-blanche-herbe/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=40</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+L'église Saint-Germain de Saint-Germain-la-Blanche-Herbe fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette église, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de l'église Saint-Germain de Saint-Germain-la-Blanche-Herbe à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette église ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Église Saint-Germain de Saint-Germain-la-Blanche-Herbe de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>40</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>saint-germain-blanche-herbe</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/eglises/chapelle-misericorde.md --><title>Chapelle de la Miséricorde</title><link>http://localhost:8080/chapelle-misericorde/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=41</guid><description /><content:encoded>&lt;h2&gt;Présentation&lt;/h2&gt;
+La Chapelle de la Miséricorde fait partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille les fidèles pour les célébrations liturgiques et la vie spirituelle de la communauté.
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Adresse&lt;/h3&gt;
+&lt;em&gt;Adresse à compléter&lt;/em&gt;
+&lt;h3&gt;Horaires des messes&lt;/h3&gt;
+&lt;em&gt;Horaires à compléter&lt;/em&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+Pour plus d'informations sur les activités de cette chapelle, contactez :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 86 13 11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email :&lt;/strong&gt; paroisse.bonpasteur@bayeuxlisieux.catholique.fr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Activités et services&lt;/h2&gt;
+&lt;h3&gt;Célébrations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messes dominicales&lt;/li&gt;
+&lt;li&gt;Messes en semaine&lt;/li&gt;
+&lt;li&gt;Célébrations des fêtes liturgiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sacrements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baptêmes&lt;/li&gt;
+&lt;li&gt;Mariages&lt;/li&gt;
+&lt;li&gt;Funérailles&lt;/li&gt;
+&lt;li&gt;Confessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vie communautaire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groupes de prière&lt;/li&gt;
+&lt;li&gt;Catéchèse&lt;/li&gt;
+&lt;li&gt;Actions de solidarité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Histoire et patrimoine&lt;/h2&gt;
+&lt;em&gt;Histoire de la chapelle de la Miséricorde à compléter&lt;/em&gt;
+&lt;h2&gt;Contact et informations&lt;/h2&gt;
+Pour toute question concernant cette chapelle ou pour participer à la vie de la communauté, n'hésitez pas à nous contacter.
+&lt;strong&gt;Presbytère Saint-Jean&lt;/strong&gt;  
+11 rue des Équipes d'Urgence  
+14000 Caen  
+Téléphone : 02 31 86 13 11  
+Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+&lt;a href="/Les-églises" class="btn btn-outline-primary"&gt;Retour à la liste des églises&lt;/a&gt;
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Chapelle de la Miséricorde de la paroisse Bon Pasteur de Caen</excerpt:encoded><wp:post_id>41</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>chapelle-misericorde</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item><item><!-- Source: content/infos/messes-horaires.md --><title>Horaires des messes</title><link>http://localhost:8080/messes-horaires/</link><pubDate>Thu, 24 Jul 2025 07:04:54 +0000</pubDate><dc:creator>gnodet</dc:creator><guid isPermaLink="false">http://localhost:8080/?page_id=42</guid><description /><content:encoded>&lt;em&gt;Retrouvez tous les horaires de célébrations dans nos églises&lt;/em&gt;
+&lt;h2&gt;Messes dominicales&lt;/h2&gt;
+| Heure | Église | Commune | Particularités |
+|-------|--------|---------|----------------|
+| 8h30 | Saint-Pierre | Caen | Messe traditionnelle |
+| 9h00 | Saint-Étienne | Caen | Messe des familles |
+| 9h30 | Saint-Gilles | Caen | |
+| 10h00 | Saint-Paul | Caen | Messe chantée |
+| 10h30 | Saint-Jean-Baptiste | Caen | Messe des jeunes |
+| 11h00 | Saint-Sauveur | Caen | Messe solennelle |
+| 11h15 | Saint-Ouen | Caen | |
+| 18h00 | Saint-Julien | Caen | Messe du soir |
+| 18h30 | Notre-Dame-de-l'Assomption | Caen | Messe anticipée |
+&lt;h2&gt;Messes en semaine&lt;/h2&gt;
+&lt;h3&gt;Lundi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;8h00 - Saint-Pierre&lt;/li&gt;
+&lt;li&gt;18h30 - Saint-Étienne&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mardi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;8h00 - Saint-Paul&lt;/li&gt;
+&lt;li&gt;18h30 - Saint-Gilles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mercredi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;8h00 - Saint-Jean-Baptiste&lt;/li&gt;
+&lt;li&gt;18h30 - Saint-Sauveur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Jeudi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;8h00 - Saint-Ouen&lt;/li&gt;
+&lt;li&gt;18h30 - Saint-Julien&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Vendredi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;8h00 - Saint-Pierre&lt;/li&gt;
+&lt;li&gt;18h30 - Notre-Dame-de-l'Assomption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Samedi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;8h00 - Saint-Étienne&lt;/li&gt;
+&lt;li&gt;18h00 - Saint-Paul (messe anticipée)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Célébrations spéciales&lt;/h2&gt;
+&lt;blockquote&gt;&lt;strong&gt;Temps forts liturgiques&lt;/strong&gt;  &lt;/blockquote&gt;
+&lt;blockquote&gt;Pendant l'Avent, le Carême, et les grandes fêtes, des horaires spéciaux peuvent être proposés. Consultez le bulletin paroissial ou notre site internet pour les dernières informations.&lt;/blockquote&gt;
+&lt;h2&gt;Autres communes&lt;/h2&gt;
+| Commune | Église | Dimanche | Semaine |
+|---------|--------|----------|---------|
+| Blainville-sur-Orne | Saint-Martin | 10h30 | Mercredi 18h30 |
+| Hérouville-Saint-Clair | Saint-Clair | 9h30 | Vendredi 18h30 |
+| Épron | Saint-Vigor | 11h00 | Mardi 18h30 |
+| Saint-Germain-la-Blanche-Herbe | Saint-Germain | 9h00 | Jeudi 18h30 |
+&lt;h2&gt;Informations pratiques&lt;/h2&gt;
+&lt;h3&gt;Confessions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Samedi 16h-17h30&lt;/li&gt;
+&lt;li&gt;Ou sur rendez-vous&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Adoration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Jeudi 20h-21h à Saint-Pierre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Chapelet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tous les jours 17h45 avant la messe du soir&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Modifications d'horaires&lt;/h2&gt;
+Les horaires peuvent être modifiés pendant :
+&lt;ul&gt;
+&lt;li&gt;Les vacances scolaires&lt;/li&gt;
+&lt;li&gt;Les fêtes liturgiques&lt;/li&gt;
+&lt;li&gt;Les événements exceptionnels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;em&gt;Consultez le bulletin paroissial ou contactez-nous pour confirmation.&lt;/em&gt;
+&lt;h2&gt;Contact&lt;/h2&gt;
+Pour toute question sur les horaires :
+&lt;strong&gt;Téléphone :&lt;/strong&gt; 02 31 29 35 00
+&lt;a href="/infos/contact" class="btn btn-primary"&gt;Nous contacter&lt;/a&gt;</content:encoded><excerpt:encoded>Consultez les horaires des messes dans toutes nos églises</excerpt:encoded><wp:post_id>42</wp:post_id><wp:post_date>2025-07-24 07:04:54</wp:post_date><wp:post_date_gmt>2025-07-24 07:04:54</wp:post_date_gmt><wp:comment_status>closed</wp:comment_status><wp:ping_status>closed</wp:ping_status><wp:post_name>messes-horaires</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type><wp:post_password /><wp:is_sticky>0</wp:is_sticky></item></channel></rss>

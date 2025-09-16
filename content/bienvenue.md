@@ -1,8 +1,10 @@
 ---
 title: Bienvenue
-description: Bienvenue dans notre communauté paroissiale
-layout: paroisse/page
+updated: '2025-09-16'
+url: /bienvenue/
 ---
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGtDPv-cBD1LkRe0WQALm9EHHUyeg1nogPTHeD12eLhcQUTSomKSNRFFDub1n9oWTXEE1RmAajEL-bWI9-TTPckqug5xe6JCYL4jPzN6XnHTaH9yycWnoy3IQNtakZTmmv-oSxPYRJ3Cj-MHO0JGFOWzgX0SjnQNAfh-4r8sUOp52Me4gbIRio_SVowdaF/w400-h266/Bienvenue%20devant%20la%20cathe%CC%81drale%20gothique.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGtDPv-cBD1LkRe0WQALm9EHHUyeg1nogPTHeD12eLhcQUTSomKSNRFFDub1n9oWTXEE1RmAajEL-bWI9-TTPckqug5xe6JCYL4jPzN6XnHTaH9yycWnoy3IQNtakZTmmv-oSxPYRJ3Cj-MHO0JGFOWzgX0SjnQNAfh-4r8sUOp52Me4gbIRio_SVowdaF/s1536/Bienvenue%20devant%20la%20cathe%CC%81drale%20gothique.png)
 
 > « Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses brebis. » (Jean 10, 11)
 
@@ -10,74 +12,72 @@ layout: paroisse/page
 
 Que vous soyez de passage, nouveau dans la région, ou que vous souhaitiez découvrir ou redécouvrir la foi chrétienne, nous vous accueillons avec joie dans notre communauté paroissiale.
 
-### Qui que vous soyez...
+### Qui que vous soyez…
 
 Notre paroisse est ouverte à tous, sans distinction :
 
-- **Familles** : avec enfants, couples, parents seuls
-- **Jeunes** : étudiants, jeunes professionnels
-- **Personnes seules** : célibataires, veufs, divorcés
-- **Personnes âgées** : retraités, résidents en EHPAD
-- **Personnes en difficulté** : malades, personnes en précarité
+  * **Familles** : avec enfants, couples, parents seuls
+  * **Jeunes** : étudiants, jeunes professionnels
+  * **Personnes seules** : célibataires, veufs, divorcés
+  * **Personnes âgées** : retraités, résidents en EHPAD
+  * **Personnes en difficulté** : malades, personnes en précarité
 
 ### Comment nous rejoindre ?
 
-#### 🕊️ Première visite
+####  Première visite
+
 Venez simplement assister à une messe dominicale. Vous serez accueillis chaleureusement et pourrez rencontrer les membres de notre communauté.
 
-#### 📞 Prise de contact
-N'hésitez pas à nous contacter par téléphone ou email. Un membre de l'équipe pastorale sera ravi de vous renseigner et de vous orienter.
+#### Prise de contact
 
-#### 🤝 Rencontre personnelle
-Si vous le souhaitez, nous pouvons organiser une rencontre avec un prêtre ou un laïc en mission ecclésiale pour échanger sur vos attentes et vos questions.
+N’hésitez pas à nous contacter par téléphone ou email. Un membre de l’équipe pastorale sera ravi de vous renseigner et de vous orienter.
 
 ### Nos services
 
 #### Spiritualité
-- Participation aux messes
-- Prière et méditation
-- Confession et réconciliation
-- Direction spirituelle
+
+  * Participation aux messes
+  * Prière et méditation
+  * Confession et réconciliation
+  * Direction spirituelle
 
 #### Sacrements
-- Baptême (enfants et adultes)
-- Première communion
-- Confirmation
-- Mariage
-- Funérailles
+
+  * Baptême (enfants et adultes)
+  * Première communion
+  * Confirmation
+  * Mariage
+  * Funérailles
 
 #### Formation
-- Catéchèse pour enfants
-- Aumônerie pour adolescents
-- Formation d'adultes
-- Groupes de partage biblique
+
+  * Catéchèse pour enfants
+  * Aumônerie pour adolescents
+  * Formation d’adultes
+  * Groupes de partage biblique
 
 #### Solidarité
-- Aide aux personnes en difficulté
-- Visites aux malades
-- Actions caritatives
-- Soutien aux familles
+
+  * Aide aux personnes en difficulté
+  * Visites aux malades
+  * Actions caritatives
+  * Soutien aux familles
 
 ### Nos prochains rendez-vous
 
 Voici quelques occasions privilégiées pour découvrir notre communauté :
 
-- **Messes dominicales** : Tous les dimanches dans nos différentes églises
-- **Soirées de prière** : Chaque vendredi soir avec les chants de Taizé
-- **Café-rencontre** : Premier samedi du mois après la messe
-- **Conférences** : Régulièrement sur des thèmes spirituels et sociétaux
+  * **Messes dominicales** : Tous les dimanches dans nos différentes églises
+  * **Soirées de prière** : Chaque vendredi soir avec les chants de Taizé
+  * **Café-rencontre** : Premier samedi du mois après la messe
+  * **Conférences** : Régulièrement sur des thèmes spirituels et sociétaux
 
 ## Premier contact
 
-**Téléphone :** 02 31 29 35 00  
-**Email :** [accueil@paroisse-bonpasteur-caen.fr](mailto:accueil@paroisse-bonpasteur-caen.fr)
+**Téléphone :** 02 31 29 35 00
 
-[Nous contacter](/infos/contact){.btn .btn-primary}
+**Email :** [accueil@paroisse-bonpasteur-caen.fr](mailto:accueil@paroisse-bonpasteur-caen.fr)  
+[Nous contacter  
+](/infos/contact)  
 
-### Prochaines messes du dimanche
-
-- 9h00 - Saint-Pierre
-- 10h30 - Saint-Étienne
-- 18h00 - Saint-Paul
-
-[Tous les horaires](/infos/messes-horaires){.btn .btn-outline-primary}
+[Tous les horaires](/infos/messes-horaires)
