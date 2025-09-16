@@ -70,7 +70,7 @@
   font-weight: 400;
   margin: 0 0 1rem 0;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-  font-family: 'Cardo', serif;
+  font-family: "Cormorant Infant", serif;
   line-height: 1.2;
   color: white;
   opacity: 0;
@@ -83,13 +83,13 @@
   width: 0;
   height: 0;
 }
-}
 
 .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
   margin: 0;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  font-family: 'Cormorant Infant', serif;
   opacity: 0.95;
   color: white;
 }
@@ -100,7 +100,7 @@
   left: 50%;
   transform: translate(-50%, 50%);
   display: flex;
-  gap: 1rem;
+  gap: 40px;
   flex-wrap: wrap;
   justify-content: center;
   z-index: 10;
@@ -110,7 +110,7 @@
 .hero-btn {
   background: white;
   color: #832732;
-  padding: 1rem 1.5rem;
+  padding: 1rem 20px;
   border-radius: 8px;
   text-decoration: none;
   display: flex;
@@ -123,16 +123,18 @@
   font-weight: 500;
   border: none;
   cursor: pointer;
-  flex: 1;
-  min-width: 0;
+  min-width: 130px;
+  max-width: 170px;
+  width: auto;
 }
 
 .hero-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
   background: #f8f9fa;
   color: #832732;
   text-decoration: none;
+  max-width: 180px;
 }
 
 .hero-btn:focus {
@@ -206,14 +208,15 @@
   .hero-buttons {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    gap: 30px;
     bottom: 0;
     transform: translate(-50%, 50%);
   }
   
   .hero-btn {
-    min-width: 100px;
-    padding: 0.8rem 1rem;
+    min-width: 120px;
+    max-width: 160px;
+    padding: 0.8rem 18px;
   }
   
   .hero-btn span {
@@ -237,16 +240,17 @@
   .hero-buttons {
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    gap: 20px;
     bottom: 0;
     transform: translate(-50%, 50%);
   }
   
   .hero-btn {
-    min-width: 180px;
+    min-width: 130px;
+    max-width: 170px;
     flex-direction: row;
     gap: 0.75rem;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 20px;
   }
   
   .hero-btn i {
