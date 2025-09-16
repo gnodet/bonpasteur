@@ -16,6 +16,18 @@
   }
 }
 
+/* Animation pour le sous-titre */
+@keyframes fadeInSubtitle {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 0.95;
+    transform: translateY(0);
+  }
+}
+
 .hero-section {
   position: relative;
   margin: 0;
@@ -90,15 +102,16 @@
   margin: 0;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
   font-family: 'Cormorant Infant', serif;
-  opacity: 0.95;
+  opacity: 0;
   color: white;
+  animation: fadeInSubtitle 1s ease-in-out 0.5s forwards;
 }
 
 .hero-buttons {
   position: absolute;
   bottom: -65px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
@@ -195,6 +208,8 @@
     flex-wrap: nowrap;
     gap: 40px;
     max-width: none;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -206,7 +221,7 @@
     max-width: 450px;
     justify-content: center;
     bottom: -60px;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
   }
 
   .hero-btn:nth-child(3n+1) {
@@ -222,7 +237,7 @@
     max-width: 400px;
     justify-content: center;
     bottom: -55px;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
   }
 
   .hero-btn {
@@ -264,7 +279,7 @@
     flex-wrap: wrap;
     gap: 30px;
     bottom: -60px;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     justify-content: center;
     align-items: center;
   }
@@ -298,7 +313,7 @@
     flex-wrap: wrap;
     gap: 15px;
     bottom: -50px;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     justify-content: center;
   }
   
