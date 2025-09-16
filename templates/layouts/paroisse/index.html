@@ -1,5 +1,52 @@
 {#include partials/paroisse/layout.html}
   {#insert content}
+    <!-- Section Hero avec photo pleine largeur -->
+    {#if page.hero_image and page.hero_title}
+    <section class="hero-section" role="banner">
+        <div class="hero-image-container">
+            <img
+                src="{page.hero_image}"
+                alt="Église {page.simple-name ?: page.name}"
+                class="hero-image"
+                loading="eager"
+                decoding="async"
+            />
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1 class="hero-title">{page.hero_title}</h1>
+                    {#if page.hero_subtitle}
+                    <p class="hero-subtitle">{page.hero_subtitle}</p>
+                    {/if}
+                </div>
+            </div>
+        </div>
+
+        <!-- Boutons d'action hero -->
+        <nav class="hero-buttons" role="navigation" aria-label="Actions principales">
+            <a href="/infos/messes-horaires" class="hero-btn" aria-label="Consulter les horaires des messes">
+                <i class="icon-clock" aria-hidden="true"></i>
+                <span>Horaires Messes</span>
+            </a>
+            <a href="/bapteme" class="hero-btn" aria-label="Demander un baptême">
+                <i class="icon-water" aria-hidden="true"></i>
+                <span>Baptêmes</span>
+            </a>
+            <a href="/mariage" class="hero-btn" aria-label="Demander un mariage">
+                <i class="icon-heart" aria-hidden="true"></i>
+                <span>Mariages</span>
+            </a>
+            <a href="/infos/intentions-priere" class="hero-btn" aria-label="Déposer une intention de prière">
+                <i class="icon-pray" aria-hidden="true"></i>
+                <span>Intentions de prière</span>
+            </a>
+            <a href="/rencontrer-un-pretre" class="hero-btn" aria-label="Contacter un prêtre">
+                <i class="icon-user" aria-hidden="true"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+    </section>
+    {#else}
+    <!-- Fallback si pas d'image hero -->
     <div class="hero-section">
       <div class="container">
         <div class="row">
@@ -12,9 +59,38 @@
         </div>
       </div>
     </div>
-    
+    {/if}
+
+    <!-- Contenu principal -->
     <div class="container my-5">
       {#insert /}
     </div>
+
+    <!-- Navigation secondaire (si activée) -->
+    {#if page.show_secondary_nav}
+    <nav class="secondary-nav" role="navigation" aria-label="Navigation secondaire">
+        <div class="container">
+            <h2>Découvrir notre paroisse</h2>
+            <div class="nav-grid">
+                <a href="/eglises" class="nav-card">
+                    <h3>Nos Églises</h3>
+                    <p>Découvrez nos 23 lieux de culte</p>
+                </a>
+                <a href="/jeunesse" class="nav-card">
+                    <h3>Jeunesse</h3>
+                    <p>Activités pour les 0-25 ans</p>
+                </a>
+                <a href="/solidarite" class="nav-card">
+                    <h3>Solidarité</h3>
+                    <p>Actions caritatives et entraide</p>
+                </a>
+                <a href="/malades-et-aines" class="nav-card">
+                    <h3>Malades et Aînés</h3>
+                    <p>Accompagnement et visites</p>
+                </a>
+            </div>
+        </div>
+    </nav>
+    {/if}
   {/insert}
 {/include}

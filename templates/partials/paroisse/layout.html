@@ -5,13 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{page.title}</title>
     <meta name="description" content="{page.description}">
+
+    <!-- Métadonnées Open Graph -->
+    <meta property="og:title" content="{page.hero_title ?: page.title}">
+    <meta property="og:description" content="{page.description}">
+    {#if page.hero_image}
+    <meta property="og:image" content="{page.hero_image}">
+    {/if}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{site.url}{page.url}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{page.hero_title ?: page.title}">
+    <meta name="twitter:description" content="{page.description}">
+    {#if page.hero_image}
+    <meta name="twitter:image" content="{page.hero_image}">
+    {/if}
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="{site.url}css/custom.css" rel="stylesheet">
+    <!-- Hero CSS -->
+    <link href="{site.url}styles/hero.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="{site.url}styles/main.css" rel="stylesheet">
+
+    <!-- Preload de l'image hero pour la performance -->
+    {#if page.hero_image}
+    <link rel="preload" as="image" href="{page.hero_image}">
+    {/if}
 </head>
 <body>
     <!-- Header -->
@@ -121,5 +149,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="/js/custom.js"></script>
+
+    <!-- Hero Enhancement Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Analytics pour les boutons hero
+            const heroButtons = document.querySelectorAll('.hero-btn');
+            heroButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    console.log('Hero button clicked:', this.getAttribute('aria-label'));
+                    // Ici on pourrait ajouter Google Analytics ou autre tracking
+                });
+            });
+
+            // Amélioration de l'accessibilité au clavier
+            heroButtons.forEach(button => {
+                button.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        this.click();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>

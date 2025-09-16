@@ -8,43 +8,11 @@ simple-name: Bon Pasteur
 hero_image: https://bonpasteurcaen.files.wordpress.com/2024/12/img_20241201_113654.jpg
 hero_title: Paroisse du Bon Pasteur de Caen
 hero_subtitle: Communauté catholique de Caen et ses alentours
+show_secondary_nav: true
 custom_css: /styles/hero.css
 ---
 
-<div class="hero-section">
-  <div class="hero-image-container">
-    <img src="https://bonpasteurcaen.files.wordpress.com/2024/12/img_20241201_113654.jpg" alt="Église Bon Pasteur de Caen" class="hero-image" />
-    <div class="hero-overlay">
-      <div class="hero-content">
-        <h1 class="hero-title">Paroisse du Bon Pasteur de Caen</h1>
-        <p class="hero-subtitle">Communauté catholique de Caen et ses alentours</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="hero-buttons">
-    <a href="/infos/messes-horaires" class="hero-btn">
-      <i class="icon-clock"></i>
-      <span>Horaires Messes</span>
-    </a>
-    <a href="/bapteme" class="hero-btn">
-      <i class="icon-water"></i>
-      <span>Baptêmes</span>
-    </a>
-    <a href="/mariage" class="hero-btn">
-      <i class="icon-heart"></i>
-      <span>Mariages</span>
-    </a>
-    <a href="/infos/intentions-priere" class="hero-btn">
-      <i class="icon-pray"></i>
-      <span>Intentions de prière</span>
-    </a>
-    <a href="/rencontrer-un-pretre" class="hero-btn">
-      <i class="icon-user"></i>
-      <span>Contact</span>
-    </a>
-  </div>
-</div>
 
 ## Bienvenue dans notre communauté
 
