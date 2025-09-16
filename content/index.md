@@ -5,7 +5,7 @@ layout: paroisse/index
 updated: '2025-09-16'
 name: Paroisse Bon Pasteur
 simple_name: Bon Pasteur
-hero_image: https://bonpasteurcaen.files.wordpress.com/2024/12/img_20241201_113654.jpg
+hero_image: /images/eglise-bon-pasteur-hero.jpg
 hero_title: Paroisse du Bon Pasteur de Caen
 hero_subtitle: Communauté catholique de Caen et ses alentours
 show_secondary_nav: true
