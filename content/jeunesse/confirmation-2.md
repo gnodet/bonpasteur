@@ -14,4 +14,4 @@ C’est une occasion de renouveler son engagement envers la foi chrétienne, fai
 
 Pour toute information, vous pouvez contacter la paroisse par mail : [annepalludebeaupuy@gmail.com](mailto:annepalludebeaupuy@gmail.com)
 
-Pour les jeunes (11-17 ans), nous vous invitons à aller sur la page « jeunes » de notre site.
+Pour les jeunes (11-17 ans), nous vous invitons à aller sur la page « jeunes » de notre site.
