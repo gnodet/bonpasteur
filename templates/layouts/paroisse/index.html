@@ -1,21 +1,21 @@
 {#include partials/paroisse/layout.html}
   {#insert content}
     <!-- Section Hero avec photo pleine largeur -->
-    {#if page.hero_image and page.hero_title}
+    {#if page.data.hero_image and page.data.hero_title}
     <section class="hero-section" role="banner">
         <div class="hero-image-container">
             <img
-                src="{page.hero_image}"
-                alt="Église {page.simple-name ?: page.name}"
+                src="{page.data.hero_image}"
+                alt="Église {page.data.simple_name ?: page.data.name ?: page.title}"
                 class="hero-image"
                 loading="eager"
                 decoding="async"
             />
             <div class="hero-overlay">
                 <div class="hero-content">
-                    <h1 class="hero-title">{page.hero_title}</h1>
-                    {#if page.hero_subtitle}
-                    <p class="hero-subtitle">{page.hero_subtitle}</p>
+                    <h1 class="hero-title">{page.data.hero_title}</h1>
+                    {#if page.data.hero_subtitle}
+                    <p class="hero-subtitle">{page.data.hero_subtitle}</p>
                     {/if}
                 </div>
             </div>
@@ -67,7 +67,7 @@
     </div>
 
     <!-- Navigation secondaire (si activée) -->
-    {#if page.show_secondary_nav}
+    {#if page.data.show_secondary_nav}
     <nav class="secondary-nav" role="navigation" aria-label="Navigation secondaire">
         <div class="container">
             <h2>Découvrir notre paroisse</h2>
