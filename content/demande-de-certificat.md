@@ -1,5 +1,8 @@
 ---
 title: Demande de certificat
+description: Demander un certificat Vous avez besoin d’un certificat de baptême ou
+  de tout autre sacrement reçu dans l’Église catholique, voici...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /demande-de-certificat/
 ---

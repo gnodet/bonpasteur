@@ -1,5 +1,8 @@
 ---
 title: Carmel de Caen
+description: Présentation Le Carmel de Caen fait partie de la paroisse Bon Pasteur
+  de Caen, créée le 1er septembre 2024....
+layout: paroisse/page
 updated: '2025-09-16'
 url: /carmel-de-caen/
 ---

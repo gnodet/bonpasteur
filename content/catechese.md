@@ -1,5 +1,8 @@
 ---
 title: Enfance (0-11 ans)
+description: '# Vous souhaitez proposer à votre enfant de rencontrer Jésus, de découvrir
+  que Dieu l’aime, et de vivre...'
+layout: paroisse/page
 updated: '2025-09-16'
 url: /catechese/
 ---

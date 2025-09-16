@@ -1,5 +1,8 @@
 ---
 title: Bienvenue
+description: '> « Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses brebis.
+  » (Jean 10,...'
+layout: paroisse/page
 updated: '2025-09-16'
 url: /bienvenue/
 ---

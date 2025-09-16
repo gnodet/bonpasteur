@@ -1,5 +1,8 @@
 ---
 title: Chapelle de la Miséricorde
+description: Présentation La Chapelle de la Miséricorde fait partie de la paroisse
+  Bon Pasteur de Caen, créée le 1er septembre...
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /chapelle-misericorde/
 ---

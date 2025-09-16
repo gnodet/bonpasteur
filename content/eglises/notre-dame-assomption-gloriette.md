@@ -1,5 +1,8 @@
 ---
 title: Notre-Dame-de-l’Assomption (la Gloriette)
+description: Présentation L’église Notre-Dame-de-l’Assomption (la Gloriette) fait
+  partie de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024....
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /notre-dame-assomption-gloriette/
 ---

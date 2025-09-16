@@ -1,5 +1,8 @@
 ---
 title: Qui sommes-nous ?
+description: '_Une communauté chrétienne au cœur de l’agglomération caennaise_ ##
+  Notre histoire La paroisse Bon Pasteur de Caen a été créée...'
+layout: paroisse/page
 updated: '2025-09-16'
 url: /presentation/
 ---

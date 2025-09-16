@@ -1,5 +1,8 @@
 ---
 title: Paroisse Bon Pasteur de Caen
+description: La paroisse Bon Pasteur de Caen, créée le 1er septembre 2024 dans le
+  cadre de la recomposition diocésaine du Calvados...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /qui-sommes-nous/
 ---

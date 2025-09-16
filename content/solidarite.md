@@ -1,5 +1,8 @@
 ---
 title: Solidarité
+description: vous souhaitez apporter votre aide et vos compétences au service des
+  personnes les plus fragiles. De nombreuses possibilités vous sont...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /solidarite/
 ---

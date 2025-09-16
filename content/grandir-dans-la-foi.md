@@ -1,5 +1,8 @@
 ---
 title: Grandir dans la foi
+description: Le café théologique & les colloques Au Café Mancel dans l’enceinte du
+  Château de Caen, une série d’environ six entretiens...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /grandir-dans-la-foi/
 ---

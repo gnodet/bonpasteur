@@ -1,5 +1,8 @@
 ---
 title: Se confesser
+description: Vous souhaitez recevoir le sacrement du Pardon et de la Réconciliation.
+  Voici les propositions régulières qui vous sont offertes **Horaires...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /se-confesser/
 ---

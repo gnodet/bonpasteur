@@ -1,5 +1,8 @@
 ---
 title: Saint-Gerbold de Blainville-sur-Orne
+description: Présentation L’église Saint-Gerbold de Blainville-sur-Orne fait partie
+  de la paroisse Bon Pasteur de Caen, créée le 1er septembre 2024....
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /saint-gerbold-blainville/
 ---

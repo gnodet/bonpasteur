@@ -1,5 +1,8 @@
 ---
 title: Catéchèse
+description: Vous souhaitez proposer à votre enfant de rencontrer Jésus, de découvrir
+  que Dieu l’aime, et de vivre une expérience de...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /catechese-2/
 ---

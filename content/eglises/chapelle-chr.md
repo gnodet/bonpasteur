@@ -1,5 +1,8 @@
 ---
 title: Chapelle du CHR
+description: Présentation La Chapelle du CHR (Centre Hospitalier Régional) fait partie
+  de la paroisse Bon Pasteur de Caen, créée le...
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /chapelle-chr/
 ---

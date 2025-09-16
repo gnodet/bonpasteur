@@ -1,5 +1,8 @@
 ---
 title: Sainte-Claire de la Folie-Couvrechef
+description: Présentation L’église Sainte-Claire de la Folie-Couvrechef fait partie
+  de la paroisse Bon Pasteur de Caen, créée le 1er septembre...
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /sainte-claire-folie-couvrechef/
 ---

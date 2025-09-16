@@ -1,5 +1,8 @@
 ---
 title: Saint-Ouen
+description: Présentation L’église Saint-Ouen fait partie de la paroisse Bon Pasteur
+  de Caen, créée le 1er septembre 2024. Elle accueille...
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /saint-ouen/
 ---

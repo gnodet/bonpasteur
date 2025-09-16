@@ -1,3 +1,11 @@
+---
+title: Chorale etudiante et jeune pro
+description: chorale Chaïrete La chorale χαίρετε ("Réjouissez-vous") rassemble étudiants
+  et jeunes professionnels de l’agglomération caennaise autour du chant, dans un...
+layout: paroisse/page
+updated: '2025-09-16'
+---
+
 # Chorale etudiante et jeune pro
 
 ## chorale Chaïrete

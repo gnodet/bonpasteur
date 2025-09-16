@@ -1,8 +1,9 @@
 ---
 title: About
-description: |
-  Roq is a powerful static site generator that combines the best features of tools like Jekyll and Hugo, but within the Java ecosystem. It offers a modern approach with Quarkus at its core, requiring zero configuration to get started —ideal for developers who want to jump right in, while still being flexible enough for advanced users to hook into Java for deeper customization.
+description: Roq is a powerful static site generator that combines the best features
+  of tools like Jekyll and Hugo, but within...
 layout: :theme/page
+updated: '2025-09-16'
 ---
 
 # About Roq

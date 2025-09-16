@@ -1,3 +1,11 @@
+---
+title: Étudiants
+description: Tu as entre 18 et 25 ans et tu étudies à Saint-Malo ? Tu souhaites rencontrer
+  d’autres étudiants et partager...
+layout: paroisse/page
+updated: '2025-09-16'
+---
+
 # Étudiants
 
 Tu as entre 18 et 25 ans et tu étudies à Saint-Malo ? Tu souhaites rencontrer d’autres étudiants et partager des moments enrichissants ?

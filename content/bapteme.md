@@ -1,5 +1,8 @@
 ---
 title: Demander le baptême
+description: 'Vous souhaitez faire baptiser votre enfant Le baptême : une étape importante
+  dans la vie de votre enfant ...'
+layout: paroisse/page
 updated: '2025-09-16'
 url: /bapteme/
 ---

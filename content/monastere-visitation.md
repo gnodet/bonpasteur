@@ -1,5 +1,8 @@
 ---
 title: Monastère de la Visitation
+description: Présentation Le Monastère de la Visitation fait partie de la paroisse
+  Bon Pasteur de Caen, créée le 1er septembre...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /monastere-visitation/
 ---

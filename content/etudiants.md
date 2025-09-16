@@ -1,5 +1,8 @@
 ---
 title: Étudiants
+description: Tu as entre 18 et 25 ans et tu étudies à Caen ? Tu souhaites rencontrer
+  d’autres étudiants et partager...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /etudiants/
 ---

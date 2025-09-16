@@ -1,5 +1,8 @@
 ---
 title: Malades et aînés
+description: « J’étais malade, et vous m’avez visité » (Évangile selon saint Matthieu
+  25,36) À l’image de Jésus qui s’est toujours...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /malades-et-aines/
 ---

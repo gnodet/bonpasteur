@@ -1,5 +1,8 @@
 ---
 title: Obsèques
+description: Lors de la disparition d’une personne proche, l’Église est là pour vous
+  aider, vous entourer de sa prière et témoigner...
+layout: paroisse/page
 updated: '2025-09-16'
 url: /obseques/
 ---

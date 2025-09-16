@@ -1,5 +1,8 @@
 ---
 title: Saint-Jean-Baptiste
+description: Présentation L’église Saint-Jean-Baptiste fait partie de la paroisse
+  Bon Pasteur de Caen, créée le 1er septembre 2024. Elle accueille...
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /saint-jean-baptiste/
 ---

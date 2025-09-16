@@ -1,5 +1,8 @@
 ---
 title: Rejoindre un groupe
+description: '## Rejoindre une communauté Chaque week-end nos communautés se rassemblent
+  pour célébrer leur joie de croire et...'
+layout: paroisse/page
 updated: '2025-09-16'
 url: /rejoindre-un-groupe/
 ---

@@ -1,5 +1,8 @@
 ---
 title: Chapelle des Bénédictines
+description: Présentation La Chapelle des Bénédictines fait partie de la paroisse
+  Bon Pasteur de Caen, créée le 1er septembre 2024....
+layout: paroisse/eglise
 updated: '2025-09-16'
 url: /chapelle-benedictines/
 ---

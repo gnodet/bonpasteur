@@ -1,5 +1,8 @@
 ---
 title: Pôle Jeunes (12 17 Ans)
+description: notre paroisse (11-17 ans) propose aux collégiens et aux lycéens un lieu
+  d’épanouissement humain et spirituel. A travers les rencontres,...
+layout: paroisse/jeunesse
 updated: '2025-09-16'
 url: /pole-jeunes-12-17-ans/
 ---
