@@ -101,8 +101,9 @@
   transform: translate(-50%, 50%);
   display: flex;
   gap: 40px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   z-index: 10;
   padding: 0 1rem;
 }
@@ -122,6 +123,7 @@
   transition: all 0.3s ease;
   min-width: 120px;
   font-weight: 500;
+  font-family: 'Cormorant Infant', serif;
   border: none;
   cursor: pointer;
   width: 130px;
@@ -186,6 +188,15 @@
 }
 
 /* Responsive Design */
+
+/* Très grandes largeurs (1400px+) - Force une seule ligne */
+@media (min-width: 1400px) {
+  .hero-buttons {
+    flex-wrap: nowrap;
+    gap: 50px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-section {
     margin: -1rem -1rem 3rem -1rem;
@@ -206,10 +217,12 @@
   
   .hero-buttons {
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 30px;
     bottom: 0;
     transform: translate(-50%, 50%);
+    justify-content: center;
+    align-items: center;
   }
   
   .hero-btn {
