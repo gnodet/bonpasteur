@@ -164,19 +164,19 @@
                 let i = 0;
                 const typeInterval = setInterval(() => {
                     const currentText = originalText.substring(0, i + 1);
-                    // Ajouter le saut de ligne après "Pasteur"
-                    if (currentText.includes('Pasteur')) {
-                        heroTitle.innerHTML = currentText.replace('Pasteur', 'Pasteur<br>');
+                    // Ajouter le saut de ligne après "Bon" pour avoir 2 lignes
+                    if (currentText.includes('Bon ')) {
+                        heroTitle.innerHTML = currentText.replace('Bon ', 'Bon<br>');
                     } else {
                         heroTitle.textContent = currentText;
                     }
                     i++;
                     if (i >= originalText.length) {
                         clearInterval(typeInterval);
-                        // S'assurer que le HTML final a le saut de ligne
-                        heroTitle.innerHTML = originalText.replace('Pasteur', 'Pasteur<br>');
+                        // S'assurer que le HTML final a le saut de ligne après "Bon"
+                        heroTitle.innerHTML = originalText.replace('Bon ', 'Bon<br>');
                     }
-                }, 80); // 80ms entre chaque caractère
+                }, 60); // 60ms entre chaque caractère pour plus de fluidité
             }
 
             // Analytics pour les boutons hero
