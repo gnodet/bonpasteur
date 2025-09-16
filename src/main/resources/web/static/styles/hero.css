@@ -1,5 +1,21 @@
 /* Hero Section - Style inspiré de paroisses-saintmalo.fr */
 
+/* Animation pour le titre dynamique */
+@keyframes typewriter {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero-section {
   position: relative;
   margin: -2rem -2rem 3rem -2rem;
@@ -27,7 +43,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+  background: rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,6 +64,8 @@
   font-family: 'Cardo', serif;
   line-height: 1.2;
   color: white;
+  opacity: 0;
+  animation: typewriter 3s ease-in-out 0.5s forwards;
 }
 
 .hero-subtitle {
@@ -88,6 +106,8 @@
   font-weight: 500;
   border: none;
   cursor: pointer;
+  flex: 1;
+  min-width: 0;
 }
 
 .hero-btn:hover {

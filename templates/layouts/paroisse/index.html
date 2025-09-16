@@ -13,7 +13,7 @@
             />
             <div class="hero-overlay">
                 <div class="hero-content">
-                    <h1 class="hero-title">{page.data.hero_title}</h1>
+                    <h1 class="hero-title" id="hero-title">{page.data.hero_title}</h1>
                     {#if page.data.hero_subtitle}
                     <p class="hero-subtitle">{page.data.hero_subtitle}</p>
                     {/if}
@@ -42,6 +42,10 @@
             <a href="/rencontrer-un-pretre" class="hero-btn" aria-label="Contacter un prêtre">
                 <i class="icon-user" aria-hidden="true"></i>
                 <span>Contact</span>
+            </a>
+            <a href="/donner" class="hero-btn" aria-label="Faire un don à la paroisse">
+                <i class="icon-heart" aria-hidden="true"></i>
+                <span>Donner</span>
             </a>
         </nav>
     </section>

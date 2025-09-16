@@ -153,6 +153,24 @@
     <!-- Hero Enhancement Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Animation de texte dynamique pour le titre hero
+            const heroTitle = document.getElementById('hero-title');
+            if (heroTitle) {
+                const originalText = heroTitle.textContent;
+                heroTitle.textContent = '';
+                heroTitle.style.opacity = '1';
+                heroTitle.style.animation = 'none';
+
+                let i = 0;
+                const typeInterval = setInterval(() => {
+                    heroTitle.textContent = originalText.substring(0, i + 1);
+                    i++;
+                    if (i >= originalText.length) {
+                        clearInterval(typeInterval);
+                    }
+                }, 80); // 80ms entre chaque caractère
+            }
+
             // Analytics pour les boutons hero
             const heroButtons = document.querySelectorAll('.hero-btn');
             heroButtons.forEach(button => {
