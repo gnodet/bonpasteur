@@ -17,11 +17,11 @@ buttons:
     aria_label: "Demander un mariage"
     description: "Préparer votre mariage religieux"
     
-  - title: "Intentions de prière"
-    path: "demandes/intentions-priere"
-    icon: "fas fa-praying-hands"
-    aria_label: "Déposer une intention de prière"
-    description: "Confier vos intentions à notre communauté"
+  - title: "Demander un certificat"
+    path: "demandes/demande-de-certificat"
+    icon: "fas fa-certificate"
+    aria_label: "Demander un certificat"
+    description: "Obtenir un certificat de baptême, confirmation ou mariage"
     
   - title: "Contact"
     path: "demandes/rencontrer-un-pretre"

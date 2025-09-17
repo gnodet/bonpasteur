@@ -5,12 +5,11 @@ description: Demander un certificat Vous avez besoin d’un certificat de baptê
 layout: paroisse/page
 updated: '2025-09-16'
 url: /demande-de-certificat/
+hero_image: static/images/certificat-hero.png
+hero_subtitle: Obtenir un certificat de baptême, confirmation ou mariage
 ---
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge8nAyZRFW3kTAWU0rdJAmCPFvIHrAKEzX73aVbEnU6c-oEXycC7XTN6rwZXr3BMKS9yoeevACrw42IV4343NJAkkQ8-xv4P0cbka-VCG1jkX2_HcoC1XfdwRp72ZVaWqmdxgMSr2m6ysNGiCcV4LEYAM8dxYFFpMzObAlO6_f3iQdKP3rJe3OSewmiHcI/w640-h292/Capture%20d%E2%80%99e%CC%81cran%202025-09-10%20a%CC%80%2022.43.23.png)
-
-#   
-Demander un certificat
+# Demander un certificat
 
 Vous avez besoin d’un **certificat de baptême** ou de tout autre sacrement reçu dans l’Église catholique, voici comment faire.
 
