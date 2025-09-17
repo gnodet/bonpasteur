@@ -105,7 +105,7 @@ body {
 
 /* Main content */
 .main-content {
-    padding: 2rem 0;
+    padding: 0;
     background: white;
     min-height: 60vh;
 }

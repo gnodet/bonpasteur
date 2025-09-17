@@ -1,0 +1,91 @@
+{#include partials/paroisse/layout.html}
+  {#insert content}
+    <!-- Section Hero avec photo pleine largeur -->
+    {#if page.data.hero_image?? and page.data.hero_title??}
+    <section class="hero-section" role="banner">
+        <div class="hero-image-container">
+            <img
+                src="{site.url}{page.data.hero_image}"
+                alt="{page.title}"
+                class="hero-image"
+                loading="eager"
+                decoding="async"
+            />
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1 class="hero-title" id="hero-title">{page.data.hero_title}</h1>
+                    {#if page.data.hero_subtitle??}
+                    <p class="hero-subtitle">{page.data.hero_subtitle}</p>
+                    {/if}
+                </div>
+            </div>
+        </div>
+    </section>
+    {#else}
+    <!-- Fallback si pas d'image hero -->
+    <div class="hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h1 class="display-4 mb-4">{page.title}</h1>
+            {#if page.description}
+            <p class="lead mb-4">{page.description}</p>
+            {/if}
+          </div>
+        </div>
+      </div>
+    </div>
+    {/if}
+    
+    <!-- Contenu principal -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12">
+          {#insert /}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    
+    <!-- Script de la carte des clochers avec Leaflet -->
+    <script src="{site.url}static/js/clochers-map-leaflet.js"></script>
+    
+    <!-- Scripts de gestion -->
+    <script>
+        // Gestion des filtres pour Leaflet
+        function filterMarkers(type) {
+            // Appeler la fonction Leaflet
+            if (window.filterMarkersLeaflet) {
+                window.filterMarkersLeaflet(type);
+            }
+            
+            // Mettre à jour l'état des boutons
+            document.querySelectorAll('.btn-group .btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            const activeBtn = document.getElementById('filter-' + (type === 'église' ? 'eglise' : type));
+            if (activeBtn) {
+                activeBtn.classList.add('active');
+            }
+        }
+        
+        // Initialiser la carte au chargement
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.initClochersMapLeaflet) {
+                window.initClochersMapLeaflet();
+            }
+        });
+    </script>
+    
+  {/insert}
+{/include}

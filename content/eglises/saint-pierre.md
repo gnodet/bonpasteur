@@ -5,6 +5,9 @@ description: Présentation L’église Saint-Pierre fait partie de la paroisse B
 layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-pierre/
+hero_image: static/images/saint-pierre-hero.jpg
+hero_title: Église Saint-Pierre
+hero_subtitle: Monument historique gothique flamboyant
 ---
 
 ## Présentation

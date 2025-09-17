@@ -1,18 +1,23 @@
 /* Hero Section - Style inspiré de paroisses-saintmalo.fr */
 
-/* Animation pour le titre dynamique */
+/* Animation typewriter lettre par lettre */
 @keyframes typewriter {
   0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  50% {
+    width: 0;
     opacity: 1;
-    transform: translateY(0);
   }
   100% {
+    width: 100%;
     opacity: 1;
-    transform: translateY(0);
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
   }
 }
 
@@ -85,8 +90,21 @@
   font-family: "Cormorant Infant", serif;
   line-height: 1.2;
   color: white;
-  opacity: 0;
-  animation: typewriter 4s ease-in-out 0.3s forwards;
+  opacity: 1;
+}
+
+/* Animation typewriter uniquement pour la page d'accueil */
+body[data-layout="paroisse/index"] .hero-title {
+  opacity: 1;
+  /* Animation gérée par JavaScript */
+}
+
+/* Spécificité élevée pour surcharger toute animation externe */
+body[data-layout="paroisse/page"] .hero-section .hero-title {
+  opacity: 1 !important;
+  animation: unset !important;
+  animation-name: unset !important;
+  animation-duration: 0s !important;
 }
 
 .hero-title::after {
@@ -102,8 +120,13 @@
   margin: 0;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
   font-family: 'Cormorant Infant', serif;
-  opacity: 0;
+  opacity: 1;
   color: white;
+}
+
+/* Animation fadeIn uniquement pour la page d'accueil */
+body[data-layout="paroisse/index"] .hero-subtitle {
+  opacity: 0;
   animation: fadeInSubtitle 1s ease-in-out 0.5s forwards;
 }
 

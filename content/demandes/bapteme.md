@@ -5,11 +5,11 @@ description: 'Vous souhaitez faire baptiser votre enfant Le baptême : une étap
 layout: paroisse/page
 updated: '2025-09-16'
 url: /bapteme/
+hero_image: static/images/bapteme.png
+hero_title: Demander le baptême
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiICbPQn6wSM7tf_e0ehHvlsHFu5Z1VNf35kcLnV-KLbwfniyzlm1I6MQKUEdxSNmyQkD2_LWDIQrqDzKXN_tcns8FLG3yAWoUGgBIdAYUSvKZUdudxjeq4gJwoS0tL1WfOVXtD0iFVvSojJAzORQWMYovcurDZ-1hqWlBnte6hi3bEOaPDbfPfJhJzwmQ6/w400-h200/Capture%20d%E2%80%99e%CC%81cran%202025-09-10%20a%CC%80%2021.31.33.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiICbPQn6wSM7tf_e0ehHvlsHFu5Z1VNf35kcLnV-KLbwfniyzlm1I6MQKUEdxSNmyQkD2_LWDIQrqDzKXN_tcns8FLG3yAWoUGgBIdAYUSvKZUdudxjeq4gJwoS0tL1WfOVXtD0iFVvSojJAzORQWMYovcurDZ-1hqWlBnte6hi3bEOaPDbfPfJhJzwmQ6/s3038/Capture%20d%E2%80%99e%CC%81cran%202025-09-10%20a%CC%80%2021.31.33.png)
-
-Vous souhaitez faire baptiser votre enfant 
+# Vous souhaitez faire baptiser votre enfant 
 
 Le baptême : une étape importante dans la vie de votre enfant
 

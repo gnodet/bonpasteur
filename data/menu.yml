@@ -10,6 +10,8 @@ items:
   - title: "Les églises"
     path: "#"
     children:
+      - title: "Carte des clochers"
+        path: "/clochers-carte"
       - title: "Sainte Trinité / Saint-Gilles"
         path: "/eglises/sainte-trinite-saint-gilles"
       - title: "Carmel de Caen"
