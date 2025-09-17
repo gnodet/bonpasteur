@@ -6,7 +6,6 @@ layout: paroisse/page
 updated: '2025-09-16'
 url: /bapteme/
 hero_image: static/images/bapteme.png
-hero_title: Demander le baptême
 ---
 
 # Vous souhaitez faire baptiser votre enfant 

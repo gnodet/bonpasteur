@@ -1,7 +1,7 @@
 {#include partials/paroisse/layout.html}
   {#insert content}
     <!-- Section Hero avec photo pleine largeur -->
-    {#if page.data.hero_image?? and page.data.hero_title??}
+    {#if page.data.hero_image?? and page.title??}
     <section class="hero-section" role="banner">
         <div class="hero-image-container">
             <img
@@ -13,7 +13,7 @@
             />
             <div class="hero-overlay">
                 <div class="hero-content">
-                    <h1 class="hero-title" id="hero-title">{page.data.hero_title}</h1>
+                    <h1 class="hero-title" id="hero-title">{page.title}</h1>
                     {#if page.data.hero_subtitle??}
                     <p class="hero-subtitle">{page.data.hero_subtitle}</p>
                     {/if}

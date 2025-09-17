@@ -1,7 +1,7 @@
 {#include partials/paroisse/layout.html}
   {#insert content}
     <!-- Section Hero avec photo pleine largeur -->
-    {#if page.data.hero_image?? and page.data.hero_title??}
+    {#if page.data.hero_image?? and page.title??}
     <section class="hero-section" role="banner">
         <div class="hero-image-container">
             <img
@@ -13,7 +13,7 @@
             />
             <div class="hero-overlay">
                 <div class="hero-content">
-                    <h1 class="hero-title" id="hero-title">{page.data.hero_title}</h1>
+                    <h1 class="hero-title" id="hero-title">{page.title}</h1>
                     {#if page.data.hero_subtitle??}
                     <p class="hero-subtitle">{page.data.hero_subtitle}</p>
                     {/if}
@@ -23,30 +23,28 @@
 
         <!-- Boutons d'action hero -->
         <nav class="hero-buttons" role="navigation" aria-label="Actions principales">
-            <a href="{site.url}infos/messes-horaires" class="hero-btn" aria-label="Consulter les horaires des messes">
-                <i class="fas fa-bell" aria-hidden="true"></i>
-                <span>Horaires Messes</span>
-            </a>
-            <a href="{site.url}demandes/bapteme" class="hero-btn" aria-label="Demander un baptême">
-                <i class="fas fa-hands-holding" aria-hidden="true"></i>
-                <span>Baptêmes</span>
-            </a>
-            <a href="{site.url}demandes/mariage" class="hero-btn" aria-label="Demander un mariage">
-                <i class="fas fa-ring" aria-hidden="true"></i>
-                <span>Mariages</span>
-            </a>
-            <a href="{site.url}demandes/intentions-priere" class="hero-btn" aria-label="Déposer une intention de prière">
-                <i class="fas fa-praying-hands" aria-hidden="true"></i>
-                <span>Intentions de prière</span>
-            </a>
-            <a href="{site.url}demandes/rencontrer-un-pretre" class="hero-btn" aria-label="Contacter un prêtre">
-                <i class="fas fa-envelope" aria-hidden="true"></i>
-                <span>Contact</span>
-            </a>
-            <a href="{site.url}donner" class="hero-btn" aria-label="Faire un don à la paroisse">
-                <i class="fas fa-gift" aria-hidden="true"></i>
-                <span>Donner</span>
-            </a>
+            {#if cdi:hero-buttons.buttons}
+                {#for button in cdi:hero-buttons.buttons}
+                <a href="{site.url}{button.get('path')}" class="hero-btn" aria-label="{button.get('aria_label')}" title="{button.get('description')}">
+                    <i class="{button.get('icon')}" aria-hidden="true"></i>
+                    <span>{button.get('title')}</span>
+                </a>
+                {/for}
+            {#else}
+                <!-- Fallback si les données ne sont pas disponibles -->
+                <a href="{site.url}infos/messes-horaires" class="hero-btn" aria-label="Consulter les horaires des messes">
+                    <i class="fas fa-bell" aria-hidden="true"></i>
+                    <span>Horaires Messes</span>
+                </a>
+                <a href="{site.url}demandes/bapteme" class="hero-btn" aria-label="Demander un baptême">
+                    <i class="fas fa-hands-holding" aria-hidden="true"></i>
+                    <span>Baptêmes</span>
+                </a>
+                <a href="{site.url}demandes/mariage" class="hero-btn" aria-label="Demander un mariage">
+                    <i class="fas fa-ring" aria-hidden="true"></i>
+                    <span>Mariages</span>
+                </a>
+            {/if}
         </nav>
     </section>
     {#else}

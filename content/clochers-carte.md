@@ -5,7 +5,6 @@ layout: paroisse/carte-leaflet
 updated: '2025-09-16'
 url: /clochers-carte/
 hero_image: static/images/clochers-caen-hero.jpg
-hero_title: Clochers de Caen
 hero_subtitle: Carte interactive des lieux de culte
 ---
 

@@ -7,7 +7,7 @@
     <meta name="description" content="{page.description}">
 
     <!-- Métadonnées Open Graph -->
-    <meta property="og:title" content="{page.data.hero_title ?: page.title}">
+    <meta property="og:title" content="{page.title}">
     <meta property="og:description" content="{page.description}">
     {#if page.data.hero_image??}
     <meta property="og:image" content="{site.url}{page.data.hero_image}">
@@ -17,7 +17,7 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{page.data.hero_title ?: page.title}">
+    <meta name="twitter:title" content="{page.title}">
     <meta name="twitter:description" content="{page.description}">
     {#if page.data.hero_image??}
     <meta name="twitter:image" content="{site.url}{page.data.hero_image}">
@@ -87,7 +87,7 @@
                             </a>
                             <ul class="dropdown-menu {#if item.get('title') == 'Les églises'}churches-menu{/if}">
                                 {#for child in item.get('children')}
-                                <li><a class="dropdown-item" href="{child.get('path')}">{child.get('title')}</a></li>
+                                <li><a class="dropdown-item" href="{site.url}{child.get('path')}">{child.get('title')}</a></li>
                                 {/for}
                             </ul>
                             {#else}
@@ -100,7 +100,7 @@
                             </form>
                             {#else}
                             <!-- Regular link -->
-                            <a class="nav-link {#if page.url == item.get('path')}active{/if}" href="{item.get('path')}" {#if item.get('target')}target="{item.get('target')}"{/if}>
+                            <a class="nav-link {#if page.url == item.get('path')}active{/if}" href="{site.url}{item.get('path')}" {#if item.get('target')}target="{item.get('target')}"{/if}>
                                 {item.get('title')}
                             </a>
                             {/if}
@@ -110,13 +110,13 @@
                     {#else}
                         <!-- Fallback menu si les données ne sont pas disponibles -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Accueil</a>
+                            <a class="nav-link" href="{site.url}">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/presentation">Présentation</a>
+                            <a class="nav-link" href="{site.url}presentation">Présentation</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/infos/messes-horaires">Horaires</a>
+                            <a class="nav-link" href="{site.url}infos/messes-horaires">Horaires</a>
                         </li>
                     {/if}
                 </ul>

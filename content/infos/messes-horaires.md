@@ -6,7 +6,6 @@ layout: paroisse/page
 updated: '2025-09-16'
 url: /messes-horaires/
 hero_image: static/images/messes.jpg
-hero_title: Lieux et horaires des messes
 ---
 
 _Retrouvez tous les horaires de célébrations dans nos églises_

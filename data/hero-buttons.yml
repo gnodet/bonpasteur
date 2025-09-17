@@ -1,0 +1,36 @@
+buttons:
+  - title: "Horaires Messes"
+    path: "infos/messes-horaires"
+    icon: "fas fa-bell"
+    aria_label: "Consulter les horaires des messes"
+    description: "Découvrez les horaires de toutes nos messes"
+    
+  - title: "Baptêmes"
+    path: "demandes/bapteme"
+    icon: "fas fa-hands-holding"
+    aria_label: "Demander un baptême"
+    description: "Faire une demande de baptême"
+    
+  - title: "Mariages"
+    path: "demandes/mariage"
+    icon: "fas fa-ring"
+    aria_label: "Demander un mariage"
+    description: "Préparer votre mariage religieux"
+    
+  - title: "Intentions de prière"
+    path: "demandes/intentions-priere"
+    icon: "fas fa-praying-hands"
+    aria_label: "Déposer une intention de prière"
+    description: "Confier vos intentions à notre communauté"
+    
+  - title: "Contact"
+    path: "demandes/rencontrer-un-pretre"
+    icon: "fas fa-envelope"
+    aria_label: "Contacter un prêtre"
+    description: "Rencontrer un membre de l'équipe pastorale"
+    
+  - title: "Donner"
+    path: "donner"
+    icon: "fas fa-gift"
+    aria_label: "Faire un don à la paroisse"
+    description: "Soutenir la mission de notre paroisse"
