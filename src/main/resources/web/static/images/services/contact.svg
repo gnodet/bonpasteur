@@ -1,0 +1,51 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="contactGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388e3c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="50" fill="url(#contactGradient)" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Priest figure -->
+  <g fill="#fff">
+    <!-- Head -->
+    <circle cx="60" cy="40" r="8"/>
+    <!-- Body/robe -->
+    <path d="M45 50 L75 50 L75 85 L45 85 Z" rx="2"/>
+    <!-- Arms -->
+    <rect x="40" y="55" width="6" height="20" rx="3"/>
+    <rect x="74" y="55" width="6" height="20" rx="3"/>
+    <!-- Collar -->
+    <rect x="55" y="48" width="10" height="4" rx="1"/>
+  </g>
+  
+  <!-- Cross on chest -->
+  <g fill="#4caf50">
+    <rect x="58" y="58" width="4" height="12" rx="1"/>
+    <rect x="55" y="61" width="10" height="4" rx="1"/>
+  </g>
+  
+  <!-- Hands in prayer position -->
+  <g fill="#fff">
+    <ellipse cx="50" cy="65" rx="3" ry="6" transform="rotate(-15 50 65)"/>
+    <ellipse cx="70" cy="65" rx="3" ry="6" transform="rotate(15 70 65)"/>
+  </g>
+  
+  <!-- Halo -->
+  <circle cx="60" cy="35" r="12" fill="none" stroke="#fff" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Contact symbols -->
+  <g fill="#fff" transform="translate(25, 25) scale(0.6)">
+    <!-- Phone -->
+    <path d="M3 5C3 3.9 3.9 3 5 3H7L9 7L7 8C7.5 9.5 8.5 10.5 10 11L11 9L15 11V13C15 14.1 14.1 15 13 15C7.5 15 3 10.5 3 5Z"/>
+  </g>
+  
+  <g fill="#fff" transform="translate(85, 25) scale(0.6)">
+    <!-- Email -->
+    <path d="M2 4L10 4C11.1 4 12 4.9 12 6L12 14C12 15.1 11.1 16 10 16L2 16C0.9 16 0 15.1 0 14L0 6C0 4.9 0.9 4 2 4Z"/>
+    <path d="M12 6L6 10L0 6" fill="none" stroke="#4caf50" stroke-width="1"/>
+  </g>
+</svg>

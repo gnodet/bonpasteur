@@ -17,32 +17,73 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Boutons d'action hero -->
-        <nav class="hero-buttons" role="navigation" aria-label="Actions principales">
-            {#if cdi:hero-buttons.buttons}
-                {#for button in cdi:hero-buttons.buttons}
-                <a href="{site.url}{button.get('path')}" class="hero-btn" aria-label="{button.get('aria_label')}" title="{button.get('description')}">
-                    <i class="{button.get('icon')}" aria-hidden="true"></i>
-                    <span>{button.get('title')}</span>
+    <!-- Boutons d'accès rapide style Nestlé -->
+    <section class="quick-access-section" role="navigation" aria-label="Accès rapide aux services">
+        <div class="container">
+            <div class="quick-access-grid">
+                <a href="{site.url}infos/messes-horaires" class="service-card" aria-label="Consulter les horaires des messes">
+                    <div class="service-image">
+                        <img src="{site.url}static/images/messes.jpg" alt="Horaires des messes" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Horaires des Messes</h3>
+                        <p>Consultez les horaires de toutes nos célébrations</p>
+                    </div>
                 </a>
-                {/for}
-            {#else}
-                <!-- Fallback si les données ne sont pas disponibles -->
-                <a href="{site.url}infos/messes-horaires" class="hero-btn" aria-label="Consulter les horaires des messes">
-                    <i class="fas fa-bell" aria-hidden="true"></i>
-                    <span>Horaires Messes</span>
+
+                <a href="{site.url}demandes/bapteme" class="service-card" aria-label="Demander un baptême">
+                    <div class="service-image">
+                        <img src="{site.url}static/images/bapteme.png" alt="Baptême" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Baptêmes</h3>
+                        <p>Préparer et célébrer le baptême de votre enfant</p>
+                    </div>
                 </a>
-                <a href="{site.url}demandes/bapteme" class="hero-btn" aria-label="Demander un baptême">
-                    <i class="fas fa-hands-holding" aria-hidden="true"></i>
-                    <span>Baptêmes</span>
+
+                <a href="{site.url}demandes/mariage" class="service-card" aria-label="Demander un mariage">
+                    <div class="service-image">
+                        <img src="{site.url}static/images/mariage.png" alt="Mariage" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Mariages</h3>
+                        <p>Préparer votre célébration de mariage religieux</p>
+                    </div>
                 </a>
-                <a href="{site.url}demandes/mariage" class="hero-btn" aria-label="Demander un mariage">
-                    <i class="fas fa-ring" aria-hidden="true"></i>
-                    <span>Mariages</span>
+
+                <a href="{site.url}donner" class="service-card" aria-label="Faire un don à la paroisse">
+                    <div class="service-image">
+                        <img src="{site.url}static/images/sainte-trinite-hero.jpg" alt="Donner" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Donner</h3>
+                        <p>Soutenir notre paroisse par vos dons</p>
+                    </div>
                 </a>
-            {/if}
-        </nav>
+
+                <a href="{site.url}demandes/demande-de-certificat" class="service-card" aria-label="Demander un certificat">
+                    <div class="service-image">
+                        <img src="{site.url}static/images/certificat-hero.png" alt="Certificats" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Certificats</h3>
+                        <p>Demander un certificat de baptême ou mariage</p>
+                    </div>
+                </a>
+
+                <a href="{site.url}infos/contact" class="service-card" aria-label="Nous contacter">
+                    <div class="service-image">
+                        <img src="{site.url}static/images/eglise-bon-pasteur-hero.jpg" alt="Contact" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Contact</h3>
+                        <p>Rencontrer un prêtre ou poser une question</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
     {#else}
     <!-- Fallback si pas d'image hero -->

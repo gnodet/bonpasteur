@@ -1,0 +1,46 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="certificatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f57c00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="50" fill="url(#certificatGradient)" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Certificate/document -->
+  <g fill="#fff">
+    <!-- Main document -->
+    <rect x="35" y="25" width="50" height="60" rx="3" stroke="#f57c00" stroke-width="2"/>
+    
+    <!-- Document lines -->
+    <rect x="40" y="35" width="30" height="2" rx="1" fill="#f57c00"/>
+    <rect x="40" y="42" width="40" height="2" rx="1" fill="#f57c00"/>
+    <rect x="40" y="49" width="35" height="2" rx="1" fill="#f57c00"/>
+    <rect x="40" y="56" width="25" height="2" rx="1" fill="#f57c00"/>
+  </g>
+  
+  <!-- Seal/stamp -->
+  <g transform="translate(65, 65)">
+    <circle cx="0" cy="0" r="8" fill="#ff9800" stroke="#fff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="none" stroke="#fff" stroke-width="1"/>
+    <!-- Cross in seal -->
+    <g fill="#fff">
+      <rect x="-1" y="-4" width="2" height="8" rx="0.5"/>
+      <rect x="-4" y="-1" width="8" height="2" rx="0.5"/>
+    </g>
+  </g>
+  
+  <!-- Ribbon -->
+  <g fill="#ff9800">
+    <path d="M70 85 L75 90 L80 85 L80 95 L75 90 L70 95 Z"/>
+    <path d="M40 85 L45 90 L50 85 L50 95 L45 90 L40 95 Z"/>
+  </g>
+  
+  <!-- Quill pen -->
+  <g fill="#fff" transform="translate(20, 70) rotate(-30)">
+    <rect x="0" y="0" width="2" height="15" rx="1"/>
+    <path d="M0 0 C-2 -3, 2 -3, 2 0 L1 3 Z"/>
+  </g>
+</svg>

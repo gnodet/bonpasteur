@@ -1,0 +1,39 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="clockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="50" fill="url(#clockGradient)" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Clock face -->
+  <circle cx="60" cy="60" r="35" fill="#fff" stroke="#357abd" stroke-width="2"/>
+  
+  <!-- Hour markers -->
+  <g stroke="#357abd" stroke-width="2">
+    <line x1="60" y1="30" x2="60" y2="35" />
+    <line x1="90" y1="60" x2="85" y2="60" />
+    <line x1="60" y1="90" x2="60" y2="85" />
+    <line x1="30" y1="60" x2="35" y2="60" />
+  </g>
+  
+  <!-- Clock hands -->
+  <g stroke="#357abd" stroke-width="3" stroke-linecap="round">
+    <!-- Hour hand pointing to 10 -->
+    <line x1="60" y1="60" x2="50" y2="45" />
+    <!-- Minute hand pointing to 12 -->
+    <line x1="60" y1="60" x2="60" y2="35" />
+  </g>
+  
+  <!-- Center dot -->
+  <circle cx="60" cy="60" r="3" fill="#357abd"/>
+  
+  <!-- Bell icon -->
+  <g transform="translate(75, 25)" fill="#fff">
+    <path d="M8 2C8 0.9 7.1 0 6 0S4 0.9 4 2V3C1.8 3.9 0 6.2 0 9V12C0 12.6 0.4 13 1 13H11C11.6 13 12 12.6 12 12V9C12 6.2 10.2 3.9 8 3V2Z"/>
+    <path d="M4.5 14C4.5 15.4 5.6 16.5 7 16.5S9.5 15.4 9.5 14H4.5Z"/>
+  </g>
+</svg>
