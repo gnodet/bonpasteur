@@ -5,9 +5,9 @@ description: '> « Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses 
 layout: paroisse/page
 updated: '2025-09-16'
 url: /bienvenue/
+hero_image: static/images/bienvenue-hero.png
+hero_subtitle: Vous êtes les bienvenus dans notre communauté paroissiale
 ---
-
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGtDPv-cBD1LkRe0WQALm9EHHUyeg1nogPTHeD12eLhcQUTSomKSNRFFDub1n9oWTXEE1RmAajEL-bWI9-TTPckqug5xe6JCYL4jPzN6XnHTaH9yycWnoy3IQNtakZTmmv-oSxPYRJ3Cj-MHO0JGFOWzgX0SjnQNAfh-4r8sUOp52Me4gbIRio_SVowdaF/w400-h266/Bienvenue%20devant%20la%20cathe%CC%81drale%20gothique.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGtDPv-cBD1LkRe0WQALm9EHHUyeg1nogPTHeD12eLhcQUTSomKSNRFFDub1n9oWTXEE1RmAajEL-bWI9-TTPckqug5xe6JCYL4jPzN6XnHTaH9yycWnoy3IQNtakZTmmv-oSxPYRJ3Cj-MHO0JGFOWzgX0SjnQNAfh-4r8sUOp52Me4gbIRio_SVowdaF/s1536/Bienvenue%20devant%20la%20cathe%CC%81drale%20gothique.png)
 
 > « Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses brebis. » (Jean 10, 11)
 

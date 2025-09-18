@@ -30,12 +30,8 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="{site.url}css/custom.css" rel="stylesheet">
-    <!-- Hero CSS -->
-    <link href="{site.url}static/styles/hero.css" rel="stylesheet">
-    <!-- Main CSS -->
-    <link href="{site.url}static/styles/main.css" rel="stylesheet">
+    <!-- Unified CSS -->
+    <link href="{site.url}static/styles/unified.css" rel="stylesheet">
 
     <!-- Preload de l'image hero pour la performance -->
     {#if page.data.hero_image??}
@@ -44,41 +40,34 @@
 </head>
 <body data-layout="{page.data.layout}">
     <!-- Header -->
-    <!--
     <header class="header">
         <div class="container">
             <div class="row align-items-center py-3">
                 <div class="col-md-3">
                     <div class="logo">
-                        <a href="/" class="text-decoration-none">
-                            <img src="/images/logo.svg" alt="Paroisse Bon Pasteur" height="60">
+                        <a href="{site.url}" class="text-decoration-none">
+                            <img src="{site.url}static/images/logo.svg" alt="Paroisse Bon Pasteur" height="60">
                         </a>
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <h1 class="site-title mb-0">Paroisse Bon Pasteur de Caen</h1>
-                    <p class="site-subtitle mb-0">Une communauté chrétienne au cœur de l'agglomération caennaise</p>
+                    <h1 class="site-title mb-0">Paroisse <span class="title-highlight">Bon Pasteur</span> de Caen</h1>
+                    <p class="site-subtitle mb-0">Communauté catholique de Caen <span class="plus-symbol">✚</span> ses alentours</p>
                 </div>
             </div>
         </div>
     </header>
-    -->
-
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
         <div class="container">
-            <div class="logo">
-                <a href="{site.url}" class="text-decoration-none">
-                    <img src="{site.url}static/images/logo.svg" alt="Paroisse Bon Pasteur" height="60">
-                </a>
-            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     {#if cdi:menu.items}
                         {#for item in cdi:menu.items}
+                        {#if !item.get('search')}
                         <li class="nav-item {#if item.get('children')}dropdown{/if}">
                             {#if item.get('children')}
                             <!-- Dropdown menu item avec survol -->
@@ -91,21 +80,13 @@
                                 {/for}
                             </ul>
                             {#else}
-                            <!-- Regular menu item -->
-                            {#if item.get('search')}
-                            <!-- Search item -->
-                            <form class="d-flex ms-3" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search">
-                                <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
-                            </form>
-                            {#else}
                             <!-- Regular link -->
                             <a class="nav-link {#if page.url == item.get('path')}active{/if}" href="{site.url}{item.get('path')}" {#if item.get('target')}target="{item.get('target')}"{/if}>
                                 {item.get('title')}
                             </a>
                             {/if}
-                            {/if}
                         </li>
+                        {/if}
                         {/for}
                     {#else}
                         <!-- Fallback menu si les données ne sont pas disponibles -->
@@ -120,16 +101,50 @@
                         </li>
                     {/if}
                 </ul>
+
+                <!-- Recherche à droite -->
+                {#if cdi:menu.items}
+                    {#for item in cdi:menu.items}
+                    {#if item.get('search')}
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                    {/if}
+                    {/for}
+                {/if}
             </div>
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        {#insert /}
-    </main>
+    <!-- Mobile search (fixed position) -->
+    <div class="mobile-search-container">
+        <!-- Search icon -->
+        <div class="mobile-search-icon" id="mobileSearchIcon">
+            <i class="fas fa-search"></i>
+        </div>
 
-    <!-- Footer -->
+        <!-- Search form (hidden by default) -->
+        {#if cdi:menu.items}
+            {#for item in cdi:menu.items}
+            {#if item.get('search')}
+            <form class="d-flex mobile-search" id="mobileSearchForm" role="search">
+                <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search" id="mobileSearchInput">
+                <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            {/if}
+            {/for}
+        {/if}
+    </div>
+
+    <!-- Content wrapper that scrolls over the fixed hero -->
+    <div class="content-wrapper">
+        <!-- Main Content -->
+        <main class="main-content">
+            {#insert /}
+        </main>
+
+        <!-- Footer -->
     <footer class="footer bg-dark text-light py-4 mt-5">
         <div class="container">
             <div class="row">
@@ -145,6 +160,7 @@
             </div>
         </div>
     </footer>
+    </div> <!-- End content-wrapper -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -205,5 +221,124 @@
 
     <!-- Typewriter Effect -->
     <script src="{site.url}static/js/typewriter.js"></script>
+
+    <!-- Sticky Header Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Create sticky header with navigation
+            const originalHeader = document.querySelector('.header');
+            const originalNav = document.querySelector('.navbar');
+
+            if (originalHeader && originalNav) {
+                // Clone header and navigation
+                const stickyHeader = originalHeader.cloneNode(true);
+                const stickyNav = originalNav.cloneNode(true);
+
+                // Create container for sticky header + nav
+                const stickyContainer = document.createElement('div');
+                stickyContainer.classList.add('header-sticky');
+
+                // Add header and nav to container
+                stickyContainer.appendChild(stickyHeader);
+                stickyContainer.appendChild(stickyNav);
+
+                // Remove original classes and add to body
+                stickyHeader.classList.remove('header');
+                stickyNav.classList.remove('navbar');
+                stickyNav.classList.add('navbar'); // Keep navbar class for styling
+
+                document.body.appendChild(stickyContainer);
+
+                let lastScrollTop = 0;
+                let isScrollingUp = false;
+
+                window.addEventListener('scroll', function() {
+                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                    // Detect scroll direction
+                    if (scrollTop < lastScrollTop) {
+                        // Scrolling up
+                        if (!isScrollingUp && scrollTop > 100) {
+                            isScrollingUp = true;
+                            stickyContainer.classList.add('show');
+                        }
+                    } else {
+                        // Scrolling down
+                        if (isScrollingUp) {
+                            isScrollingUp = false;
+                            stickyContainer.classList.remove('show');
+                        }
+                    }
+
+                    // Hide when at top
+                    if (scrollTop <= 50) {
+                        stickyContainer.classList.remove('show');
+                        isScrollingUp = false;
+                    }
+
+                    lastScrollTop = scrollTop;
+                });
+            }
+        });
+
+        // Wien.info style mobile menu
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+
+        if (navbarToggler && navbarCollapse) {
+            // Close menu when clicking on overlay
+            navbarCollapse.addEventListener('click', function(event) {
+                if (event.target === navbarCollapse) {
+                    navbarToggler.click();
+                }
+            });
+        }
+
+        // Mobile search toggle
+        const searchIcon = document.getElementById('mobileSearchIcon');
+        const searchForm = document.getElementById('mobileSearchForm');
+        const searchInput = document.getElementById('mobileSearchInput');
+
+        if (searchIcon && searchForm && searchInput) {
+            searchIcon.addEventListener('click', function() {
+                if (searchForm.classList.contains('show')) {
+                    // Hide search form
+                    searchForm.classList.remove('show');
+                    setTimeout(() => {
+                        searchIcon.style.display = 'flex';
+                    }, 300);
+                } else {
+                    // Show search form
+                    searchIcon.style.display = 'none';
+                    searchForm.classList.add('show');
+                    setTimeout(() => {
+                        searchInput.focus();
+                    }, 300);
+                }
+            });
+
+            // Hide search when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!searchForm.contains(event.target) && !searchIcon.contains(event.target)) {
+                    if (searchForm.classList.contains('show')) {
+                        searchForm.classList.remove('show');
+                        setTimeout(() => {
+                            searchIcon.style.display = 'flex';
+                        }, 300);
+                    }
+                }
+            });
+
+            // Hide search on escape key
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && searchForm.classList.contains('show')) {
+                    searchForm.classList.remove('show');
+                    setTimeout(() => {
+                        searchIcon.style.display = 'flex';
+                    }, 300);
+                }
+            });
+        }
+    </script>
 </body>
 </html>
