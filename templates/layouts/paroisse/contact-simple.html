@@ -1,0 +1,77 @@
+{#include partials/paroisse/layout.html}
+  {#insert content}
+    <!-- Section Hero avec photo pleine largeur -->
+    {#if page.data.hero_image?? and page.title??}
+    <section class="hero-section" role="banner">
+        <div class="hero-image-container">
+            <img
+                src="{site.url}{page.data.hero_image}"
+                alt="{page.title}"
+                class="hero-image"
+                loading="eager"
+                decoding="async"
+            />
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1 class="hero-title" id="hero-title">{page.title}</h1>
+                    {#if page.data.hero_subtitle??}
+                    <p class="hero-subtitle">{page.data.hero_subtitle}</p>
+                    {/if}
+                </div>
+            </div>
+        </div>
+    </section>
+    {/if}
+
+    <!-- Contenu principal -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          {#insert /}
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title text-primary mb-4">Envoyer un message</h4>
+              
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="nom" class="form-label">Votre nom</label>
+                  <input type="text" class="form-control" id="nom" name="nom" required>
+                  <div class="invalid-feedback" id="nom-error"></div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Votre mail</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                  <div class="invalid-feedback" id="email-error"></div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Votre message</label>
+                  <textarea class="form-control" id="message" name="message" rows="6" required placeholder="Écrivez votre message ici..."></textarea>
+                  <div class="invalid-feedback" id="message-error"></div>
+                </div>
+
+                <!-- Honeypot anti-spam -->
+                <input type="text" name="website" style="display:none" tabindex="-1">
+
+                <button type="submit" class="btn btn-primary" id="submitBtn">
+                  <span class="btn-text">Envoyer mon message</span>
+                  <span class="btn-loading d-none">
+                    <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                    Envoi en cours...
+                  </span>
+                </button>
+
+                <div class="alert mt-3 d-none" id="formMessage" role="alert"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/static/js/contact-form.js"></script>
+  {/insert}
+{/include}

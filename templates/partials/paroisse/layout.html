@@ -29,7 +29,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Garet Font -->
+    <link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet">
     <!-- Unified CSS -->
     <link href="{site.url}static/styles/unified.css" rel="stylesheet">
 
@@ -98,6 +101,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{site.url}infos/messes-horaires">Horaires</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{site.url}infos/contact">Contact</a>
                         </li>
                     {/if}
                 </ul>
@@ -222,6 +228,9 @@
     <!-- Typewriter Effect -->
     <script src="{site.url}static/js/typewriter.js"></script>
 
+    <!-- Contact Form Script -->
+    <script src="{site.url}static/js/contact-form.js"></script>
+
     <!-- Sticky Header Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -340,5 +349,42 @@
             });
         }
     </script>
+
+    <!-- Footer -->
+    <footer class="footer-paroisse">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="footer-info">
+                        <h5 class="footer-title">Paroisse Bon Pasteur de Caen</h5>
+                        <p class="footer-address">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            Presbytère Saint-Jean, 11 rue des Équipes d'Urgence, 14000 Caen
+                        </p>
+                        <p class="footer-contact">
+                            <i class="fas fa-phone me-2"></i>02 31 86 13 11
+                            <span class="mx-3">|</span>
+                            <i class="fas fa-envelope me-2"></i>contact.bonpasteur@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="/infos/contact" class="btn btn-footer-contact">
+                        <i class="fas fa-envelope me-2"></i>
+                        Nous contacter
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="footer-bottom">
+                        <p class="mb-0">
+                            © 2025 Paroisse Bon Pasteur de Caen - Tous droits réservés
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
