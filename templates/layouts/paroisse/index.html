@@ -23,50 +23,16 @@
     <section class="quick-access-section" role="navigation" aria-label="Accès rapide aux services">
         <div class="container">
             <div class="quick-access-grid">
-                <a href="{site.url}infos/messes-horaires" class="service-card" aria-label="Consulter les horaires des messes">
+                {#for button in cdi:hero-buttons.buttons}
+                <a href="{site.url}{button.path}" class="service-card" aria-label="{button.aria_label}">
                     <div class="service-image">
-                        <img src="{site.url}images/messes.jpg" alt="Horaires des messes" loading="lazy">
+                        <img src="{site.url}{button.image}" alt="{button.title}" loading="lazy">
                     </div>
                     <div class="service-content">
-                        <h3>Horaires</h3>
+                        <h3>{button.title}</h3>
                     </div>
                 </a>
-
-                <a href="{site.url}demandes/bapteme" class="service-card" aria-label="Demander un baptême">
-                    <div class="service-image">
-                        <img src="{site.url}images/bapteme.png" alt="Baptême" loading="lazy">
-                    </div>
-                    <div class="service-content">
-                        <h3>Baptêmes</h3>
-                    </div>
-                </a>
-
-                <a href="{site.url}demandes/mariage" class="service-card" aria-label="Demander un mariage">
-                    <div class="service-image">
-                        <img src="{site.url}images/mariage.png" alt="Mariage" loading="lazy">
-                    </div>
-                    <div class="service-content">
-                        <h3>Mariages</h3>
-                    </div>
-                </a>
-
-                <a href="{site.url}demandes/demande-de-certificat" class="service-card" aria-label="Demander un certificat">
-                    <div class="service-image">
-                        <img src="{site.url}images/certificat-hero.png" alt="Certificats" loading="lazy">
-                    </div>
-                    <div class="service-content">
-                        <h3>Certificats</h3>
-                    </div>
-                </a>
-
-                <a href="{site.url}donner" class="service-card" aria-label="Faire un don à la paroisse">
-                    <div class="service-image">
-                        <img src="{site.url}images/sainte-trinite-hero.jpg" alt="Donner" loading="lazy">
-                    </div>
-                    <div class="service-content">
-                        <h3>Donner</h3>
-                    </div>
-                </a>
+                {/for}
             </div>
         </div>
     </section>

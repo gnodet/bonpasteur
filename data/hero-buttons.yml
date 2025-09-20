@@ -1,36 +1,28 @@
 buttons:
-  - title: "Horaires Messes"
+  - title: "Horaires"
     path: "infos/messes-horaires"
     icon: "fas fa-bell"
+    image: "images/messes.jpg"
     aria_label: "Consulter les horaires des messes"
     description: "Découvrez les horaires de toutes nos messes"
-    
+
   - title: "Baptêmes"
     path: "demandes/bapteme"
     icon: "fas fa-hands-holding"
+    image: "images/bapteme.png"
     aria_label: "Demander un baptême"
     description: "Faire une demande de baptême"
-    
+
   - title: "Mariages"
     path: "demandes/mariage"
     icon: "fas fa-ring"
+    image: "images/mariage.png"
     aria_label: "Demander un mariage"
     description: "Préparer votre mariage religieux"
-    
-  - title: "Demander un certificat"
+
+  - title: "Certificats"
     path: "demandes/demande-de-certificat"
     icon: "fas fa-certificate"
+    image: "images/certificat-hero.png"
     aria_label: "Demander un certificat"
     description: "Obtenir un certificat de baptême, confirmation ou mariage"
-    
-  - title: "Contact"
-    path: "demandes/rencontrer-un-pretre"
-    icon: "fas fa-envelope"
-    aria_label: "Contacter un prêtre"
-    description: "Rencontrer un membre de l'équipe pastorale"
-    
-  - title: "Donner"
-    path: "donner"
-    icon: "fas fa-gift"
-    aria_label: "Faire un don à la paroisse"
-    description: "Soutenir la mission de notre paroisse"

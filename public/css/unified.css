@@ -7,9 +7,9 @@
 /* CSS Custom Properties (Variables) */
 :root {
     /* Colors */
-    --primary-blue: #007bff;
+    --primary-blue: #9f1a07;
     --primary-blue-hover: #0056b3;
-    --bootstrap-primary: #0d6efd;
+    --bootstrap-primary: #9f1a07;
     --bootstrap-primary-light: rgba(13, 110, 253, 0.1);
 
     --text-dark: #212529;
@@ -771,22 +771,27 @@ body {
 
 .quick-access-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(120px, 150px));
-    gap: 2rem;
-    max-width: 1140px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
-    justify-content: center;
+    padding: 2rem 1.5rem;
+}
+
+/* Taille max pour chaque bouton sur une ligne */
+.quick-access-grid .service-card {
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 .service-card {
     background: white;
-    border-radius: 0;
+    border-radius: 6px;
     overflow: hidden;
     text-decoration: none;
     color: inherit;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.2);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -794,13 +799,13 @@ body {
 
 .service-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    box-shadow: 6px 10px 20px rgba(0,0,0,0.3);
     text-decoration: none;
     color: inherit;
 }
 
 .service-image {
-    height: 80px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -821,7 +826,7 @@ body {
 }
 
 .service-content {
-    padding: 0.8rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1376,10 +1381,16 @@ body {
     }
 
     .quick-access-grid {
-        grid-template-columns: repeat(5, minmax(100px, 130px));
-        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.2rem;
         max-width: 1000px;
-        padding: 2rem 0.5rem;
+        padding: 2rem 1.2rem;
+    }
+
+    /* Taille max pour chaque bouton sur une ligne en tablet */
+    .quick-access-grid .service-card {
+        max-width: 220px;
+        margin: 0 auto;
     }
 
     /* Hero responsive */
@@ -1708,18 +1719,15 @@ body {
     }
 
     .quick-access-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-        max-width: 600px;
-        justify-content: center;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 0 auto;
+        padding: 2rem 1rem;
     }
 
     .quick-access-grid .service-card {
-        flex: 0 0 auto;
-        width: 150px;
-        min-width: 120px;
+        width: 100%;
     }
 
     .quick-access-title {
@@ -1727,13 +1735,7 @@ body {
         margin-bottom: 1.5rem;
     }
 
-    .service-image {
-        height: 100px;
-    }
-
-    .service-content {
-        padding: 0.8rem;
-    }
+    /* Tailles harmonisées - pas de surcharge nécessaire */
 
     /* Header responsive */
     .header .site-info {
@@ -1851,25 +1853,20 @@ body {
     }
 
     .quick-access-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        max-width: 350px;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+        margin: 0 auto;
+        padding: 2rem 0.8rem;
     }
 
     .quick-access-grid .service-card {
-        flex: 0 0 auto;
-        width: 140px;
-        min-width: 140px;
+        width: 100%;
     }
 
-    .service-content {
-        padding: 0.6rem;
-    }
-
+    /* Tailles harmonisées - garde le style de base */
     .service-content h3 {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     /* Contact form */
