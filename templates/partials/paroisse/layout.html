@@ -45,10 +45,9 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="row align-items-center py-3">
-                <div class="col-md-1 d-flex">
-                </div>
-                <div class="col-md-10 d-flex align-items-center justify-content-center">
+            <div class="header-content">
+                <!-- Logo et titre à gauche -->
+                <div class="header-left">
                     <div class="logo me-3">
                         <a href="{site.url}" class="text-decoration-none">
                             <img src="{site.url}images/logo.svg" alt="Paroisse Bon Pasteur" height="60">
@@ -59,80 +58,123 @@
                         <p class="site-subtitle mb-0">Communauté catholique de Caen <span class="plus-symbol">✚</span> ses alentours</p>
                     </div>
                 </div>
-                <div class="col-md-1 d-flex justify-content-end align-items-center">
-                    <!-- Recherche intelligente -->
-                    <div class="header-search-container me-3">
-                        <!-- Icône de recherche -->
-                        <div class="header-search-icon" id="headerSearchIcon">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <!-- Formulaire de recherche (caché par défaut) -->
-                        {#if cdi:menu.items}
-                            {#for item in cdi:menu.items}
-                            {#if item.get('search')}
-                            <form class="header-search-form" id="headerSearchForm" role="search">
-                                <input class="form-control" type="search" placeholder="Rechercher..." aria-label="Search" id="headerSearchInput">
-                                <button class="btn btn-search" type="submit"><i class="fas fa-search"></i></button>
-                            </form>
-                            {/if}
-                            {/for}
-                        {/if}
+
+                <!-- Actions à droite -->
+                <div class="header-right">
+                    <!-- Bouton Donner (remplace la recherche) -->
+                    <a href="{site.url}donner" class="header-donate-btn" aria-label="Faire un don">
+                        <i class="fas fa-heart"></i>
+                        <span class="donate-text">Donner</span>
+                    </a>
+
+                    <!-- Loupe de recherche (mobile seulement) -->
+                    <div class="header-search-btn" id="headerSearchBtn" role="button" aria-label="Rechercher" tabindex="0">
+                        <i class="fas fa-search"></i>
                     </div>
+
                     <!-- Menu burger mobile -->
-                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="navbar-toggler" id="navbarToggler" role="button" aria-label="Menu" tabindex="0">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <!-- Navigation Desktop -->
+    <nav class="navbar navbar-dark bg-primary desktop-nav">
         <div class="container">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    {#if cdi:menu.items}
-                        {#for item in cdi:menu.items}
-                        {#if !item.get('search')}
-                        <li class="nav-item {#if item.get('children')}dropdown{/if}">
-                            {#if item.get('children')}
-                            <!-- Dropdown menu item avec survol -->
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                {item.get('title')}
-                            </a>
-                            <ul class="dropdown-menu {#if item.get('title') == 'Les églises'}churches-menu{/if}">
-                                {#for child in item.get('children')}
-                                <li><a class="dropdown-item" href="{site.url}{child.get('path')}">{child.get('title')}</a></li>
-                                {/for}
-                            </ul>
-                            {#else}
-                            <!-- Regular link -->
-                            <a class="nav-link {#if page.url == item.get('path')}active{/if}" href="{site.url}{item.get('path')}" {#if item.get('target')}target="{item.get('target')}"{/if}>
-                                {item.get('title')}
-                            </a>
-                            {/if}
-                        </li>
+            <div class="navbar-nav">
+                {#if cdi:menu.items}
+                    {#for item in cdi:menu.items}
+                    {#if !item.get('search')}
+                    <div class="nav-item {#if item.get('children')}dropdown{/if}">
+                        {#if item.get('children')}
+                        <!-- Dropdown menu item avec survol -->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            {item.get('title')}
+                        </a>
+                        <ul class="dropdown-menu">
+                            {#for child in item.get('children')}
+                            <li><a class="dropdown-item" href="{site.url}{child.get('path')}">{child.get('title')}</a></li>
+                            {/for}
+                        </ul>
+                        {#else}
+                        <!-- Regular link -->
+                        <a class="nav-link {#if page.url == item.get('path')}active{/if}" href="{site.url}{item.get('path')}" {#if item.get('target')}target="{item.get('target')}"{/if}>
+                            {item.get('title')}
+                        </a>
                         {/if}
-                        {/for}
-                    {#else}
-                        <!-- Fallback menu si les données ne sont pas disponibles -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="{site.url}">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{site.url}presentation">Présentation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{site.url}infos/messes-horaires">Horaires</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{site.url}infos/contact">Contact</a>
-                        </li>
+                    </div>
                     {/if}
-                </ul>
-
-                <!-- Recherche supprimée - maintenant dans le header -->
+                    {/for}
+                {/if}
             </div>
+
+            <!-- Recherche desktop à droite -->
+            <div class="navbar-search">
+                <div class="navbar-search-btn" id="desktopSearchBtn" role="button" aria-label="Rechercher" tabindex="0">
+                    <i class="fas fa-search"></i>
+                </div>
+                <!-- Formulaire de recherche (caché par défaut) -->
+                <form class="navbar-search-form" id="navbarSearchForm" role="search">
+                    <input class="form-control" type="search" placeholder="Rechercher..." aria-label="Search" id="navbarSearchInput">
+                    <button class="btn btn-search" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Mobile (Menu Hamburger) -->
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+        <div class="mobile-nav-content">
+            <!-- Menu principal -->
+            <div class="mobile-menu-main" id="mobileMenuMain">
+                {#if cdi:menu.items}
+                    {#for item in cdi:menu.items}
+                    {#if !item.get('search')}
+                    <div class="mobile-nav-item">
+                        {#if item.get('children')}
+                        <button class="mobile-nav-link mobile-nav-dropdown" data-submenu="{item.get('title')}">
+                            <span>{item.get('title')}</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        {#else}
+                        <a class="mobile-nav-link" href="{site.url}{item.get('path')}">
+                            {item.get('title')}
+                        </a>
+                        {/if}
+                    </div>
+                    {/if}
+                    {/for}
+                {/if}
+            </div>
+
+            <!-- Sous-menus -->
+            {#if cdi:menu.items}
+                {#for item in cdi:menu.items}
+                {#if item.get('children')}
+                <div class="mobile-submenu" id="submenu-{item.get('title')}" data-parent="{item.get('title')}">
+                    <div class="mobile-nav-item mobile-nav-back">
+                        <button class="mobile-nav-link" data-back="true">
+                            <i class="fas fa-arrow-left"></i>
+                            <span>Retour</span>
+                        </button>
+                    </div>
+                    <div class="mobile-nav-separator"></div>
+                    {#for child in item.get('children')}
+                    <div class="mobile-nav-item">
+                        <a class="mobile-nav-link" href="{site.url}{child.get('path')}">
+                            {child.get('title')}
+                        </a>
+                    </div>
+                    {/for}
+                </div>
+                {/if}
+                {/for}
+            {/if}
         </div>
     </nav>
 
@@ -262,6 +304,169 @@
     <!-- Contact Form Script -->
     <script src="{site.url}js/contact-form.js"></script>
 
+    <!-- Header Navigation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbarToggler = document.getElementById('navbarToggler');
+            const mobileNav = document.getElementById('mobileNav');
+            const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+            const mobileMenuMain = document.getElementById('mobileMenuMain');
+
+            // Gestion de la recherche header
+            const headerSearchBtn = document.getElementById('headerSearchBtn');
+
+            if (headerSearchBtn) {
+                headerSearchBtn.addEventListener('click', function() {
+                    // Pour l'instant, même comportement que la navbar
+                    if (navbarSearchForm) {
+                        const isVisible = navbarSearchForm.classList.contains('show');
+
+                        if (isVisible) {
+                            navbarSearchForm.classList.remove('show');
+                        } else {
+                            navbarSearchForm.classList.add('show');
+                            setTimeout(() => {
+                                const searchInput = document.getElementById('navbarSearchInput');
+                                if (searchInput) {
+                                    searchInput.focus();
+                                }
+                            }, 100);
+                        }
+                    }
+                });
+
+                // Gestion du clavier
+                headerSearchBtn.addEventListener('keydown', function(event) {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault();
+                        headerSearchBtn.click();
+                    }
+                });
+            }
+
+            // Gestion de la recherche navbar
+            const desktopSearchBtn = document.getElementById('desktopSearchBtn');
+            const navbarSearchForm = document.getElementById('navbarSearchForm');
+
+            if (desktopSearchBtn && navbarSearchForm) {
+                desktopSearchBtn.addEventListener('click', function() {
+                    const isVisible = navbarSearchForm.classList.contains('show');
+
+                    if (isVisible) {
+                        navbarSearchForm.classList.remove('show');
+                    } else {
+                        navbarSearchForm.classList.add('show');
+                        // Focus sur le champ de recherche
+                        setTimeout(() => {
+                            const searchInput = document.getElementById('navbarSearchInput');
+                            if (searchInput) {
+                                searchInput.focus();
+                            }
+                        }, 100);
+                    }
+                });
+
+                // Fermer la recherche en cliquant ailleurs
+                document.addEventListener('click', function(event) {
+                    if (!desktopSearchBtn.contains(event.target) && !navbarSearchForm.contains(event.target)) {
+                        navbarSearchForm.classList.remove('show');
+                    }
+                });
+
+                // Fermer la recherche avec Escape
+                document.addEventListener('keydown', function(event) {
+                    if (event.key === 'Escape' && navbarSearchForm.classList.contains('show')) {
+                        navbarSearchForm.classList.remove('show');
+                    }
+                });
+            }
+
+
+
+            // Toggle menu hamburger
+            if (navbarToggler && mobileNav) {
+                // Gestion du clic
+                navbarToggler.addEventListener('click', function(event) {
+                    const isActive = mobileNav.classList.contains('active');
+
+                    if (isActive) {
+                        // Fermer le menu
+                        mobileNav.classList.remove('active');
+                        navbarToggler.classList.remove('active');
+                        document.body.style.overflow = '';
+
+                        // Fermer tous les sous-menus
+                        document.querySelectorAll('.mobile-submenu').forEach(submenu => {
+                            submenu.classList.remove('active');
+                        });
+                    } else {
+                        // Ouvrir le menu
+                        mobileNav.classList.add('active');
+                        navbarToggler.classList.add('active');
+                        document.body.style.overflow = 'hidden';
+                    }
+                });
+
+                // Gestion du clavier (Entrée et Espace)
+                navbarToggler.addEventListener('keydown', function(event) {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault();
+                        navbarToggler.click();
+                    }
+                });
+
+
+
+                // Fermer en cliquant sur l'overlay
+                if (mobileNavOverlay) {
+                    mobileNavOverlay.addEventListener('click', function() {
+                        mobileNav.classList.remove('active');
+                        navbarToggler.classList.remove('active');
+                        document.body.style.overflow = '';
+
+                        // Fermer tous les sous-menus
+                        document.querySelectorAll('.mobile-submenu').forEach(submenu => {
+                            submenu.classList.remove('active');
+                        });
+                    });
+                }
+            }
+
+            // Gestion des sous-menus
+            document.querySelectorAll('.mobile-nav-dropdown').forEach(dropdown => {
+                dropdown.addEventListener('click', function() {
+                    const submenuName = this.getAttribute('data-submenu');
+                    const submenu = document.getElementById('submenu-' + submenuName);
+
+                    if (submenu) {
+                        submenu.classList.add('active');
+                    }
+                });
+            });
+
+            // Boutons retour des sous-menus
+            document.querySelectorAll('[data-back="true"]').forEach(backBtn => {
+                backBtn.addEventListener('click', function() {
+                    const submenu = this.closest('.mobile-submenu');
+                    if (submenu) {
+                        submenu.classList.remove('active');
+                    }
+                });
+            });
+
+            // Fermer le menu quand on clique sur un lien
+            document.querySelectorAll('.mobile-nav-link:not(.mobile-nav-dropdown):not([data-back])').forEach(link => {
+                link.addEventListener('click', function() {
+                    if (mobileNav && navbarToggler) {
+                        mobileNav.classList.remove('active');
+                        navbarToggler.classList.remove('active');
+                        document.body.style.overflow = '';
+                    }
+                });
+            });
+        });
+    </script>
+
     <!-- Sticky Header Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -338,64 +543,7 @@
             }
         });
 
-        // Wien.info style mobile menu
-        const navbarToggler = document.querySelector('.navbar-toggler');
-        const navbarCollapse = document.querySelector('.navbar-collapse');
-
-        if (navbarToggler && navbarCollapse) {
-            // Close menu when clicking on overlay
-            navbarCollapse.addEventListener('click', function(event) {
-                if (event.target === navbarCollapse) {
-                    navbarToggler.click();
-                }
-            });
-        }
-
-        // Header search toggle (responsive)
-        const searchIcon = document.getElementById('headerSearchIcon');
-        const searchForm = document.getElementById('headerSearchForm');
-        const searchInput = document.getElementById('headerSearchInput');
-
-        if (searchIcon && searchForm && searchInput) {
-            searchIcon.addEventListener('click', function() {
-                if (searchForm.classList.contains('show')) {
-                    // Hide search form
-                    searchForm.classList.remove('show');
-                    setTimeout(() => {
-                        searchIcon.style.display = 'flex';
-                    }, 300);
-                } else {
-                    // Show search form
-                    searchIcon.style.display = 'none';
-                    searchForm.classList.add('show');
-                    setTimeout(() => {
-                        searchInput.focus();
-                    }, 300);
-                }
-            });
-
-            // Hide search when clicking outside
-            document.addEventListener('click', function(event) {
-                if (!searchForm.contains(event.target) && !searchIcon.contains(event.target)) {
-                    if (searchForm.classList.contains('show')) {
-                        searchForm.classList.remove('show');
-                        setTimeout(() => {
-                            searchIcon.style.display = 'flex';
-                        }, 300);
-                    }
-                }
-            });
-
-            // Hide search on escape key
-            document.addEventListener('keydown', function(event) {
-                if (event.key === 'Escape' && searchForm.classList.contains('show')) {
-                    searchForm.classList.remove('show');
-                    setTimeout(() => {
-                        searchIcon.style.display = 'flex';
-                    }, 300);
-                }
-            });
-        }
+        // Code obsolète supprimé - nouveau système de navigation
     </script>
 
     <!-- Footer -->
