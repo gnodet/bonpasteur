@@ -71,7 +71,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1140px; /* Aligné sur Bootstrap standard */
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -101,76 +101,21 @@ body {
     top: -300px;
     left: 0;
     right: 0;
-    background: var(--bg-white);
-    box-shadow: var(--shadow-medium);
     z-index: 1100;
-    transition: top var(--transition-medium);
+    /* Pas de transition - devrait être visuellement identique */
+    /* Hérite automatiquement de .header pour background, box-shadow, etc. */
 }
 
 .header-sticky.show {
     top: 0;
 }
 
-/* Compact header styling */
-.header-sticky .site-title {
-    font-family: var(--font-heading);
-    font-weight: 500;
-    font-size: 1.3rem;
-    margin-bottom: 0.25rem;
-    line-height: 1.2;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
+/* S'assurer qu'un seul header est visible à la fois */
+.header-sticky.show ~ * .header {
+    visibility: hidden;
 }
 
-.header-sticky .site-title .title-highlight {
-    font-weight: 600;
-}
-
-.header-sticky .site-subtitle {
-    font-family: var(--font-heading);
-    font-weight: 400;
-    font-size: 0.7rem;
-    margin-bottom: 0.5rem;
-    line-height: 1.1;
-    text-transform: uppercase;
-    letter-spacing: 2.2px;
-}
-
-.header-sticky .site-subtitle .plus-symbol {
-    font-weight: 400;
-    font-size: 1.1em;
-    vertical-align: 0.05em;
-}
-
-.header-sticky .container {
-    padding-top: 0.4rem;
-    padding-bottom: 0.2rem;
-}
-
-/* Sticky navigation styling */
-.header-sticky .navbar {
-    margin-top: 0;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    border-top: 1px solid var(--border-light);
-}
-
-.header-sticky .navbar-nav .nav-link {
-    font-family: var(--font-heading);
-    font-weight: 500;
-    padding: 0.4rem 1rem;
-    font-size: 0.9rem;
-}
-
-.header-sticky .navbar-nav {
-    gap: 1.5rem;
-}
-
-.header-sticky .search-form input {
-    font-size: 0.85rem;
-    padding: 0.4rem 0.6rem;
-    width: 160px;
-}
+/* Plus besoin de redéfinir les styles - ils sont hérités de .header ! */
 
 .header .row {
     justify-content: space-between;
@@ -228,6 +173,78 @@ body {
 .header-search-icon:hover {
     background: #0056b3;
     transform: scale(1.1);
+}
+
+/* Header search container */
+.header-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Header search form (hidden by default) */
+.header-search-form {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: none;
+    background: var(--bg-white);
+    border: 2px solid var(--primary-blue);
+    border-radius: 25px;
+    padding: 0.25rem;
+    box-shadow: var(--shadow-medium);
+    z-index: 1050;
+    min-width: 280px;
+    transition: all var(--transition-medium);
+}
+
+.header-search-form.show {
+    display: flex;
+    animation: slideInRight 0.3s ease;
+}
+
+.header-search-form .form-control {
+    border: none;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.header-search-form .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.header-search-form .btn-search {
+    background: var(--primary-blue);
+    color: var(--text-white);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    transition: all var(--transition-fast);
+}
+
+.header-search-form .btn-search:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateY(-50%) translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50%) translateX(0);
+    }
 }
 
 /* Site info alignment */
@@ -297,10 +314,7 @@ body {
     display: none;
 }
 
-/* Hide mobile search on desktop */
-.mobile-search-container {
-    display: none;
-}
+/* OLD - REMOVED - Mobile search styles (unified in header) */
 
 /* Dropdown hover functionality */
 .navbar-nav .dropdown:hover .dropdown-menu {
@@ -431,7 +445,7 @@ body {
 
 .content-section-wrapper .section-content {
     padding: 3rem 4rem;
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -457,7 +471,7 @@ body {
 .main-content .container {
     padding-left: 4rem;
     padding-right: 4rem;
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -733,124 +747,13 @@ body {
 
 /* OLD - TO BE REMOVED - Responsive sections 992px */
 
-@media (max-width: 768px) {
-    .content-section-wrapper .section-content {
-        padding: 2rem;
-    }
+/* OLD - REMOVED - Content sections 768px (moved to consolidated) */
 
-    .main-content .container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+/* OLD - REMOVED - Content sections 480px (moved to consolidated) */
 
-    .main-content h1,
-    .main-content h2,
-    .main-content h3,
-    .main-content h4,
-    .main-content h5,
-    .main-content h6 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+/* OLD - REMOVED - Header responsive 768px (moved to consolidated) */
 
-    .main-content p {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        text-align: left;
-    }
-
-    .main-content ul,
-    .main-content ol {
-        margin-left: 2rem;
-        margin-right: 1.5rem;
-    }
-
-    .main-content .btn {
-        margin-left: 1.5rem;
-    }
-
-    .main-content blockquote {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .content-section-wrapper .section-content {
-        padding: 1.5rem;
-    }
-
-    .main-content .container {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-
-    .main-content h1,
-    .main-content h2,
-    .main-content h3,
-    .main-content h4,
-    .main-content h5,
-    .main-content h6 {
-        margin-left: 0.75rem;
-        margin-right: 0.75rem;
-    }
-
-    .main-content p {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        text-align: left;
-    }
-
-    .main-content ul,
-    .main-content ol {
-        margin-left: 1.5rem;
-        margin-right: 1rem;
-    }
-
-    .main-content .btn {
-        margin-left: 1rem;
-    }
-
-    .main-content blockquote {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-}
-
-/* Header responsive */
-@media (max-width: 768px) {
-    .header .site-info {
-        text-align: center;
-    }
-
-    .header .col-md-8 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header .logo {
-        margin-bottom: 0.5rem;
-    }
-
-    .header .col-md-4 {
-        justify-content: center !important;
-        margin-top: 1rem;
-    }
-}
-
-/* Disable parallax on mobile for better performance */
-@media (max-width: 768px) {
-    .hero-section {
-        position: relative;
-        height: 60vh;
-        min-height: 400px;
-        z-index: 1;
-    }
-
-    .content-wrapper {
-        margin-top: 0;
-    }
-}
+/* OLD - REMOVED - Parallax 768px (moved to consolidated) */
 
 /* ===== QUICK ACCESS SECTION (Nestlé style) ===== */
 .quick-access-section {
@@ -861,12 +764,7 @@ body {
     margin-top: -50px;
 }
 
-/* Ajustement pour desktop - remontée importante */
-@media (min-width: 992px) {
-    .quick-access-section {
-        margin-top: -180px;
-    }
-}
+/* OLD - REMOVED - Quick access 992px (moved to consolidated) */
 
 /* Titre supprimé - CSS conservé pour référence future */
 
@@ -874,7 +772,7 @@ body {
     display: grid;
     grid-template-columns: repeat(5, minmax(120px, 150px));
     gap: 2rem;
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 2rem 1rem;
     justify-content: center;
@@ -941,77 +839,9 @@ body {
 
 
 
-/* Quick access responsive */
-@media (max-width: 1000px) {
-    .quick-access-grid {
-        grid-template-columns: repeat(5, minmax(100px, 130px));
-        gap: 1.5rem;
-        max-width: 1000px;
-        padding: 2rem 0.5rem;
-    }
-}
+/* OLD - TO BE REMOVED - Quick access responsive (remplacé par les breakpoints consolidés) */
 
-@media (max-width: 800px) {
-    .quick-access-grid {
-        grid-template-columns: repeat(3, minmax(120px, 150px));
-        gap: 1.5rem;
-        max-width: 600px;
-    }
-
-    .quick-access-title {
-        font-size: 1.6rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .service-image {
-        height: 100px;
-    }
-
-    .service-content {
-        padding: 0.8rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .quick-access-section {
-        padding: 2rem 0;
-    }
-
-    .quick-access-grid {
-        grid-template-columns: repeat(2, minmax(140px, 1fr));
-        gap: 1rem;
-        max-width: 350px;
-    }
-
-    .service-content {
-        padding: 0.6rem;
-    }
-
-    .service-content h3 {
-        font-size: 0.9rem;
-    }
-
-    .service-content p {
-        font-size: 0.75rem;
-    }
-}
-
-/* Print styles */
-@media print {
-    .navbar, .footer {
-        display: none;
-    }
-
-    .header {
-        background: white !important;
-        color: black !important;
-    }
-
-    .hero-section {
-        background: white !important;
-        color: black !important;
-    }
-}
+/* OLD - REMOVED - Print styles (moved to consolidated) */
 
 /* ===== CONTACT FORM STYLES ===== */
 
@@ -1362,62 +1192,9 @@ body {
 
 /* ===== RESPONSIVE DESIGN SAINT-MALO ===== */
 
-/* Responsive pour design Saint-Malo */
-@media (max-width: 768px) {
-    .contact-page-layout {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        margin: 1rem auto;
-        padding: 0 1rem;
-    }
+/* OLD - REMOVED - Contact form 768px (moved to consolidated) */
 
-    .contact-info-card {
-        padding: 1.5rem;
-    }
-
-    .contact-form-section {
-        padding: 1.5rem;
-    }
-
-    .radio-group {
-        gap: 0.5rem;
-    }
-
-    .radio-label {
-        font-size: 0.85rem;
-    }
-
-    .btn-submit-saintmalo {
-        width: 100%;
-        padding: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .contact-page-layout {
-        margin: 0.5rem auto;
-        padding: 0 0.5rem;
-    }
-
-    .contact-info-card {
-        padding: 1rem;
-    }
-
-    .contact-form-section {
-        padding: 1rem;
-    }
-
-    .contact-form-saintmalo input,
-    .contact-form-saintmalo textarea {
-        padding: 0.6rem;
-        font-size: 0.95rem;
-    }
-
-    .contact-info-card h3,
-    .contact-form-section h3 {
-        font-size: 1.1rem;
-    }
-}
+/* OLD - REMOVED - Contact form 480px (moved to consolidated) */
 
 /* Footer styles */
 .footer-paroisse {
@@ -1479,28 +1256,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* Responsive footer */
-@media (max-width: 768px) {
-    .footer-paroisse {
-        padding: 2rem 0 1rem 0;
-        text-align: center;
-    }
-
-    .footer-title {
-        font-size: 1.2rem;
-    }
-
-    .footer-address,
-    .footer-contact {
-        font-size: 0.9rem;
-    }
-
-    .btn-footer-contact {
-        margin-top: 1rem;
-        width: 100%;
-        justify-content: center;
-    }
-}
+/* OLD - REMOVED - Footer 768px (moved to consolidated) */
 
 /* ===== CONSOLIDATED RESPONSIVE BREAKPOINTS (NEW) ===== */
 
@@ -1524,6 +1280,20 @@ body {
     /* Quick Access */
     .quick-access-section {
         margin-top: -180px;
+    }
+
+    /* Dropdown menus - largeur normale en desktop */
+    .navbar-nav .dropdown-menu {
+        width: auto !important;
+        min-width: 200px;
+        max-width: 400px;
+    }
+
+    /* Churches menu - contrôler la largeur */
+    .churches-menu {
+        min-width: 350px !important;
+        max-width: 400px !important;
+        width: auto !important;
     }
 }
 
@@ -1568,10 +1338,43 @@ body {
     .hero-subtitle {
         font-size: 2rem;
     }
+
+    /* Dropdown menus - largeur normale en tablet */
+    .navbar-nav .dropdown-menu {
+        width: auto !important;
+        min-width: 180px;
+        max-width: 350px;
+    }
+
+    /* Churches menu - contrôler la largeur */
+    .churches-menu {
+        min-width: 300px !important;
+        max-width: 350px !important;
+        width: auto !important;
+    }
+
+    /* Header search responsive */
+    .header-search-form {
+        min-width: 250px;
+    }
+
+    /* Hero section - ensure visibility */
+    .hero-section {
+        display: block !important;
+        position: fixed !important;
+        z-index: -1 !important;
+        height: 60vh !important;
+        min-height: 400px !important;
+    }
+
+    /* Content wrapper - maintain proper spacing */
+    .content-wrapper {
+        margin-top: 60vh !important;
+    }
 }
 
-/* 3. MOBILE (481px - 767px) */
-@media (max-width: 767px) {
+/* 3. MOBILE (≤991px) */
+@media (max-width: 991px) {
     /* Hide sticky header on mobile */
     .header-sticky {
         display: none !important;
@@ -1771,98 +1574,9 @@ body {
         display: none !important;
     }
 
-    /* Mobile search */
-    .mobile-search-container {
-        display: block !important;
-    }
+    /* OLD - REMOVED - Mobile search (unified in header) */
 
-    .mobile-search-icon {
-        position: fixed !important;
-        top: 35px !important;
-        right: 15px !important;
-        z-index: 1050 !important;
-        width: 44px !important;
-        height: 44px !important;
-        background: transparent !important;
-        border-radius: 0 !important;
-        box-shadow: none !important;
-        border: none !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        cursor: pointer !important;
-        transition: all 0.2s ease !important;
-    }
-
-    .mobile-search-icon:hover {
-        background: rgba(0, 0, 0, 0.05) !important;
-        border-radius: 4px !important;
-    }
-
-    .mobile-search-icon i {
-        font-size: 1.1rem !important;
-        color: var(--text-gray) !important;
-    }
-
-    .mobile-search-icon:hover i {
-        color: #000 !important;
-    }
-
-    .mobile-search {
-        position: fixed !important;
-        top: 35px !important;
-        right: 15px !important;
-        z-index: 1050 !important;
-        margin: 0 !important;
-        background: var(--bg-white) !important;
-        border-radius: 4px !important;
-        box-shadow: var(--shadow-medium) !important;
-        padding: 8px !important;
-        border: 1px solid var(--border-medium) !important;
-        display: none !important;
-        opacity: 0 !important;
-        transform: translateX(10px) !important;
-        transition: all 0.2s ease !important;
-    }
-
-    .mobile-search.show {
-        display: flex !important;
-        opacity: 1 !important;
-        transform: translateX(0) !important;
-    }
-
-    .mobile-search .form-control {
-        width: 180px !important;
-        font-size: 0.9rem !important;
-        border: none !important;
-        background: transparent !important;
-        padding: 0.5rem 0.8rem !important;
-        color: var(--text-gray) !important;
-    }
-
-    .mobile-search .form-control:focus {
-        box-shadow: none !important;
-        border: none !important;
-        outline: none !important;
-    }
-
-    .mobile-search .form-control::placeholder {
-        color: var(--text-placeholder) !important;
-    }
-
-    .mobile-search .btn {
-        border: none !important;
-        background: transparent !important;
-        color: #666 !important;
-        padding: 0.5rem 0.6rem !important;
-        font-size: 0.9rem !important;
-    }
-
-    .mobile-search .btn:hover {
-        background: rgba(0, 0, 0, 0.05) !important;
-        color: var(--text-gray) !important;
-        border-radius: 4px !important;
-    }
+    /* OLD - REMOVED - All mobile search styles (unified in header) */
 
     /* Dropdown menus in mobile */
     .navbar-nav .dropdown-menu {
@@ -1950,11 +1664,7 @@ body {
         margin-top: 1rem;
     }
 
-    /* Disable parallax */
-    .hero-section {
-        position: relative;
-        background-attachment: scroll !important;
-    }
+    /* Disable parallax on small screens only */
 
     /* Contact form */
     .contact-page-layout {
@@ -1972,6 +1682,18 @@ body {
 
     .footer-title {
         font-size: 1.2rem;
+    }
+
+    /* Header search mobile */
+    .header-search-form {
+        min-width: 200px;
+        right: -10px;
+    }
+
+    .header-search-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 0.9rem;
     }
 
     .footer-address,
@@ -2028,6 +1750,14 @@ body {
         margin: 0.5rem auto;
         max-width: 100%;
         padding: 0 0.5rem;
+    }
+
+    /* Disable parallax on very small screens */
+    .hero-section {
+        position: relative !important;
+        background-attachment: scroll !important;
+        height: 50vh !important;
+        min-height: 300px !important;
     }
 }
 

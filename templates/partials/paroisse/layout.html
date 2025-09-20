@@ -58,12 +58,26 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex justify-content-end align-items-center">
-                    <!-- Icône de recherche -->
-                    <div class="header-search-icon me-3" id="headerSearchIcon">
-                        <i class="fas fa-search"></i>
+                    <!-- Recherche intelligente -->
+                    <div class="header-search-container me-3">
+                        <!-- Icône de recherche -->
+                        <div class="header-search-icon" id="headerSearchIcon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <!-- Formulaire de recherche (caché par défaut) -->
+                        {#if cdi:menu.items}
+                            {#for item in cdi:menu.items}
+                            {#if item.get('search')}
+                            <form class="header-search-form" id="headerSearchForm" role="search">
+                                <input class="form-control" type="search" placeholder="Rechercher..." aria-label="Search" id="headerSearchInput">
+                                <button class="btn btn-search" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                            {/if}
+                            {/for}
+                        {/if}
                     </div>
                     <!-- Menu burger mobile -->
-                    <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
@@ -71,7 +85,7 @@
         </div>
     </header>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -115,40 +129,12 @@
                     {/if}
                 </ul>
 
-                <!-- Recherche à droite -->
-                {#if cdi:menu.items}
-                    {#for item in cdi:menu.items}
-                    {#if item.get('search')}
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search">
-                        <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                    {/if}
-                    {/for}
-                {/if}
+                <!-- Recherche supprimée - maintenant dans le header -->
             </div>
         </div>
     </nav>
 
-    <!-- Mobile search (fixed position) -->
-    <div class="mobile-search-container">
-        <!-- Search icon -->
-        <div class="mobile-search-icon" id="mobileSearchIcon">
-            <i class="fas fa-search"></i>
-        </div>
-
-        <!-- Search form (hidden by default) -->
-        {#if cdi:menu.items}
-            {#for item in cdi:menu.items}
-            {#if item.get('search')}
-            <form class="d-flex mobile-search" id="mobileSearchForm" role="search">
-                <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search" id="mobileSearchInput">
-                <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
-            </form>
-            {/if}
-            {/for}
-        {/if}
-    </div>
+    <!-- Mobile search supprimé - maintenant unifié dans le header -->
 
     <!-- Content wrapper that scrolls over the fixed hero -->
     <div class="content-wrapper">
@@ -294,8 +280,8 @@
                 stickyContainer.appendChild(stickyHeader);
                 stickyContainer.appendChild(stickyNav);
 
-                // Remove original classes and add to body
-                stickyHeader.classList.remove('header');
+                // Keep header class for inheritance, remove navbar class and re-add it
+                // stickyHeader.classList.remove('header'); // ← KEEP header class for CSS inheritance
                 stickyNav.classList.remove('navbar');
                 stickyNav.classList.add('navbar'); // Keep navbar class for styling
 
@@ -304,31 +290,48 @@
                 let lastScrollTop = 0;
                 let isScrollingUp = false;
 
+                // Initial check - ensure hidden if at top
+                const initialScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                if (initialScrollTop <= 10) {
+                    stickyContainer.classList.remove('show');
+                }
+
                 window.addEventListener('scroll', function() {
                     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-                    // Detect scroll direction
-                    if (scrollTop < lastScrollTop) {
-                        // Scrolling up
-                        if (!isScrollingUp && scrollTop > 100) {
-                            isScrollingUp = true;
-                            stickyContainer.classList.add('show');
-                        }
-                    } else {
-                        // Scrolling down
-                        if (isScrollingUp) {
-                            isScrollingUp = false;
-                            stickyContainer.classList.remove('show');
-                        }
-                    }
-
-                    // Hide when at top
-                    if (scrollTop <= 50) {
+                    // Hide when at top - priorité absolue
+                    if (scrollTop <= 10) {
                         stickyContainer.classList.remove('show');
                         isScrollingUp = false;
+                    } else {
+                        // Detect scroll direction seulement si pas en haut
+                        if (scrollTop < lastScrollTop) {
+                            // Scrolling up
+                            if (!isScrollingUp && scrollTop > 100) {
+                                isScrollingUp = true;
+                                stickyContainer.classList.add('show');
+                            }
+                        } else {
+                            // Scrolling down
+                            if (isScrollingUp) {
+                                isScrollingUp = false;
+                                stickyContainer.classList.remove('show');
+                            }
+                        }
                     }
 
                     lastScrollTop = scrollTop;
+                });
+
+                // Handle window resize - force recalculation
+                window.addEventListener('resize', function() {
+                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                    // Force hide if at top
+                    if (scrollTop <= 10) {
+                        stickyContainer.classList.remove('show');
+                        isScrollingUp = false;
+                    }
                 });
             }
         });
@@ -346,10 +349,10 @@
             });
         }
 
-        // Mobile search toggle
-        const searchIcon = document.getElementById('mobileSearchIcon');
-        const searchForm = document.getElementById('mobileSearchForm');
-        const searchInput = document.getElementById('mobileSearchInput');
+        // Header search toggle (responsive)
+        const searchIcon = document.getElementById('headerSearchIcon');
+        const searchForm = document.getElementById('headerSearchForm');
+        const searchInput = document.getElementById('headerSearchInput');
 
         if (searchIcon && searchForm && searchInput) {
             searchIcon.addEventListener('click', function() {
