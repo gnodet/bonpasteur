@@ -493,7 +493,7 @@ body {
     margin-top: 2rem;
 }
 
-.main-content p {
+.main-content p:not(.hero-subtitle) {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-bottom: 1.2rem;
@@ -658,8 +658,8 @@ body {
 .hero-content {
     text-align: center;
     color: white;
-    max-width: 800px;
-    padding: 0 2rem;
+    max-width: 1200px;
+    padding-top: 80px; /* padding-top pour éviter que le menu cache le titre */
 }
 
 .hero-title {
@@ -681,6 +681,7 @@ body {
     font-family: "Garet", "Montserrat", sans-serif;
     opacity: 1;
     color: white;
+    text-align: center !important;
 }
 
 .hero-buttons {
@@ -1282,18 +1283,16 @@ body {
         margin-top: -180px;
     }
 
+    /* Hero responsive */
+    .hero-content {
+        padding-top: 120px; /* Espace pour le menu fixe */
+    }
+
     /* Dropdown menus - largeur normale en desktop */
     .navbar-nav .dropdown-menu {
         width: auto !important;
         min-width: 200px;
         max-width: 400px;
-    }
-
-    /* Churches menu - contrôler la largeur */
-    .churches-menu {
-        min-width: 350px !important;
-        max-width: 400px !important;
-        width: auto !important;
     }
 }
 
@@ -1313,7 +1312,57 @@ body {
         font-weight: 400;
         font-size: 0.8rem;
         text-transform: uppercase;
-        letter-spacing: 2.4px;
+        letter-spacing: 1.4px;
+    }
+
+    /* Force hamburger to stay hidden on tablet */
+    .navbar-toggler {
+        display: none !important;
+    }
+
+    /* Force navigation to stay visible on tablet */
+    .navbar-collapse {
+        display: flex !important;
+        flex: 1;
+        justify-content: space-between;
+    }
+
+    .navbar-nav {
+        display: flex !important;
+        gap: 2rem;
+        flex: 1;
+        justify-content: center;
+    }
+
+    .navbar-collapse:not(.show) .navbar-nav {
+        display: flex !important;
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        display: flex !important;
+    }
+
+    /* Disable Bootstrap collapse animations on tablet */
+    .navbar-collapse.collapsing {
+        display: flex !important;
+        transition: none !important;
+    }
+
+    /* Fix navigation link colors on tablet */
+    .navbar-nav .nav-link {
+        font-family: var(--font-heading);
+        font-weight: 500;
+        padding: 0.75rem 1.5rem;
+        transition: all var(--transition-medium);
+        color: var(--text-dark);
+        text-decoration: none;
+        display: block;
+    }
+
+    .navbar-nav .nav-link:hover {
+        background-color: var(--bootstrap-primary-light) !important;
+        border-radius: 4px !important;
+        color: var(--bootstrap-primary) !important;
     }
 
     /* Content sections */
@@ -1334,27 +1383,25 @@ body {
     }
 
     /* Hero responsive */
+    .hero-content {
+        padding-top: 80px; /* Espace pour le menu fixe */
+    }
+
     .hero-title {
-        font-size: 4rem;
+        font-size: 4rem !important;
         line-height: 1.1;
     }
 
     .hero-subtitle {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        text-align: center !important;
     }
 
     /* Dropdown menus - largeur normale en tablet */
     .navbar-nav .dropdown-menu {
         width: auto !important;
-        min-width: 180px;
-        max-width: 350px;
-    }
-
-    /* Churches menu - contrôler la largeur */
-    .churches-menu {
-        min-width: 300px !important;
-        max-width: 350px !important;
-        width: auto !important;
+        min-width: 200px;
+        max-width: 400px;
     }
 
     /* Header search responsive */
@@ -1377,8 +1424,25 @@ body {
     }
 }
 
-/* 3. MOBILE (≤991px) */
-@media (max-width: 991px) {
+/* 3. MOBILE (≤767px) */
+@media (max-width: 767px) {
+    /* Site titles - plus petits qu'en tablet */
+    .site-title {
+        font-family: var(--font-heading);
+        font-weight: 500;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .site-subtitle {
+        font-family: var(--font-heading);
+        font-weight: 400;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+    }
+
     /* Hide sticky header on mobile */
     .header-sticky {
         display: none !important;
@@ -1619,13 +1683,18 @@ body {
     }
 
     /* Hero responsive */
+    .hero-content {
+        padding-top: 70px; /* Espace pour le menu fixe */
+    }
+
     .hero-title {
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 1.1;
     }
 
     .hero-subtitle {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        text-align: center !important;
     }
 
     /* Content sections */
@@ -1676,9 +1745,37 @@ body {
         margin-bottom: 0.5rem;
     }
 
-    .header .col-md-4 {
-        justify-content: center;
-        margin-top: 1rem;
+    /* Header responsive mobile */
+    .header .row {
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .header .col-md-1:first-child {
+        flex: 0 0 auto;
+        width: auto;
+        padding-left: 0.5rem !important;
+        padding-right: 0 !important;
+    }
+
+    .header .col-md-10 {
+        flex: 1;
+        text-align: center;
+        margin-bottom: 0;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .header .col-md-1:last-child {
+        flex: 0 0 auto;
+        width: auto;
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        margin-top: 0;
+        padding-left: 0 !important;
+        padding-right: 0.5rem !important;
+        gap: 0.25rem;
     }
 
     /* Disable parallax on small screens only */
@@ -1728,13 +1825,18 @@ body {
 /* 4. SMALL MOBILE (≤480px) */
 @media (max-width: 480px) {
     /* Hero */
+    .hero-content {
+        padding-top: 60px; /* Espace réduit pour le menu hamburger */
+    }
+
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 1.1;
     }
 
     .hero-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        text-align: center;
     }
 
     /* Content sections */
