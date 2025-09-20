@@ -1287,10 +1287,17 @@ body {
 /* ===== QUICK ACCESS SECTION (Nestlé style) ===== */
 .quick-access-section {
     padding: 0;
-    background: #f8f9fa;
+    background: var(--bg-light);
     position: relative;
     z-index: 10;
     margin-top: -50px;
+}
+
+/* Ajustement pour desktop - remontée importante */
+@media (min-width: 992px) {
+    .quick-access-section {
+        margin-top: -180px;
+    }
 }
 
 /* Titre supprimé - CSS conservé pour référence future */
@@ -1382,7 +1389,6 @@ body {
         gap: 1.5rem;
         max-width: 600px;
     }
-}
 
     .quick-access-title {
         font-size: 1.6rem;
