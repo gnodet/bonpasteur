@@ -4,7 +4,7 @@ description: Vous souhaitez faire baptiser votre enfant ou vous faire baptiser ?
 layout: paroisse/page
 updated: '2025-09-19'
 url: /demandes/bapteme/
-hero_image: static/images/bapteme.png
+hero_image: images/bapteme.png
 hero_subtitle: Une étape importante dans la vie chrétienne
 ---
 

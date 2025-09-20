@@ -4,7 +4,7 @@ description: Découvrez les églises, abbatiales et chapelles de Caen sur une ca
 layout: paroisse/carte-leaflet
 updated: '2025-09-16'
 url: /clochers-carte/
-hero_image: static/images/clochers-caen-hero.jpg
+hero_image: images/clochers-caen-hero.jpg
 hero_subtitle: Carte interactive des lieux de culte
 ---
 

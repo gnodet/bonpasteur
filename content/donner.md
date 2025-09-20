@@ -4,7 +4,7 @@ description: Votre générosité permet à notre paroisse de poursuivre sa missi
 layout: paroisse/page
 updated: '2025-09-18'
 url: /donner/
-hero_image: static/images/eglise-bon-pasteur-hero.jpg
+hero_image: images/eglise-bon-pasteur-hero.jpg
 hero_subtitle: Votre soutien fait la différence
 ---
 

@@ -5,7 +5,7 @@ description: '_Retrouvez tous les horaires de célébrations dans nos églises_ 
 layout: paroisse/page
 updated: '2025-09-16'
 url: /messes-horaires/
-hero_image: static/images/messes.jpg
+hero_image: images/messes.jpg
 ---
 
 _Retrouvez tous les horaires de célébrations dans nos églises_

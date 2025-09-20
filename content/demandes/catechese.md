@@ -5,7 +5,7 @@ description: '# Vous souhaitez proposer à votre enfant de rencontrer Jésus, de
 layout: paroisse/page
 updated: '2025-09-16'
 url: /catechese/
-hero_image: static/images/catechese.png
+hero_image: images/catechese.png
 ---
  
 

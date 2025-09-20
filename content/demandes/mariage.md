@@ -4,7 +4,7 @@ description: 'Vous souhaitez vous marier à Caen...'
 layout: paroisse/page
 updated: '2025-09-16'
 url: /mariage/
-hero_image: static/images/mariage.png
+hero_image: images/mariage.png
 ---
 
 Vous souhaitez vous marier à Caen, Herouville Saint Clair, St Contest, St Germain la Blanche Herbe ou Blainville dans les mois à venir. Soyez les bienvenus ! 

@@ -5,7 +5,7 @@ description: '> « Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses 
 layout: paroisse/page
 updated: '2025-09-16'
 url: /bienvenue/
-hero_image: static/images/bienvenue-hero.png
+hero_image: images/bienvenue-hero.png
 hero_subtitle: Vous êtes les bienvenus dans notre communauté paroissiale
 ---
 
