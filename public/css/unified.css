@@ -1,8 +1,55 @@
 /* Paroisse Bon Pasteur - Unified CSS */
 
-/* Import Google Fonts and Custom Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+/* Import Google Fonts - Optimized weights */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
 @import url('https://fonts.cdnfonts.com/css/garet');
+
+/* CSS Custom Properties (Variables) */
+:root {
+    /* Colors */
+    --primary-blue: #007bff;
+    --primary-blue-hover: #0056b3;
+    --bootstrap-primary: #0d6efd;
+    --bootstrap-primary-light: rgba(13, 110, 253, 0.1);
+
+    --text-dark: #212529;
+    --text-medium: #495057;
+    --text-gray: #333;
+    --text-light: #555;
+    --text-muted: #6c757d;
+    --text-placeholder: #999;
+    --text-white: #ffffff;
+
+    --bg-white: #ffffff;
+    --bg-light: #f8f9fa;
+    --bg-gray: #f9f9f9;
+    --bg-debug: #f0f0f0;
+
+    --border-light: #e9ecef;
+    --border-gray: #dee2e6;
+    --border-medium: #ddd;
+    --border-dark: #f0f0f0;
+
+    --accent-red: #832732;
+    --accent-red-hover: #6d1f29;
+    --success-green: #155724;
+    --success-bg: #d4edda;
+    --error-red: #dc3545;
+    --error-bg: #f8d7da;
+
+    /* Fonts */
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: 'Garet', 'Montserrat', sans-serif;
+
+    /* Shadows */
+    --shadow-light: 0 2px 4px rgba(0,0,0,0.1);
+    --shadow-medium: 0 2px 8px rgba(0,0,0,0.1);
+    --shadow-heavy: 0 4px 20px rgba(0,0,0,0.1);
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s ease;
+}
 
 /* Reset et base */
 * {
@@ -17,9 +64,9 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
+    font-family: var(--font-primary);
+    color: var(--text-gray);
+    background-color: var(--bg-gray);
 }
 
 /* Container */
@@ -38,14 +85,14 @@ body {
     min-height: 100vh;
 }
 
-/* Header styles - PRIORITÉ MAXIMALE */
+/* Header styles */
 .header {
-    background: white !important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-light);
     position: relative;
     z-index: 1000;
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /* Sticky header that appears on scroll up */
@@ -54,10 +101,10 @@ body {
     top: -300px;
     left: 0;
     right: 0;
-    background: white !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-medium);
     z-index: 1100;
-    transition: top 0.3s ease-in-out;
+    transition: top var(--transition-medium);
 }
 
 .header-sticky.show {
@@ -66,63 +113,63 @@ body {
 
 /* Compact header styling */
 .header-sticky .site-title {
-    font-family: 'Garet', 'Montserrat', sans-serif !important;
-    font-weight: 500 !important;
-    font-size: 1.3rem !important;
-    margin-bottom: 0.25rem !important;
-    line-height: 1.2 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.6px !important;
+    font-family: var(--font-heading);
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
 }
 
 .header-sticky .site-title .title-highlight {
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 .header-sticky .site-subtitle {
-    font-family: 'Garet', 'Montserrat', sans-serif !important;
-    font-weight: 400 !important;
-    font-size: 0.7rem !important;
-    margin-bottom: 0.5rem !important;
-    line-height: 1.1 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 2.2px !important;
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
 }
 
 .header-sticky .site-subtitle .plus-symbol {
-    font-weight: 400 !important;
-    font-size: 1.1em !important;
-    vertical-align: 0.05em !important;
+    font-weight: 400;
+    font-size: 1.1em;
+    vertical-align: 0.05em;
 }
 
 .header-sticky .container {
-    padding-top: 0.4rem !important;
-    padding-bottom: 0.2rem !important;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
 }
 
 /* Sticky navigation styling */
 .header-sticky .navbar {
-    margin-top: 0 !important;
-    padding-top: 0.3rem !important;
-    padding-bottom: 0.3rem !important;
-    border-top: 1px solid #e9ecef;
+    margin-top: 0;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-top: 1px solid var(--border-light);
 }
 
 .header-sticky .navbar-nav .nav-link {
-    font-family: 'Garet', 'Montserrat', sans-serif !important;
-    font-weight: 500 !important;
-    padding: 0.4rem 1rem !important;
-    font-size: 0.9rem !important;
+    font-family: var(--font-heading);
+    font-weight: 500;
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
 }
 
 .header-sticky .navbar-nav {
-    gap: 1.5rem !important;
+    gap: 1.5rem;
 }
 
 .header-sticky .search-form input {
-    font-size: 0.85rem !important;
-    padding: 0.4rem 0.6rem !important;
-    width: 160px !important;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+    width: 160px;
 }
 
 .header .row {
@@ -141,7 +188,7 @@ body {
 
 /* Header burger button styling */
 .header .navbar-toggler {
-    border: 2px solid #007bff;
+    border: 2px solid var(--primary-blue);
     border-radius: 6px;
     padding: 0.5rem;
     background: transparent;
@@ -149,8 +196,8 @@ body {
 }
 
 .header .navbar-toggler:hover {
-    background: #007bff;
-    border-color: #007bff;
+    background: var(--primary-blue);
+    border-color: var(--primary-blue);
 }
 
 .header .navbar-toggler-icon {
@@ -165,8 +212,8 @@ body {
 
 /* Header search icon styling */
 .header-search-icon {
-    background: #007bff;
-    color: white;
+    background: var(--primary-blue);
+    color: var(--text-white);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -174,7 +221,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all var(--transition-medium);
     font-size: 1rem;
 }
 
@@ -189,33 +236,33 @@ body {
 }
 
 .site-title {
-    color: #212529 !important;
-    font-family: 'Garet', 'Montserrat', sans-serif !important;
-    font-weight: 500 !important;
-    font-size: 1.8rem !important;
-    margin: 0 0 0.3rem 0 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.8px !important;
+    color: var(--text-dark);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 0 0 0.3rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 .site-title .title-highlight {
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 .site-subtitle {
-    color: #495057 !important;
-    font-family: 'Garet', 'Montserrat', sans-serif !important;
-    font-weight: 400 !important;
-    font-size: 0.85rem !important;
-    margin: 0 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 2.8px !important;
+    color: var(--text-medium);
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
 }
 
 .site-subtitle .plus-symbol {
-    font-weight: 400 !important;
-    font-size: 1.1em !important;
-    vertical-align: 0.05em !important;
+    font-weight: 400;
+    font-size: 1.1em;
+    vertical-align: 0.05em;
 }
 
 .logo img {
@@ -225,16 +272,16 @@ body {
 
 /* Navigation styles */
 .navbar {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    background-color: white !important;
+    box-shadow: var(--shadow-light);
+    background-color: var(--bg-white);
     position: relative;
     z-index: 1001;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .navbar.bg-primary {
-    background-color: white !important;
+    background-color: var(--bg-white) !important;
 }
 
 .navbar-nav {
@@ -246,28 +293,28 @@ body {
 /* Desktop navigation styles only */
 @media (min-width: 992px) {
     .navbar-nav .nav-link {
-        font-family: 'Garet', 'Montserrat', sans-serif !important;
+        font-family: var(--font-heading);
         font-weight: 500;
         padding: 0.75rem 1.5rem;
-        transition: all 0.3s ease;
-        color: #212529 !important;
+        transition: all var(--transition-medium);
+        color: var(--text-dark);
     }
 
     .navbar-nav .nav-link:hover {
-        background-color: rgba(13, 110, 253, 0.1);
+        background-color: var(--bootstrap-primary-light);
         border-radius: 4px;
-        color: #0d6efd !important;
+        color: var(--bootstrap-primary);
     }
 }
 
 /* Hide hamburger on desktop */
 .navbar-toggler {
-    display: none !important;
+    display: none;
 }
 
 /* Hide mobile search on desktop */
 .mobile-search-container {
-    display: none !important;
+    display: none;
 }
 
 /* Dropdown hover functionality */
@@ -287,35 +334,35 @@ body {
 }
 
 .dropdown-item {
-    font-family: 'Garet', 'Montserrat', sans-serif !important;
+    font-family: var(--font-heading);
     font-weight: 400;
     padding: 0.5rem 1.5rem;
-    transition: all 0.2s ease;
-    color: #212529 !important;
+    transition: all var(--transition-fast);
+    color: var(--text-dark);
 }
 
 .dropdown-item:hover {
-    background-color: #0d6efd;
-    color: white !important;
+    background-color: var(--bootstrap-primary);
+    color: var(--text-white);
 }
 
 .dropdown-item:focus {
-    background-color: #0d6efd;
-    color: white !important;
+    background-color: var(--bootstrap-primary);
+    color: var(--text-white);
 }
 
 /* Liens dans les menus déroulants */
 .dropdown-menu a {
-    color: #212529 !important;
+    color: var(--text-dark);
     text-decoration: none;
 }
 
 .dropdown-menu a:hover {
-    color: white !important;
+    color: var(--text-white);
 }
 
 .dropdown-menu a:focus {
-    color: white !important;
+    color: var(--text-white);
 }
 
 /* Navigation container */
@@ -346,21 +393,21 @@ body {
 }
 
 .navbar .form-control {
-    width: 180px !important;
+    width: 180px;
     font-size: 0.9rem;
     padding: 0.5rem 0.75rem;
 }
 
 .navbar .btn-outline-light {
-    color: #212529 !important;
-    border-color: #dee2e6 !important;
+    color: var(--text-dark);
+    border-color: var(--border-gray);
     padding: 0.5rem 0.75rem;
 }
 
 .navbar .btn-outline-light:hover {
-    background-color: #0d6efd !important;
-    border-color: #0d6efd !important;
-    color: white !important;
+    background-color: var(--bootstrap-primary);
+    border-color: var(--bootstrap-primary);
+    color: var(--text-white);
 }
 
 /* Churches menu with two columns */
@@ -390,11 +437,11 @@ body {
 }
 
 .content-section-wrapper:nth-child(odd) {
-    background-color: #ffffff;
+    background-color: var(--bg-white);
 }
 
 .content-section-wrapper:nth-child(even) {
-    background-color: #f8f9fa;
+    background-color: var(--bg-light);
 }
 
 .content-section-wrapper .section-content {
@@ -405,9 +452,9 @@ body {
 
 /* Ajustements pour les éléments dans les sections */
 .content-section-wrapper h2 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    margin-top: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     padding-top: 0;
 }
 
@@ -417,8 +464,8 @@ body {
 .content-section-wrapper ul,
 .content-section-wrapper ol,
 .content-section-wrapper .btn {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Style aéré pour les textes - décalage des bords gauche et droit */
@@ -479,19 +526,19 @@ body {
     margin-left: 3rem;
     margin-right: 3rem;
     padding-left: 1.5rem;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid var(--primary-blue);
 }
 
 /* Content styling */
 .container h2 {
-    color: #0d6efd;
-    border-bottom: 2px solid #e9ecef;
+    color: var(--bootstrap-primary);
+    border-bottom: 2px solid var(--border-light);
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
 
 .container h3 {
-    color: #495057;
+    color: var(--text-medium);
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -521,28 +568,28 @@ body {
 }
 
 .btn-primary {
-    background: #832732;
-    color: white;
+    background: var(--accent-red);
+    color: var(--text-white);
 }
 
 .btn-primary:hover {
-    background: #6d1f29;
+    background: var(--accent-red-hover);
     transform: translateY(-1px);
 }
 
 /* Footer */
 .footer {
-    background-color: #212529;
+    background-color: var(--text-dark);
     margin-top: auto;
 }
 
 .footer a {
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color var(--transition-fast);
 }
 
 .footer a:hover {
-    color: #0d6efd !important;
+    color: var(--bootstrap-primary);
 }
 
 /* Animations */
@@ -560,19 +607,19 @@ body {
 /* Responsive adjustments - Direct switch to hamburger */
 @media (max-width: 991px) {
     .site-title {
-        font-family: 'Garet', 'Montserrat', sans-serif !important;
-        font-weight: 500 !important;
-        font-size: 1.5rem !important;
-        text-transform: uppercase !important;
-        letter-spacing: 0.6px !important;
+        font-family: var(--font-heading);
+        font-weight: 500;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
     }
 
     .site-subtitle {
-        font-family: 'Garet', 'Montserrat', sans-serif !important;
-        font-weight: 400 !important;
-        font-size: 0.8rem !important;
-        text-transform: uppercase !important;
-        letter-spacing: 2.4px !important;
+        font-family: var(--font-heading);
+        font-weight: 400;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 2.4px;
     }
 
     .churches-menu {
@@ -688,7 +735,7 @@ body {
         justify-content: flex-start !important;
         align-items: stretch !important;
         width: 100% !important;
-        background: white !important;
+        background: var(--bg-white) !important;
     }
 
     /* Wien.info style - no title in mobile menu */
@@ -1408,33 +1455,33 @@ body {
 }
 
 .contact-info-section {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 2rem !important;
-    background: #f0f0f0 !important; /* Debug: fond gris clair */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--bg-light);
 }
 
 .contact-info-card {
-    background: #f8f9fa;
+    background: var(--bg-light);
     padding: 2rem;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid var(--primary-blue);
     border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow-medium);
 }
 
 .contact-info-card h3 {
-    color: #333;
+    color: var(--text-gray);
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--primary-blue);
     padding-bottom: 0.5rem;
 }
 
 .contact-details p {
     margin-bottom: 1rem;
     line-height: 1.6;
-    color: #555;
+    color: var(--text-light);
 }
 
 .contact-details p:last-child {
@@ -1442,25 +1489,24 @@ body {
 }
 
 .contact-details strong {
-    color: #333;
+    color: var(--text-gray);
     font-weight: 600;
 }
 
 .contact-form-section {
-    background: white !important;
-    padding: 2rem !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1) !important;
-    height: fit-content !important;
-    border: 2px solid #007bff !important; /* Debug: bordure bleue */
+    background: var(--bg-white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-heavy);
+    height: fit-content;
 }
 
 .contact-form-section h3 {
-    color: #333;
+    color: var(--text-gray);
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--primary-blue);
     padding-bottom: 0.5rem;
 }
 
@@ -1479,25 +1525,25 @@ body {
 
 .contact-form-saintmalo label {
     font-weight: 500;
-    color: #333;
+    color: var(--text-gray);
     font-size: 0.95rem;
 }
 
 .contact-form-saintmalo input,
 .contact-form-saintmalo textarea {
     padding: 0.75rem;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border-medium);
     border-radius: 4px;
     font-size: 1rem;
     font-family: inherit;
-    transition: all 0.3s ease;
-    background: white;
+    transition: all var(--transition-medium);
+    background: var(--bg-white);
 }
 
 .contact-form-saintmalo input:focus,
 .contact-form-saintmalo textarea:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: var(--primary-blue);
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
 }
 
@@ -1544,15 +1590,15 @@ body {
 
 /* Bouton style Saint-Malo */
 .btn-submit-saintmalo {
-    background: #007bff;
-    color: white;
+    background: var(--primary-blue);
+    color: var(--text-white);
     border: none;
     padding: 1rem 2rem;
     border-radius: 4px;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all var(--transition-medium);
     position: relative;
     min-width: 200px;
     margin-top: 1rem;
@@ -1802,10 +1848,10 @@ body {
 /* Footer styles */
 .footer-paroisse {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-    color: white;
+    color: var(--text-white);
     padding: 3rem 0 1.5rem 0;
     margin-top: 4rem;
-    border-top: 4px solid #007bff;
+    border-top: 4px solid var(--primary-blue);
 }
 
 .footer-title {
@@ -1826,27 +1872,27 @@ body {
 
 .footer-address i,
 .footer-contact i {
-    color: #007bff;
+    color: var(--primary-blue);
     width: 16px;
 }
 
 .btn-footer-contact {
-    background: #007bff;
-    border: 2px solid #007bff;
-    color: white;
+    background: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+    color: var(--text-white);
     padding: 0.75rem 1.5rem;
     border-radius: 6px;
     font-weight: 500;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all var(--transition-medium);
     display: inline-flex;
     align-items: center;
 }
 
 .btn-footer-contact:hover {
     background: transparent;
-    color: #007bff;
-    border-color: #007bff;
+    color: var(--primary-blue);
+    border-color: var(--primary-blue);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,123,255,0.3);
 }
