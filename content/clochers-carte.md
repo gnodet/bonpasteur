@@ -15,7 +15,7 @@ Cette carte interactive vous permet de localiser facilement toutes les églises,
 ### Filtres par type de lieu
 
 <div class="mb-4">
-    <div class="btn-group" role="group" aria-label="Filtres des clochers">
+    <div class="btn-group" id="type-filter-group" role="group" aria-label="Filtres des clochers">
         <button type="button" class="btn btn-outline-primary active" onclick="filterMarkers('all')" id="filter-all">
             <i class="fas fa-church"></i> Tous
         </button>
@@ -30,6 +30,26 @@ Cette carte interactive vous permet de localiser facilement toutes les églises,
         </button>
     </div>
 </div>
+
+### Filtre par usage
+
+<div class="mb-4">
+  <div class="btn-group" id="usage-filter-group" role="group" aria-label="Filtre par usage">
+    <button type="button" class="btn btn-outline-secondary active" onclick="filterUsage('all')" id="filter-usage-all">
+      Tous
+    </button>
+    <button type="button" class="btn btn-outline-secondary" onclick="filterUsage('permanente')" id="filter-usage-permanente">
+      Utilisées en permanence
+    </button>
+    <button type="button" class="btn btn-outline-secondary" onclick="filterUsage('occasionnelle')" id="filter-usage-occasionnelle">
+      De temps en temps
+    </button>
+    <button type="button" class="btn btn-outline-secondary" onclick="filterUsage('rare')" id="filter-usage-rare">
+      Jamais ou presque jamais
+    </button>
+  </div>
+</div>
+
 
 ### Carte interactive
 

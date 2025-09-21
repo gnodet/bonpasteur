@@ -67,18 +67,33 @@
             if (window.filterMarkersLeaflet) {
                 window.filterMarkersLeaflet(type);
             }
-            
-            // Mettre à jour l'état des boutons
-            document.querySelectorAll('.btn-group .btn').forEach(btn => {
+
+            // Mettre à jour l'état des boutons (groupe TYPE uniquement)
+            document.querySelectorAll('#type-filter-group .btn').forEach(btn => {
                 btn.classList.remove('active');
             });
-            
-            const activeBtn = document.getElementById('filter-' + (type === 'église' ? 'eglise' : type));
+            const activeId = 'filter-' + (type === 'église' ? 'eglise' : type);
+            const activeBtn = document.getElementById(activeId);
             if (activeBtn) {
                 activeBtn.classList.add('active');
             }
         }
-        
+
+        // Nouveau: filtre par usage (permanente | occasionnelle | rare | all)
+        function filterUsage(usage) {
+            if (window.filterMarkersByUsageLeaflet) {
+                window.filterMarkersByUsageLeaflet(usage);
+            }
+            // Mettre à jour l'état des boutons (groupe USAGE uniquement)
+            document.querySelectorAll('#usage-filter-group .btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const activeBtn = document.getElementById('filter-usage-' + (usage || 'all'));
+            if (activeBtn) {
+                activeBtn.classList.add('active');
+            }
+        }
+
         // Initialiser la carte au chargement
         document.addEventListener('DOMContentLoaded', function() {
             if (window.initClochersMapLeaflet) {
