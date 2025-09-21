@@ -163,7 +163,6 @@
                             <span>Retour</span>
                         </button>
                     </div>
-                    <div class="mobile-nav-separator"></div>
                     {#for child in item.get('children')}
                     <div class="mobile-nav-item">
                         <a class="mobile-nav-link" href="{site.url}{child.get('path')}">
@@ -442,6 +441,8 @@
                     mobileNavOverlay.addEventListener('click', function() {
                         mobileNav.classList.remove('active');
                         navbarToggler.classList.remove('active');
+                        const stickyToggler = document.getElementById('navbarTogglerSticky');
+                        if (stickyToggler) stickyToggler.classList.remove('active');
                         document.body.style.overflow = '';
 
                         // Fermer tous les sous-menus
@@ -480,6 +481,8 @@
                     if (mobileNav && navbarToggler) {
                         mobileNav.classList.remove('active');
                         navbarToggler.classList.remove('active');
+                        const stickyToggler = document.getElementById('navbarTogglerSticky');
+                        if (stickyToggler) stickyToggler.classList.remove('active');
                         document.body.style.overflow = '';
                     }
                 });
@@ -509,6 +512,53 @@
 
                 // Keep header class for inheritance, remove navbar class and re-add it
                 // stickyHeader.classList.remove('header'); // ← KEEP header class for CSS inheritance
+
+                // Dynamic mobile menu offset (Y): match current header height
+                const updateMobileMenuOffset = () => {
+                    // If sticky header is shown, use its header; otherwise use original
+                    const usingSticky = stickyContainer.classList.contains('show');
+                    const headerEl = usingSticky ? stickyHeader : originalHeader;
+                    const h = headerEl ? headerEl.offsetHeight : 0;
+                    document.documentElement.style.setProperty('--mobile-menu-offset', h + 'px');
+                };
+
+                // Initial compute
+                updateMobileMenuOffset();
+
+
+                // Wire hamburger toggler inside sticky header
+                const stickyNavbarTogglerOriginal = stickyHeader.querySelector('#navbarToggler');
+                if (stickyNavbarTogglerOriginal) {
+                    // Avoid duplicate IDs
+                    stickyNavbarTogglerOriginal.setAttribute('id', 'navbarTogglerSticky');
+                    const stickyNavbarToggler = stickyNavbarTogglerOriginal;
+                    const mobileNav = document.getElementById('mobileNav');
+
+                    // Click to toggle mobile menu
+                    stickyNavbarToggler.addEventListener('click', function() {
+                        if (!mobileNav) return;
+                        const isActive = mobileNav.classList.contains('active');
+                        if (isActive) {
+                            mobileNav.classList.remove('active');
+                            stickyNavbarToggler.classList.remove('active');
+                            document.body.style.overflow = '';
+                            document.querySelectorAll('.mobile-submenu').forEach(submenu => submenu.classList.remove('active'));
+                        } else {
+                            mobileNav.classList.add('active');
+                            stickyNavbarToggler.classList.add('active');
+                            document.body.style.overflow = 'hidden';
+                        }
+                    });
+
+                    // Keyboard accessibility
+                    stickyNavbarToggler.addEventListener('keydown', function(event) {
+                        if (event.key === 'Enter' || event.key === ' ') {
+                            event.preventDefault();
+                            stickyNavbarToggler.click();
+                        }
+                    });
+                }
+
                 stickyNav.classList.remove('navbar');
                 stickyNav.classList.add('navbar'); // Keep navbar class for styling
 
@@ -548,6 +598,8 @@
                     }
 
                     lastScrollTop = scrollTop;
+                    // Recompute offset on every scroll
+                    updateMobileMenuOffset();
                 });
 
                 // Handle window resize - force recalculation
@@ -559,6 +611,8 @@
                         stickyContainer.classList.remove('show');
                         isScrollingUp = false;
                     }
+                    // Recompute offset on resize as header may reflow
+                    updateMobileMenuOffset();
                 });
             }
         });

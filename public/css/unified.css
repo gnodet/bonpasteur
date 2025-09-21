@@ -62,8 +62,12 @@
   :root { --header-offset: 136px; }
 }
 @media (max-width: 767px) {
-  :root { --header-offset: 82px; }
+  :root { --header-offset: 90px; }
 }
+
+
+/* Mobile menu offset used to align mobile menu and submenus under the header */
+:root { --mobile-menu-offset: 90px; }
 
 
 /* Reset et base */
@@ -316,8 +320,7 @@ body {
 .navbar-search-btn {
     background: var(--bg-white);
     color: var(--text-dark);
-    border: 1px solid var(--border-medium);
-    border-radius: 6px;
+    border: none;
     padding: 0.5rem;
     width: 40px;
     height: 40px;
@@ -330,7 +333,6 @@ body {
 
 .navbar-search-btn:hover {
     background: var(--bg-light);
-    border-color: var(--primary-blue);
     color: var(--primary-blue);
 }
 
@@ -451,7 +453,10 @@ body {
     overflow-y: auto;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1050;
-    padding-top: 80px; /* Espace pour le header - sera ajusté par JS si nécessaire */
+    padding-top: var(--mobile-menu-offset) !important;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
 }
 
 .mobile-nav.active .mobile-nav-content {
@@ -459,7 +464,7 @@ body {
 }
 
 .mobile-menu-main {
-    padding: 1rem 0;
+    padding: 0;
 }
 
 .mobile-submenu {
@@ -471,7 +476,11 @@ body {
     background: var(--bg-light);
     transform: translateX(100%);
     transition: transform 0.3s ease;
-    padding: 1rem 0;
+    /* Normalise le padding pour éviter qu'un shorthand ne l'écrase */
+    padding-top: var(--mobile-menu-offset) !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
     overflow-y: auto;
 }
 
@@ -793,7 +802,7 @@ body {
 /* Contenu principal avec marges internes */
 .main-content {
     padding-top: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 0;
 }
 
 /* Espacement pour les paragraphes et titres */
