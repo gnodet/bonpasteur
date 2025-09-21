@@ -6,7 +6,7 @@ layout: paroisse/page
 updated: '2025-09-16'
 url: /demande-de-certificat/
 hero_image: images/certificat-hero.png
-hero_subtitle: Obtenir un certificat de baptême, confirmation ou mariage
+hero_subtitle: Obtenir un certificat de baptême, de confirmation ou de mariage
 ---
 
 # Demander un certificat

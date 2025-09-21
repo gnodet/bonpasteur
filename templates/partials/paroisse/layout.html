@@ -22,7 +22,7 @@
     {#if page.data.hero_image??}
     <meta name="twitter:image" content="{site.url}{page.data.hero_image}">
     {/if}
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -187,23 +187,43 @@
             {#insert /}
         </main>
 
-    <!-- Footer 
-    <footer class="footer bg-dark text-light py-4 mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; 2025 {page.data.name ?: 'Paroisse Bon Pasteur'}. Tous droits réservés.</p>
+       <!-- Footer (moved inside content-wrapper) -->
+        <footer class="footer-paroisse">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="footer-info">
+                            <h5 class="footer-title">Paroisse Bon Pasteur de Caen</h5>
+                            <p class="footer-address">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+                                Presbytère Saint-Jean, 11 rue des Équipes d'Urgence, 14000 Caen
+                            </p>
+                            <p class="footer-contact">
+                                <i class="fas fa-phone me-2"></i>02 31 86 13 11
+                                <span class="mx-3">|</span>
+                                <i class="fas fa-envelope me-2"></i>contact.bonpasteur@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <a href="/infos/contact" class="btn btn-footer-contact">
+                            <i class="fas fa-envelope me-2"></i>
+                            Nous contacter
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-6 text-end">
-                    <p>
-                        <a href="/infos/contact" class="text-light">Contact</a> | 
-                        <a href="/infos/messes-horaires" class="text-light">Horaires</a>
-                    </p>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="footer-bottom">
+                            <p class="mb-0">
+                                © 2025 Paroisse Bon Pasteur de Caen - Tous droits réservés
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    -->
+        </footer>
+
     </div> <!-- End content-wrapper -->
 
     <!-- Bootstrap JS -->
@@ -546,41 +566,6 @@
         // Code obsolète supprimé - nouveau système de navigation
     </script>
 
-    <!-- Footer -->
-    <footer class="footer-paroisse">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <div class="footer-info">
-                        <h5 class="footer-title">Paroisse Bon Pasteur de Caen</h5>
-                        <p class="footer-address">
-                            <i class="fas fa-map-marker-alt me-2"></i>
-                            Presbytère Saint-Jean, 11 rue des Équipes d'Urgence, 14000 Caen
-                        </p>
-                        <p class="footer-contact">
-                            <i class="fas fa-phone me-2"></i>02 31 86 13 11
-                            <span class="mx-3">|</span>
-                            <i class="fas fa-envelope me-2"></i>contact.bonpasteur@gmail.com
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 text-md-end">
-                    <a href="/infos/contact" class="btn btn-footer-contact">
-                        <i class="fas fa-envelope me-2"></i>
-                        Nous contacter
-                    </a>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-12">
-                    <div class="footer-bottom">
-                        <p class="mb-0">
-                            © 2025 Paroisse Bon Pasteur de Caen - Tous droits réservés
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+
 </body>
 </html>

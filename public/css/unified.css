@@ -79,10 +79,11 @@ body {
 /* Content wrapper that scrolls over fixed hero */
 .content-wrapper {
     position: relative;
-    z-index: 10;
+    z-index: 500;
     background: white;
     margin-top: 60vh;
     min-height: 100vh;
+    overflow: visible; /* permettre aux sections (quick-access) de chevaucher le hero */
 }
 
 /* Header styles */
@@ -93,6 +94,7 @@ body {
     z-index: 1000;
     margin-bottom: 0;
     padding: 1rem 0;
+    --header-height: auto; /* Variable CSS pour la hauteur dynamique */
 }
 
 .header-content {
@@ -117,16 +119,26 @@ body {
 /* Sticky header that appears on scroll up */
 .header-sticky {
     position: fixed;
-    top: -300px;
+    top: 0;
     left: 0;
     right: 0;
-    z-index: 1100;
-    /* Pas de transition - devrait être visuellement identique */
+    z-index: 1500; /* au-dessus du contenu/quick-access, sous le toggler (2010) */
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 220ms ease-out, opacity 160ms ease-out;
+    will-change: transform, opacity;
+    pointer-events: none; /* évite de capter les clics quand caché */
     /* Hérite automatiquement de .header pour background, box-shadow, etc. */
 }
 
 .header-sticky.show {
-    top: 0;
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-sticky { transition: none !important; }
 }
 
 /* S'assurer qu'un seul header est visible à la fois */
@@ -259,6 +271,7 @@ body {
     font-size: 1rem;
     user-select: none;
     outline: none;
+    margin: 0 0 0 10px ;
 }
 
 .header-search-btn:hover {
@@ -382,11 +395,11 @@ body {
 
 /* Navigation Mobile */
 .mobile-nav {
-    position: fixed;
-    top: 80px; /* Commence sous le header */
+    position: absolute; /* Relatif au header */
+    top: 100%; /* Juste sous le header */
     left: 0;
     width: 100%;
-    height: calc(100vh - 80px); /* Ne couvre que la zone sous le header */
+    height: auto; /* Hauteur automatique */
     z-index: 2000;
     display: none;
 }
@@ -412,21 +425,22 @@ body {
 }
 
 .mobile-nav-content {
-    position: absolute;
-    top: 0; /* Maintenant relatif au mobile-nav */
+    position: fixed; /* Fixed pour contrôle total */
+    top: 0; /* Commence en haut de l'écran */
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 280px; /* Largeur du menu latéral */
+    height: 100vh; /* Hauteur pleine écran */
     background: var(--bg-white);
-    transform: translateY(-100%);
+    transform: translateX(-100%); /* Slide depuis la gauche */
     transition: transform 0.3s ease;
     overflow-y: auto;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1050;
+    padding-top: 80px; /* Espace pour le header - sera ajusté par JS si nécessaire */
 }
 
 .mobile-nav.active .mobile-nav-content {
-    transform: translateY(0);
+    transform: translateX(0); /* Slide depuis la gauche */
 }
 
 .mobile-menu-main {
@@ -557,8 +571,6 @@ body {
     justify-content: center;
 }
 
-/* OLD - TO BE REMOVED - Desktop navigation styles only */
-
 /* Hide hamburger on desktop */
 .navbar-toggler {
     display: none;
@@ -572,6 +584,42 @@ body {
     margin-top: 0;
     animation: fadeInDown 0.3s ease;
 }
+
+/* Assurer le positionnement absolu des sous-menus en desktop/tablet
+   pour éviter que l'item parent prenne la taille du dropdown */
+@media (min-width: 768px) {
+  .navbar-nav { align-items: center; }
+  .navbar-nav .dropdown { position: relative !important; }
+  .navbar-nav .dropdown-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    width: auto !important;
+    min-width: 200px;
+    max-width: 400px;
+    margin-top: 0.25rem;
+  }
+}
+
+/* Empêcher le débordement côté droit des derniers menus (desktop/tablet) */
+@media (min-width: 768px) {
+  /* Limiter la largeur au viewport, sans forcer le wrap sur mobile */
+  .navbar-nav .dropdown-menu {
+    max-width: min(400px, calc(100vw - 2rem));
+    box-sizing: border-box;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  /* Aligner à droite les 2 derniers dropdowns pour éviter de dépasser l'écran */
+  .navbar-nav > .dropdown:nth-last-child(-n+2) .dropdown-menu,
+  .navbar-nav > li.dropdown:nth-last-child(-n+2) .dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+    transform-origin: top right;
+  }
+}
+
+
 
 .dropdown-menu {
     border: none;
@@ -830,6 +878,8 @@ body {
 .footer {
     background-color: var(--text-dark);
     margin-top: auto;
+    position: relative;
+    z-index: 20; /* Doit toujours passer au-dessus du hero */
 }
 
 .footer a {
@@ -853,8 +903,6 @@ body {
     }
 }
 
-/* OLD - TO BE REMOVED - Responsive adjustments */
-
 /* Hero Section Styles with Parallax Effect */
 .hero-section {
     position: fixed;
@@ -863,7 +911,7 @@ body {
     width: 100%;
     height: 60vh;
     min-height: 400px;
-    z-index: -1;
+    z-index: -100; /* Toujours derrière le contenu */
     margin: 0;
     padding: 0;
 }
@@ -903,6 +951,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    pointer-events: none; /* ne bloque jamais les clics sur les boutons qui chevauchent */
 }
 
 .hero-content {
@@ -994,30 +1043,14 @@ body {
     font-weight: 500;
 }
 
-/* OLD - TO BE REMOVED - Hero responsive */
-
-/* OLD - TO BE REMOVED - Responsive sections 992px */
-
-/* OLD - REMOVED - Content sections 768px (moved to consolidated) */
-
-/* OLD - REMOVED - Content sections 480px (moved to consolidated) */
-
-/* OLD - REMOVED - Header responsive 768px (moved to consolidated) */
-
-/* OLD - REMOVED - Parallax 768px (moved to consolidated) */
-
-/* ===== QUICK ACCESS SECTION (Nestlé style) ===== */
+/* ===== QUICK ACCESS SECTION ===== */
 .quick-access-section {
     padding: 0;
     background: var(--bg-light);
     position: relative;
-    z-index: 10;
+    z-index: 1200; /* au-dessus du hero et des sections adjacentes */
     margin-top: -50px;
 }
-
-/* OLD - REMOVED - Quick access 992px (moved to consolidated) */
-
-/* Titre supprimé - CSS conservé pour référence future */
 
 .quick-access-grid {
     display: grid;
@@ -1026,6 +1059,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
+    position: relative;
+    z-index: 2;
 }
 
 /* Taille max pour chaque bouton sur une ligne */
@@ -1045,6 +1080,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    position: relative;
+    z-index: 3; /* par-dessus tout overlay interne de la section */
 }
 
 .service-card:hover {
@@ -1092,12 +1129,6 @@ body {
     margin: 0;
     line-height: 1.3;
 }
-
-
-
-/* OLD - TO BE REMOVED - Quick access responsive (remplacé par les breakpoints consolidés) */
-
-/* OLD - REMOVED - Print styles (moved to consolidated) */
 
 /* ===== CONTACT FORM STYLES ===== */
 
@@ -1457,8 +1488,10 @@ body {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     color: var(--text-white);
     padding: 3rem 0 1.5rem 0;
-    margin-top: 4rem;
+    margin-top: 0; /* Coller le footer au content-wrapper */
     border-top: 4px solid var(--primary-blue);
+    position: relative;
+    z-index: 20; /* Assure le passage au-dessus du hero fixé */
 }
 
 .footer-title {
@@ -1559,7 +1592,10 @@ body {
         font-family: var(--font-heading);
         font-weight: 500;
         padding: 0.75rem 0.5rem; /* 12px haut/bas, 8px gauche/droite */
-        transition: all var(--transition-medium);
+        line-height: 1.25;
+        display: block;
+        text-decoration: none;
+        transition: color var(--transition-medium), background-color var(--transition-medium);
         color: var(--text-dark);
     }
 
@@ -1567,6 +1603,8 @@ body {
         background-color: var(--bootstrap-primary-light);
         border-radius: 4px;
         color: var(--bootstrap-primary);
+        text-decoration: none;
+        font-weight: 500; /* ne change pas le poids pour éviter le reflow */
     }
 
     /* Quick Access */
@@ -1650,16 +1688,19 @@ body {
         font-family: var(--font-heading);
         font-weight: 500;
         padding: 0.75rem 0.5rem; /* 12px haut/bas, 8px gauche/droite */
-        transition: all var(--transition-medium);
-        color: var(--text-dark);
-        text-decoration: none;
+        line-height: 1.25;
         display: block;
+        text-decoration: none;
+        transition: color var(--transition-medium), background-color var(--transition-medium);
+        color: var(--text-dark);
     }
 
     .navbar-nav .nav-link:hover {
         background-color: var(--bootstrap-primary-light) !important;
         border-radius: 4px !important;
         color: var(--bootstrap-primary) !important;
+        text-decoration: none !important;
+        font-weight: 500 !important; /* ne change pas le poids */
     }
 
     /* Content sections */
@@ -1716,7 +1757,6 @@ body {
     .hero-section {
         display: block !important;
         position: fixed !important;
-        z-index: -1 !important;
         height: 60vh !important;
         min-height: 400px !important;
     }
@@ -1822,9 +1862,9 @@ body {
         letter-spacing: 0.5px;
     }
 
-    /* Hide sticky header on mobile */
+    /* Show sticky header on mobile */
     .header-sticky {
-        display: none !important;
+        display: block !important;
     }
 
     /* Reset navigation styles */
@@ -1850,6 +1890,19 @@ body {
     .navbar-toggler:focus {
         box-shadow: none !important;
         outline: none !important;
+    }
+
+    /* Enlever contours boutons mobile - règle générale */
+    .header-search-btn,
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
+
+    .header-search-btn:focus,
+    .navbar-toggler:focus {
+        outline: none !important;
+        box-shadow: none !important;
     }
 
     .navbar-toggler:hover {
@@ -1998,7 +2051,7 @@ body {
         background: var(--bg-white) !important;
         box-shadow: 2px 0 10px rgba(0,0,0,0.1) !important;
         overflow-y: auto !important;
-        padding-top: 80px !important;
+        padding-top: 130px !important; /* Encore plus d'espace */
     }
 
     /* Hide search forms */
@@ -2108,6 +2161,7 @@ body {
     .contact-page-layout {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+
         margin: 1rem auto;
         max-width: 600px;
     }
@@ -2133,6 +2187,69 @@ body {
         margin-top: 1rem;
         width: 100%;
         justify-content: center;
+    }
+
+/* Cacher le sous-titre sous 560px */
+@media (max-width: 560px) {
+    .site-subtitle { display: none !important; }
+}
+
+}
+
+/* 3.5. MOBILE ONLY (481px-767px) - Ajustement padding pour header mobile */
+@media (max-width: 767px) and (min-width: 481px) {
+    .mobile-nav-content {
+        padding-top: 90px; /* Ajusté pour header mobile normal */
+    }
+
+    /* Enlever les contours des boutons en mobile */
+    .header-search-btn,
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
+
+    .header-search-btn:focus,
+    .navbar-toggler:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    /* Bouton donner en cercle */
+    .header-donate-btn {
+        border-radius: 50% !important;
+        width: 40px !important;
+        height: 40px !important;
+        min-width: 40px !important;
+        min-height: 40px !important;
+        max-width: 40px !important;
+        max-height: 40px !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
+    }
+
+
+    .header-donate-btn .donate-text {
+        display: none !important;
+    }
+
+    /* Harmonisation mobile (481-767px): même gap que small device et tailles identiques */
+    .header-right {
+        gap: 0.3rem !important;
+        flex-wrap: nowrap !important;
+    }
+    .header-search-btn,
+    .navbar-toggler {
+        width: 36px !important;
+        height: 36px !important;
+        min-width: 36px !important;
+        min-height: 36px !important;
+        max-width: 36px !important;
+        max-height: 36px !important;
+        padding: 0 !important;
     }
 }
 
@@ -2268,29 +2385,36 @@ body {
         flex: 1 !important;
     }
 
-    /* Layout 2 lignes pour les boutons du header */
+    /* Header-right sur une seule ligne (small device) */
     .header-right {
         display: flex !important;
-        flex-wrap: wrap !important;
+        flex-wrap: nowrap !important; /* Une seule ligne */
         align-items: center !important;
         justify-content: flex-end !important;
         gap: 0.3rem !important;
         flex-shrink: 0 !important;
-        max-width: 90px !important; /* Largeur pour forcer le wrap après Donner */
-        width: 90px !important; /* Largeur fixe pour garantir le wrap */
+        max-width: none !important;
+        width: auto !important;
         box-sizing: border-box !important;
     }
 
-    /* Première ligne : bouton Donner seul */
-    .header-donate-btn {
-        flex: 1 1 100% !important; /* Prend toute la largeur pour forcer le retour à la ligne */
-        max-width: 84px !important; /* Largeur limitée */
-    }
-
-    /* Deuxième ligne : loupe + hamburger ensemble */
+    /* Les trois boutons gardent leur taille naturelle sur une seule ligne */
+    .header-donate-btn,
     .header-search-btn,
     .navbar-toggler {
-        flex: 0 0 auto !important; /* Taille naturelle */
+        flex: 0 0 auto !important;
+    }
+
+    /* Harmonisation small (≤480px): tailles identiques + marge neutre */
+    .header-search-btn,
+    .navbar-toggler {
+        width: 36px !important;
+        height: 36px !important;
+        min-width: 36px !important;
+        min-height: 36px !important;
+        max-width: 36px !important;
+        max-height: 36px !important;
+        padding: 0 !important;
     }
 
     .navbar-toggler {
@@ -2305,6 +2429,68 @@ body {
         max-width: 100vw !important;
         overflow-x: hidden !important;
         box-sizing: border-box !important;
+    }
+
+    /* Navigation mobile - ajustement padding pour header 2 lignes */
+    .mobile-nav-content {
+        padding-top: 120px; /* Ajusté pour header 2 lignes sur small device */
+    }
+
+    /* Cacher le sous-titre en small device */
+    .site-subtitle {
+        display: none !important;
+    }
+
+    /* Enlever les contours des boutons */
+    .header-search-btn,
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
+
+    .header-search-btn:focus,
+    .navbar-toggler:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    /* Marges/paddings encore plus réduits (small device) */
+    .main-content .container { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+    .main-content { padding: 0.75rem 0 !important; }
+    .main-content h1,
+    .main-content h2,
+    .main-content h3,
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 { margin-left: 0.75rem !important; margin-right: 0.75rem !important; }
+    .main-content p:not(.hero-subtitle) { margin-left: 0.75rem !important; margin-right: 0.75rem !important; }
+    .main-content ul, .main-content ol { margin-left: 1rem !important; margin-right: 0.75rem !important; }
+    .main-content blockquote { margin-left: 0.75rem !important; margin-right: 0.75rem !important; padding-left: 0.75rem !important; }
+
+
+    /* Bouton donner en cercle parfait */
+    .header-donate-btn {
+        border-radius: 50% !important;
+        width: 40px !important;
+        height: 40px !important;
+        min-width: 40px !important;
+        min-height: 40px !important;
+        max-width: 40px !important;
+        max-height: 40px !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
+    }
+
+    /* Supprimer le gap entre les boutons */
+    .header-right {
+        gap: 0 !important;
+    }
+
+    .header-donate-btn .donate-text {
+        display: none !important;
     }
 }
 

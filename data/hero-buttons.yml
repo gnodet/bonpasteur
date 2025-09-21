@@ -25,4 +25,4 @@ buttons:
     icon: "fas fa-certificate"
     image: "images/certificat-hero.png"
     aria_label: "Demander un certificat"
-    description: "Obtenir un certificat de baptême, confirmation ou mariage"
+    description: "Obtenir un certificat de baptême, de confirmation ou de mariage"
