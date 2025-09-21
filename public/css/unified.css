@@ -51,6 +51,21 @@
     --transition-medium: 0.3s ease;
 }
 
+/* Header height offset used to align content with bottom of hero */
+:root { --header-offset: 0px; }
+
+/* Approximate header heights per breakpoint to compensate spacing below header */
+@media (min-width: 992px) {
+  :root { --header-offset: 136px; }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  :root { --header-offset: 136px; }
+}
+@media (max-width: 767px) {
+  :root { --header-offset: 82px; }
+}
+
+
 /* Reset et base */
 * {
     margin: 0;
@@ -81,7 +96,7 @@ body {
     position: relative;
     z-index: 500;
     background: white;
-    margin-top: 60vh;
+    margin-top: calc(max(60vh, 400px) - var(--header-offset, 0px));
     min-height: 100vh;
     overflow: visible; /* permettre aux sections (quick-access) de chevaucher le hero */
 }
@@ -773,9 +788,12 @@ body {
     margin: 0 auto;
 }
 
+.main-section { margin: 0 !important; }
+
 /* Contenu principal avec marges internes */
 .main-content {
-    padding: 2rem 0;
+    padding-top: 0;
+    padding-bottom: 2rem;
 }
 
 /* Espacement pour les paragraphes et titres */
@@ -1049,7 +1067,7 @@ body {
     background: var(--bg-light);
     position: relative;
     z-index: 1200; /* au-dessus du hero et des sections adjacentes */
-    margin-top: -50px;
+    margin-top: 0;
 }
 
 .quick-access-grid {
@@ -1609,7 +1627,7 @@ body {
 
     /* Quick Access */
     .quick-access-section {
-        margin-top: -180px;
+        margin-top: 0;
     }
 
     /* Hero responsive */
@@ -1710,7 +1728,7 @@ body {
 
     /* Quick access */
     .quick-access-section {
-        margin-top: -180px;
+        margin-top: 0;
     }
 
     .quick-access-grid {
@@ -1763,7 +1781,7 @@ body {
 
     /* Content wrapper - maintain proper spacing */
     .content-wrapper {
-        margin-top: 60vh !important;
+        margin-top: calc(max(60vh, 400px) - var(--header-offset, 0px)) !important;
     }
 }
 
@@ -2125,7 +2143,7 @@ body {
 
     /* Quick access */
     .quick-access-section {
-        margin-top: -180px;
+        margin-top: 0;
     }
 
     /* Annule le padding du container parent dans quick-access */
@@ -2305,7 +2323,7 @@ body {
     /* Quick access */
     .quick-access-section {
         padding: 0; /* Pas de padding, on le gère dans la grid */
-        margin-top: -250px;
+        margin-top: 0;
     }
 
     /* Annule le padding du container parent dans quick-access */
@@ -2456,7 +2474,7 @@ body {
 
     /* Marges/paddings encore plus réduits (small device) */
     .main-content .container { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
-    .main-content { padding: 0.75rem 0 !important; }
+    .main-content { padding-top: 0 !important; padding-bottom: 0.75rem !important; }
     .main-content h1,
     .main-content h2,
     .main-content h3,
@@ -2466,7 +2484,6 @@ body {
     .main-content p:not(.hero-subtitle) { margin-left: 0.75rem !important; margin-right: 0.75rem !important; }
     .main-content ul, .main-content ol { margin-left: 1rem !important; margin-right: 0.75rem !important; }
     .main-content blockquote { margin-left: 0.75rem !important; margin-right: 0.75rem !important; padding-left: 0.75rem !important; }
-
 
     /* Bouton donner en cercle parfait */
     .header-donate-btn {

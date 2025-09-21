@@ -53,35 +53,8 @@
     {/if}
 
     <!-- Contenu principal -->
-    <div class="container my-5">
+    <div class="main-section container my-5">
       {#insert /}
     </div>
-
-    <!-- Navigation secondaire (si activée) -->
-    {#if page.data.show_secondary_nav}
-    <nav class="secondary-nav" role="navigation" aria-label="Navigation secondaire">
-        <div class="container">
-            <h2>Découvrir notre paroisse</h2>
-            <div class="nav-grid">
-                <a href="/eglises" class="nav-card">
-                    <h3>Nos Églises</h3>
-                    <p>Découvrez nos 23 lieux de culte</p>
-                </a>
-                <a href="/jeunesse" class="nav-card">
-                    <h3>Jeunesse</h3>
-                    <p>Activités pour les 0-25 ans</p>
-                </a>
-                <a href="/solidarite" class="nav-card">
-                    <h3>Solidarité</h3>
-                    <p>Actions caritatives et entraide</p>
-                </a>
-                <a href="/malades-et-aines" class="nav-card">
-                    <h3>Malades et Aînés</h3>
-                    <p>Accompagnement et visites</p>
-                </a>
-            </div>
-        </div>
-    </nav>
-    {/if}
   {/insert}
 {/include}
