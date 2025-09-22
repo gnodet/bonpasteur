@@ -4,7 +4,8 @@
  */
 
 // Données des clochers de Caen avec coordonnées GPS précises
-let clochersData = window.CLOCHERS || [
+let clochersData = window.CLOCHERS;
+/*
     {
         name: "Église Saint-Pierre",
         address: "Place Saint-Pierre, 14000 Caen",
@@ -245,7 +246,7 @@ let clochersData = window.CLOCHERS || [
         url: "saint-ursin-epron/",
         horaires: "Consulter les horaires"
     }
-];
+*/
 
 // Catégories d'usage (fréquence d'utilisation)
 const USAGE = { PERMANENTE: 'permanente', OCCASIONNELLE: 'occasionnelle', RARE: 'rare' };
