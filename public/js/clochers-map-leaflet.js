@@ -248,41 +248,7 @@ let clochersData = window.CLOCHERS;
     }
 */
 
-// Catégories d'usage (fréquence d'utilisation)
-const USAGE = { PERMANENTE: 'permanente', OCCASIONNELLE: 'occasionnelle', RARE: 'rare' };
 
-// Affectation de l'usage par URL
-const usageByUrl = new Map([
-  ['saint-joseph-chemin-vert/', USAGE.PERMANENTE],
-  ['saint-julien/', USAGE.PERMANENTE],
-  ['saint-andre-calvaire-saint-pierre/', USAGE.PERMANENTE],
-  ['saint-pierre/', USAGE.PERMANENTE],
-  ['saint-bernard-pierre-heuze/', USAGE.PERMANENTE],
-  ['saint-etienne/', USAGE.PERMANENTE],
-  ['saint-jean-baptiste/', USAGE.PERMANENTE],
-  ['sainte-claire-folie-couvrechef/', USAGE.PERMANENTE],
-  ['sainte-trinite-saint-gilles/', USAGE.PERMANENTE],
-  ['monastere-visitation/', USAGE.PERMANENTE],
-  ['saint-francois-herouville/', USAGE.PERMANENTE],
-  ['saint-gerbold-blainville/', USAGE.PERMANENTE],
-  ['carmel-de-caen/', USAGE.PERMANENTE],
-
-  ['saint-paul/', USAGE.OCCASIONNELLE],
-  ['saint-germain-blanche-herbe/', USAGE.OCCASIONNELLE],
-  ['saint-clair-herouville/', USAGE.OCCASIONNELLE],
-  ['notre-dame-assomption-gloriette/', USAGE.OCCASIONNELLE],
-
-  ['chapelle-oasis/', USAGE.RARE],
-  ['chapelle-misericorde/', USAGE.RARE],
-  ['chapelle-chr/', USAGE.RARE],
-  ['saint-sauveur/', USAGE.RARE],
-  ['saint-ouen/', USAGE.RARE],
-  ['chapelle-benedictines/', USAGE.RARE],
-  ['saint-ursin-epron/', USAGE.RARE],
-]);
-
-// Ajoute le champ usage à chaque clocher (défaut: occasionnelle)
-clochersData.forEach(c => { c.usage = c.usage || (usageByUrl.get(c.url) || USAGE.OCCASIONNELLE); });
 
 
 // Icônes personnalisées pour Leaflet
