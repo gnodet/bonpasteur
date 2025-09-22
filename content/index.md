@@ -5,7 +5,7 @@ layout: paroisse/index
 updated: '2025-09-16'
 name: Paroisse Bon Pasteur
 simple_name: Bon Pasteur
-hero_image: images/eglise-bon-pasteur-hero.jpg
+hero_image: images/Site_Hero_Vue3.jpeg
 hero_subtitle: Communauté catholique de Caen et ses alentours
 show_secondary_nav: true
 ---

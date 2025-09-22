@@ -1564,6 +1564,35 @@ body {
     box-shadow: 0 4px 12px rgba(0,123,255,0.3);
 }
 
+/* WhatsApp Round Button */
+.btn-whatsapp-round {
+    background: #25D366;
+    border: 2px solid #25D366;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all var(--transition-medium);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn-whatsapp-round:hover {
+    background: transparent;
+    color: #25D366;
+    border-color: #25D366;
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
+.footer-actions {
+    gap: 0.75rem;
+}
+
 .footer-bottom {
     border-top: 1px solid #4a5568;
     padding-top: 1rem;
@@ -2204,9 +2233,19 @@ body {
     }
 
     .btn-footer-contact {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         width: 100%;
         justify-content: center;
+    }
+
+    .btn-whatsapp-round {
+        margin-top: 0.5rem;
+        /* Garde sa taille ronde même sur mobile */
+    }
+
+    .footer-actions {
+        width: 100%;
+        align-items: center !important;
     }
 
 /* Cacher le sous-titre sous 560px */
