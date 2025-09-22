@@ -1,4 +1,5 @@
 entries:
+  # Utilisées en permanence (ordre souhaité)
   - slug: "sainte-trinite-saint-gilles"
     title: "Sainte Trinité / Saint-Gilles"
     usage: regular
@@ -8,78 +9,24 @@ entries:
     horaires: "Messe dominicale : 9h30"
     lat: 49.18655030895399
     lng: -0.35318209814533974
-  - slug: "carmel-de-caen"
-    title: "Carmel de Caen"
+  - slug: "saint-etienne"
+    title: "Saint-Étienne"
     usage: regular
-    type: "chapelle"
-    address: "8 Rue du Clos Beaumois, 14000 Caen"
-    description: "Communauté carmélitaine à Caen"
-    horaires: "Consulter la page"
-    lat: 49.1891283
-    lng: -0.3515156
-  - slug: "chapelle-oasis"
-    title: "Chapelle de l'Oasis"
-    usage: rare
-    type: "chapelle"
-    address: "18 Rue de l'Oratoire, 14000 Caen"
-    description: "Chapelle de l’établissement L’Oasis"
-    horaires: "Consulter la page"
-    lat: 49.1812100
-    lng: -0.3601837
-  - slug: "chapelle-benedictines"
-    title: "Chapelle des Bénédictines"
-    usage: rare
-    type: "chapelle"
-    address: "Rue du Petit Clos Saint-Marc, 14000 Caen"
-    description: "Chapelle du monastère des Bénédictines"
-    horaires: "Consulter la page"
-    lat: 49.2103276
-    lng: -0.3744712
-  - slug: "chapelle-misericorde"
-    title: "Chapelle de la Miséricorde"
-    usage: rare
-    type: "chapelle"
-    address: "Rue Élie de Beaumont, 14000 Caen"
-    description: "Chapelle historique de la Miséricorde"
-    horaires: "Consulter la page"
-    lat: 49.1848879
-    lng: -0.3671658
-  - slug: "chapelle-chr"
-    title: "Chapelle du CHR"
-    usage: rare
-    type: "chapelle"
-    address: "CHU - Côte de Nacre, 14000 Caen"
-    description: "Chapelle du Centre Hospitalier (coordonnées fournies)"
-    horaires: "Consulter la page"
-    lat: 49.189139
-    lng: -0.344972
-  - slug: "monastere-visitation"
-    title: "Monastère de la Visitation"
+    type: "abbaye"
+    address: "Esplanade Jean-Marie Louvel, 14000 Caen"
+    description: "Abbatiale fondée par Guillaume le Conquérant (1063)"
+    horaires: "Messe dominicale : 11h00"
+    lat: 49.181842211636834
+    lng: -0.3734582275947242
+  - slug: "saint-pierre"
+    title: "Saint-Pierre"
     usage: regular
-    type: "chapelle"
-    address: "Rue de la Visitation, 14000 Caen"
-    description: "Monastère de contemplation"
-    horaires: "Messe dominicale : 10h00"
-    lat: 49.18119370742554
-    lng: -0.3754013321606875
-  - slug: "notre-dame-assomption-gloriette"
-    title: "Notre-Dame-de-l'Assomption (la Gloriette)"
-    usage: occasional
     type: "église"
-    address: "8 Place du Parvis Notre-Dame, 14000 Caen"
-    description: "Église de la Gloriette (ancienne église des Jésuites)"
-    horaires: "Consulter les horaires"
-    lat: 49.1808579
-    lng: -0.3664874
-  - slug: "saint-clair-herouville"
-    title: "Saint-Clair d'Hérouville-Saint-Clair"
-    usage: occasional
-    type: "église"
-    address: "Rue de la Fontaine, 14200 Hérouville-Saint-Clair"
-    description: "Église paroissiale d’Hérouville-Saint-Clair"
-    horaires: "Consulter les horaires"
-    lat: 49.2068110
-    lng: -0.3178363
+    address: "Place Saint-Pierre, 14000 Caen"
+    description: "Monument historique gothique flamboyant (XIVe-XVe siècles)"
+    horaires: "Messes en semaine : 18h30 (mardi-vendredi)"
+    lat: 49.18406053636972
+    lng: -0.36078675159326973
   - slug: "saint-francois-herouville"
     title: "Saint-François d'Hérouville-Saint-Clair"
     usage: regular
@@ -89,24 +36,6 @@ entries:
     horaires: "Consulter les horaires"
     lat: 49.2028060
     lng: -0.3333894
-  - slug: "saint-gerbold-blainville"
-    title: "Saint-Gerbold de Blainville-sur-Orne"
-    usage: regular
-    type: "église"
-    address: "Rue Albert Catherine, 14550 Blainville-sur-Orne"
-    description: "Église paroissiale — Blainville-sur-Orne"
-    horaires: "Consulter les horaires"
-    lat: 49.2287708
-    lng: -0.2999796
-  - slug: "saint-germain-blanche-herbe"
-    title: "Saint-Germain de Saint-Germain-la-Blanche-Herbe"
-    usage: occasional
-    type: "église"
-    address: "Rue de la Sente aux Moines, 14280 Saint-Germain-la-Blanche-Herbe"
-    description: "Église paroissiale — Saint-Germain-la-Blanche-Herbe"
-    horaires: "Consulter les horaires"
-    lat: 49.1883763
-    lng: -0.4073675
   - slug: "saint-joseph-chemin-vert"
     title: "Saint-Joseph du chemin vert"
     usage: regular
@@ -125,15 +54,6 @@ entries:
     horaires: "Messe dominicale : 11h00"
     lat: 49.18956330803129
     lng: -0.3688986414275461
-  - slug: "saint-paul"
-    title: "Saint-Paul"
-    usage: occasional
-    type: "église"
-    address: "Place Saint-Paul, 14000 Caen"
-    description: "Église paroissiale — quartier Saint-Paul"
-    horaires: "Consulter les horaires"
-    lat: 49.1864985
-    lng: -0.3890963
   - slug: "saint-andre-calvaire-saint-pierre"
     title: "Saint-André du Calvaire Saint-Pierre"
     usage: regular
@@ -152,15 +72,6 @@ entries:
     horaires: "Consulter les horaires"
     lat: 49.1981825
     lng: -0.3462988
-  - slug: "saint-etienne"
-    title: "Saint-Étienne"
-    usage: regular
-    type: "abbaye"
-    address: "Esplanade Jean-Marie Louvel, 14000 Caen"
-    description: "Abbatiale fondée par Guillaume le Conquérant (1063)"
-    horaires: "Messe dominicale : 11h00"
-    lat: 49.181842211636834
-    lng: -0.3734582275947242
   - slug: "saint-jean-baptiste"
     title: "Saint-Jean-Baptiste"
     usage: regular
@@ -170,33 +81,6 @@ entries:
     horaires: "Consulter les horaires"
     lat: 49.1805880
     lng: -0.3576459
-  - slug: "saint-ouen"
-    title: "Saint-Ouen"
-    usage: rare
-    type: "église"
-    address: "Rue Saint-Ouen, 14000 Caen"
-    description: "Église paroissiale historique"
-    horaires: "Consulter les horaires"
-    lat: 49.1771212817479
-    lng: -0.37685808711673996
-  - slug: "saint-pierre"
-    title: "Saint-Pierre"
-    usage: regular
-    type: "église"
-    address: "Place Saint-Pierre, 14000 Caen"
-    description: "Monument historique gothique flamboyant (XIVe-XVe siècles)"
-    horaires: "Messes en semaine : 18h30 (mardi-vendredi)"
-    lat: 49.18406053636972
-    lng: -0.36078675159326973
-  - slug: "saint-sauveur"
-    title: "Saint-Sauveur"
-    usage: rare
-    type: "église"
-    address: "Place Saint-Sauveur, 14000 Caen"
-    description: "Église historique du Vieux-Caen"
-    horaires: "Consulter les horaires"
-    lat: 49.1831371368633
-    lng: -0.364770702244062
   - slug: "sainte-claire-folie-couvrechef"
     title: "Sainte-Claire de la Folie-Couvrechef"
     usage: regular
@@ -206,6 +90,73 @@ entries:
     horaires: "Consulter les horaires"
     lat: 49.2020285
     lng: -0.3796828
+  - slug: "monastere-visitation"
+    title: "Monastère de la Visitation"
+    usage: regular
+    type: "chapelle"
+    address: "Rue de la Visitation, 14000 Caen"
+    description: "Monastère de contemplation"
+    horaires: "Messe dominicale : 10h00"
+    lat: 49.18119370742554
+    lng: -0.3754013321606875
+  - slug: "saint-gerbold-blainville"
+    title: "Saint-Gerbold de Blainville-sur-Orne"
+    usage: regular
+    type: "église"
+    address: "Rue Albert Catherine, 14550 Blainville-sur-Orne"
+    description: "Église paroissiale — Blainville-sur-Orne"
+    horaires: "Consulter les horaires"
+    lat: 49.2287708
+    lng: -0.2999796
+  - slug: "carmel-de-caen"
+    title: "Carmel de Caen"
+    usage: regular
+    type: "chapelle"
+    address: "8 Rue du Clos Beaumois, 14000 Caen"
+    description: "Communauté carmélitaine à Caen"
+    horaires: "Consulter la page"
+    lat: 49.1891283
+    lng: -0.3515156
+
+  # Utilisées de temps en temps (ordre souhaité)
+  - slug: "saint-paul"
+    title: "Saint-Paul"
+    usage: occasional
+    type: "église"
+    address: "Place Saint-Paul, 14000 Caen"
+    description: "Église paroissiale — quartier Saint-Paul"
+    horaires: "Consulter les horaires"
+    lat: 49.1864985
+    lng: -0.3890963
+  - slug: "saint-germain-blanche-herbe"
+    title: "Saint-Germain de Saint-Germain-la-Blanche-Herbe"
+    usage: occasional
+    type: "église"
+    address: "Rue de la Sente aux Moines, 14280 Saint-Germain-la-Blanche-Herbe"
+    description: "Église paroissiale — Saint-Germain-la-Blanche-Herbe"
+    horaires: "Consulter les horaires"
+    lat: 49.1883763
+    lng: -0.4073675
+  - slug: "saint-clair-herouville"
+    title: "Saint-Clair d'Hérouville-Saint-Clair"
+    usage: occasional
+    type: "église"
+    address: "Rue de la Fontaine, 14200 Hérouville-Saint-Clair"
+    description: "Église paroissiale d’Hérouville-Saint-Clair"
+    horaires: "Consulter les horaires"
+    lat: 49.2068110
+    lng: -0.3178363
+  - slug: "notre-dame-assomption-gloriette"
+    title: "Notre-Dame-de-l'Assomption (la Gloriette)"
+    usage: occasional
+    type: "église"
+    address: "8 Place du Parvis Notre-Dame, 14000 Caen"
+    description: "Église de la Gloriette (ancienne église des Jésuites)"
+    horaires: "Consulter les horaires"
+    lat: 49.1808579
+    lng: -0.3664874
+
+  # Jamais ou presque jamais utilisées (ordre souhaité)
   - slug: "saint-ursin-epron"
     title: "Saint-Ursin"
     usage: rare
@@ -215,4 +166,57 @@ entries:
     horaires: "Consulter les horaires"
     lat: 49.22139754165801
     lng: -0.37283690088908056
-
+  - slug: "chapelle-oasis"
+    title: "Chapelle de l'Oasis"
+    usage: rare
+    type: "chapelle"
+    address: "18 Rue de l'Oratoire, 14000 Caen"
+    description: "Chapelle de l’établissement L’Oasis"
+    horaires: "Consulter la page"
+    lat: 49.1812100
+    lng: -0.3601837
+  - slug: "chapelle-misericorde"
+    title: "Chapelle de la Miséricorde"
+    usage: rare
+    type: "chapelle"
+    address: "Rue Élie de Beaumont, 14000 Caen"
+    description: "Chapelle historique de la Miséricorde"
+    horaires: "Consulter la page"
+    lat: 49.1848879
+    lng: -0.3671658
+  - slug: "chapelle-chr"
+    title: "Chapelle du CHR"
+    usage: rare
+    type: "chapelle"
+    address: "CHU - Côte de Nacre, 14000 Caen"
+    description: "Chapelle du Centre Hospitalier (coordonnées fournies)"
+    horaires: "Consulter la page"
+    lat: 49.189139
+    lng: -0.344972
+  - slug: "saint-sauveur"
+    title: "Saint-Sauveur"
+    usage: rare
+    type: "église"
+    address: "Place Saint-Sauveur, 14000 Caen"
+    description: "Église historique du Vieux-Caen"
+    horaires: "Consulter les horaires"
+    lat: 49.1831371368633
+    lng: -0.364770702244062
+  - slug: "saint-ouen"
+    title: "Saint-Ouen"
+    usage: rare
+    type: "église"
+    address: "Rue Saint-Ouen, 14000 Caen"
+    description: "Église paroissiale historique"
+    horaires: "Consulter les horaires"
+    lat: 49.1771212817479
+    lng: -0.37685808711673996
+  - slug: "chapelle-benedictines"
+    title: "Chapelle des Bénédictines"
+    usage: rare
+    type: "chapelle"
+    address: "Rue du Petit Clos Saint-Marc, 14000 Caen"
+    description: "Chapelle du monastère des Bénédictines"
+    horaires: "Consulter la page"
+    lat: 49.2103276
+    lng: -0.3744712
