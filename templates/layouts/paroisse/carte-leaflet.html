@@ -36,7 +36,7 @@
       </div>
     </div>
     {/if}
-    
+
     <!-- Contenu principal -->
     <div class="container my-5">
       <div class="row">
@@ -45,20 +45,38 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
           crossorigin=""/>
-    
+
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""></script>
-    
+
+
+    <!-- Données des clochers injectées depuis data/eglises.yml -->
+    <script>
+      window.CLOCHERS = [
+        {#for e in cdi:eglises.entries}
+        {
+          name: "{e.get('title')}",
+          address: "{e.get('address')}",
+          lat: {e.get('lat')},
+          lng: {e.get('lng')},
+          type: "{e.get('type')}",
+          url: "{e.get('slug')}/",
+          usage: "{#if e.get('usage') == 'regular'}permanente{#else if e.get('usage') == 'occasional'}occasionnelle{#else}rare{/if}"
+        },
+        {/for}
+      ];
+    </script>
+
     <!-- Script de la carte des clochers avec Leaflet -->
     <script src="{site.url}js/clochers-map-leaflet.js"></script>
-    
+
     <!-- Scripts de gestion -->
     <script>
         // Gestion des filtres pour Leaflet
@@ -101,6 +119,6 @@
             }
         });
     </script>
-    
+
   {/insert}
 {/include}

@@ -4,7 +4,7 @@
  */
 
 // Données des clochers de Caen avec coordonnées GPS précises
-const clochersData = [
+let clochersData = window.CLOCHERS || [
     {
         name: "Église Saint-Pierre",
         address: "Place Saint-Pierre, 14000 Caen",
@@ -234,6 +234,16 @@ const clochersData = [
         description: "Chapelle du Centre Hospitalier (coordonnées fournies)",
         url: "chapelle-chr/",
         horaires: "Consulter la page"
+    },
+    {
+        name: "Église Saint-Ursin",
+        address: "Épron, 14610",
+        lat: 49.22139754165801,
+        lng: -0.37283690088908056,
+        type: "église",
+        description: "Église paroissiale — Épron",
+        url: "saint-ursin-epron/",
+        horaires: "Consulter les horaires"
     }
 ];
 
@@ -267,10 +277,11 @@ const usageByUrl = new Map([
   ['saint-sauveur/', USAGE.RARE],
   ['saint-ouen/', USAGE.RARE],
   ['chapelle-benedictines/', USAGE.RARE],
+  ['saint-ursin-epron/', USAGE.RARE],
 ]);
 
 // Ajoute le champ usage à chaque clocher (défaut: occasionnelle)
-clochersData.forEach(c => { c.usage = usageByUrl.get(c.url) || USAGE.OCCASIONNELLE; });
+clochersData.forEach(c => { c.usage = c.usage || (usageByUrl.get(c.url) || USAGE.OCCASIONNELLE); });
 
 
 // Icônes personnalisées pour Leaflet

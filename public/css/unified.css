@@ -2528,3 +2528,58 @@ body {
         color: var(--text-dark) !important;
     }
 }
+
+
+/* Churches dropdown menu grouping */
+.dropdown-menu.menu-churches {
+    width: 980px;
+    max-width: 95vw;
+    padding: 0.5rem 0.75rem;
+}
+.menu-churches .menu-section-divider {
+    border-top: 1px solid var(--border-light);
+    margin: 0.25rem 0 0.5rem;
+    list-style: none;
+}
+.menu-churches .menu-section {
+    list-style: none;
+    margin: 0;
+    padding: 0.25rem 0;
+}
+.menu-churches .menu-section + .menu-section {
+    border-top: 1px solid var(--border-light);
+}
+.menu-churches .menu-section-title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--primary-blue);
+    padding: 0.25rem 0.5rem;
+    pointer-events: none;
+}
+.menu-churches .menu-section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 0.25rem 1rem;
+    padding: 0.25rem 0.25rem 0.5rem;
+}
+.menu-churches .menu-section-grid .dropdown-item {
+    white-space: normal;
+}
+
+/* Mobile hamburger section title for churches */
+.mobile-section-title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    background: var(--bg-light);
+    color: var(--primary-blue);
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--border-light);
+    pointer-events: none;
+}
+.mobile-submenu .mobile-nav-item .mobile-section-title {
+    width: 100%;
+    text-align: left;
+}
+
+

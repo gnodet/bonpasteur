@@ -93,11 +93,55 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             {item.get('title')}
                         </a>
+                        {#if item.get('title') == 'Les églises'}
+                        <ul class="dropdown-menu menu-churches">
+                            {#for child in item.get('children')}
+                            {#if child.get('path') == 'clochers-carte'}
+                            <li><a class="dropdown-item" href="{site.url}{child.get('path')}">{child.get('title')}</a></li>
+                            {/if}
+                            {/for}
+                            <li class="menu-section-divider"></li>
+
+                            <li class="menu-section">
+                                <div class="menu-section-title">Églises utilisées régulièrement</div>
+                                <div class="menu-section-grid">
+                                    {#for e in cdi:eglises.entries}
+                                    {#if e.get('usage') == 'regular'}
+                                    <a class="dropdown-item" href="{site.url}eglises/{e.get('slug')}">{e.get('title')}</a>
+                                    {/if}
+                                    {/for}
+                                </div>
+                            </li>
+
+                            <li class="menu-section">
+                                <div class="menu-section-title">Églises utilisées occasionnellement</div>
+                                <div class="menu-section-grid">
+                                    {#for e in cdi:eglises.entries}
+                                    {#if e.get('usage') == 'occasional'}
+                                    <a class="dropdown-item" href="{site.url}eglises/{e.get('slug')}">{e.get('title')}</a>
+                                    {/if}
+                                    {/for}
+                                </div>
+                            </li>
+
+                            <li class="menu-section">
+                                <div class="menu-section-title">Églises peu utilisées</div>
+                                <div class="menu-section-grid">
+                                    {#for e in cdi:eglises.entries}
+                                    {#if e.get('usage') == 'rare'}
+                                    <a class="dropdown-item" href="{site.url}eglises/{e.get('slug')}">{e.get('title')}</a>
+                                    {/if}
+                                    {/for}
+                                </div>
+                            </li>
+                        </ul>
+                        {#else}
                         <ul class="dropdown-menu">
                             {#for child in item.get('children')}
                             <li><a class="dropdown-item" href="{site.url}{child.get('path')}">{child.get('title')}</a></li>
                             {/for}
                         </ul>
+                        {/if}
                         {#else}
                         <!-- Regular link -->
                         <a class="nav-link {#if page.url == item.get('path')}active{/if}" href="{site.url}{item.get('path')}" {#if item.get('target')}target="{item.get('target')}"{/if}>
@@ -163,6 +207,48 @@
                             <span>Retour</span>
                         </button>
                     </div>
+                    {#if item.get('title') == 'Les églises'}
+                    {#for child in item.get('children')}
+                    {#if child.get('path') == 'clochers-carte'}
+                    <div class="mobile-nav-item">
+                        <a class="mobile-nav-link" href="{site.url}{child.get('path')}">{child.get('title')}</a>
+                    </div>
+                    {/if}
+                    {/for}
+
+                    <div class="mobile-nav-item">
+                        <div class="mobile-nav-link mobile-section-title">Églises utilisées régulièrement</div>
+                    </div>
+                    {#for e in cdi:eglises.entries}
+                    {#if e.get('usage') == 'regular'}
+                    <div class="mobile-nav-item">
+                        <a class="mobile-nav-link" href="{site.url}eglises/{e.get('slug')}">{e.get('title')}</a>
+                    </div>
+                    {/if}
+                    {/for}
+
+                    <div class="mobile-nav-item">
+                        <div class="mobile-nav-link mobile-section-title">Églises utilisées occasionnellement</div>
+                    </div>
+                    {#for e in cdi:eglises.entries}
+                    {#if e.get('usage') == 'occasional'}
+                    <div class="mobile-nav-item">
+                        <a class="mobile-nav-link" href="{site.url}eglises/{e.get('slug')}">{e.get('title')}</a>
+                    </div>
+                    {/if}
+                    {/for}
+
+                    <div class="mobile-nav-item">
+                        <div class="mobile-nav-link mobile-section-title">Églises peu utilisées</div>
+                    </div>
+                    {#for e in cdi:eglises.entries}
+                    {#if e.get('usage') == 'rare'}
+                    <div class="mobile-nav-item">
+                        <a class="mobile-nav-link" href="{site.url}eglises/{e.get('slug')}">{e.get('title')}</a>
+                    </div>
+                    {/if}
+                    {/for}
+                    {#else}
                     {#for child in item.get('children')}
                     <div class="mobile-nav-item">
                         <a class="mobile-nav-link" href="{site.url}{child.get('path')}">
@@ -170,6 +256,7 @@
                         </a>
                     </div>
                     {/for}
+                    {/if}
                 </div>
                 {/if}
                 {/for}

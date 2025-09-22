@@ -39,13 +39,13 @@ Cette carte interactive vous permet de localiser facilement toutes les églises,
       Tous
     </button>
     <button type="button" class="btn btn-outline-secondary" onclick="filterUsage('permanente')" id="filter-usage-permanente">
-      Utilisées en permanence
+      Régulier
     </button>
     <button type="button" class="btn btn-outline-secondary" onclick="filterUsage('occasionnelle')" id="filter-usage-occasionnelle">
-      De temps en temps
+      Occasionnel
     </button>
     <button type="button" class="btn btn-outline-secondary" onclick="filterUsage('rare')" id="filter-usage-rare">
-      Jamais ou presque jamais
+      Rare
     </button>
   </div>
 </div>
