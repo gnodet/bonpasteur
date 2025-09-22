@@ -5,7 +5,7 @@ description: Présentation L’église Sainte Trinité / Saint-Gilles fait parti
 layout: paroisse/page
 updated: '2025-09-16'
 url: /sainte-trinite-saint-gilles/
-hero_image: images/sainte-trinite-hero.jpg
+hero_image: images/eglises/sainte-trinite.jpg
 hero_subtitle: Abbaye aux Dames
 ---
 
@@ -26,13 +26,6 @@ _(Abbaye aux Dames)_
 **Dimanche :** 10h45 (messes régulières)  
 **Mercredi :** 18h30 (messe suivie de la soirée aumônerie étudiante)  
 Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés
-
-### Contact
-
-Pour plus d’informations sur les activités de cette église, contactez :
-
-  * **Téléphone :** 02 31 86 13 11
-  * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
 ## Activités et services
 
@@ -88,14 +81,3 @@ Aujourd’hui, l’église Saint-Gilles accueille :
 ### Monument historique
 
 L’ensemble de l’abbaye aux Dames, incluant l’église Sainte-Trinité, est **classé monument historique** et constitue l’un des joyaux du patrimoine architectural normand.
-
-## Contact et informations
-
-Pour toute question concernant cette église ou pour participer à la vie de la communauté, n’hésitez pas à nous contacter.  
-**Presbytère Saint-Jean**  
-11 rue des Équipes d’Urgence  
-14000 Caen  
-Téléphone : 02 31 86 13 11  
-Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr  
-[Retour à la liste des églises](/Les-églises)  
-[Nous contacter](/infos/contact)

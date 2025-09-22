@@ -26,13 +26,13 @@ Consulter directement le Carmel pour les horaires de prière et de messe.
 
 **Contact direct du Carmel :**
 
-  * **Téléphone :** 02 31 93 66 63
+  * **Téléphone :** [02 31 93 66 63](tel:+33231936663)
   * **Email :** carmel.caen@wanadoo.fr
   * **Site web :** [carmelitesfrancenord.fr](https://www.carmelitesfrancenord.fr/carmel-de-caen/)
 
 **Contact paroissial :**
 
-  * **Téléphone :** 02 31 86 13 11
+  * **Téléphone :** [02 31 86 13 11](tel:+33231861311)
   * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
 ## Activités et services
@@ -85,13 +85,3 @@ Le Carmel contribue à la vie spirituelle de la paroisse et de la ville par :
   * L’intercession pour les intentions confiées
   * Le témoignage de la vie contemplative
 
-## Contact et informations
-
-Pour toute question concernant le Carmel ou pour participer à la vie spirituelle, n’hésitez pas à nous contacter.  
-**Presbytère Saint-Jean**  
-11 rue des Équipes d’Urgence  
-14000 Caen  
-Téléphone : 02 31 86 13 11  
-Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr  
-[Retour à la liste des églises](/Les-églises)  
-[Nous contacter](/infos/contact)

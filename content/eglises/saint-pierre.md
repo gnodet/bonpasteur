@@ -30,13 +30,6 @@ L’église Saint-Pierre fait partie de la paroisse Bon Pasteur de Caen, créée
 
 Consulter [messes.info](https://messes.info) ou le site diocésain pour les horaires actualisés
 
-### Contact
-
-Pour plus d’informations sur les activités de cette église, contactez :
-
-  * **Téléphone :** 02 31 86 13 11
-  * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
-
 ## Activités et services
 
 ### Célébrations
@@ -77,14 +70,3 @@ L’édifice présente des caractéristiques architecturales remarquables qui en
 ### Rôle dans la paroisse
 
 L’église Saint-Pierre joue un rôle central dans la vie de la paroisse Bon Pasteur de Caen, accueillant notamment les messes en semaine et les confessions. Elle constitue un point de référence spirituel important pour les fidèles du centre-ville de Caen.
-
-## Contact et informations
-
-Pour toute question concernant cette église ou pour participer à la vie de la communauté, n’hésitez pas à nous contacter.  
-**Presbytère Saint-Jean**  
-11 rue des Équipes d’Urgence  
-14000 Caen  
-Téléphone : 02 31 86 13 11  
-Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr  
-[Retour à la liste des églises](/Les-églises)  
-[Nous contacter](/infos/contact)

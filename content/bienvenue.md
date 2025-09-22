@@ -77,7 +77,7 @@ Voici quelques occasions privilégiées pour découvrir notre communauté :
 
 ## Premier contact
 
-**Téléphone :** 02 31 29 35 00
+**Téléphone :** [02 31 29 35 00](tel:+33231293500)
 
 **Email :** [accueil@paroisse-bonpasteur-caen.fr](mailto:accueil@paroisse-bonpasteur-caen.fr)  
 [Nous contacter  

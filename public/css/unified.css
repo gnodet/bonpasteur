@@ -989,12 +989,12 @@ body {
 }
 
 .hero-title {
-    font-size: 5.5rem;
+    font-size: 4rem;
     font-weight: 700;
     margin: 0 0 1rem 0;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     font-family: "Garet", "Montserrat", sans-serif;
-    line-height: 1.2;
+    line-height: 1.1;
     color: white;
     opacity: 1;
 }
@@ -1007,7 +1007,7 @@ body {
     font-family: "Garet", "Montserrat", sans-serif;
     opacity: 1;
     color: white;
-    text-align: center !important;
+    text-align: center;
 }
 
 .hero-buttons {
@@ -1758,14 +1758,8 @@ body {
         padding-top: 80px; /* Espace pour le menu fixe */
     }
 
-    .hero-title {
-        font-size: 4rem !important;
-        line-height: 1.1;
-    }
-
     .hero-subtitle {
         font-size: 1.8rem;
-        text-align: center !important;
     }
 
     /* Dropdown menus - largeur normale en tablet */
@@ -2142,7 +2136,6 @@ body {
 
     .hero-subtitle {
         font-size: 1.6rem;
-        text-align: center !important;
     }
 
     /* Content sections */
@@ -2321,7 +2314,6 @@ body {
 
     .hero-subtitle {
         font-size: 1.3rem;
-        text-align: center;
     }
 
     /* Content sections */

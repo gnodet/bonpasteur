@@ -28,13 +28,6 @@ Consulter [messes.info](https://messes.info) ou le site diocésain pour les hora
 **Soirées Louange et Miséricorde :** Jeudis à 20h30 (dates variables)  
 L’église Saint-Paul accueille régulièrement des soirées de louange et d’adoration.
 
-### Contact
-
-Pour plus d’informations sur les activités de cette église, contactez :
-
-  * **Téléphone :** 02 31 86 13 11
-  * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
-
 ## Activités et services
 
 ### Célébrations
@@ -67,14 +60,3 @@ L’église Saint-Paul est particulièrement connue pour accueillir des **soiré
 ### Rôle dans la communauté
 
 Située place Saint-Paul, l’église occupe une position centrale dans son quartier et participe activement à la vie de la communauté paroissiale, notamment à travers l’accueil de groupes de prière et d’événements spirituels.
-
-## Contact et informations
-
-Pour toute question concernant cette église ou pour participer à la vie de la communauté, n’hésitez pas à nous contacter.  
-**Presbytère Saint-Jean**  
-11 rue des Équipes d’Urgence  
-14000 Caen  
-Téléphone : 02 31 86 13 11  
-Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr  
-[Retour à la liste des églises](/Les-églises)  
-[Nous contacter](/infos/contact)

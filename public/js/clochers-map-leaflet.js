@@ -12,7 +12,7 @@ const clochersData = [
         lng: -0.36078675159326973,
         type: "église",
         description: "Monument historique gothique flamboyant (XIVe-XVe siècles)",
-        url: "eglises/saint-pierre/",
+        url: "saint-pierre/",
         horaires: "Messes en semaine : 18h30 (mardi-vendredi)"
     },
     {
@@ -22,7 +22,7 @@ const clochersData = [
         lng: -0.3734582275947242,
         type: "abbaye",
         description: "Abbatiale fondée par Guillaume le Conquérant (1063)",
-        url: "eglises/saint-etienne/",
+        url: "saint-etienne/",
         horaires: "Messe dominicale : 11h00"
     },
     {
@@ -32,7 +32,7 @@ const clochersData = [
         lng: -0.3688986414275461,
         type: "église",
         description: "Église paroissiale du centre-ville",
-        url: "eglises/saint-julien/",
+        url: "saint-julien/",
         horaires: "Messe dominicale : 11h00"
     },
     {
@@ -42,7 +42,7 @@ const clochersData = [
         lng: -0.35318209814533974,
         type: "abbaye",
         description: "Abbatiale fondée par la reine Mathilde (1062)",
-        url: "eglises/sainte-trinite-saint-gilles/",
+        url: "sainte-trinite-saint-gilles/",
         horaires: "Messe dominicale : 9h30"
     },
     {
@@ -52,7 +52,7 @@ const clochersData = [
         lng: -0.39045399328054814,
         type: "église",
         description: "Église moderne du quartier Chemin Vert",
-        url: "eglises/saint-joseph-chemin-vert/",
+        url: "saint-joseph-chemin-vert/",
         horaires: "Messe dominicale : 9h30"
     },
     {
@@ -62,7 +62,7 @@ const clochersData = [
         lng: -0.364770702244062,
         type: "église",
         description: "Église historique du Vieux-Caen",
-        url: "eglises/saint-sauveur/",
+        url: "saint-sauveur/",
         horaires: "Consulter les horaires"
     },
     {
@@ -72,7 +72,7 @@ const clochersData = [
         lng: -0.3754013321606875,
         type: "chapelle",
         description: "Monastère de contemplation",
-        url: "eglises/monastere-visitation/",
+        url: "monastere-visitation/",
         horaires: "Messe dominicale : 10h00"
     },
     {
@@ -82,7 +82,7 @@ const clochersData = [
         lng: -0.37685808711673996,
         type: "église",
         description: "Église paroissiale historique",
-        url: "eglises/saint-ouen/",
+        url: "saint-ouen/",
         horaires: "Consulter les horaires"
     },
     {
@@ -92,7 +92,7 @@ const clochersData = [
         lng: -0.3744712,
         type: "chapelle",
         description: "Chapelle du monastère des Bénédictines",
-        url: "eglises/chapelle-benedictines/",
+        url: "chapelle-benedictines/",
         horaires: "Consulter la page"
     },
     {
@@ -102,7 +102,7 @@ const clochersData = [
         lng: -0.3671658,
         type: "chapelle",
         description: "Chapelle historique de la Miséricorde",
-        url: "eglises/chapelle-misericorde/",
+        url: "chapelle-misericorde/",
         horaires: "Consulter la page"
     },
     {
@@ -112,7 +112,7 @@ const clochersData = [
         lng: -0.3601837,
         type: "chapelle",
         description: "Chapelle de l’établissement L’Oasis",
-        url: "eglises/chapelle-oasis/",
+        url: "chapelle-oasis/",
         horaires: "Consulter la page"
     },
     {
@@ -122,7 +122,7 @@ const clochersData = [
         lng: -0.3515156,
         type: "chapelle",
         description: "Communauté carmélitaine à Caen",
-        url: "eglises/carmel-de-caen/",
+        url: "carmel-de-caen/",
         horaires: "Consulter la page"
     },
     {
@@ -132,7 +132,7 @@ const clochersData = [
         lng: -0.3178363,
         type: "église",
         description: "Église paroissiale d’Hérouville-Saint-Clair",
-        url: "eglises/saint-clair-herouville/",
+        url: "saint-clair-herouville/",
         horaires: "Consulter les horaires"
     },
     {
@@ -142,7 +142,7 @@ const clochersData = [
         lng: -0.3890963,
         type: "église",
         description: "Église paroissiale — quartier Saint-Paul",
-        url: "eglises/saint-paul/",
+        url: "saint-paul/",
         horaires: "Consulter les horaires"
     },
     {
@@ -152,7 +152,7 @@ const clochersData = [
         lng: -0.3796828,
         type: "église",
         description: "Église paroissiale — Folie Couvrechef",
-        url: "eglises/sainte-claire-folie-couvrechef/",
+        url: "sainte-claire-folie-couvrechef/",
         horaires: "Consulter les horaires"
     },
     {
@@ -162,7 +162,7 @@ const clochersData = [
         lng: -0.3333894,
         type: "église",
         description: "Église paroissiale — Hérouville-Saint-Clair",
-        url: "eglises/saint-francois-herouville/",
+        url: "saint-francois-herouville/",
         horaires: "Consulter les horaires"
     },
     {
@@ -172,7 +172,7 @@ const clochersData = [
         lng: -0.3635628,
         type: "église",
         description: "Église paroissiale — Calvaire Saint-Pierre",
-        url: "eglises/saint-andre-calvaire-saint-pierre/",
+        url: "saint-andre-calvaire-saint-pierre/",
         horaires: "Consulter les horaires"
     },
     {
@@ -182,7 +182,7 @@ const clochersData = [
         lng: -0.4073675,
         type: "église",
         description: "Église paroissiale — Saint-Germain-la-Blanche-Herbe",
-        url: "eglises/saint-germain-blanche-herbe/",
+        url: "saint-germain-blanche-herbe/",
         horaires: "Consulter les horaires"
     },
     {
@@ -192,7 +192,7 @@ const clochersData = [
         lng: -0.2999796,
         type: "église",
         description: "Église paroissiale — Blainville-sur-Orne",
-        url: "eglises/saint-gerbold-blainville/",
+        url: "saint-gerbold-blainville/",
         horaires: "Consulter les horaires"
     },
     {
@@ -202,7 +202,7 @@ const clochersData = [
         lng: -0.3462988,
         type: "église",
         description: "Église paroissiale — Pierre-Heuzé",
-        url: "eglises/saint-bernard-pierre-heuze/",
+        url: "saint-bernard-pierre-heuze/",
         horaires: "Consulter les horaires"
     },
     {
@@ -212,7 +212,7 @@ const clochersData = [
         lng: -0.3576459,
         type: "église",
         description: "Église paroissiale — Saint-Jean",
-        url: "eglises/saint-jean-baptiste/",
+        url: "saint-jean-baptiste/",
         horaires: "Consulter les horaires"
     },
     {
@@ -222,7 +222,7 @@ const clochersData = [
         lng: -0.3664874,
         type: "église",
         description: "Église de la Gloriette (ancienne église des Jésuites)",
-        url: "eglises/notre-dame-assomption-gloriette/",
+        url: "notre-dame-assomption-gloriette/",
         horaires: "Consulter les horaires"
     },
     {
@@ -232,7 +232,7 @@ const clochersData = [
         lng: -0.344972,
         type: "chapelle",
         description: "Chapelle du Centre Hospitalier (coordonnées fournies)",
-        url: "eglises/chapelle-chr/",
+        url: "chapelle-chr/",
         horaires: "Consulter la page"
     }
 ];
@@ -242,31 +242,31 @@ const USAGE = { PERMANENTE: 'permanente', OCCASIONNELLE: 'occasionnelle', RARE: 
 
 // Affectation de l'usage par URL
 const usageByUrl = new Map([
-  ['eglises/saint-joseph-chemin-vert/', USAGE.PERMANENTE],
-  ['eglises/saint-julien/', USAGE.PERMANENTE],
-  ['eglises/saint-andre-calvaire-saint-pierre/', USAGE.PERMANENTE],
-  ['eglises/saint-pierre/', USAGE.PERMANENTE],
-  ['eglises/saint-bernard-pierre-heuze/', USAGE.PERMANENTE],
-  ['eglises/saint-etienne/', USAGE.PERMANENTE],
-  ['eglises/saint-jean-baptiste/', USAGE.PERMANENTE],
-  ['eglises/sainte-claire-folie-couvrechef/', USAGE.PERMANENTE],
-  ['eglises/sainte-trinite-saint-gilles/', USAGE.PERMANENTE],
-  ['eglises/monastere-visitation/', USAGE.PERMANENTE],
-  ['eglises/saint-francois-herouville/', USAGE.PERMANENTE],
-  ['eglises/saint-gerbold-blainville/', USAGE.PERMANENTE],
-  ['eglises/carmel-de-caen/', USAGE.PERMANENTE],
+  ['saint-joseph-chemin-vert/', USAGE.PERMANENTE],
+  ['saint-julien/', USAGE.PERMANENTE],
+  ['saint-andre-calvaire-saint-pierre/', USAGE.PERMANENTE],
+  ['saint-pierre/', USAGE.PERMANENTE],
+  ['saint-bernard-pierre-heuze/', USAGE.PERMANENTE],
+  ['saint-etienne/', USAGE.PERMANENTE],
+  ['saint-jean-baptiste/', USAGE.PERMANENTE],
+  ['sainte-claire-folie-couvrechef/', USAGE.PERMANENTE],
+  ['sainte-trinite-saint-gilles/', USAGE.PERMANENTE],
+  ['monastere-visitation/', USAGE.PERMANENTE],
+  ['saint-francois-herouville/', USAGE.PERMANENTE],
+  ['saint-gerbold-blainville/', USAGE.PERMANENTE],
+  ['carmel-de-caen/', USAGE.PERMANENTE],
 
-  ['eglises/saint-paul/', USAGE.OCCASIONNELLE],
-  ['eglises/saint-germain-blanche-herbe/', USAGE.OCCASIONNELLE],
-  ['eglises/saint-clair-herouville/', USAGE.OCCASIONNELLE],
-  ['eglises/notre-dame-assomption-gloriette/', USAGE.OCCASIONNELLE],
+  ['saint-paul/', USAGE.OCCASIONNELLE],
+  ['saint-germain-blanche-herbe/', USAGE.OCCASIONNELLE],
+  ['saint-clair-herouville/', USAGE.OCCASIONNELLE],
+  ['notre-dame-assomption-gloriette/', USAGE.OCCASIONNELLE],
 
-  ['eglises/chapelle-oasis/', USAGE.RARE],
-  ['eglises/chapelle-misericorde/', USAGE.RARE],
-  ['eglises/chapelle-chr/', USAGE.RARE],
-  ['eglises/saint-sauveur/', USAGE.RARE],
-  ['eglises/saint-ouen/', USAGE.RARE],
-  ['eglises/chapelle-benedictines/', USAGE.RARE],
+  ['chapelle-oasis/', USAGE.RARE],
+  ['chapelle-misericorde/', USAGE.RARE],
+  ['chapelle-chr/', USAGE.RARE],
+  ['saint-sauveur/', USAGE.RARE],
+  ['saint-ouen/', USAGE.RARE],
+  ['chapelle-benedictines/', USAGE.RARE],
 ]);
 
 // Ajoute le champ usage à chaque clocher (défaut: occasionnelle)
@@ -344,7 +344,7 @@ function addMarkerLeaflet(clocher) {
                 <i class="fas fa-clock"></i> ${clocher.horaires}
             </p>
             <div style="margin-top: 10px;">
-                <a href="${clocher.url}" class="btn btn-sm btn-primary" style="text-decoration: none; font-size: 0.8em;">
+                <a href="../eglises/${clocher.url}" class="btn btn-sm btn-primary" style="text-decoration: none; font-size: 0.8em;">
                     <i class="fas fa-info-circle"></i> En savoir plus
                 </a>
             </div>

@@ -25,7 +25,7 @@ _Horaires à compléter_
 
 Pour plus d’informations sur les activités de cette chapelle, contactez :
 
-  * **Téléphone :** 02 31 86 13 11
+  * **Téléphone :** [02 31 86 13 11](tel:+33231861311)
   * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
 ## Activités et services
@@ -54,13 +54,3 @@ Pour plus d’informations sur les activités de cette chapelle, contactez :
 
 _Histoire de la chapelle des Bénédictines à compléter_
 
-## Contact et informations
-
-Pour toute question concernant cette chapelle ou pour participer à la vie spirituelle, n’hésitez pas à nous contacter.  
-**Presbytère Saint-Jean**  
-11 rue des Équipes d’Urgence  
-14000 Caen  
-Téléphone : 02 31 86 13 11  
-Email : paroisse.bonpasteur@bayeuxlisieux.catholique.fr  
-[Retour à la liste des églises](/Les-églises)  
-[Nous contacter](/infos/contact)

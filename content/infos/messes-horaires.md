@@ -101,5 +101,5 @@ _Consultez le bulletin paroissial ou contactez-nous pour confirmation._
 ## Contact
 
 Pour toute question sur les horaires :  
-**Téléphone :** 02 31 29 35 00  
+**Téléphone :** [02 31 29 35 00](tel:+33231293500)  
 [Nous contacter](/infos/contact)
