@@ -17,7 +17,7 @@ Presbytère Saint-Jean
 
 **Téléphone** : [02 31 86 13 11](tel:+33231863111)
 
-**Email** : contact.bonpasteur@gmail.com
+**Email** : [contact.bonpasteur@gmail.com](mailto:contact.bonpasteur@gmail.com)
 
 **Horaires d'accueil** :
 

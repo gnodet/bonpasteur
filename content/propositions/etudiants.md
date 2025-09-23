@@ -25,7 +25,7 @@ Tu étudies à Caen et tu es curieux, en quête de sens ou intéressé par la fo
 
 **Aumônier :** Père Paul Clerval
 
-**Contact :** [aumoneriedesetudiants@gmail.com](mailto:aumoneriedesetudiants@gmail.com) | 06 58 24 52 36
+**Contact :** [aumoneriedesetudiants@gmail.com](mailto:aumoneriedesetudiants@gmail.com) | [06 58 24 52 36](tel:+33658245236)
 
 Suivez-nous sur Facebook ! <https://aumoneriedecaen.fr/> <https://www.facebook.com/aumoneriedesetudiantsdecaen>
 

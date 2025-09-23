@@ -26,7 +26,7 @@ La Profession de Foi n’est pas un sacrement, mais elle constitue une étape im
 
 Plusieurs groupes d’aumônerie existent au sein de la paroisse pour accompagner cette préparation.
 
-Pour toute inscription, merci de contacter directement les responsables :  kt.caencentre@gmail.com 
+Pour toute inscription, merci de contacter directement les responsables :  [kt.caencentre@gmail.com](mailto:kt.caencentre@gmail.com) 
 
 ## Classe de 5e:
 Les collégiens sont invités à se joindre à une rencontre chaque vendredi soir de 17h15 à 18h15 durant cet année ils se prepareront a recevoir le sacrement de confirmation.
@@ -34,20 +34,20 @@ Les collégiens sont invités à se joindre à une rencontre chaque vendredi soi
  ## Aumônerie des 4e et des 3e:
 Ce parcours propose aux jeunes de continuer à nourrir leur relation avec Jésus-Christ à travers la fraternité et la réflexion sur des thèmes auxquels ils sont confrontés quotidiennement. Ils sont invités à se joindre à une rencontre tous les quinze jours de 17h à 19h15.
 
-Contact: Marc Lejeune marc.lejeune@gmail.com
+Contact: Marc Lejeune [marc.lejeune@gmail.com](mailto:marc.lejeune@gmail.com)
 
 ## Lycéens: Frat’Jeunes et Théolycée
 ### Frat’Jeunes
 La Frat’Jeunes a pour objectif de regrouper les lycéens de la Seconde à la Terminale ayant le souhait de se retrouver pour approfondir leur foi et vivre les dimensions de la fraternité et de la mission. 
  
-Contact Frat’Jeunes: Eloïse Duport fratjeunescaen@gmail.com
+Contact Frat’Jeunes: Eloïse Duport [fratjeunescaen@gmail.com](mailto:fratjeunescaen@gmail.com)
 
 ### Théolycée
 Théolycée est un groupe d’initiation à la théologie destiné aux élèves de seconde, première et terminale. Son objectif est d’aider les jeunes croyants à approfondir leur foi, afin qu’ils soient « toujours prêts à rendre raison de l’espérance qui est en [eux] » (1 P 3, 15) et à adorer Dieu avec leur intelligence. Le groupe est également destiné aux lycéens qui s’interrogent sur la foi chrétienne. Le cycle de trois ans propose un parcours complet, mais chaque séance est autonome et peut être suivie pour elle-même. Les questions actuelles sont privilégiées et éclairées par des textes de la tradition. Les rencontres ont lieu un samedi par mois, de 10h à 12h, à la maison paroissiale.
 Sous l’autorité du père Geffray, curé de la paroisse Bon Pasteur, Théolycée est animé par Simon Icard, chercheur en histoire de la théologie.
 Aux samedis ci-dessous de 10h-12h à la Maison paroissiale, 46 bis rue de Bretagne ou 71 rue de Bayeux, Caen 
 
-Contact Théolycée: Simon Icard icard.simon@orange.fr 
+Contact Théolycée: Simon Icard [icard.simon@orange.fr](mailto:icard.simon@orange.fr) 
 
  (information sur la participation financière à consulter ici). https://www.saintetienne-saintouen.fr/wp-content/uploads/2025/06/Information-participation-financiere-KT-2025-2026.pdf
 
@@ -92,4 +92,4 @@ Encadrés par des chefs et cheftaines formés, les Scouts de Caen proposent un c
 
 Rejoindre les Scouts de Caen, c’est vivre des expériences inoubliables, au plus près de la nature et des autres.
 
-06 73 47 05 76
+[06 73 47 05 76](tel:+33673470576)

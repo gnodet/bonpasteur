@@ -31,7 +31,7 @@ Consulter [messes.info](https://messes.info) ou le site diocésain pour les hora
 Pour plus d’informations sur les activités de cette église, contactez :
 
   * **Téléphone :** [02 31 86 13 11](tel:+33231861311)
-  * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+  * **Email :** [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)
 
 ## Activités et services
 

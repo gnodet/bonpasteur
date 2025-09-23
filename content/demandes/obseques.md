@@ -11,7 +11,7 @@ Lors de la disparition d’une personne proche, l’Église est là pour vous ai
 
 ## Vous vous posez des questions par rapport à vos obsèques ou celles d’un proche
 
-Appelez le 06 86 77 34 08. Nous tenterons d’apporter toutes les réponses à vos questions.
+Appelez le [06 86 77 34 08](tel:+33686773408). Nous tenterons d’apporter toutes les réponses à vos questions.
 
 ## Vous venez de perdre un être cher
 

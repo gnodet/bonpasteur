@@ -54,8 +54,8 @@ Presbytère Saint-Jean
 11 rue des Équipes d'Urgence  
 14000 Caen  
 
-**Téléphone** : 02 31 86 13 11  
-**Email** : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+**Téléphone** : [02 31 86 13 11](tel:+33231861311)
+**Email** : [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)
 
 ---
 

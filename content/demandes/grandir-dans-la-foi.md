@@ -15,10 +15,10 @@ Au **Café Mancel** dans l’enceinte du Château de Caen, une série d’enviro
 
 Entrée libre (majoration des consommations de 1€ reversée à l’association Théophile).
 
-Possibilité de dîner. Réservation recommandée au 02 31 86 63 64. 
+Possibilité de dîner. Réservation recommandée au [02 31 86 63 64](tel:+33231866364). 
 
 **Rencontres bibliques**
 
-Si vous souhaitez participer, contacter le presbytère au 02 31 86 37 21. Vous pouvez constituer un groupe (famille, voisins, amis…) ou rejoindre une des équipes de la paroisse:
+Si vous souhaitez participer, contacter le presbytère au [02 31 86 37 21](tel:+33231863721). Vous pouvez constituer un groupe (famille, voisins, amis…) ou rejoindre une des équipes de la paroisse:
 
-**Contact:** Isabelle Chevalier: jichevalier@orange.fr
+**Contact:** Isabelle Chevalier: [jichevalier@orange.fr](mailto:jichevalier@orange.fr)

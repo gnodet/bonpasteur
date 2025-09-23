@@ -39,7 +39,7 @@ Rejoignez un petit groupe pour prier, lire l’Évangile et partager autour de l
 
 Un temps simple et fraternel pour : – prier en petits groupes à partir de l’Évangile du dimanche – partager ce qui nous touche, nous interroge – retenir une parole, un message pour nous, pour le monde
 
-Chaque 2e et 4e samedi du mois De 10 h 30 à 11 h 15 Dans la chapelle de l’Église Saint Joseph [stjoseph@bayeuxlisieux.catholique.fr](mailto:stjoseph@bayeuxlisieux.catholique.fr) 02 31 75 11 45
+Chaque 2e et 4e samedi du mois De 10 h 30 à 11 h 15 Dans la chapelle de l’Église Saint Joseph [stjoseph@bayeuxlisieux.catholique.fr](mailto:stjoseph@bayeuxlisieux.catholique.fr) [02 31 75 11 45](tel:+33231751145)
 
 ## Rejoindre un Chapelet des enfants
 
@@ -118,7 +118,7 @@ La Communauté de Vie Chrétienne (CVX) rassemble des croyants de tous âges et 
 
 [bassenormandie@cvxfrance.com](mailto:bassenormandie@cvxfrance.com)
 
-[06 02 17 07 19](06 02 17 07 19)
+[06 02 17 07 19](tel:+33602170719)
 
 ## Soirée de louange et de miséricorde
 
@@ -128,7 +128,7 @@ Des prêtres sont disponibles tout au long de la soirée pour donner le sacremen
 
 <https://eglise-saint-paul.my.canva.site/#soir%C3%A9es-de-louange>
 
-Contact : 06 51 46 20 92
+Contact : [06 51 46 20 92[tel:+33651462092]
 
 ## 
 
