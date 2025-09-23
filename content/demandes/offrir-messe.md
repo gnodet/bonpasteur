@@ -5,6 +5,7 @@ description: Pourquoi offrir une messe ? Dès les premiers siècles de l’Égli
 layout: paroisse/page
 updated: '2025-09-16'
 url: /offrir-une-messe/
+hero_image: images/eglises/messe.jpg
 ---
 
 ## Pourquoi offrir une messe ?

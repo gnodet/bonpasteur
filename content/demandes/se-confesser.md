@@ -5,8 +5,8 @@ description: Vous souhaitez recevoir le sacrement du Pardon et de la Réconcilia
 layout: paroisse/page
 updated: '2025-09-16'
 url: /se-confesser/
+hero_image: images/eglises/reconciliation.jpg
 ---
-
 Vous souhaitez recevoir le sacrement du Pardon et de la Réconciliation.  
 Voici les propositions régulières qui vous sont offertes  
 **Horaires des confessions**  
@@ -55,9 +55,5 @@ Des permanences supplémentaires sont proposées généralement au moment des gr
 fêtes chrétiennes (Noël, Pâques et 15 août).  
 Si pour des raisons de santé ou des raisons personnelles, vous souhaitez recevoir le  
 sacrement du Pardon chez vous,  
-**merci de remplir le formulaire ci-dessous.**  
-Nous prendrons contact avec vous pour discerner votre demande et convenir d’un rendez-vous.  
-formulaire de contact  
-VOTRE NOM  
-VOTRE EMAIL  
-VOTRE DEMANDE
+**merci de nous contacter.**
+[Nous contacter](/infos/contact/){.btn .btn-primary}
