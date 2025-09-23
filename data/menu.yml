@@ -68,6 +68,8 @@ items:
         path: "infos/actualites"
       - title: "Partitions / Carnet de chant"
         path: "infos/partitions-chant"
+      - title: "Nos joies, nos peines"
+        path: "infos/nos-joies-nos-peines"
       - title: "Contact"
         path: "infos/contact"
 

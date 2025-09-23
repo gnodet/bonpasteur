@@ -15,7 +15,9 @@ Le Monastère de la Visitation fait partie de la paroisse Bon Pasteur de Caen, c
 
 ### Adresse
 
-_Adresse à compléter_
+**Monastère de la Visitation**
+3 rue de l'abbatiale
+14000 CAEN
 
 ### Horaires des messes
 
@@ -25,8 +27,9 @@ _Horaires à compléter_
 
 Pour plus d’informations sur les activités du monastère, contactez :
 
-  * **Téléphone :** [02 31 86 13 11](tel:+33231861311)
-  * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+  * **Téléphone :** [02 31 86 19 40](tel:+33231861940)
+  * **Email :** [visitation@leonie-martin.fr](mailto:visitation@leonie-martin.fr)
+  * **Site internet :** [https://www.leonie-martin.fr/leonie-martin-monastere/](https://www.leonie-martin.fr/leonie-martin-monastere/)
 
 ## Activités et services
 

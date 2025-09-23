@@ -4,7 +4,7 @@ description: Contactez la paroisse Bon Pasteur de Caen pour toutes vos questions
 layout: paroisse/contact
 updated: '2025-09-18'
 url: /infos/contact/
-hero_image: images/eglise-bon-pasteur-hero.jpg
+hero_image: images/robin-inizan-PbgsmvTJCQ8-unsplash.jpg
 hero_subtitle: Nous sommes là pour vous accompagner
 ---
 

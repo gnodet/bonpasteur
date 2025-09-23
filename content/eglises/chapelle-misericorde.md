@@ -5,6 +5,7 @@ description: Présentation La Chapelle de la Miséricorde fait partie de la paro
 layout: paroisse/page
 updated: '2025-09-16'
 url: /chapelle-misericorde/
+hero_image: images/eglises/chapelle de la miséricorde.jpg
 ---
 
 ## Présentation

@@ -5,6 +5,7 @@ description: Présentation L’église Saint-Joseph du chemin vert fait partie d
 layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-joseph-chemin-vert/
+hero_image: images/eglises/eglise-saint-joseph-3.jpg
 ---
 
 ## Présentation

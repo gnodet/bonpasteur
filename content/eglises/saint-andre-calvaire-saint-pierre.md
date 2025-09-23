@@ -5,6 +5,7 @@ description: Présentation L’église Saint-André du Calvaire Saint-Pierre fai
 layout: paroisse/page
 updated: '2025-09-16'
 url: /saint-andre-calvaire-saint-pierre/
+hero_image: images/eglises/eglise-saint-andre-677062.jpg
 ---
 
 ## Présentation
