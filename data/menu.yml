@@ -54,8 +54,6 @@ items:
         path: "propositions/solidarite"
       - title: "Malades et aînés"
         path: "propositions/malades-aines"
-      - title: "Rencontres bibliques"
-        path: "propositions/rencontres-bibliques"
 
   - title: "Infos"
     path: "#"
@@ -66,8 +64,6 @@ items:
         path: "infos/agenda"
       - title: "Actualités"
         path: "infos/actualites"
-      - title: "Partitions / Carnet de chant"
-        path: "infos/partitions-chant"
       - title: "Nos joies, nos peines"
         path: "infos/nos-joies-nos-peines"
       - title: "Contact"

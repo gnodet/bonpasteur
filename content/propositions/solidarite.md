@@ -5,9 +5,8 @@ description: vous souhaitez apporter votre aide et vos compétences au service d
 layout: paroisse/page
 updated: '2025-09-16'
 url: /solidarite/
+hero_image: images/eglises/solidarite.jpg
 ---
-
-![](https://bonpasteurcaen.wordpress.com/wp-content/uploads/2025/09/capture-decran-2025-09-10-a-21.02.33.png?w=768)
 
 vous souhaitez apporter votre aide et vos compétences au service des personnes les plus fragiles. De nombreuses possibilités vous sont offertes.
 
