@@ -114,8 +114,8 @@ public class EmailService {
             Nous vous répondrons à l'adresse email : %s
             
             📞 En cas d'urgence, vous pouvez nous contacter directement :
-            • Téléphone : 02 31 86 13 11
-            • Email : contact.bonpasteur@gmail.com
+            • Téléphone : [02 31 86 13 11](tel:+33231861311)
+            • Email : [contact.bonpasteur@gmail.com](mailto:contact.bonpasteur@gmail.com)
             
             🏛️ Paroisse Bon Pasteur de Caen
             Presbytère Saint-Jean

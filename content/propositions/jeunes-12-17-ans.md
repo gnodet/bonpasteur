@@ -81,7 +81,7 @@ Avec plus de 90 000 membres, les Scouts et Guides de France sont l’un des plus
 
 [https://sgdf.fr](https://sgdf.fr/) [rg.scout.donbosco@outlook.fr](mailto:rg.scout.donbosco@outlook.fr)
 
-téléphone : 06 85 01 83 47
+téléphone : [06 85 01 83 47](tel:+33685018347)
 
 ## Association des guides et scouts d’Europe[](https://github.com/gnodet/bonpasteur#association-des-guides-et-scouts-deurope)
 
@@ -119,4 +119,4 @@ Encadrés par des chefs et cheftaines formés, les Scouts de Caen proposent un c
 
 Rejoindre les Scouts de Caen, c’est vivre des expériences inoubliables, au plus près de la nature et des autres.
 
-06 73 47 05 76
+[06 73 47 05 76](tel:+33673470576)

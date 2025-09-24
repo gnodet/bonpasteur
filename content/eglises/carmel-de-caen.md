@@ -27,13 +27,13 @@ Consulter directement le Carmel pour les horaires de prière et de messe.
 **Contact direct du Carmel :**
 
   * **Téléphone :** [02 31 93 66 63](tel:+33231936663)
-  * **Email :** carmel.caen@wanadoo.fr
+  * **Email :** [carmel.caen@wanadoo.fr](mailto:carmel.caen@wanadoo.fr)
   * **Site web :** [carmelitesfrancenord.fr](https://www.carmelitesfrancenord.fr/carmel-de-caen/)
 
 **Contact paroissial :**
 
   * **Téléphone :** [02 31 86 13 11](tel:+33231861311)
-  * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+  * **Email :** [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)
 
 ## Activités et services
 

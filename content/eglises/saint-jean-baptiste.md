@@ -59,4 +59,3 @@ L’église Saint-Jean de Caen est **classée monument historique depuis 1840** 
 ### Intégration paroissiale
 
 Avec la création de la nouvelle paroisse Bon Pasteur de Caen, l’église Saint-Jean-Baptiste s’inscrit dans un ensemble paroissial élargi qui regroupe de nombreux lieux de culte du centre de Caen et de son agglomération, contribuant à la richesse de la vie spirituelle locale.
-)

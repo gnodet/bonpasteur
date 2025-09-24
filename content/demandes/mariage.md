@@ -12,4 +12,4 @@ Avec vous, nous nous réjouissons pour cette étape majeure de votre vie et nous
  Dans un premier temps, nous vous invitons à remplir le formulaire ci-dessous.
 Vous serez ensuite contactés par la paroisse pour valider votre inscription.
 Puis, quelque temps plus tard, si vous vous préparez dans notre paroisse, vous recevrez les informations nécessaires vous indiquant les dates de rencontres avec l’équipe d’accompagnement au mariage. 
-Pour toute question, contactez-nous par courriel à paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+Pour toute question, contactez-nous par courriel à [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)

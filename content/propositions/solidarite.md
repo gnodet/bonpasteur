@@ -14,7 +14,7 @@ vous souhaitez apporter votre aide et vos compétences au service des personnes 
 
 Les équipes du Secours Catholique de l’Orne Calvados sont mobilisées au quotidien sur les territoires pour faire reculer la pauvreté avec les personnes accompagnées.
 
-57 avenue de la Libération 14000 Caen Tél.: 02 31 46 92 70 / Facebook
+57 avenue de la Libération 14000 Caen Tél.: [02 31 46 92 70](tel:+33231469270) / Facebook
 
 ## Centre d’accueil et d’entraide[](https://github.com/gnodet/bonpasteur/tree/main/content#centre-daccueil-et-dentraide)
 
@@ -47,11 +47,11 @@ La Société de Saint-Vincent-de-Paul agit au plus près des personnes en diffic
 
 Présences locales :
 
-Conférence Saint-Joseph du Chemin Vert Raymonde Cozic – 06 43 77 13 51
+Conférence Saint-Joseph du Chemin Vert Raymonde Cozic – [06 43 77 13 51](tel:+33643771351)
 
 Conférence Éphêta Saint-Bernard (Pierre-Heuzé)
 
-Conférence Saint-Gilles – Saint-Pierre d’Hérouville Jean-Claude Thomasse – 06 88 80 50 26
+Conférence Saint-Gilles – Saint-Pierre d’Hérouville Jean-Claude Thomasse – [06 88 80 50 26](tel:+33688805026)
 
 pour plus de détail : <https://www.ssvp.fr/departement-du-calvados-14>
 
@@ -67,11 +67,11 @@ Actuellement 90 personnes sont hébergées, dont 47 enfants et jeunes.
 
 **Présences locales :**
 
-**Conférence Saint-Joseph du Chemin Vert** Responsable : Raymonde Cozic – 06 43 77 13 51
+**Conférence Saint-Joseph du Chemin Vert** Responsable : Raymonde Cozic – [06 43 77 13 51](tel:+33643771351)
 
 **Conférence Éphêta Saint-Bernard (Pierre-Heuzé)**
 
-**Conférence Saint-Gilles – Saint-Pierre d’Hérouville** Responsable : Jean-Claude Thomasse – 06 88 80 50 26
+**Conférence Saint-Gilles – Saint-Pierre d’Hérouville** Responsable : Jean-Claude Thomasse – [06 88 80 50 26](tel:+33688805026)
 
 ## La Malle aux Trésors – Secours Catholique[](https://github.com/gnodet/bonpasteur/tree/main/content#la-malle-aux-tr%C3%A9sors--secours-catholique)
 
@@ -79,6 +79,6 @@ Actuellement 90 personnes sont hébergées, dont 47 enfants et jeunes.
 
 19 Résidence des Pinsons, 14000 Caen
 
-02 31 46 92 70
+[02 31 46 92 70](tel:+33231469270)
 
 <https://www.facebook.com/malleauxtresors14>

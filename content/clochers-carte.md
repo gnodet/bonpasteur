@@ -102,8 +102,8 @@ Pour connaître les horaires détaillés des messes dans chaque lieu, consultez 
 ### Contact
 
 Pour toute question sur nos lieux de culte :
-- **Téléphone** : 02 31 86 13 11
-- **Email** : paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+- **Téléphone** : [02 31 86 13 11](tel:+33231861311)
+- **Email** : [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)
 
 ---
 

@@ -105,7 +105,7 @@ Contact et informations pratiques
 ### Paroisse Bon Pasteur de Caen
 
 Presbytère Saint-Jean, 11 rue des Équipes d’Urgence, 14000 Caen  
-02 31 86 13 11  
+[02 31 86 13 11](tel:+33231861311)
 paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
 ### Coordination : 

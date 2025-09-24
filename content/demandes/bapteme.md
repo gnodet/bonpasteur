@@ -42,7 +42,7 @@ Le parcours vers le baptême est une expérience spirituelle riche et profondém
 
 ### Les étapes du catéchuménat :
 
-1. **Contactez-nous** pour exprimer votre désir de baptême : Anne de Beaupuy - annepalludebeaupuy@gmail.com
+1. **Contactez-nous** pour exprimer votre désir de baptême : Anne de Beaupuy - [annepalludebeaupuy@gmail.com](mailto:annepalludebeaupuy@gmail.com)
 2. **Suivez le catéchuménat**, une formation d'un à deux ans pour découvrir la foi chrétienne
 3. **Participez** à des rencontres régulières avec une équipe et d'autres candidats pour approfondir les Évangiles et les sacrements
 4. **Intégrez-vous** à la communauté paroissiale en prenant part aux messes et événements
@@ -63,8 +63,8 @@ Le baptême, plonger au cœur de la vie : [des vidéos pour aller plus loin](htt
 
 Pour toute demande de baptême ou information complémentaire, n'hésitez pas à nous contacter :
 
-📞 **Téléphone** : 02 31 86 13 11
-📧 **Email** : contact.bonpasteur@gmail.com
+📞 **Téléphone** : [02 31 86 13 11](tel:+33231861311)
+📧 **Email** : [contact.bonpasteur@gmail.com](mailto:contact.bonpasteur@gmail.com)
 🏛️ **Adresse** : Presbytère Saint-Jean, 11 rue des Équipes d'Urgence, 14000 Caen
 
 [**Nous contacter**](/infos/contact)

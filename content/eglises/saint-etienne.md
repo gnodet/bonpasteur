@@ -19,8 +19,8 @@ L’église Saint-Étienne fait partie de la paroisse Bon Pasteur de Caen, cré�
 
 **15 rue Guillaume le Conquérant**  
 **14000 Caen**  
-Téléphone : 02 31 86 37 21  
-Email : abbatiale@orange.fr  
+Téléphone : [02 31 86 37 21](tel:+33231863721)
+Email : [abbatiale@orange.fr](mailto:abbatiale@orange.fr)  
 Site web : [www.saintetienne-saintouen.fr](https://www.saintetienne-saintouen.fr)
 
 ### Horaires des messes
@@ -34,7 +34,7 @@ Site web : [www.saintetienne-saintouen.fr](https://www.saintetienne-saintouen.fr
 Pour plus d’informations sur les activités de cette église, contactez :
 
   * **Téléphone :** [02 31 86 13 11](tel:+33231861311)
-  * **Email :** paroisse.bonpasteur@bayeuxlisieux.catholique.fr
+  * **Email :** [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)
 
 ## Activités et services
 
