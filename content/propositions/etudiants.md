@@ -27,7 +27,11 @@ Tu étudies à Caen et tu es curieux, en quête de sens ou intéressé par la fo
 
 **Contact :** [aumoneriedesetudiants@gmail.com](mailto:aumoneriedesetudiants@gmail.com) | 06 58 24 52 36
 
-Suivez-nous sur Facebook ! <https://aumoneriedecaen.fr/> <https://www.facebook.com/aumoneriedesetudiantsdecaen>
+<a href="https://www.facebook.com/aumoneriedesetudiantsdecaen" target="_blank" class="btn btn-primary" style="background-color: #1877f2; border-color: #1877f2;">
+  <i class="fab fa-facebook-f"></i> Suivez-nous sur Facebook
+</a>
+
+Site web : <https://aumoneriedecaen.fr/>
 
 # Chorale etudiante et jeune pro
 

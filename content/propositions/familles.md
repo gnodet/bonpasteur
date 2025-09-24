@@ -4,6 +4,7 @@ description: Découvrez les propositions et activités dédiées aux familles de
 layout: paroisse/page
 updated: '2025-09-23'
 url: /propositions/familles/
+hero_image: images/eglises/famille-2.jpg
 ---
 
 ## Vie de famille et foi
@@ -12,23 +13,7 @@ La paroisse Bon Pasteur de Caen accompagne les familles dans leur cheminement de
 
 ## Propositions pour les familles
 
-### Messes en famille
 
-Des célébrations adaptées aux familles avec enfants :
-
-- **Messes dominicales** : Accueil spécial des familles
-- **Liturgie adaptée** : Participation active des enfants
-- **Chants familiaux** : Répertoire accessible à tous
-- **Temps d'échange** : Moments de partage après la messe
-
-### Catéchèse familiale
-
-Parcours de découverte de la foi pour toute la famille :
-
-- **Rencontres mensuelles** : Parents et enfants ensemble
-- **Activités ludiques** : Jeux, bricolages, chants
-- **Temps de prière** : Moments spirituels adaptés
-- **Témoignages** : Partage d'expériences entre familles
 
 ### Préparation aux sacrements
 
@@ -39,28 +24,28 @@ Accompagnement des familles dans la préparation :
 - **Confirmation** : Cheminement des jeunes avec leurs familles
 - **Mariage** : Préparation des futurs époux
 
-## Activités et événements
+### Pèlerinages et matinées spirituelles pour les mères
 
-### Temps forts familiaux
+Chaque année, de courts pèlerinages et matinées spirituelles sont proposés aux **MÈRES de FAMILLE**.
 
-- **Fête de la famille** : Célébration annuelle
-- **Pèlerinages familiaux** : Sorties spirituelles
-- **Veillées de Noël** : Célébrations spéciales
-- **Chemin de croix en famille** : Temps de Carême
+**En 2025-2026 :**
 
-### Activités de loisirs
+3 matinées spirituelles sont proposées aux mamans qui souhaitent trouver un moment de ressourcement :
 
-- **Sorties familiales** : Découvertes culturelles et spirituelles
-- **Pique-niques paroissiaux** : Moments de convivialité
-- **Ateliers créatifs** : Bricolages et activités manuelles
-- **Jeux en famille** : Après-midi ludiques
+- **22 novembre 2025**
+- **7 février 2026**
+- **28 mars 2026**
 
-### Soutien parental
+À l'abbaye St Martin de Mondaye de 8h30 à 14h00, pique-nique tiré du sac.
+Accompagnement par un frère prémontré de l'abbaye de Juaye-Mondaye.
 
-- **Groupes de parents** : Échanges et entraide
-- **Conférences** : Thèmes éducatifs et spirituels
-- **Accompagnement** : Soutien dans les difficultés
-- **Ressources** : Livres et outils pédagogiques
+**Infos et inscriptions :** [marchedesmeres14@gmail.com](mailto:marchedesmeres14@gmail.com)
+
+**Contacts :**
+- Amélie Chavanes : [06 20 30 03 31](tel:+33620300331)
+- AL Gamby : [06 24 80 06 26](tel:+33624800626)
+
+
 
 ## Groupes et mouvements
 
@@ -82,34 +67,53 @@ Mouvement spirituel pour couples mariés :
 - **Accompagnement** : Cheminement spirituel ensemble
 - **Rayonnement** : Témoignage de l'amour chrétien
 
-## Services aux familles
 
-### Garde d'enfants
 
-- **Pendant les messes** : Accueil des tout-petits
-- **Lors des réunions** : Service de garde organisé
-- **Événements spéciaux** : Prise en charge des enfants
+## Nous contacter
 
-### Aide pratique
+Pour plus d'informations sur les propositions familles, n'hésitez pas à nous écrire :
 
-- **Covoiturage** : Organisation pour les activités
-- **Prêt de matériel** : Équipements pour événements
-- **Entraide** : Soutien mutuel entre familles
+<form action="/contact" method="post" class="contact-form">
+  <div class="form-group">
+    <label for="nom">Votre nom *</label>
+    <input type="text" id="nom" name="nom" required class="form-control">
+  </div>
 
-## Contact
+  <div class="form-group">
+    <label for="email">Votre email *</label>
+    <input type="email" id="email" name="email" required class="form-control">
+  </div>
 
-Pour plus d'informations sur les propositions familles :
+  <div class="form-group">
+    <label for="telephone">Votre téléphone</label>
+    <input type="tel" id="telephone" name="telephone" class="form-control">
+  </div>
 
-**Responsable Familles**  
+  <div class="form-group">
+    <label for="sujet">Sujet</label>
+    <select id="sujet" name="sujet" class="form-control">
+      <option value="">Choisissez un sujet</option>
+      <option value="Messes en famille">Messes en famille</option>
+      <option value="Préparation sacrements">Préparation aux sacrements</option>
+      <option value="Matinées spirituelles mères">Matinées spirituelles pour les mères</option>
+      <option value="MCF">Mouvement Chrétien des Familles</option>
+      <option value="Équipes Notre-Dame">Équipes Notre-Dame</option>
+      <option value="Autre">Autre demande</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Votre message *</label>
+    <textarea id="message" name="message" rows="5" required class="form-control" placeholder="Décrivez votre demande ou vos questions..."></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Envoyer le message</button>
+</form>
+
+---
+
+**Contact direct :**
 Paroisse Bon Pasteur de Caen
-
-- **Téléphone** : [02 31 86 13 11](tel:+33231861311)
-- **Email** : [contact.bonpasteur@gmail.com](mailto:contact.bonpasteur@gmail.com)
-
-**Presbytère Saint-Jean**  
-11 rue des Équipes d'Urgence  
-14000 Caen
-
-**Permanences** :
-- Lundi au vendredi : 9h00 - 12h00 et 14h00 - 17h00
-- Samedi : 9h00 - 12h00
+Presbytère Saint-Jean
+11 rue des Équipes d'Urgence - 14000 Caen
+Tél. : [02 31 86 13 11](tel:+33231861311)

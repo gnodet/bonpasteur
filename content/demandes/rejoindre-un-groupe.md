@@ -108,7 +108,7 @@ Les groupes de prière du Chemin Neuf sont des lieux de fraternité, de louange 
 
 [](https://github.com/gnodet/bonpasteur#la-communaut%C3%A9-de-lemmanuel)
 
-La Communauté de l’Emmanuel est une communauté catholique née du Renouveau charismatique. Elle rassemble des fidèles de tous états de vie (laïcs, prêtres, consacrés) appelés à vivre ensemble la louange, la compassion et l’évangélisation. À travers la prière, la formation, la vie fraternelle et la mission, elle propose un chemin pour grandir dans la foi et témoigner de l’amour du Christ dans le monde.`
+La Communauté de l’Emmanuel est une communauté catholique née du Renouveau charismatique. Elle rassemble des fidèles de tous états de vie (laïcs, prêtres, consacrés) appelés à vivre ensemble la louange, la compassion et l’évangélisation. À travers la prière, la formation, la vie fraternelle et la mission, elle propose un chemin pour grandir dans la foi et témoigner de l’amour du Christ dans le monde.
 
 [https://emmanuel.info](https://emmanuel.info/)
 

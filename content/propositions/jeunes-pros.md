@@ -5,6 +5,7 @@ description: Tu viens d’arriver à Caen, tu y habites depuis toujours ou tu es
 layout: paroisse/page
 updated: '2025-09-16'
 url: /jeunes-pros/
+hero_image: images/eglises/jeunes-pro.jpg
 ---
 
 Tu viens d’arriver à Caen, tu y habites depuis toujours ou tu es simplement de passage ?  
