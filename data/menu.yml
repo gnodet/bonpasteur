@@ -43,7 +43,7 @@ items:
       - title: "Enfance (0-11 ans)"
         path: "propositions/enfance"
       - title: "Pôle Jeunes (12-17 ans)"
-        path: "propositions/pole-jeunes"
+        path: "propositions/jeunes-12-17-ans"
       - title: "Étudiants"
         path: "propositions/etudiants"
       - title: "Jeunes Pros"
