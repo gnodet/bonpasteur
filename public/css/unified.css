@@ -1661,6 +1661,65 @@ body {
     font-size: 0.9rem;
 }
 
+/* messes.info */
+.EgliseInfo-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.searchCelebrationTimeMessage {
+    display: none;
+}
+.gwt-TabBar .gwt-TabBarItem {
+  margin-left: 6px;
+  padding: 3px 6px 3px 6px;
+  cursor: pointer;
+  cursor: hand;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: #e3e3e3;
+}
+.gwt-TabBar .gwt-TabBarItem-selected {
+  cursor: default;
+  background: #f8af00;
+}
+.gwt-TabBar .gwt-TabBarItem-disabled {
+  cursor: default;
+  color: #999999;
+}
+.gwt-TabBar .gwt-TabBarItem {
+    padding: 5px 10px;
+    margin: 0 0 0 1px;
+    border-radius: 0;
+}
+.gwt-TabBar td:nth-child(2) .gwt-TabBarItem {
+    border-radius: 5px 0 0 5px;
+}
+.gwt-TabBar td:nth-last-child(2) .gwt-TabBarItem {
+    border-radius: 0 5px 5px 0;
+}
+
+.egliseinfo-image {
+    margin-right: 1rem
+}
+
+.egliseInfoCellTreeTitle {
+    color: #000 !important;
+    font-size: 0.8em;
+}
+.egliseinfo-celebrationtime {
+    font-size: 0.8rem;
+}
+.egliseinfo-celebrationtime-title {
+    text-transform: uppercase;
+}
+.egliseinfo-celebrationtime-title + div b {
+    font-weight: 400;
+}
+.egliseinfo-celebrationtime-content, .egliseinfo-celebrationtime-adresse {
+    margin: 3px 0 0;
+}
+
 /* OLD - REMOVED - Footer 768px (moved to consolidated) */
 
 /* ===== CONSOLIDATED RESPONSIVE BREAKPOINTS (NEW) ===== */
