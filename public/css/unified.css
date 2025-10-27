@@ -1689,6 +1689,33 @@ body {
     font-size: 0.6rem;
 }
 
+/* Background color sections */
+.main-section:has(> .bg-alt) {
+    width: 100%;
+    padding: 0;
+    max-width: none;
+}
+.bg-alt .content-section-wrapper {
+    background: none;
+}
+.bg-alt {
+    padding: 1em 12em;
+}
+.bg-white {
+    background-color: var(--bg-white);
+    width: 100%;
+}
+
+.bg-cream {
+    background-color: #CF6E1A14;
+    width: 100%;
+}
+
+.bg-gray {
+    background-color: #051f421c;
+    width: 100%;
+}
+
 /* messes.info */
 .EgliseInfo-container {
     margin-top: 2rem;

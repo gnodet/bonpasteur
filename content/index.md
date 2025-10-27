@@ -12,16 +12,23 @@ show_secondary_nav: true
 
 
 
+<div class="bg-alt bg-white">
+
 ## Bienvenue dans notre communauté
 
 Bonjour et bienvenue sur le site internet de notre paroisse catholique de Caen et ses alentours ! Nous sommes heureux de vous accueillir tel que vous êtes et espérons que vous vous sentirez « comme chez vous » dans l’une de nos communautés.
 
+</div>
+<div class="bg-alt bg-cream">
+
 ## Vous souhaitez rencontrer d’autres chrétiens
+
 Les célébrations : chaque week-end, les chrétiens se rassemblent pour célébrer la joie de croire en Jésus-Christ ressuscité. Nous vous invitons à rejoindre l’une de nos 5 communautés.
 
-[En savoir plus](/eglises){.btn .btn-primary}
+<a href="/eglises" class="btn btn-primary">En savoir plus</a>
 
 ### Accueils
+
 Les accueils : des permanences d’accueil sont proposées chaque jour en plusieurs lieux. N’hésitez pas à passer nous voir. Infos en cliquant sur votre église.
 
 ### Nous Rejoindre
@@ -35,6 +42,9 @@ Groupe Alpha
 Fraternités paroissiales
 Solidarité
 Visite personnes malades et âgées
+
+</div>
+<div class="bg-alt bg-gray">
 
 ## Vous avez une demande particulière
 
@@ -65,3 +75,5 @@ Pour toute question, vous pouvez aussi contacter notre assistante paroissiale
 mail :paroisse.bonpasteur@bayeuxlisieux.catholique.fr
 
 #### Nous avons hâte de vous rencontrer !
+
+</div>
