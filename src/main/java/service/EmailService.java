@@ -115,7 +115,7 @@ public class EmailService {
             
             📞 En cas d'urgence, vous pouvez nous contacter directement :
             • Téléphone : [02 31 86 13 11](tel:+33231861311)
-            • Email : [contact.bonpasteur@gmail.com](mailto:contact.bonpasteur@gmail.com)
+            • Email : [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)
             
             🏛️ Paroisse Bon Pasteur de Caen
             Presbytère Saint-Jean

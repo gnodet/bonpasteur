@@ -64,7 +64,7 @@ Le baptême, plonger au cœur de la vie : [des vidéos pour aller plus loin](htt
 Pour toute demande de baptême ou information complémentaire, n'hésitez pas à nous contacter :
 
 📞 **Téléphone** : [02 31 86 13 11](tel:+33231861311)
-📧 **Email** : [contact.bonpasteur@gmail.com](mailto:contact.bonpasteur@gmail.com)
+📧 **Email** : [paroisse.bonpasteur@bayeuxlisieux.catholique.fr](mailto:paroisse.bonpasteur@bayeuxlisieux.catholique.fr)
 🏛️ **Adresse** : Presbytère Saint-Jean, 11 rue des Équipes d'Urgence, 14000 Caen
 
 [**Nous contacter**](/infos/contact)

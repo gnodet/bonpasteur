@@ -30,8 +30,8 @@
     --border-medium: #ddd;
     --border-dark: #f0f0f0;
 
-    --accent-red: #832732;
-    --accent-red-hover: #6d1f29;
+    --accent-red: #9f1a07;
+    --accent-red-hover: #861606;
     --success-green: #155724;
     --success-bg: #d4edda;
     --error-red: #dc3545;
@@ -1512,9 +1512,9 @@ body {
 
 /* Footer styles */
 .footer-paroisse {
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    background: linear-gradient(135deg, #202d3a 0%, #4a6987 100%);
     color: var(--text-white);
-    padding: 3rem 0 1.5rem 0;
+    padding: 1rem 0 1rem 0;
     margin-top: 0; /* Coller le footer au content-wrapper */
     border-top: 4px solid var(--primary-blue);
     position: relative;
@@ -1525,13 +1525,13 @@ body {
     font-family: "Garet", "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
     color: #ffffff;
 }
 
 .footer-address,
 .footer-contact {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
     color: #ecf0f1;
     font-size: 0.95rem;
     line-height: 1.6;
@@ -1540,7 +1540,13 @@ body {
 .footer-address i,
 .footer-contact i {
     color: var(--primary-blue);
+    text-shadow: 0 0 12px rgba(236, 240, 241, 1.0);
     width: 16px;
+}
+
+.footer-contact a {
+    color: #6ab0de;
+    text-decoration: none;
 }
 
 .btn-footer-contact {
@@ -1562,6 +1568,11 @@ body {
     border-color: var(--primary-blue);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+}
+
+.footer-bottom {
+    padding-top: 0.5rem;
+    font-size: 0.5rem;
 }
 
 /* WhatsApp Round Button */
@@ -1655,10 +1666,10 @@ body {
 
 .footer-bottom {
     border-top: 1px solid #4a5568;
-    padding-top: 1rem;
+    padding-top: 0.3rem;
     text-align: center;
     color: #a0aec0;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 
 /* messes.info */
