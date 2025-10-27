@@ -2812,4 +2812,31 @@ body {
     text-align: left;
 }
 
+/* Leaflet Popup Styles - Hover behavior */
+.leaflet-popup {
+    pointer-events: auto;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    padding: 0;
+}
+
+.clocher-info {
+    padding: 12px;
+}
+
+.clocher-info a {
+    pointer-events: auto;
+}
+
+/* Ensure popup stays visible when hovering over it */
+.leaflet-popup:hover {
+    pointer-events: auto;
+}
 

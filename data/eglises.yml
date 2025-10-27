@@ -146,6 +146,15 @@ entries:
     horaires: "Consulter les horaires"
     lat: 49.2068110
     lng: -0.3178363
+  - slug: "chapelle-petit-lourdes-herouville"
+    title: "Chapelle du Petit-Lourdes"
+    usage: occasional
+    type: "chapelle"
+    address: "708 Rue des Sources, 14200 Hérouville-Saint-Clair"
+    description: "Sanctuaire du Petit-Lourdes d'Hérouville"
+    horaires: "Consulter les horaires"
+    lat: 49.19473388504275
+    lng: -0.3238633510034353
   - slug: "notre-dame-assomption-gloriette"
     title: "Notre-Dame-de-l'Assomption (la Gloriette)"
     usage: occasional

@@ -12,6 +12,8 @@ items:
     children:
       - title: "Carte des clochers"
         path: "clochers-carte"
+      - title: "Chapelle du Petit-Lourdes"
+        path: "eglises/chapelle-petit-lourdes-herouville"
 
   - title: "Demandes"
     path: "#"

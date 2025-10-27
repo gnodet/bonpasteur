@@ -91,7 +91,57 @@ function addMarkerLeaflet(clocher) {
         </div>
     `;
 
+    // Afficher le popup au hover (mouseover) et le fermer au mouseleave
     marker.bindPopup(popupContent);
+
+    let popupTimeout;
+    let isPopupHovered = false;
+
+    marker.on('mouseover', function() {
+        clearTimeout(popupTimeout);
+        this.openPopup();
+    });
+
+    marker.on('mouseout', function() {
+        const popup = this.getPopup();
+        if (popup && !isPopupHovered) {
+            popupTimeout = setTimeout(() => {
+                this.closePopup();
+            }, 100);
+        }
+    });
+
+    // Garder aussi le click pour ouvrir/fermer le popup
+    marker.on('click', function() {
+        clearTimeout(popupTimeout);
+        if (this.isPopupOpen()) {
+            this.closePopup();
+        } else {
+            this.openPopup();
+        }
+    });
+
+    // Ajouter des événements au popup pour le garder ouvert au hover
+    marker.on('popupopen', function() {
+        const popup = this.getPopup();
+        if (popup && popup._contentNode) {
+            const popupElement = popup._contentNode.closest('.leaflet-popup');
+            if (popupElement) {
+                popupElement.addEventListener('mouseenter', function() {
+                    isPopupHovered = true;
+                    clearTimeout(popupTimeout);
+                });
+
+                popupElement.addEventListener('mouseleave', function() {
+                    isPopupHovered = false;
+                    popupTimeout = setTimeout(() => {
+                        marker.closePopup();
+                    }, 100);
+                });
+            }
+        }
+    });
+
     markers.push(marker);
 }
 
